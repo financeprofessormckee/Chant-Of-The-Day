@@ -1,0 +1,231 @@
+"use strict";
+
+/*
+ * calendar.js — a tiny, pure-JS resolver for the modern General Roman Calendar.
+ *
+ * PLAN.md originally proposed precomputing a calendar with `romcal` at build
+ * time, but this machine has no Node toolchain, so the calendar is computed in
+ * the browser instead. Everything sits behind one function, `RESOLVE_DAY`, so a
+ * romcal-generated lookup table or a 1962-Missal backend can replace the guts
+ * later without touching the rest of the app.
+ *
+ *   window.RESOLVE_DAY(date) -> {
+ *     date,        // "YYYY-MM-DD"
+ *     title,       // human label, e.g. "11th Sunday in Ordinary Time"
+ *     season,      // advent | christmas | ordinary | lent | easter
+ *     color,       // violet | white | green | rose | red | black
+ *     rank,        // Solemnity | Feast | Sunday | Feria
+ *     isSunday,
+ *     dayKey,      // proper-of-the-day key (named feasts + Sundays), or null
+ *     sundayKey,   // key of the Sunday governing this week (for ferial fallback)
+ *     seasonKey    // season-level fallback key
+ *   }
+ *
+ * The KEYS it emits (e.g. "rorate", "laetare", "ot-11") are the same keys used
+ * in data/introits.js. The resolver itself knows nothing about which introits
+ * are authored — app.js does the lookup + fallback against INTROITS.
+ *
+ * V1 simplifications (documented so the gaps are intentional, not bugs):
+ *   - Epiphany is fixed to Jan 6 (not transferred to a Sunday).
+ *   - Ascension stays on Thursday; Corpus Christi is the Sunday (US usage).
+ *   - The sanctoral cycle is just the handful of fixed feasts we author.
+ */
+
+(function () {
+  var DAY = 86400000;
+
+  // Build dates in UTC so day arithmetic never trips over daylight saving.
+  function ymd(y, m, d) { return new Date(Date.UTC(y, m - 1, d)); } // m is 1-based
+  function addDays(date, n) { return new Date(date.getTime() + n * DAY); }
+  function dow(date) { return date.getUTCDay(); } // 0 = Sunday
+  function daysBetween(a, b) { return Math.round((b - a) / DAY); }
+  function iso(date) {
+    return (
+      date.getUTCFullYear() + "-" +
+      String(date.getUTCMonth() + 1).padStart(2, "0") + "-" +
+      String(date.getUTCDate()).padStart(2, "0")
+    );
+  }
+  function sameDay(a, b) { return iso(a) === iso(b); }
+  function sundayOnOrBefore(date) { return addDays(date, -dow(date)); }
+  function nextSunday(date) { // strictly after `date`
+    var off = 7 - dow(date);
+    return addDays(date, off === 0 ? 7 : off);
+  }
+
+  // Gregorian Easter — Meeus/Jones/Butcher algorithm.
+  function easter(year) {
+    var a = year % 19, b = Math.floor(year / 100), c = year % 100;
+    var d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25);
+    var g = Math.floor((b - f + 1) / 3);
+    var h = (19 * a + b - d - g + 15) % 30;
+    var i = Math.floor(c / 4), k = c % 4;
+    var l = (32 + 2 * e + 2 * i - h - k) % 7;
+    var mm = Math.floor((a + 11 * h + 22 * l) / 451);
+    var month = Math.floor((h + l - 7 * mm + 114) / 31);
+    var day = ((h + l - 7 * mm + 114) % 31) + 1;
+    return ymd(year, month, day);
+  }
+
+  // Anchor dates for one civil year's worth of the calendar.
+  function anchors(year) {
+    var e = easter(year);
+    var adventFour = sundayOnOrBefore(ymd(year, 12, 24)); // last Sun <= Dec 24
+    var adventOne = addDays(adventFour, -21);
+    return {
+      year: year,
+      easter: e,
+      ashWednesday: addDays(e, -46),
+      palmSunday: addDays(e, -7),
+      pentecost: addDays(e, 49),
+      trinity: addDays(e, 56),
+      corpusChristi: addDays(e, 63),     // Sunday after Trinity (US usage)
+      epiphany: ymd(year, 1, 6),
+      baptism: nextSunday(ymd(year, 1, 6)), // Sunday after Epiphany
+      christmas: ymd(year, 12, 25),
+      adventOne: adventOne,
+      adventFour: adventFour,
+      christTheKing: addDays(adventOne, -7)
+    };
+  }
+
+  // Ordinary Time Sunday number, anchored on Christ the King = 34th Sunday.
+  function otNumberAfterPentecost(sunday, A) {
+    return 34 - daysBetween(sunday, A.christTheKing) / 7;
+  }
+  // Early OT (Baptism .. Ash Wednesday): the Sunday after Baptism is OT II.
+  function otNumberBeforeLent(sunday, A) {
+    var secondSunday = nextSunday(A.baptism);
+    return 2 + daysBetween(secondSunday, sunday) / 7;
+  }
+
+  var ORDINAL = [
+    "", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th",
+    "11th", "12th", "13th", "14th", "15th", "16th", "17th", "18th", "19th",
+    "20th", "21st", "22nd", "23rd", "24th", "25th", "26th", "27th", "28th",
+    "29th", "30th", "31st", "32nd", "33rd", "34th"
+  ];
+  var WEEKDAY = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+  function ferialTitle(weekNo, seasonWord, date) {
+    if (dow(date) === 0) return ORDINAL[weekNo] + " Sunday " + seasonWord;
+    return WEEKDAY[dow(date)] + " of the " + ORDINAL[weekNo] + " Week " + seasonWord;
+  }
+
+  function resolve(input) {
+    var date;
+    if (input instanceof Date) {
+      date = ymd(input.getFullYear(), input.getMonth() + 1, input.getDate());
+    } else if (typeof input === "string") {
+      var p = input.split("-");
+      date = ymd(Number(p[0]), Number(p[1]), Number(p[2]));
+    } else {
+      var now = new Date();
+      date = ymd(now.getFullYear(), now.getMonth() + 1, now.getDate());
+    }
+
+    var Y = date.getUTCFullYear();
+    var A = anchors(Y);
+    var isSun = dow(date) === 0;
+
+    function out(o) {
+      o.date = iso(date);
+      o.isSunday = isSun;
+      if (!o.rank) o.rank = isSun ? "Sunday" : "Feria";
+      if (o.dayKey === undefined) o.dayKey = null;
+      if (o.sundayKey === undefined) o.sundayKey = null;
+      return o;
+    }
+
+    // ---- Fixed marquee feasts (checked before the seasonal flow) ----
+    if (sameDay(date, A.christmas)) {
+      return out({ key: "puer-natus", title: "The Nativity of the Lord", season: "christmas",
+        color: "white", rank: "Solemnity", dayKey: "puer-natus", seasonKey: "season-christmas" });
+    }
+    if (sameDay(date, A.epiphany)) {
+      return out({ key: "ecce-advenit", title: "The Epiphany of the Lord", season: "christmas",
+        color: "white", rank: "Solemnity", dayKey: "ecce-advenit", seasonKey: "season-christmas" });
+    }
+    if (date.getUTCMonth() === 10 && date.getUTCDate() === 2) { // Nov 2
+      return out({ key: "requiem", title: "The Commemoration of All the Faithful Departed (All Souls)",
+        season: "ordinary", color: "violet", rank: "Feast", dayKey: "requiem", seasonKey: "season-ordinary" });
+    }
+
+    // ---- Advent (Advent I .. Dec 24) ----
+    if (date >= A.adventOne && date <= ymd(Y, 12, 24)) {
+      var aw = 1 + daysBetween(A.adventOne, sundayOnOrBefore(date)) / 7;
+      var key = "ad-te-levavi", color = "violet";
+      if (aw === 3) { key = "gaudete"; color = "rose"; }
+      else if (aw === 4) { key = "rorate"; }
+      var sundayKey = aw === 3 ? "gaudete" : aw === 4 ? "rorate" : aw === 1 ? "ad-te-levavi" : null;
+      return out({ key: isSun ? sundayKey : "advent-feria", title: ferialTitle(aw, "of Advent", date),
+        season: "advent", color: color, dayKey: isSun ? sundayKey : null,
+        sundayKey: sundayKey, seasonKey: "season-advent" });
+    }
+
+    // ---- Christmas season (Dec 25 .. Baptism of the Lord) ----
+    if (date >= A.christmas || date <= A.baptism) {
+      if (sameDay(date, A.baptism)) {
+        return out({ key: "baptism-lord", title: "The Baptism of the Lord", season: "christmas",
+          color: "white", rank: "Feast", dayKey: "baptism-lord", seasonKey: "season-christmas" });
+      }
+      return out({ key: "christmas-feria", title: "Christmas Time", season: "christmas",
+        color: "white", sundayKey: "puer-natus", seasonKey: "season-christmas" });
+    }
+
+    // ---- Lent (Ash Wednesday .. Holy Saturday) ----
+    if (date >= A.ashWednesday && date < A.easter) {
+      if (date < addDays(A.ashWednesday, 4)) { // Ash Wed .. Sat before Lent I
+        return out({ key: "lent-feria", title: "after Ash Wednesday", season: "lent",
+          color: "violet", seasonKey: "season-lent" });
+      }
+      var ls = sundayOnOrBefore(date);
+      var lentWeek = 1 + daysBetween(addDays(A.ashWednesday, 4), ls) / 7; // Lent I = first Sun
+      var isPalm = sameDay(ls, A.palmSunday);
+      var lentKey = isPalm ? "palm" : lentWeek === 4 ? "laetare" : "lent-" + lentWeek;
+      var color2 = lentWeek === 4 ? "rose" : "violet";
+      var title = isPalm ? "Palm Sunday of the Passion of the Lord"
+        : ferialTitle(lentWeek, "of Lent", date);
+      return out({ key: isSun ? lentKey : "lent-feria", title: title, season: "lent",
+        color: color2, dayKey: isSun && lentKey === "laetare" ? "laetare" : null,
+        sundayKey: lentKey === "laetare" ? "laetare" : null, seasonKey: "season-lent" });
+    }
+
+    // ---- Easter Triduum + Eastertide (Easter .. Pentecost) ----
+    if (date >= A.easter && date <= A.pentecost) {
+      if (sameDay(date, A.easter)) {
+        return out({ key: "resurrexi", title: "Easter Sunday of the Resurrection of the Lord",
+          season: "easter", color: "white", rank: "Solemnity", dayKey: "resurrexi", seasonKey: "season-easter" });
+      }
+      if (sameDay(date, A.pentecost)) {
+        return out({ key: "spiritus-domini", title: "Pentecost Sunday", season: "easter",
+          color: "red", rank: "Solemnity", dayKey: "spiritus-domini", seasonKey: "season-easter" });
+      }
+      var ew = 1 + daysBetween(A.easter, sundayOnOrBefore(date)) / 7;
+      return out({ key: "easter-feria", title: ferialTitle(ew, "of Easter", date), season: "easter",
+        color: "white", sundayKey: "resurrexi", seasonKey: "season-easter" });
+    }
+
+    // ---- Ordinary Time ----
+    // Solemnities that fall in OT and that we author propers for:
+    if (sameDay(date, A.corpusChristi)) {
+      return out({ key: "cibavit", title: "The Most Holy Body and Blood of Christ (Corpus Christi)",
+        season: "ordinary", color: "white", rank: "Solemnity", dayKey: "cibavit", seasonKey: "season-ordinary" });
+    }
+
+    var beforeLent = date < A.ashWednesday;
+    var govSunday = sundayOnOrBefore(date);
+    var n = beforeLent ? otNumberBeforeLent(govSunday, A) : otNumberAfterPentecost(govSunday, A);
+    var otKey = "ot-" + n;
+    return out({
+      key: isSun ? otKey : "ot-feria",
+      title: ferialTitle(n, "in Ordinary Time", date),
+      season: "ordinary", color: "green",
+      dayKey: isSun ? otKey : null,
+      sundayKey: otKey,
+      seasonKey: "season-ordinary"
+    });
+  }
+
+  window.RESOLVE_DAY = resolve;
+})();

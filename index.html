@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Introit proper to today in the General Roman Calendar, in square-note notation with organ playback." />
+  <title>Chant of the Day</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="console">
+    <header class="masthead">
+      <h1>Chant of the Day</h1>
+      <p class="subtitle">The Introit proper to today &mdash; sung by the Church across the year.</p>
+    </header>
+
+    <section class="day-card" id="day-card" aria-label="Today in the liturgical calendar">
+      <span class="season-pill" id="season-pill"></span>
+      <p class="day-date" id="day-date"></p>
+      <h2 class="day-title" id="day-title"></h2>
+      <p class="fallback-note" id="fallback-note" hidden></p>
+    </section>
+
+    <section class="score-card">
+      <div id="score" class="score" aria-label="Square-note notation for today's introit"></div>
+      <div class="score-tools">
+        <button type="button" id="play-btn" class="ghost">▶ Hear it</button>
+        <span id="play-note" class="play-note"></span>
+      </div>
+    </section>
+
+    <section class="introit-text" aria-label="The introit text">
+      <p class="introit-latin" id="introit-latin"></p>
+      <p class="introit-translation" id="introit-translation"></p>
+      <p class="introit-mode" id="introit-mode"></p>
+    </section>
+
+    <section class="jump" aria-label="Look up another day">
+      <label for="date-input">See another day</label>
+      <input type="date" id="date-input" />
+      <button type="button" id="today-btn" class="ghost">Today</button>
+    </section>
+
+    <footer class="footnotes">
+      <p class="source-note" id="source-note"></p>
+      <p class="draft-note">The notation is a first-pass draft &mdash; flag any wrong notes and they're a quick fix. Synthesized organ playback; melodies are public domain.</p>
+    </footer>
+  </main>
+
+  <!-- abcjs holds a hidden render used only to drive the synth -->
+  <div id="audio-staff" hidden aria-hidden="true"></div>
+
+  <script src="vendor/abcjs-basic-min.js"></script>
+  <script src="vendor/exsurge.min.js"></script>
+  <script src="calendar.js"></script>
+  <script src="gabc-to-abc.js"></script>
+  <script src="data/introits.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
