@@ -37,7 +37,7 @@ build step — everything runs in the browser.
 
 ### Run it locally
 
-It's static, so any web server works. For example:
+It's static, so any web server works. A launch config is included:
 
 ```
 python -m http.server 8767
@@ -57,14 +57,19 @@ keyed to match `calendar.js`. Each block has:
   `M:none L:1/4 K:C` body) so playback is reliable and sits in a sane octave.
 - `latin`, `translation`, `mode`, `source`.
 
-> **First-pass draft.** This starter set covers the marquee named days plus the
-> current Ordinary-Time Sunday. The gabc incipits and baked melodies are encoded
-> from the known chants and should be verified against the *Graduale Romanum*;
-> flag any wrong notes — it's just text. Coverage of the full temporal cycle grows
-> over time.
+> **Coverage.** Every Sunday of the temporal cycle is authored — Advent through
+> Christ the King, including all of Ordinary Time — plus the marquee feasts. The
+> gabc is pulled from the [GregoBase](https://gregobase.selapa.net/) corpus
+> (*Graduale Romanum*, mostly the 1961 edition); the Sunday-to-introit assignment
+> for Ordinary Time follows the *Graduale Romanum* / Gregorian Missal (the Diocese
+> of La Crosse introit booklets). Ordinary-Time Sundays whose introit varies by the
+> 3-year lectionary cycle carry `-a` / `-b` / `-c` keys, chosen by the day's cycle
+> letter. Still verify against the *Graduale*; flag any wrong notes — it's just text.
 
-To add a day: give `calendar.js` a key for it (most Sundays already resolve to
-`ot-N`, `lent-N`, etc.) and add a matching block here.
+Newer entries ship **gabc only** — `gabc-to-abc.js` synthesizes playback (it
+handles do- and fa-clefs and flats), so no hand-baked `abc` is needed. To add a
+day: give `calendar.js` a key for it (most Sundays already resolve to `ot-N`,
+`lent-N`, etc.) and add a matching block here.
 
 ## What's bundled
 

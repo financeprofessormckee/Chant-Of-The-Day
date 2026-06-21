@@ -72,6 +72,10 @@
     var e = easter(year);
     var adventFour = sundayOnOrBefore(ymd(year, 12, 24)); // last Sun <= Dec 24
     var adventOne = addDays(adventFour, -21);
+    // Holy Family: the Sunday within the Christmas octave (Dec 26-31). If Christmas
+    // itself is a Sunday, that octave Sunday would be Christmas, so it moves to Dec 30.
+    var holyFamily = sundayOnOrBefore(ymd(year, 12, 31));
+    if (sameDay(holyFamily, ymd(year, 12, 25))) holyFamily = ymd(year, 12, 30);
     return {
       year: year,
       easter: e,
@@ -83,6 +87,7 @@
       epiphany: ymd(year, 1, 6),
       baptism: nextSunday(ymd(year, 1, 6)), // Sunday after Epiphany
       christmas: ymd(year, 12, 25),
+      holyFamily: holyFamily,
       adventOne: adventOne,
       adventFour: adventFour,
       christTheKing: addDays(adventOne, -7)
@@ -106,6 +111,14 @@
     "29th", "30th", "31st", "32nd", "33rd", "34th"
   ];
   var WEEKDAY = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+  // Sunday lectionary cycle (A/B/C) for a date in Ordinary Time. The cycle is keyed
+  // to the civil year the liturgical year ends in, which for OT dates is the date's
+  // own year: A when year % 3 == 1, B == 2, C == 0 (e.g. 2025 -> C, 2026 -> A).
+  function lectionaryYear(date) {
+    var r = date.getUTCFullYear() % 3;
+    return r === 1 ? "A" : r === 2 ? "B" : "C";
+  }
 
   function ferialTitle(weekNo, seasonWord, date) {
     if (dow(date) === 0) return ORDINAL[weekNo] + " Sunday " + seasonWord;
@@ -155,9 +168,10 @@
     if (date >= A.adventOne && date <= ymd(Y, 12, 24)) {
       var aw = 1 + daysBetween(A.adventOne, sundayOnOrBefore(date)) / 7;
       var key = "ad-te-levavi", color = "violet";
-      if (aw === 3) { key = "gaudete"; color = "rose"; }
+      if (aw === 2) { key = "populus-sion"; }
+      else if (aw === 3) { key = "gaudete"; color = "rose"; }
       else if (aw === 4) { key = "rorate"; }
-      var sundayKey = aw === 3 ? "gaudete" : aw === 4 ? "rorate" : aw === 1 ? "ad-te-levavi" : null;
+      var sundayKey = key; // every Advent Sunday now has an authored introit
       return out({ key: isSun ? sundayKey : "advent-feria", title: ferialTitle(aw, "of Advent", date),
         season: "advent", color: color, dayKey: isSun ? sundayKey : null,
         sundayKey: sundayKey, seasonKey: "season-advent" });
@@ -168,6 +182,17 @@
       if (sameDay(date, A.baptism)) {
         return out({ key: "baptism-lord", title: "The Baptism of the Lord", season: "christmas",
           color: "white", rank: "Feast", dayKey: "baptism-lord", seasonKey: "season-christmas" });
+      }
+      if (sameDay(date, A.holyFamily)) {
+        return out({ key: "holy-family", title: "The Holy Family of Jesus, Mary and Joseph",
+          season: "christmas", color: "white", rank: "Feast", dayKey: "holy-family",
+          seasonKey: "season-christmas" });
+      }
+      // 2nd Sunday after the Nativity: a Sunday between Jan 1 and the Epiphany (Jan 6).
+      if (isSun && date.getUTCMonth() === 0 && date.getUTCDate() >= 2 && date.getUTCDate() <= 5) {
+        return out({ key: "dum-medium-silentium", title: "2nd Sunday after the Nativity",
+          season: "christmas", color: "white", rank: "Sunday", dayKey: "dum-medium-silentium",
+          seasonKey: "season-christmas" });
       }
       return out({ key: "christmas-feria", title: "Christmas Time", season: "christmas",
         color: "white", sundayKey: "puer-natus", seasonKey: "season-christmas" });
@@ -187,8 +212,8 @@
       var title = isPalm ? "Palm Sunday of the Passion of the Lord"
         : ferialTitle(lentWeek, "of Lent", date);
       return out({ key: isSun ? lentKey : "lent-feria", title: title, season: "lent",
-        color: color2, dayKey: isSun && lentKey === "laetare" ? "laetare" : null,
-        sundayKey: lentKey === "laetare" ? "laetare" : null, seasonKey: "season-lent" });
+        color: color2, dayKey: isSun ? lentKey : null,
+        sundayKey: lentKey, seasonKey: "season-lent" });
     }
 
     // ---- Easter Triduum + Eastertide (Easter .. Pentecost) ----
@@ -202,15 +227,27 @@
           color: "red", rank: "Solemnity", dayKey: "spiritus-domini", seasonKey: "season-easter" });
       }
       var ew = 1 + daysBetween(A.easter, sundayOnOrBefore(date)) / 7;
-      return out({ key: "easter-feria", title: ferialTitle(ew, "of Easter", date), season: "easter",
-        color: "white", sundayKey: "resurrexi", seasonKey: "season-easter" });
+      // ew 1 is Easter week (octave -> Resurrexi); ew 2..7 are the Eastertide Sundays.
+      var easterKey = ew === 1 ? "resurrexi" : "easter-" + ew;
+      return out({ key: isSun ? easterKey : "easter-feria",
+        title: ferialTitle(ew, "of Easter", date), season: "easter", color: "white",
+        dayKey: isSun ? easterKey : null, sundayKey: easterKey, seasonKey: "season-easter" });
     }
 
     // ---- Ordinary Time ----
-    // Solemnities that fall in OT and that we author propers for:
+    // Solemnities that fall in OT and that we author propers for (they displace the
+    // green Sunday they land on, so that Sunday's OT number simply goes unused):
+    if (sameDay(date, A.trinity)) {
+      return out({ key: "trinity", title: "The Most Holy Trinity",
+        season: "ordinary", color: "white", rank: "Solemnity", dayKey: "trinity", seasonKey: "season-ordinary" });
+    }
     if (sameDay(date, A.corpusChristi)) {
       return out({ key: "cibavit", title: "The Most Holy Body and Blood of Christ (Corpus Christi)",
         season: "ordinary", color: "white", rank: "Solemnity", dayKey: "cibavit", seasonKey: "season-ordinary" });
+    }
+    if (sameDay(date, A.christTheKing)) {
+      return out({ key: "christ-king", title: "Our Lord Jesus Christ, King of the Universe",
+        season: "ordinary", color: "white", rank: "Solemnity", dayKey: "christ-king", seasonKey: "season-ordinary" });
     }
 
     var beforeLent = date < A.ashWednesday;
@@ -223,6 +260,7 @@
       season: "ordinary", color: "green",
       dayKey: isSun ? otKey : null,
       sundayKey: otKey,
+      cycle: lectionaryYear(date),
       seasonKey: "season-ordinary"
     });
   }

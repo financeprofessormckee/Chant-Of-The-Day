@@ -55,22 +55,31 @@ function prettyDate(iso) {
 
 /* ---- Introit selection (with ferial fallback) ---------------------------- */
 
+// Resolve a base feast key to an authored introit, preferring a 3-year-cycle
+// variant (key + "-a/-b/-c") when the day carries a cycle letter and one exists.
+// Ordinary-Time Sundays whose introit changes by lectionary year are keyed this way.
+function resolveKey(baseKey, cycle) {
+  if (!baseKey) return null;
+  if (cycle) {
+    const k = baseKey + "-" + cycle.toLowerCase();
+    if (INTROITS[k]) return k;
+  }
+  return INTROITS[baseKey] ? baseKey : null;
+}
+
 // Try the day's own proper, then the Sunday that governs this week, then walk
 // back up to two weeks to the nearest authored Sunday, then the season anchor.
 function pickIntroit(day) {
-  if (day.dayKey && INTROITS[day.dayKey]) {
-    return { entry: INTROITS[day.dayKey], from: null };
-  }
-  if (day.sundayKey && INTROITS[day.sundayKey]) {
-    return { entry: INTROITS[day.sundayKey], from: day.isSunday ? null : describeSunday(day) };
-  }
+  const dk = resolveKey(day.dayKey, day.cycle);
+  if (dk) return { entry: INTROITS[dk], from: null };
+  const sk = resolveKey(day.sundayKey, day.cycle);
+  if (sk) return { entry: INTROITS[sk], from: day.isSunday ? null : describeSunday(day) };
   const base = fromIso(day.date);
   for (let i = 1; i <= 14; i++) {
     // Pass an ISO string (parsed in UTC) — handing RESOLVE_DAY a UTC-built Date
     // would be re-read with local accessors and slip back a day west of UTC.
     const prev = window.RESOLVE_DAY(toIso(addDays(base, -i)));
-    const key = (prev.dayKey && INTROITS[prev.dayKey]) ? prev.dayKey
-      : (prev.sundayKey && INTROITS[prev.sundayKey]) ? prev.sundayKey : null;
+    const key = resolveKey(prev.dayKey, prev.cycle) || resolveKey(prev.sundayKey, prev.cycle);
     if (key) return { entry: INTROITS[key], from: prev.title };
   }
   if (day.seasonKey && INTROITS[day.seasonKey]) {
