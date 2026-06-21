@@ -22,6 +22,7 @@
     </section>
 
     <section class="score-card">
+      <div id="mass-options" class="mass-options" role="group" aria-label="Choose which Mass to show" hidden></div>
       <div id="score" class="score" aria-label="Square-note notation for today's introit"></div>
       <div class="score-tools">
         <button type="button" id="play-btn" class="ghost">▶ Hear it</button>
@@ -36,9 +37,11 @@
     </section>
 
     <section class="jump" aria-label="Look up another day">
+      <button type="button" id="prev-btn" class="ghost" aria-label="Previous day">◀ Prev</button>
       <label for="date-input">See another day</label>
       <input type="date" id="date-input" />
       <button type="button" id="today-btn" class="ghost">Today</button>
+      <button type="button" id="next-btn" class="ghost" aria-label="Next day">Next ▶</button>
     </section>
 
     <footer class="footnotes">

@@ -25,7 +25,10 @@ const playBtn = document.getElementById("play-btn");
 const playNote = document.getElementById("play-note");
 const dateInput = document.getElementById("date-input");
 const todayBtn = document.getElementById("today-btn");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
 const audioStaff = document.getElementById("audio-staff");
+const massOptions = document.getElementById("mass-options");
 
 const INTROITS = window.INTROITS || {};
 
@@ -144,6 +147,15 @@ function repairNotationBounds(score) {
       n.bounds.height = 0;
     }
   });
+}
+
+// Exsurge fully justifies every non-final chant line by default, spreading the
+// leftover width across its divisiones. On short lines that slack collapses into
+// large blank gaps with the custos stranded at the right margin. Render
+// ragged-right (the Graduale's natural look) by neutralizing justification — the
+// sole justification entry point is ChantLine.justifyElements.
+if (window.exsurge && window.exsurge.ChantLine) {
+  window.exsurge.ChantLine.prototype.justifyElements = function () {};
 }
 
 function renderChant(gabc) {
@@ -270,6 +282,43 @@ async function play() {
 
 /* ---- Boot ---------------------------------------------------------------- */
 
+// The entry currently on screen (the day's proper, or whichever Mass the reader
+// picked from the selector). Kept so the resize re-flow re-renders the right one.
+let currentEntry = null;
+
+function renderEntry(entry, from) {
+  currentEntry = entry;
+  renderChant(entry.gabc);
+  renderText(entry, from);
+  prepareAudio(entry);
+}
+
+// Days with more than one Mass on the same date (Christmas: Midnight/Dawn/Day; the
+// Assumption: two options) expose day.options. Render a pill per option; clicking
+// one swaps in that authored introit directly (no ferial fallback).
+function renderMassOptions(day) {
+  massOptions.innerHTML = "";
+  if (!day.options || day.options.length < 2) { massOptions.hidden = true; return; }
+  massOptions.hidden = false;
+  day.options.forEach((opt) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = opt.label;
+    if (opt.key === day.dayKey) btn.classList.add("active");
+    btn.addEventListener("click", () => {
+      const entry = INTROITS[opt.key];
+      if (!entry) return;
+      stopPlayback();
+      playNote.textContent = "";
+      playBtn.disabled = false;
+      Array.from(massOptions.children).forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderEntry(entry, null);
+    });
+    massOptions.appendChild(btn);
+  });
+}
+
 function show(iso) {
   stopPlayback();
   playNote.textContent = "";
@@ -278,13 +327,12 @@ function show(iso) {
   const day = window.RESOLVE_DAY(iso);
   renderDayCard(day);
   dateInput.value = day.date;
+  renderMassOptions(day);
 
   const picked = pickIntroit(day);
-  if (!picked.entry) { renderEmpty(day); return; }
+  if (!picked.entry) { currentEntry = null; renderEmpty(day); return; }
 
-  renderChant(picked.entry.gabc);
-  renderText(picked.entry, picked.from);
-  prepareAudio(picked.entry);
+  renderEntry(picked.entry, picked.from);
 }
 
 function currentIso() {
@@ -292,14 +340,22 @@ function currentIso() {
   return param && /^\d{4}-\d{2}-\d{2}$/.test(param) ? param : todayIso();
 }
 
+// Step one day from whatever's currently shown. show() keeps dateInput.value in
+// sync with the day on screen, so it's the source of truth for "where we are".
+function step(n) {
+  const base = dateInput.value || currentIso();
+  show(toIso(addDays(fromIso(base), n)));
+}
+
 playBtn.addEventListener("click", play);
 dateInput.addEventListener("change", () => { if (dateInput.value) show(dateInput.value); });
 todayBtn.addEventListener("click", () => show(todayIso()));
+prevBtn.addEventListener("click", () => step(-1));
+nextBtn.addEventListener("click", () => step(1));
 window.addEventListener("resize", debounce(() => {
-  // Re-flow the Exsurge SVG to the new width.
-  const day = window.RESOLVE_DAY(dateInput.value || currentIso());
-  const picked = pickIntroit(day);
-  if (picked.entry) renderChant(picked.entry.gabc);
+  // Re-flow the Exsurge SVG to the new width, keeping the entry currently shown
+  // (which may be a Mass the reader chose from the selector).
+  if (currentEntry) renderChant(currentEntry.gabc);
 }, 200));
 
 function debounce(fn, ms) {

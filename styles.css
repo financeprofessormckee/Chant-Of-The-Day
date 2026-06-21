@@ -20,8 +20,10 @@ body.season-lent     { --accent: #6f63b8; }   /* violet */
 body.season-easter   { --accent: #e6cf8f; }   /* white/gold */
 body.season-ordinary { --accent: #6cae84; }   /* green */
 body.color-rose      { --accent: #d98ca6; }   /* Gaudete / Laetare */
-body.color-red       { --accent: #cf6b5c; }   /* Pentecost */
+body.color-red       { --accent: #cf6b5c; }   /* Pentecost, martyrs */
 body.color-black     { --accent: #b9a98c; }   /* Requiem */
+body.color-white     { --accent: #e6cf8f; }   /* Solemnities & feasts */
+body.color-violet    { --accent: #6f63b8; }   /* Ash Wednesday & penitential ferias */
 
 * { box-sizing: border-box; }
 
@@ -117,6 +119,28 @@ body {
   border-top: 1px dashed var(--cream-edge);
 }
 .play-note { font-size: 0.82rem; color: #6b5d44; }
+
+/* ---- Same-day Mass / option selector (e.g. Christmas Midnight/Dawn/Day) ---- */
+.mass-options {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--cream-edge);
+}
+.mass-options button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px 13px;
+  border-radius: 999px;
+  background: transparent;
+  color: #6b4a2e;
+  border: 1.5px solid var(--gold);
+}
+.mass-options button:hover { background: rgba(214, 173, 96, 0.18); }
+.mass-options button.active { background: var(--gold); color: #1c1430; }
 
 /* ---- Buttons ---- */
 button {

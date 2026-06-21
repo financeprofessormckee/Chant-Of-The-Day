@@ -28,7 +28,15 @@
  * V1 simplifications (documented so the gaps are intentional, not bugs):
  *   - Epiphany is fixed to Jan 6 (not transferred to a Sunday).
  *   - Ascension stays on Thursday; Corpus Christi is the Sunday (US usage).
- *   - The sanctoral cycle is just the handful of fixed feasts we author.
+ *
+ * Sanctoral precedence (the fixed feasts the Diocese of La Crosse lists):
+ *   Fixed/sanctoral feasts override Ordinary-Time Sundays and every ferial day.
+ *   They do NOT override the Sundays of Advent, Lent, or Easter, the Triduum, or
+ *   the marquee movable solemnities. When a feast is impeded by one of those it is
+ *   simply not shown — there is no automatic transferral (a documented V2 gap). A
+ *   couple of days carry more than one Mass on the same date (Christmas: Midnight /
+ *   Dawn / Day; the Assumption: two options); those expose an `options` array and
+ *   the app lets the reader switch between them.
  */
 
 (function () {
@@ -125,6 +133,29 @@
     return WEEKDAY[dow(date)] + " of the " + ORDINAL[weekNo] + " Week " + seasonWord;
   }
 
+  // Fixed-date feasts (month-day), keyed to the introit keys in data/introits.js.
+  // Jan 1 (Mary), Dec 24 (Christmas Vigil), Dec 25, Jan 6, Nov 2 are handled as
+  // marquee days in resolve(); everything else lives here. `color` defaults white.
+  var SANCTORAL = {
+    "3-19": { key: "joseph", title: "Saint Joseph, Spouse of the Blessed Virgin Mary", rank: "Solemnity" },
+    "3-25": { key: "annunciation", title: "The Annunciation of the Lord", rank: "Solemnity" },
+    "6-23": { key: "john-baptist-vigil", title: "The Nativity of St. John the Baptist (Vigil)", rank: "Feast" },
+    "6-24": { key: "john-baptist", title: "The Nativity of St. John the Baptist", rank: "Solemnity" },
+    "6-28": { key: "peter-paul-vigil", title: "Sts. Peter and Paul, Apostles (Vigil)", rank: "Feast" },
+    "6-29": { key: "peter-paul", title: "Sts. Peter and Paul, Apostles", rank: "Solemnity", color: "red" },
+    "8-6":  { key: "transfiguration", title: "The Transfiguration of the Lord", rank: "Feast" },
+    "8-14": { key: "assumption-vigil", title: "The Assumption of the Blessed Virgin Mary (Vigil)", rank: "Feast" },
+    "8-15": { key: "assumption", title: "The Assumption of the Blessed Virgin Mary", rank: "Solemnity",
+      options: [{ label: "Option 1", key: "assumption" }, { label: "Option 2", key: "assumption-opt2" }] },
+    "9-14": { key: "triumph-cross", title: "The Exaltation of the Holy Cross", rank: "Feast", color: "red" },
+    "11-1": { key: "all-saints", title: "All Saints", rank: "Solemnity" },
+    "11-9": { key: "dedication-lateran", title: "The Dedication of the Lateran Basilica", rank: "Feast" },
+    "12-8": { key: "immaculate-conception", title: "The Immaculate Conception of the Blessed Virgin Mary", rank: "Solemnity" }
+  };
+  function fixedFeast(date) {
+    return SANCTORAL[(date.getUTCMonth() + 1) + "-" + date.getUTCDate()] || null;
+  }
+
   function resolve(input) {
     var date;
     if (input instanceof Date) {
@@ -150,10 +181,30 @@
       return o;
     }
 
+    // Build the day object for a fixed-date feast, themed to its enclosing season.
+    function feast(rec, season) {
+      return out({ key: rec.key, title: rec.title, season: season, color: rec.color || "white",
+        rank: rec.rank, dayKey: rec.key, seasonKey: "season-" + season, options: rec.options });
+    }
+
     // ---- Fixed marquee feasts (checked before the seasonal flow) ----
     if (sameDay(date, A.christmas)) {
+      // The Nativity has three Masses; the Day Mass is the default, the others
+      // are selectable. (Their dates coincide, so they cannot be separate days.)
       return out({ key: "puer-natus", title: "The Nativity of the Lord", season: "christmas",
-        color: "white", rank: "Solemnity", dayKey: "puer-natus", seasonKey: "season-christmas" });
+        color: "white", rank: "Solemnity", dayKey: "puer-natus", seasonKey: "season-christmas",
+        options: [{ label: "Midnight", key: "dominus-dixit" }, { label: "Dawn", key: "lux-fulgebit" },
+          { label: "Day", key: "puer-natus" }] });
+    }
+    // Christmas Vigil — Dec 24 falls in the Advent range below, so intercept it here.
+    if (date.getUTCMonth() === 11 && date.getUTCDate() === 24) {
+      return out({ key: "christmas-vigil", title: "The Nativity of the Lord (Vigil)", season: "christmas",
+        color: "white", rank: "Solemnity", dayKey: "christmas-vigil", seasonKey: "season-christmas" });
+    }
+    // Mary, the Holy Mother of God — Jan 1, the Octave Day of Christmas.
+    if (date.getUTCMonth() === 0 && date.getUTCDate() === 1) {
+      return out({ key: "mary-mother-of-god", title: "Mary, the Holy Mother of God", season: "christmas",
+        color: "white", rank: "Solemnity", dayKey: "mary-mother-of-god", seasonKey: "season-christmas" });
     }
     if (sameDay(date, A.epiphany)) {
       return out({ key: "ecce-advenit", title: "The Epiphany of the Lord", season: "christmas",
@@ -172,6 +223,9 @@
       else if (aw === 3) { key = "gaudete"; color = "rose"; }
       else if (aw === 4) { key = "rorate"; }
       var sundayKey = key; // every Advent Sunday now has an authored introit
+      // A fixed feast (e.g. the Immaculate Conception, Dec 8) displaces an Advent
+      // ferial day, but an Advent Sunday outranks it.
+      if (!isSun) { var af = fixedFeast(date); if (af) return feast(af, "advent"); }
       return out({ key: isSun ? sundayKey : "advent-feria", title: ferialTitle(aw, "of Advent", date),
         season: "advent", color: color, dayKey: isSun ? sundayKey : null,
         sundayKey: sundayKey, seasonKey: "season-advent" });
@@ -200,6 +254,17 @@
 
     // ---- Lent (Ash Wednesday .. Holy Saturday) ----
     if (date >= A.ashWednesday && date < A.easter) {
+      if (sameDay(date, A.ashWednesday)) {
+        return out({ key: "misereris", title: "Ash Wednesday", season: "lent",
+          color: "violet", rank: "Feria", dayKey: "misereris", seasonKey: "season-lent" });
+      }
+      if (sameDay(date, addDays(A.easter, -3))) { // Holy Thursday
+        return out({ key: "nos-autem", title: "Holy Thursday of the Lord's Supper", season: "lent",
+          color: "white", rank: "Solemnity", dayKey: "nos-autem", seasonKey: "season-lent" });
+      }
+      // Fixed solemnities (Joseph Mar 19, Annunciation Mar 25) displace a Lenten
+      // weekday, but a Sunday of Lent outranks them.
+      if (!isSun) { var lfe = fixedFeast(date); if (lfe) return feast(lfe, "lent"); }
       if (date < addDays(A.ashWednesday, 4)) { // Ash Wed .. Sat before Lent I
         return out({ key: "lent-feria", title: "after Ash Wednesday", season: "lent",
           color: "violet", seasonKey: "season-lent" });
@@ -226,6 +291,16 @@
         return out({ key: "spiritus-domini", title: "Pentecost Sunday", season: "easter",
           color: "red", rank: "Solemnity", dayKey: "spiritus-domini", seasonKey: "season-easter" });
       }
+      if (sameDay(date, addDays(A.easter, 39))) { // Ascension Thursday (Easter + 39)
+        return out({ key: "viri-galilaei", title: "The Ascension of the Lord", season: "easter",
+          color: "white", rank: "Solemnity", dayKey: "viri-galilaei", seasonKey: "season-easter" });
+      }
+      if (sameDay(date, addDays(A.easter, 48))) { // Vigil of Pentecost (the Saturday)
+        return out({ key: "dum-sanctificatus", title: "Pentecost Sunday (Vigil)", season: "easter",
+          color: "red", rank: "Solemnity", dayKey: "dum-sanctificatus", seasonKey: "season-easter" });
+      }
+      // The Annunciation (Mar 25) can land in Eastertide on a weekday.
+      if (!isSun) { var efe = fixedFeast(date); if (efe) return feast(efe, "easter"); }
       var ew = 1 + daysBetween(A.easter, sundayOnOrBefore(date)) / 7;
       // ew 1 is Easter week (octave -> Resurrexi); ew 2..7 are the Eastertide Sundays.
       var easterKey = ew === 1 ? "resurrexi" : "easter-" + ew;
@@ -238,17 +313,27 @@
     // Solemnities that fall in OT and that we author propers for (they displace the
     // green Sunday they land on, so that Sunday's OT number simply goes unused):
     if (sameDay(date, A.trinity)) {
-      return out({ key: "trinity", title: "The Most Holy Trinity",
-        season: "ordinary", color: "white", rank: "Solemnity", dayKey: "trinity", seasonKey: "season-ordinary" });
+      // Year C has its own introit (Caritas Dei); A & B use Benedicta sit. The
+      // cycle letter lets resolveKey pick trinity-c when authored.
+      return out({ key: "trinity", title: "The Most Holy Trinity", season: "ordinary", color: "white",
+        rank: "Solemnity", dayKey: "trinity", cycle: lectionaryYear(date), seasonKey: "season-ordinary" });
     }
     if (sameDay(date, A.corpusChristi)) {
       return out({ key: "cibavit", title: "The Most Holy Body and Blood of Christ (Corpus Christi)",
         season: "ordinary", color: "white", rank: "Solemnity", dayKey: "cibavit", seasonKey: "season-ordinary" });
     }
+    if (sameDay(date, addDays(A.easter, 68))) { // Sacred Heart: Friday after the 2nd Sun. after Pentecost
+      return out({ key: "sacred-heart", title: "The Most Sacred Heart of Jesus",
+        season: "ordinary", color: "white", rank: "Solemnity", dayKey: "sacred-heart", seasonKey: "season-ordinary" });
+    }
     if (sameDay(date, A.christTheKing)) {
       return out({ key: "christ-king", title: "Our Lord Jesus Christ, King of the Universe",
         season: "ordinary", color: "white", rank: "Solemnity", dayKey: "christ-king", seasonKey: "season-ordinary" });
     }
+    // Fixed feasts of the Lord and the saints outrank the green Ordinary-Time
+    // Sunday they fall on, as well as every OT weekday.
+    var otFeast = fixedFeast(date);
+    if (otFeast) return feast(otFeast, "ordinary");
 
     var beforeLent = date < A.ashWednesday;
     var govSunday = sundayOnOrBefore(date);
