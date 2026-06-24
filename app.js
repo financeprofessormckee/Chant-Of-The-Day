@@ -29,8 +29,19 @@ const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const audioStaff = document.getElementById("audio-staff");
 const massOptions = document.getElementById("mass-options");
+const propersTabs = document.getElementById("propers-tabs");
+const calendarVersion = document.getElementById("calendar-version");
 
-const INTROITS = window.INTROITS || {};
+// The active introit/propers tables and the calendar resolver. selectVersion()
+// repoints these at the modern or the 1962 dataset; everything below reads them
+// indirectly so a version switch needs no other changes.
+let INTROITS = window.INTROITS || {};
+let PROPERS = window.PROPERS || {};
+
+// The sung propers, in the order the tabs present them. "alleluia" and "tract"
+// occupy the same slot (Lent carries the Tract); only the one authored shows.
+const PART_ORDER = ["introit", "gradual", "alleluia", "tract", "offertory", "communion"];
+function partLabel(part) { return part.charAt(0).toUpperCase() + part.slice(1); }
 
 // Full General MIDI soundfont — includes the church organ (program 19). abcjs's
 // built-in default soundfont is piano-only, so the organ voicing needs this one.
@@ -56,39 +67,70 @@ function prettyDate(iso) {
   return WEEKDAYS[d.getUTCDay()] + ", " + MONTHS[d.getUTCMonth()] + " " + d.getUTCDate() + ", " + d.getUTCFullYear();
 }
 
-/* ---- Introit selection (with ferial fallback) ---------------------------- */
+/* ---- Proper selection (with ferial fallback) ----------------------------- */
 
-// Resolve a base feast key to an authored introit, preferring a 3-year-cycle
+// The introit lives in INTROITS; every other sung part lives in PROPERS, nested
+// one level under the feast key. getPart unifies the two so the fallback walk
+// below is identical for all parts.
+function getPart(key, part) {
+  if (part === "introit") return INTROITS[key] || null;
+  return (PROPERS[key] && PROPERS[key][part]) || null;
+}
+
+// Resolve a base feast key to an authored `part`, preferring a 3-year-cycle
 // variant (key + "-a/-b/-c") when the day carries a cycle letter and one exists.
-// Ordinary-Time Sundays whose introit changes by lectionary year are keyed this way.
-function resolveKey(baseKey, cycle) {
+// Ordinary-Time Sundays whose chants change by lectionary year are keyed this way.
+function resolveKeyFor(baseKey, cycle, part) {
   if (!baseKey) return null;
   if (cycle) {
     const k = baseKey + "-" + cycle.toLowerCase();
-    if (INTROITS[k]) return k;
+    if (getPart(k, part)) return k;
   }
-  return INTROITS[baseKey] ? baseKey : null;
+  return getPart(baseKey, part) ? baseKey : null;
 }
 
 // Try the day's own proper, then the Sunday that governs this week, then walk
-// back up to two weeks to the nearest authored Sunday, then the season anchor.
-function pickIntroit(day) {
-  const dk = resolveKey(day.dayKey, day.cycle);
-  if (dk) return { entry: INTROITS[dk], from: null };
-  const sk = resolveKey(day.sundayKey, day.cycle);
-  if (sk) return { entry: INTROITS[sk], from: day.isSunday ? null : describeSunday(day) };
+// back up to two weeks to the nearest authored Sunday, then (introit only) the
+// season anchor. Same logic for every part — a ferial day inherits the governing
+// Sunday's offertory/communion just as it inherits the introit.
+function pickPart(day, part) {
+  const dk = resolveKeyFor(day.dayKey, day.cycle, part);
+  if (dk) return { entry: getPart(dk, part), from: null };
+  const sk = resolveKeyFor(day.sundayKey, day.cycle, part);
+  if (sk) return { entry: getPart(sk, part), from: day.isSunday ? null : describeSunday(day) };
   const base = fromIso(day.date);
   for (let i = 1; i <= 14; i++) {
     // Pass an ISO string (parsed in UTC) — handing RESOLVE_DAY a UTC-built Date
     // would be re-read with local accessors and slip back a day west of UTC.
     const prev = window.RESOLVE_DAY(toIso(addDays(base, -i)));
-    const key = resolveKey(prev.dayKey, prev.cycle) || resolveKey(prev.sundayKey, prev.cycle);
-    if (key) return { entry: INTROITS[key], from: prev.title };
+    const key = resolveKeyFor(prev.dayKey, prev.cycle, part) || resolveKeyFor(prev.sundayKey, prev.cycle, part);
+    if (key) return { entry: getPart(key, part), from: prev.title };
   }
-  if (day.seasonKey && INTROITS[day.seasonKey]) {
+  if (part === "introit" && day.seasonKey && INTROITS[day.seasonKey]) {
     return { entry: INTROITS[day.seasonKey], from: "this season" };
   }
   return { entry: null, from: null };
+}
+
+// The ordered parts available for a day, each with its ferial-fallback note.
+function partsForDay(day) {
+  const out = [];
+  PART_ORDER.forEach(function (part) {
+    const picked = pickPart(day, part);
+    if (picked.entry) out.push({ part: part, label: partLabel(part), entry: picked.entry, from: picked.from });
+  });
+  return out;
+}
+
+// The ordered parts for one explicit Mass key (used by the same-day Mass
+// selector). A specific Mass shows only its own authored chants — no fallback.
+function partsForKey(key) {
+  const out = [];
+  PART_ORDER.forEach(function (part) {
+    const entry = getPart(key, part);
+    if (entry) out.push({ part: part, label: partLabel(part), entry: entry, from: null });
+  });
+  return out;
 }
 
 function describeSunday(day) {
@@ -103,9 +145,12 @@ function describeSunday(day) {
 
 function renderDayCard(day) {
   document.body.className = "season-" + day.season + (day.color ? " color-" + day.color : "");
+  // The 1962 resolver supplies a `seasonLabel` (e.g. "Septuagesima", "Time after
+  // Pentecost") for display; the modern resolver omits it, so the pill is unchanged.
+  const seasonName = day.seasonLabel || capitalize(day.season);
   seasonPill.textContent = day.rank === "Feria"
-    ? capitalize(day.season) + " · " + day.color
-    : day.rank + " · " + capitalize(day.season);
+    ? seasonName + " · " + day.color
+    : day.rank + " · " + seasonName;
   dayDate.textContent = prettyDate(day.date);
   dayTitle.textContent = day.title;
 }
@@ -156,6 +201,16 @@ function repairNotationBounds(score) {
 // sole justification entry point is ChantLine.justifyElements.
 if (window.exsurge && window.exsurge.ChantLine) {
   window.exsurge.ChantLine.prototype.justifyElements = function () {};
+}
+
+// Exsurge's minified bundle defines its AccidentalType enum in one module scope
+// but references it as a free (global) name in convertGabcStaffPositionToScribamPitch,
+// so any chant whose pitches force an accidental decision throws "AccidentalType
+// is not defined" and fails to render (e.g. the Lenten tracts and a couple of
+// Ordinary-Time introits). Re-export the enum globally with Exsurge's own values
+// so that lookup resolves.
+if (typeof window.AccidentalType === "undefined") {
+  window.AccidentalType = { Flat: -1, Natural: 0, Sharp: 1 };
 }
 
 function renderChant(gabc) {
@@ -282,9 +337,13 @@ async function play() {
 
 /* ---- Boot ---------------------------------------------------------------- */
 
-// The entry currently on screen (the day's proper, or whichever Mass the reader
-// picked from the selector). Kept so the resize re-flow re-renders the right one.
+// The entry currently on screen (the selected part of the day's — or the chosen
+// Mass's — propers). Kept so the resize re-flow re-renders the right one.
 let currentEntry = null;
+// The proper currently selected ("introit", "communion", …) and the parts on
+// offer. Tracked so switching Mass keeps the same part when that Mass has it.
+let currentPart = "introit";
+let currentParts = [];
 
 function renderEntry(entry, from) {
   currentEntry = entry;
@@ -293,9 +352,46 @@ function renderEntry(entry, from) {
   prepareAudio(entry);
 }
 
+// Reset playback state — shared by both selectors before they swap the score.
+function resetPlayback() {
+  stopPlayback();
+  playNote.textContent = "";
+  playBtn.disabled = false;
+}
+
+// Render one tab per available part (Introit / Gradual / Alleluia|Tract /
+// Offertory / Communion) and render `selected` (or the first part). The strip
+// hides when only the introit exists, so un-populated feasts look unchanged.
+function renderProperTabs(parts, selected) {
+  propersTabs.innerHTML = "";
+  const sel = parts.find(function (p) { return p.part === selected; }) || parts[0];
+  if (!sel) { propersTabs.hidden = true; return; }
+  currentPart = sel.part;
+  if (parts.length < 2) { propersTabs.hidden = true; }
+  else {
+    propersTabs.hidden = false;
+    parts.forEach(function (p) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.textContent = p.label;
+      if (p.part === sel.part) btn.classList.add("active");
+      btn.addEventListener("click", function () {
+        resetPlayback();
+        Array.from(propersTabs.children).forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+        currentPart = p.part;
+        renderEntry(p.entry, p.from);
+      });
+      propersTabs.appendChild(btn);
+    });
+  }
+  renderEntry(sel.entry, sel.from);
+}
+
 // Days with more than one Mass on the same date (Christmas: Midnight/Dawn/Day; the
 // Assumption: two options) expose day.options. Render a pill per option; clicking
-// one swaps in that authored introit directly (no ferial fallback).
+// one rebuilds the proper tabs for that Mass's own chants (no ferial fallback),
+// keeping the current part if that Mass has it.
 function renderMassOptions(day) {
   massOptions.innerHTML = "";
   if (!day.options || day.options.length < 2) { massOptions.hidden = true; return; }
@@ -306,33 +402,37 @@ function renderMassOptions(day) {
     btn.textContent = opt.label;
     if (opt.key === day.dayKey) btn.classList.add("active");
     btn.addEventListener("click", () => {
-      const entry = INTROITS[opt.key];
-      if (!entry) return;
-      stopPlayback();
-      playNote.textContent = "";
-      playBtn.disabled = false;
+      const parts = partsForKey(opt.key);
+      if (!parts.length) return;
+      resetPlayback();
       Array.from(massOptions.children).forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
-      renderEntry(entry, null);
+      currentParts = parts;
+      renderProperTabs(parts, currentPart);
     });
     massOptions.appendChild(btn);
   });
 }
 
 function show(iso) {
-  stopPlayback();
-  playNote.textContent = "";
-  playBtn.disabled = false;
+  resetPlayback();
 
   const day = window.RESOLVE_DAY(iso);
   renderDayCard(day);
   dateInput.value = day.date;
   renderMassOptions(day);
 
-  const picked = pickIntroit(day);
-  if (!picked.entry) { currentEntry = null; renderEmpty(day); return; }
-
-  renderEntry(picked.entry, picked.from);
+  const parts = partsForDay(day);
+  if (!parts.length) {
+    currentEntry = null;
+    currentParts = [];
+    propersTabs.hidden = true;
+    renderEmpty(day);
+    return;
+  }
+  currentParts = parts;
+  // A fresh day always opens on the Introit.
+  renderProperTabs(parts, "introit");
 }
 
 function currentIso() {
@@ -345,6 +445,50 @@ function currentIso() {
 function step(n) {
   const base = dateInput.value || currentIso();
   show(toIso(addDays(fromIso(base), n)));
+}
+
+/* ---- Calendar version (modern / 1962) ----------------------------------- */
+
+// Each version names its resolver and its proper tables. The 1962 pass is
+// introit-only, so its PROPERS is empty and the propers-tab strip auto-hides.
+const VERSIONS = {
+  modern: { resolve: window.RESOLVE_DAY_MODERN, introits: window.INTROITS || {}, propers: window.PROPERS || {} },
+  "1962": { resolve: window.RESOLVE_DAY_1962, introits: window.INTROITS_1962 || {}, propers: {} },
+};
+
+function readVersion() {
+  const param = new URLSearchParams(location.search).get("cal");
+  if (param && VERSIONS[param]) return param;
+  let saved = null;
+  try { saved = localStorage.getItem("chant-calendar"); } catch (_) { /* private mode */ }
+  return saved && VERSIONS[saved] ? saved : "modern";
+}
+
+// Point the resolver + data tables at the chosen version, reflect it in the toggle,
+// the URL (?cal=), and localStorage, then re-render the day on screen. `silent`
+// skips the re-render for the one-time boot call (show() runs right after).
+function selectVersion(v, silent) {
+  if (!VERSIONS[v]) v = "modern";
+  const cfg = VERSIONS[v];
+  window.RESOLVE_DAY = cfg.resolve;
+  INTROITS = cfg.introits;
+  PROPERS = cfg.propers;
+  if (calendarVersion) {
+    Array.from(calendarVersion.querySelectorAll("button")).forEach((b) =>
+      b.classList.toggle("active", b.dataset.version === v));
+  }
+  try { localStorage.setItem("chant-calendar", v); } catch (_) { /* private mode */ }
+  const url = new URL(location.href);
+  if (v === "modern") url.searchParams.delete("cal"); else url.searchParams.set("cal", v);
+  history.replaceState(null, "", url);
+  if (!silent) show(dateInput.value || currentIso());
+}
+
+if (calendarVersion) {
+  calendarVersion.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-version]");
+    if (btn) selectVersion(btn.dataset.version);
+  });
 }
 
 playBtn.addEventListener("click", play);
@@ -363,4 +507,5 @@ function debounce(fn, ms) {
   return function () { clearTimeout(t); t = setTimeout(fn, ms); };
 }
 
+selectVersion(readVersion(), true);
 show(currentIso());

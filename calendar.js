@@ -351,4 +351,6 @@
   }
 
   window.RESOLVE_DAY = resolve;
+  // Also exposed by name so app.js can swap between this and RESOLVE_DAY_1962.
+  window.RESOLVE_DAY_MODERN = resolve;
 })();

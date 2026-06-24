@@ -60,6 +60,28 @@ body {
 }
 .subtitle { margin: 6px 0 0; opacity: 0.82; font-style: italic; }
 
+/* ---- Calendar version toggle (in the masthead, on the dark page) ---- */
+.calendar-version {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.calendar-version-label { font-size: 0.8rem; opacity: 0.75; letter-spacing: 0.3px; }
+.calendar-version button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold-soft);
+  border: 1.5px solid var(--gold);
+}
+.calendar-version button:hover { background: rgba(214, 173, 96, 0.18); }
+.calendar-version button.active { background: var(--gold); color: #1c1430; }
+
 /* ---- Day card ---- */
 .day-card {
   width: 100%;
@@ -141,6 +163,28 @@ body {
 }
 .mass-options button:hover { background: rgba(214, 173, 96, 0.18); }
 .mass-options button.active { background: var(--gold); color: #1c1430; }
+
+/* ---- Proper selector (Introit / Gradual / Alleluia|Tract / Offertory / Communion) ---- */
+.propers-tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--cream-edge);
+}
+.propers-tabs button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px 13px;
+  border-radius: 999px;
+  background: transparent;
+  color: #6b4a2e;
+  border: 1.5px solid var(--gold);
+}
+.propers-tabs button:hover { background: rgba(214, 173, 96, 0.18); }
+.propers-tabs button.active { background: var(--gold); color: #1c1430; }
 
 /* ---- Buttons ---- */
 button {

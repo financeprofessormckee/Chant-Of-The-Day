@@ -12,6 +12,11 @@
     <header class="masthead">
       <h1>Chant of the Day</h1>
       <p class="subtitle">The Introit proper to today &mdash; sung by the Church across the year.</p>
+      <div id="calendar-version" class="calendar-version" role="group" aria-label="Choose the liturgical calendar">
+        <span class="calendar-version-label">Calendar:</span>
+        <button type="button" data-version="modern" class="active">Modern</button>
+        <button type="button" data-version="1962">1962</button>
+      </div>
     </header>
 
     <section class="day-card" id="day-card" aria-label="Today in the liturgical calendar">
@@ -23,7 +28,8 @@
 
     <section class="score-card">
       <div id="mass-options" class="mass-options" role="group" aria-label="Choose which Mass to show" hidden></div>
-      <div id="score" class="score" aria-label="Square-note notation for today's introit"></div>
+      <div id="propers-tabs" class="propers-tabs" role="group" aria-label="Choose which proper to show" hidden></div>
+      <div id="score" class="score" aria-label="Square-note notation for today's chant"></div>
       <div class="score-tools">
         <button type="button" id="play-btn" class="ghost">▶ Hear it</button>
         <span id="play-note" class="play-note"></span>
@@ -56,8 +62,11 @@
   <script src="vendor/abcjs-basic-min.js"></script>
   <script src="vendor/exsurge.min.js"></script>
   <script src="calendar.js"></script>
+  <script src="calendar-1962.js"></script>
   <script src="gabc-to-abc.js"></script>
   <script src="data/introits.js"></script>
+  <script src="data/introits-1962.js"></script>
+  <script src="data/propers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
