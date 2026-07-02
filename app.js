@@ -103,6 +103,15 @@ function pickPart(day, part) {
     // Pass an ISO string (parsed in UTC) — handing RESOLVE_DAY a UTC-built Date
     // would be re-read with local accessors and slip back a day west of UTC.
     const prev = window.RESOLVE_DAY(toIso(addDays(base, -i)));
+    // Never let the walk-back cross a season boundary. Within a season it degrades
+    // gracefully (e.g. an OT Sunday with no proper Gradual this lectionary year
+    // falls back to the previous Sunday's), but a part absent from a season's own
+    // formulary must stay absent rather than be pulled from the prior season:
+    // an Eastertide Sunday has no Gradual (it must not borrow a Lenten one), and
+    // Holy Thursday — the start of the Triduum — has no Offertory (it must not
+    // borrow Palm Sunday's). Seasons are contiguous, so the first day of a
+    // different season ends the walk.
+    if (prev.season !== day.season) break;
     const key = resolveKeyFor(prev.dayKey, prev.cycle, part) || resolveKeyFor(prev.sundayKey, prev.cycle, part);
     if (key) return { entry: getPart(key, part), from: prev.title };
   }
@@ -114,8 +123,23 @@ function pickPart(day, part) {
 
 // The ordered parts available for a day, each with its ferial-fallback note.
 function partsForDay(day) {
+  // A day whose own dayKey authors any sung proper is a self-contained Mass.
+  // For such a day the Alleluia/Tract slot shows only what that Mass itself
+  // authors and never borrows across days — the two share one slot, so a Mass
+  // sings one or the other, never both. This keeps the Mass for the Dead on its
+  // Tract (not a neighbouring feast's Alleluia) and a feast vigil from showing
+  // the governing Sunday's Alleluia. Gradual/Offertory/Communion keep the
+  // ferial fallback, so ferial days still inherit the governing Sunday's chants.
+  const selfContained = PART_ORDER.some(function (p) {
+    return p !== "introit" && resolveKeyFor(day.dayKey, day.cycle, p);
+  });
   const out = [];
   PART_ORDER.forEach(function (part) {
+    if (selfContained && (part === "alleluia" || part === "tract")) {
+      const k = resolveKeyFor(day.dayKey, day.cycle, part);
+      if (k) out.push({ part: part, label: partLabel(part), entry: getPart(k, part), from: null });
+      return;
+    }
     const picked = pickPart(day, part);
     if (picked.entry) out.push({ part: part, label: partLabel(part), entry: picked.entry, from: picked.from });
   });
@@ -449,11 +473,12 @@ function step(n) {
 
 /* ---- Calendar version (modern / 1962) ----------------------------------- */
 
-// Each version names its resolver and its proper tables. The 1962 pass is
-// introit-only, so its PROPERS is empty and the propers-tab strip auto-hides.
+// Each version names its resolver and its proper tables. 1962 propers are a
+// pilot batch (Lent only so far); days without an entry fall back to {} and
+// the propers-tab strip auto-hides for them.
 const VERSIONS = {
   modern: { resolve: window.RESOLVE_DAY_MODERN, introits: window.INTROITS || {}, propers: window.PROPERS || {} },
-  "1962": { resolve: window.RESOLVE_DAY_1962, introits: window.INTROITS_1962 || {}, propers: {} },
+  "1962": { resolve: window.RESOLVE_DAY_1962, introits: window.INTROITS_1962 || {}, propers: window.PROPERS_1962 || {} },
 };
 
 function readVersion() {

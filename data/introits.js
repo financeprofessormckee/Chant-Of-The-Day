@@ -27,6 +27,78 @@
  */
 
 window.INTROITS = {
+  /* ===================================================================
+   * New fixed-date sanctoral feasts (not previously in the calendar):
+   * Candlemas, the Visitation, the Nativity of the BVM, the Archangels,
+   * St. Andrew, St. Stephen, St. John the Evangelist, the Holy Innocents.
+   * Latin = GregoBase Solesmes (Graduale Romanum), gabc pulled by id. See
+   * sources/gregobase/build-new-feasts.py and new-feasts-worklist.md.
+   * =================================================================== */
+  "candlemas": {
+    title: "Suscepimus",
+    latin: "Suscépimus, Deus, misericórdiam tuam in médio templi tui : secúndum nomen tuum Deus, ita et laus tua in fines terrae : justítia plena est déxtera tua.",
+    translation: "We have received your mercy, O God, in the midst of your temple: according to your name, O God, so also is your praise unto the ends of the earth: your right hand is full of justice.",
+    mode: "Introit · The Presentation of the Lord · Mode I",
+    gabc: "(c4) SUs(cd)cé(ixdh'!iv)pi(h)mus,(h.) *(,) De(hjh)us,(ghg.) (,) mi(hf)se(g)ri(h)cór(hjj)di(g_[oh:h]f)am(hfh) tu(h!iwjh)am(h.) (;) in(h) mé(f!hfg)di(hg)o(g) tem(h)pli(jh/jg) tu(fhG'Fgf)i :(f.) (:) se(f)cún(hg~)dum(j) no(jlk)men(j) tu(jjj)um(j) De(jkJ'H)us,(h.) (;) i(jj)ta(j_[hl:1]k_[hl:1]h_[hl:1]) et(hi~) laus(h_g) tu(h/jjh!iwjh)a(h.) (,) in(j) fi(fg'h)nes(jh/jg) ter(fhG'Fgf)rae :(f.e[ub:0;6mm]) (:) ju(d)stí(ffg)ti(f)a(f) ple(fg/h_g)na(gf) est(f.) (,) déx(f)te(fg)ra(gffd) tu(d!ewf_d)a.(d.) (::)",
+    source: "Graduale Romanum (GregoBase #1254)"
+  },
+  "visitation": {
+    title: "Salve sancta Parens",
+    latin: "Salve sancta Parens, eníxa puérpera Regem, qui caelum terrámque regit in saécula saeculórum.",
+    translation: "Hail, holy Mother, who brought forth the King who rules heaven and earth for ever and ever.",
+    mode: "Introit · The Visitation of the Blessed Virgin Mary · Mode II",
+    gabc: "(f3) SAl(ce!fg)ve(f.) *(,) san(f)cta(fe) Pa(f!gwh_f)rens,(f.) (;) e(ef)ní(hhi)xa(h) pu(h)ér(h)pe(h)ra(hiHG') Re(hggfg)gem,(gf..) (:) qui(eh) cae(h)lum(hhh) ter(fe~)rám(f!hhf/gf)que(ef) re(fhhfgv_[oh:h]F~E~)git(fe..) (;) in(ef) saé(hh)cu(hi)la(f.) (,) sae(f!h'i)cu(hiHG')ló(hggfg)rum.(gf..) (::)",
+    source: "Graduale Romanum (GregoBase #1140)"
+  },
+  "nativity-mary": {
+    title: "Gaudeamus ... Nativitate",
+    latin: "Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre Maríae Vírginis : de cujus Nativitáte gaudent Angeli, et colláudant Fílium Dei.",
+    translation: "Let us all rejoice in the Lord, celebrating a feast day in honor of the Virgin Mary: at whose Nativity the Angels rejoice, and give praise to the Son of God.",
+    mode: "Introit · The Nativity of the Blessed Virgin Mary · Mode I",
+    gabc: "(c4) GAU(c)DE(d)Á(ixdh'!iv)MUS(h.) *(,) o(hg~)mnes(hg) in(fg) Dó(gjh)mi(ixh.g!hwihi)no,(ih..) (;) di(h)em(fg~) fe(g)stum(gff) ce(dg)le(gff)brán(dg~)tes(gff) (,) sub(f) ho(g)nó(g./hjh)re(ghg.) Ma(f)rí(h)ae(gjj) Vír(h)gi(h_[oh:h]i_[oh:h]h_[oh:h])nis :(h.) (:) de(fg) cu(fg)jus(f) Na(f)ti(g)vi(g)tá(g./hjh)te(ghg.) (,) gau(fg)dent(f) An(fg/hgh)ge(gvFE'fwgfg)li,(gf..) (;) et(f) col(g)láu(g./hjH~G~)dant(h_g) (,) Fí(fge)li(f)um(fg/hfgvFE) De(d!ewfef)i.(ed..) (::)",
+    source: "Graduale Romanum (GregoBase #18120)"
+  },
+  "archangels": {
+    title: "Benedicite Dominum",
+    latin: "Benedícite Dóminum omnes Angeli ejus : poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+    translation: "Bless the Lord, all you his Angels: mighty in strength, who do his word, hearkening to the voice of his commands.",
+    mode: "Introit · Sts. Michael, Gabriel and Raphael, Archangels · Mode III",
+    gabc: "(c4) BE(g)NE(g)DÍ(hj)CI(j)TE(j) Dó(ij)mi(j)num(j.) *(,) o(j)mnes(j) An(j)ge(jjj_h)li(hk) e(kj~)jus :(jkjji.) (;) pot(g)én(gh~)tes(h) vir(h)tú(jj)te,(i_[oh:h]h) (;) qui(gfg) fá(hg/ji)ci(j)tis(j) ver(hj~)bum(jj) e(gh~)jus,(h_[oh:h]i_[oh:h]h._[oh:h]) (:) ad(g) au(h)di(hkj)én(i)dam(jj//jj) vo(h_g)cem(g_[oh:h]f) (,) ser(fh~)mó(h_g/jjvH'G)num(g_[oh:h]e) e(fgF~'E~)jus.(e.) (::)",
+    source: "Graduale Romanum (GregoBase #985)"
+  },
+  "andrew": {
+    title: "Mihi autem nimis",
+    latin: "Mihi autem nimis honoráti sunt amíci tui, Deus : nimis confortátus est principátus eórum.",
+    translation: "But to me your friends, O God, are made exceedingly honorable: their principality is exceedingly strengthened.",
+    mode: "Introit · St. Andrew, Apostle · Mode II",
+    gabc: "(f3) MI(e)HI(f) au(f)tem(hh) * ni(ihi)mis(ihi_[oh:h]f) (,) ho(fi)no(i)rá(ij)ti(ih) sunt(hv.gih.) (,) a(f)mí(ege)ci(f) tu(f)i,(hhi) De(fgF'E)us :(e.) (:) ni(h)mis(hhh) con(f)for(fi~)tá(i)tus(h) est(hji.) (,) prin(hihh)ci(ef)pá(hhi)tus(h) e(h)ó(hjI'H)rum.(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::)",
+    source: "Graduale Romanum (GregoBase #475)"
+  },
+  "stephen": {
+    title: "Etenim sederunt principes",
+    latin: "Etenim sedérunt príncipes, et advérsum me loquebántur : et iníqui persecúti sunt me : ádjuva me, Dómine Deus meus, quia servus tuus exercebátur in tuis justificatiónibus.",
+    translation: "For princes sat, and spoke against me: and the wicked persecuted me: help me, O Lord my God, for your servant was employed in your justifications.",
+    mode: "Introit · St. Stephen, the First Martyr · Mode I",
+    gabc: "(c4) ET(ff)E(d_c)NIM(fdf) *() se(gfg)dé(hgh)runt(h) prín(h)ci(g)pes,(f_h) (;) et(ixhih) ad(g)vér(fe~)sum(g) me(ixgih) lo(g)que(f)bán(ff//ff)tur :(d.) (;) et(fe) in(f)í(ghg)qui(d) per(d!fff)se(d)cú(df/gf/g_[uh:l]h)ti(fe) sunt(cd~) me :(d.) (:) ád(d)ju(d)va(fe) me,(fg) (,) Dó(g)mi(ghg)ne(fgf.) De(hg)us(g) me(gjjh)us,(h.) (;) qui(f)a(f) ser(h)vus(g) tu(ixgiH'G)us(g.) ex(f)er(f)ce(g)bá(ixhg/hiG'F)tur(g.) (;) in(hgh) tu(ixhiH'F)is(f.) ju(f)sti(f)fi(gvFD')ca(d!f'g)ti(gf)ó(fgFE')ni(feede)bus.(e[ll:1]d..) (::)",
+    source: "Graduale Romanum (GregoBase #1321)"
+  },
+  "john-evangelist": {
+    title: "In medio Ecclesiae",
+    latin: "In médio Ecclésiae apéruit os ejus : et implévit eum Dóminus spíritu sapiéntiae, et intelléctus : stolam glóriae índuit eum.",
+    translation: "In the midst of the Church he opened his mouth: and the Lord filled him with the spirit of wisdom and understanding: he clothed him with a robe of glory.",
+    mode: "Introit · St. John, Apostle and Evangelist · Mode VI",
+    gabc: "(c4) IN(df~) mé(fff)di(f)o(f) *() Ec(f)clé(gfg)si(f)ae(fff) (,) a(cd)pé(fff)ru(f)it(f) os(g_[oh:h]f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus :(f.) (:) et(f) im(f)plé(ixf!gwh'!iv)vit(h) e(hjjh)um(h.) Dó(gh)mi(gf)nus(f.) (,) spí(fh)ri(g)tu(f) sa(fgf)pi(ef'g)én(gh~)ti(f)ae,(fgf.) (,) et(f) in(ef'g)tel(hghf)lé(f)ctus :(fffc..) (:) sto(fdf)lam(f) gló(ghf)ri(f_d)ae(d_c) (,) ín(ff)du(f)it(ff) e(f_[oh:h]g_[oh:h]f_[oh:h])um.(f.) (::)",
+    source: "Graduale Romanum (GregoBase #233)"
+  },
+  "holy-innocents": {
+    title: "Ex ore infantium",
+    latin: "Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimícos tuos.",
+    translation: "Out of the mouths of infants, O God, and of sucklings, you have perfected praise because of your enemies.",
+    mode: "Introit · The Holy Innocents, Martyrs · Mode II",
+    gabc: "(f3) EX(f!gwh) o(egf)re(f.) *() in(fhg)fán(hi~)ti(i)um,(hi~) De(i_[oh:h]f)us,(f.) (,) et(fi) la(i)ctén(ij)ti(ih)um(hv.gih.) (;) per(fg)fe(f_e)cí(fhg)sti(hi) lau(fgF~'E~)dem(e.) (:) pro(h)pter(hhh) in(f)i(fi)mí(iv.hji)cos(ihhf) tu(fg/eh//ghf/ggf)os.(f.) (::)",
+    source: "Graduale Romanum (GregoBase #350)"
+  },
+
   /* ---- Advent ---------------------------------------------------------- */
   "ad-te-levavi": {
     title: "Ad te levavi",

@@ -137,8 +137,10 @@
   // Jan 1 (Mary), Dec 24 (Christmas Vigil), Dec 25, Jan 6, Nov 2 are handled as
   // marquee days in resolve(); everything else lives here. `color` defaults white.
   var SANCTORAL = {
+    "2-2":  { key: "candlemas", title: "The Presentation of the Lord", rank: "Feast" },
     "3-19": { key: "joseph", title: "Saint Joseph, Spouse of the Blessed Virgin Mary", rank: "Solemnity" },
     "3-25": { key: "annunciation", title: "The Annunciation of the Lord", rank: "Solemnity" },
+    "5-31": { key: "visitation", title: "The Visitation of the Blessed Virgin Mary", rank: "Feast" },
     "6-23": { key: "john-baptist-vigil", title: "The Nativity of St. John the Baptist (Vigil)", rank: "Feast" },
     "6-24": { key: "john-baptist", title: "The Nativity of St. John the Baptist", rank: "Solemnity" },
     "6-28": { key: "peter-paul-vigil", title: "Sts. Peter and Paul, Apostles (Vigil)", rank: "Feast" },
@@ -147,10 +149,16 @@
     "8-14": { key: "assumption-vigil", title: "The Assumption of the Blessed Virgin Mary (Vigil)", rank: "Feast" },
     "8-15": { key: "assumption", title: "The Assumption of the Blessed Virgin Mary", rank: "Solemnity",
       options: [{ label: "Option 1", key: "assumption" }, { label: "Option 2", key: "assumption-opt2" }] },
+    "9-8":  { key: "nativity-mary", title: "The Nativity of the Blessed Virgin Mary", rank: "Feast" },
     "9-14": { key: "triumph-cross", title: "The Exaltation of the Holy Cross", rank: "Feast", color: "red" },
+    "9-29": { key: "archangels", title: "Sts. Michael, Gabriel and Raphael, Archangels", rank: "Feast" },
     "11-1": { key: "all-saints", title: "All Saints", rank: "Solemnity" },
     "11-9": { key: "dedication-lateran", title: "The Dedication of the Lateran Basilica", rank: "Feast" },
-    "12-8": { key: "immaculate-conception", title: "The Immaculate Conception of the Blessed Virgin Mary", rank: "Solemnity" }
+    "11-30": { key: "andrew", title: "St. Andrew, Apostle", rank: "Feast", color: "red" },
+    "12-8": { key: "immaculate-conception", title: "The Immaculate Conception of the Blessed Virgin Mary", rank: "Solemnity" },
+    "12-26": { key: "stephen", title: "St. Stephen, the First Martyr", rank: "Feast", color: "red" },
+    "12-27": { key: "john-evangelist", title: "St. John, Apostle and Evangelist", rank: "Feast" },
+    "12-28": { key: "holy-innocents", title: "The Holy Innocents, Martyrs", rank: "Feast", color: "red" }
   };
   function fixedFeast(date) {
     return SANCTORAL[(date.getUTCMonth() + 1) + "-" + date.getUTCDate()] || null;
@@ -248,6 +256,10 @@
           season: "christmas", color: "white", rank: "Sunday", dayKey: "dum-medium-silentium",
           seasonKey: "season-christmas" });
       }
+      // Fixed feasts within the Christmas octave (Stephen, John, Holy Innocents,
+      // Dec 26-28) displace a Christmas-Time weekday, but a Sunday (Holy Family or
+      // the 2nd Sunday after the Nativity, already handled above) outranks them.
+      if (!isSun) { var cfe = fixedFeast(date); if (cfe) return feast(cfe, "christmas"); }
       return out({ key: "christmas-feria", title: "Christmas Time", season: "christmas",
         color: "white", sundayKey: "puer-natus", seasonKey: "season-christmas" });
     }
@@ -259,7 +271,10 @@
           color: "violet", rank: "Feria", dayKey: "misereris", seasonKey: "season-lent" });
       }
       if (sameDay(date, addDays(A.easter, -3))) { // Holy Thursday
-        return out({ key: "nos-autem", title: "Holy Thursday of the Lord's Supper", season: "lent",
+        // The evening Mass of the Lord's Supper opens the Sacred Triduum, so it is
+        // no longer Lent. The distinct season also stops the proper walk-back from
+        // borrowing Palm Sunday's Offertory (Holy Thursday has none in the source).
+        return out({ key: "nos-autem", title: "Holy Thursday of the Lord's Supper", season: "triduum",
           color: "white", rank: "Solemnity", dayKey: "nos-autem", seasonKey: "season-lent" });
       }
       // Fixed solemnities (Joseph Mar 19, Annunciation Mar 25) displace a Lenten
@@ -276,28 +291,37 @@
       var color2 = lentWeek === 4 ? "rose" : "violet";
       var title = isPalm ? "Palm Sunday of the Passion of the Lord"
         : ferialTitle(lentWeek, "of Lent", date);
+      // cycle letter lets resolveKey pick the Scrutiny-Mass -b/-c variants
+      // (lent-3/laetare/lent-5 split their Offertory/Communion by lectionary year).
       return out({ key: isSun ? lentKey : "lent-feria", title: title, season: "lent",
         color: color2, dayKey: isSun ? lentKey : null,
-        sundayKey: lentKey, seasonKey: "season-lent" });
+        sundayKey: lentKey, cycle: lectionaryYear(date), seasonKey: "season-lent" });
     }
 
     // ---- Easter Triduum + Eastertide (Easter .. Pentecost) ----
     if (date >= A.easter && date <= A.pentecost) {
+      // Eastertide Sundays carry a lectionary-year letter so resolveKey can pick
+      // the year-specific Communion variants (easter-N-b/-c, viri-galilaei-b/-c),
+      // exactly as the Lenten Scrutiny Masses do.
       if (sameDay(date, A.easter)) {
         return out({ key: "resurrexi", title: "Easter Sunday of the Resurrection of the Lord",
-          season: "easter", color: "white", rank: "Solemnity", dayKey: "resurrexi", seasonKey: "season-easter" });
+          season: "easter", color: "white", rank: "Solemnity", dayKey: "resurrexi",
+          cycle: lectionaryYear(date), seasonKey: "season-easter" });
       }
       if (sameDay(date, A.pentecost)) {
         return out({ key: "spiritus-domini", title: "Pentecost Sunday", season: "easter",
-          color: "red", rank: "Solemnity", dayKey: "spiritus-domini", seasonKey: "season-easter" });
+          color: "red", rank: "Solemnity", dayKey: "spiritus-domini",
+          cycle: lectionaryYear(date), seasonKey: "season-easter" });
       }
       if (sameDay(date, addDays(A.easter, 39))) { // Ascension Thursday (Easter + 39)
         return out({ key: "viri-galilaei", title: "The Ascension of the Lord", season: "easter",
-          color: "white", rank: "Solemnity", dayKey: "viri-galilaei", seasonKey: "season-easter" });
+          color: "white", rank: "Solemnity", dayKey: "viri-galilaei",
+          cycle: lectionaryYear(date), seasonKey: "season-easter" });
       }
       if (sameDay(date, addDays(A.easter, 48))) { // Vigil of Pentecost (the Saturday)
         return out({ key: "dum-sanctificatus", title: "Pentecost Sunday (Vigil)", season: "easter",
-          color: "red", rank: "Solemnity", dayKey: "dum-sanctificatus", seasonKey: "season-easter" });
+          color: "red", rank: "Solemnity", dayKey: "dum-sanctificatus",
+          cycle: lectionaryYear(date), seasonKey: "season-easter" });
       }
       // The Annunciation (Mar 25) can land in Eastertide on a weekday.
       if (!isSun) { var efe = fixedFeast(date); if (efe) return feast(efe, "easter"); }
@@ -306,7 +330,8 @@
       var easterKey = ew === 1 ? "resurrexi" : "easter-" + ew;
       return out({ key: isSun ? easterKey : "easter-feria",
         title: ferialTitle(ew, "of Easter", date), season: "easter", color: "white",
-        dayKey: isSun ? easterKey : null, sundayKey: easterKey, seasonKey: "season-easter" });
+        dayKey: isSun ? easterKey : null, sundayKey: easterKey,
+        cycle: lectionaryYear(date), seasonKey: "season-easter" });
     }
 
     // ---- Ordinary Time ----
