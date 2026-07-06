@@ -7,7 +7,7 @@
  *     -> RESOLVE_DAY (calendar.js)
  *     -> pick the introit (data/introits.js), with a ferial fallback
  *     -> render the gabc as square notes (Exsurge)
- *     -> wire organ playback (abcjs synth, reusing the Name That Chant pattern)
+ *     -> wire playback (playback.js: a synth + a highlight that follows the notes)
  */
 
 /* ---- Elements ------------------------------------------------------------ */
@@ -27,10 +27,14 @@ const dateInput = document.getElementById("date-input");
 const todayBtn = document.getElementById("today-btn");
 const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
-const audioStaff = document.getElementById("audio-staff");
 const massOptions = document.getElementById("mass-options");
 const propersTabs = document.getElementById("propers-tabs");
 const calendarVersion = document.getElementById("calendar-version");
+const modeToggle = document.getElementById("mode-toggle");
+const dayCard = document.getElementById("day-card");
+const jumpSection = document.getElementById("jump-section");
+const commonsPicker = document.getElementById("commons-picker");
+const commonsSelect = document.getElementById("commons-select");
 
 // The active introit/propers tables and the calendar resolver. selectVersion()
 // repoints these at the modern or the 1962 dataset; everything below reads them
@@ -40,12 +44,10 @@ let PROPERS = window.PROPERS || {};
 
 // The sung propers, in the order the tabs present them. "alleluia" and "tract"
 // occupy the same slot (Lent carries the Tract); only the one authored shows.
-const PART_ORDER = ["introit", "gradual", "alleluia", "tract", "offertory", "communion"];
+// "sequence" (sung after the Alleluia, before the Gospel) is authored only on the
+// handful of feasts that have one and, like alleluia/tract, never falls back.
+const PART_ORDER = ["introit", "gradual", "alleluia", "tract", "sequence", "offertory", "communion"];
 function partLabel(part) { return part.charAt(0).toUpperCase() + part.slice(1); }
-
-// Full General MIDI soundfont — includes the church organ (program 19). abcjs's
-// built-in default soundfont is piano-only, so the organ voicing needs this one.
-const SOUND_FONT_URL = "https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/";
 
 /* ---- Date helpers -------------------------------------------------------- */
 
@@ -73,8 +75,9 @@ function prettyDate(iso) {
 // one level under the feast key. getPart unifies the two so the fallback walk
 // below is identical for all parts.
 function getPart(key, part) {
-  if (part === "introit") return INTROITS[key] || null;
-  return (PROPERS[key] && PROPERS[key][part]) || null;
+  if (part === "introit") return INTROITS[key] || (window.COMMON_INTROITS && window.COMMON_INTROITS[key]) || null;
+  return (PROPERS[key] && PROPERS[key][part]) ||
+    (window.COMMON_PROPERS && window.COMMON_PROPERS[key] && window.COMMON_PROPERS[key][part]) || null;
 }
 
 // Resolve a base feast key to an authored `part`, preferring a 3-year-cycle
@@ -135,6 +138,14 @@ function partsForDay(day) {
   });
   const out = [];
   PART_ORDER.forEach(function (part) {
+    // The Sequence belongs to a specific feast's own Mass — it never falls back
+    // to a governing Sunday or a neighbouring day, so a ferial within an octave
+    // (dayKey null) shows none. Only a day that authors its own sequence sings it.
+    if (part === "sequence") {
+      const k = resolveKeyFor(day.dayKey, day.cycle, part);
+      if (k) out.push({ part: part, label: partLabel(part), entry: getPart(k, part), from: null });
+      return;
+    }
     if (selfContained && (part === "alleluia" || part === "tract")) {
       const k = resolveKeyFor(day.dayKey, day.cycle, part);
       if (k) out.push({ part: part, label: partLabel(part), entry: getPart(k, part), from: null });
@@ -152,6 +163,24 @@ function partsForKey(key) {
   const out = [];
   PART_ORDER.forEach(function (part) {
     const entry = getPart(key, part);
+    if (entry) out.push({ part: part, label: partLabel(part), entry: entry, from: null });
+  });
+  return out;
+}
+
+// Common of Saints entries live outside INTROITS/PROPERS (window.COMMON_INTROITS
+// / window.COMMON_PROPERS) so a Common key can never collide with a real dayKey.
+// They're browsed by category, never resolved by date, so this mirrors
+// partsForKey exactly but reads the Commons tables instead.
+function getCommonPart(key, part) {
+  if (part === "introit") return (window.COMMON_INTROITS && window.COMMON_INTROITS[key]) || null;
+  return (window.COMMON_PROPERS && window.COMMON_PROPERS[key] && window.COMMON_PROPERS[key][part]) || null;
+}
+
+function partsForCommonKey(key) {
+  const out = [];
+  PART_ORDER.forEach(function (part) {
+    const entry = getCommonPart(key, part);
     if (entry) out.push({ part: part, label: partLabel(part), entry: entry, from: null });
   });
   return out;
@@ -237,7 +266,11 @@ if (typeof window.AccidentalType === "undefined") {
   window.AccidentalType = { Flat: -1, Natural: 0, Sharp: 1 };
 }
 
-function renderChant(gabc) {
+// Renders the gabc into #score. Exsurge's layout is async (it fires callbacks), so
+// the finished score + svg are handed back through onReady(score, svg) once the SVG
+// is in the DOM — playback.js drives audio and the follow-along highlight off that
+// same score object, so the two can never drift.
+function renderChant(gabc, onReady) {
   scoreEl.innerHTML = "";
   try {
     const ctxt = new window.exsurge.ChantContext();
@@ -266,11 +299,13 @@ function renderChant(gabc) {
           // screens narrower than that, and height:auto keeps the ratio.
           svg.setAttribute("width", Math.round(vbW * CHANT_SCALE));
         }
+        if (onReady) onReady(score, svg);
       });
     });
   } catch (err) {
     console.error("Exsurge render failed:", err);
     scoreEl.textContent = "Couldn't render this chant's notation.";
+    if (onReady) onReady(null, null);
   }
 }
 
@@ -300,63 +335,31 @@ function renderEmpty(day) {
   playBtn.disabled = true;
 }
 
-/* ---- Playback (abcjs synth, organ voicing) ------------------------------- */
+/* ---- Playback (playback.js: synth + follow-along highlight) --------------- */
 
-let visualObj = null;
-let synth = null;
-let audioCtx = null;
+const PLAY_LABEL = "▶ Hear it";
+const PAUSE_LABEL = "⏸ Pause";
 
-function buildAbc(entry) {
-  let body = entry.abc;
-  if (!body && window.gabcToAbc) body = window.gabcToAbc(entry.gabc);
-  if (!body) return null;
-  // %%MIDI program 19 = church organ; it changes the sound, not the (hidden) staff.
-  return "X:1\nM:none\nL:1/4\nK:C\n%%MIDI program 19\n" + body + "\n";
+// The engine reports state through this one callback (text for the status line);
+// the button label just mirrors whether it is actually sounding.
+function onPlaybackStatus(text) {
+  playNote.textContent = text || "";
+  playBtn.textContent = window.ChantPlayback.isPlaying() ? PAUSE_LABEL : PLAY_LABEL;
 }
 
-function prepareAudio(entry) {
-  visualObj = null;
-  const abc = buildAbc(entry);
-  if (!abc) { playBtn.disabled = true; return; }
-  audioStaff.innerHTML = "";
-  const rendered = window.ABCJS.renderAbc(audioStaff, abc, { add_classes: false });
-  visualObj = rendered && rendered[0] ? rendered[0] : null;
-  playBtn.disabled = !visualObj;
+// Hand the freshly rendered score to the engine. Called from renderChant's onReady,
+// so the SVG is already in the DOM (its notation groups are what light up).
+function prepareAudio(score, svg) {
+  const playable = window.ChantPlayback.load(score, svg, onPlaybackStatus, null);
+  playBtn.textContent = PLAY_LABEL;
+  playBtn.disabled = !playable;
 }
 
-async function stopPlayback() {
-  if (synth) {
-    try { synth.stop(); } catch (_) { /* ignore */ }
-    synth = null;
-  }
-}
-
-async function play() {
-  if (!visualObj) return;
-  if (!window.ABCJS.synth.supportsAudio()) {
-    playNote.textContent = "Audio isn't supported in this browser.";
-    return;
-  }
-  await stopPlayback();
-  playBtn.disabled = true;
-  playNote.textContent = "loading sound…";
-  try {
-    // Create/resume the audio context inside the click gesture (autoplay policy).
-    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    if (audioCtx.state === "suspended") await audioCtx.resume();
-
-    synth = new window.ABCJS.synth.CreateSynth();
-    await synth.init({ audioContext: audioCtx, visualObj, options: { soundFontUrl: SOUND_FONT_URL } });
-    await synth.prime();
-    synth.start();
-    playNote.textContent = "playing (church-organ voicing)";
-  } catch (err) {
-    console.error("Playback failed:", err);
-    const detail = err && (err.message || err.status) ? (err.message || err.status) : String(err);
-    playNote.textContent = "Couldn't play: " + detail;
-  } finally {
-    playBtn.disabled = false;
-  }
+async function onPlayClick() {
+  // Unlock/resume the AudioContext inside the click gesture (autoplay policy), then
+  // play/pause. The engine's status callback updates the label and status line.
+  try { await window.ChantPlayback.resumeContext(); } catch (_) { /* ignore */ }
+  window.ChantPlayback.toggle();
 }
 
 /* ---- Boot ---------------------------------------------------------------- */
@@ -371,15 +374,18 @@ let currentParts = [];
 
 function renderEntry(entry, from) {
   currentEntry = entry;
-  renderChant(entry.gabc);
+  // renderChant lays out asynchronously; prepareAudio (its onReady) wires playback
+  // once the SVG exists. Disable the button until then so a click can't race the load.
+  playBtn.disabled = true;
+  renderChant(entry.gabc, prepareAudio);
   renderText(entry, from);
-  prepareAudio(entry);
 }
 
 // Reset playback state — shared by both selectors before they swap the score.
 function resetPlayback() {
-  stopPlayback();
+  window.ChantPlayback.stop();
   playNote.textContent = "";
+  playBtn.textContent = PLAY_LABEL;
   playBtn.disabled = false;
 }
 
@@ -516,15 +522,19 @@ if (calendarVersion) {
   });
 }
 
-playBtn.addEventListener("click", play);
+playBtn.addEventListener("click", onPlayClick);
 dateInput.addEventListener("change", () => { if (dateInput.value) show(dateInput.value); });
 todayBtn.addEventListener("click", () => show(todayIso()));
 prevBtn.addEventListener("click", () => step(-1));
 nextBtn.addEventListener("click", () => step(1));
 window.addEventListener("resize", debounce(() => {
   // Re-flow the Exsurge SVG to the new width, keeping the entry currently shown
-  // (which may be a Mass the reader chose from the selector).
-  if (currentEntry) renderChant(currentEntry.gabc);
+  // (which may be a Mass the reader chose from the selector). The re-render throws
+  // away the old SVG, so stop playback and re-wire it to the new one.
+  if (currentEntry) {
+    window.ChantPlayback.stop();
+    renderChant(currentEntry.gabc, prepareAudio);
+  }
 }, 200));
 
 function debounce(fn, ms) {
@@ -532,5 +542,95 @@ function debounce(fn, ms) {
   return function () { clearTimeout(t); t = setTimeout(fn, ms); };
 }
 
+/* ---- Common of Saints (browse by category, not by date) ------------------ */
+
+// window.COMMON_CATEGORIES (data/common-introits.js) is an ordered list of
+// { key, label, group }; group becomes an <optgroup>, in the order categories
+// first appear (each cluster is authored together, so insertion order is
+// display order).
+function populateCommonsSelect() {
+  const categories = window.COMMON_CATEGORIES || [];
+  commonsSelect.innerHTML = "";
+  const groups = [];
+  const byGroup = {};
+  categories.forEach((c) => {
+    if (!byGroup[c.group]) { byGroup[c.group] = []; groups.push(c.group); }
+    byGroup[c.group].push(c);
+  });
+  groups.forEach((groupName) => {
+    const og = document.createElement("optgroup");
+    og.label = groupName;
+    byGroup[groupName].forEach((c) => {
+      const opt = document.createElement("option");
+      opt.value = c.key;
+      opt.textContent = c.label;
+      og.appendChild(opt);
+    });
+    commonsSelect.appendChild(og);
+  });
+}
+
+function isCommonKey(key) {
+  return (window.COMMON_CATEGORIES || []).some((c) => c.key === key);
+}
+
+function showCommon(key) {
+  const parts = partsForCommonKey(key);
+  if (!parts.length) return;
+  resetPlayback();
+  currentParts = parts;
+  massOptions.hidden = true;
+  renderProperTabs(parts, "introit");
+}
+
+function syncCommonUrl(key) {
+  const url = new URL(location.href);
+  url.searchParams.set("common", key);
+  url.searchParams.delete("date");
+  history.replaceState(null, "", url);
+}
+
+// Switches between the date-driven calendar view and the Commons picker.
+// `silent` skips the render (the boot call renders separately once it knows
+// whether to open on a date or a deep-linked Common).
+function selectMode(m, silent) {
+  const mode = m === "commons" ? "commons" : "calendar";
+  if (modeToggle) {
+    Array.from(modeToggle.querySelectorAll("button[data-mode]")).forEach((b) =>
+      b.classList.toggle("active", b.dataset.mode === mode));
+  }
+  dayCard.hidden = mode === "commons";
+  jumpSection.hidden = mode === "commons";
+  if (calendarVersion) calendarVersion.hidden = mode === "commons";
+  commonsPicker.hidden = mode !== "commons";
+  const url = new URL(location.href);
+  if (mode === "commons") url.searchParams.delete("date"); else url.searchParams.delete("common");
+  history.replaceState(null, "", url);
+  if (!silent) {
+    if (mode === "commons") { showCommon(commonsSelect.value); syncCommonUrl(commonsSelect.value); }
+    else show(dateInput.value || currentIso());
+  }
+}
+
+if (modeToggle) {
+  modeToggle.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-mode]");
+    if (btn) selectMode(btn.dataset.mode);
+  });
+}
+commonsSelect.addEventListener("change", () => {
+  showCommon(commonsSelect.value);
+  syncCommonUrl(commonsSelect.value);
+});
+
 selectVersion(readVersion(), true);
-show(currentIso());
+populateCommonsSelect();
+const initialCommon = new URLSearchParams(location.search).get("common");
+if (initialCommon && isCommonKey(initialCommon)) {
+  commonsSelect.value = initialCommon;
+  selectMode("commons", true);
+  showCommon(initialCommon);
+} else {
+  selectMode("calendar", true);
+  show(currentIso());
+}

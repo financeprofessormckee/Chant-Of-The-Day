@@ -82,7 +82,19 @@ Work is underway to expand the app beyond Introits to the other Mass propers:
 A modest number of these additional propers are already present, but coverage is
 still incomplete.
 
-Support for the **1962 calendar** is also in progress.
+Support for the **1962 calendar** is also in progress. It covers the full
+temporal cycle (all Sundays after Epiphany/Pentecost, Septuagesima, Holy Week
+through the Triduum, Eastertide) plus four fixed-date solemnities that share
+identical Graduale text with the modern calendar (Assumption, All Saints, All
+Souls, Immaculate Conception). The rest of the 1962 sanctoral cycle (saints'
+days, octaves, commemorations) and any Common-of-Saints category are
+deliberately out of scope for now — see the "Deferred scope" note in
+`sources/gregobase/new-feasts-worklist.md`.
+
+Both calendars intentionally reuse a single authored chant under more than one
+key/Sunday where the Graduale itself repeats the same text (e.g. modern
+`ot-28`/`ot-30`, 1962 `epiph-3` covering the 3rd–6th Sundays after Epiphany) —
+that's correct liturgical practice, not a missing entry.
 
 ---
 

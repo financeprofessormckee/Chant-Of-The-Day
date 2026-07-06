@@ -12,6 +12,14 @@
  */
 
 window.INTROITS_1962 = {
+  "sorrows": {
+    title: "Stabant iuxta crucem",
+    latin: "Stabant juxta crucem Jesu mater ejus, et soror matris ejus María Cléophae, et Salóme, et María Magdaléne.",
+    translation: "There stood by the cross of Jesus his mother, and his mother's sister, Mary of Cleophas, and Salome, and Mary Magdalene.",
+    mode: "Introit · The Seven Sorrows of the B.V.M. · Mode I",
+    gabc: "(c4) STA(ixdh'!iv)BANT(h) *(,) jux(h)ta(h) cru(gfh)cem(h) Je(ixhg/ih)su(h.) (,) ma(h)ter(jj) e(jk)jus,(h.) (;) et(h) so(fg'h)ror(hg) ma(h)tris(ji) e(j)jus(h.) (,) Ma(jj)rí(j)a(kvJ'Ij') Clé(h)o(h_[oh:h]i_[oh:h]h_[oh:h])phae,(h.) (:) et(h) Sa(f)ló(gh)me,(hghvGFD'ewf.) (;) et(d!fff) Ma(fd)rí(fh)a(g) Ma(g)gda(hfgvFE)lé(d!ewfef)ne.(e[ll:1]d..) (::)",
+    source: "Graduale Romanum (GregoBase #149)"
+  },
   "ad-te-levavi": {
     title: "Ad te levavi",
     latin: "Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi qui te exspéctant, non confundéntur.",
@@ -209,6 +217,14 @@ window.INTROITS_1962 = {
     mode: "Introit · Mode VIII",
     gabc: "(c4) DO(d!f'g~)mi(g)ne,(ghg.___) *(,) ne(cd) lon(fg~)ge(g) fá(g)ci(ghg___)as(g.) (;) au(gh~)xí(h)li(hfhg)um(g) tu(gjjh)um(h) a(h.f!gwhgh) me,(hg..) (:) ad(ghg) de(gd)fen(g)si(hj)ó(ij)nem(j) me(j_i)am(jjj/h_[oh:h]i_[oh:h]h._[oh:h]) (,) á(kl)spi(j_i)ce :(jj) (:) lí(jj)be(j_i)ra(j_h) me(h!jjjhhg.) (,) de(gh) o(h.f!gwhgh)re(h_g) le(h)ó(hjI'H)nis,(ghGF.) (;) et(f) a(gh) cór(h)ni(h.f!gwhgh)bus(h_g) u(ghg)ni(gf)cor(gh~)nu(g)ó(gjj)rum(h_i) (,) hu(gf)mi(g)li(hj)tá(iij)tem(hjjvIH'iw!jvIH) me(gh!ivHG'h)am.(hg..) (::)",
     source: "Graduale Romanum (GregoBase #1171)"
+  },
+  "nos-autem": {
+    title: "Nos autem gloriari",
+    latin: "Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi.",
+    translation: "But it behooves us to glory in the Cross of our Lord Jesus Christ.",
+    mode: "Introit · Mode VII",
+    gabc: "(c3) NOS(ig/ij) au(i_[uh:l]j)tem(i'_[oh:h]) *(,) glo(i)ri(g')á(h)ri(f') o(g)pór(ff)tet(e.) (;) in(e) Cru(h')ce(h) Dó(h')mi(h)ni(f') no(h)stri(gv_[oh:h]FE) Je(fg)su(f) Chri(e.)sti.(e.) (::)",
+    source: "Graduale Romanum (GregoBase #2945)"
   },
   "resurrexi": {
     title: "Resurrexi",
@@ -493,6 +509,39 @@ window.INTROITS_1962 = {
     mode: "Introit · Mode III",
     gabc: "(c4) DI(eef)GNUS(e[ll:1]d) est(gh) A(g/hj~)gnus,(j.) (,) * qui(j) oc(j)cí(h)sus(h!iwj/kjj) est,(ji..) (;) ac(g)cí(gh)pe(h)re(h') vir(h)tú(h_ghvGF'g)tem,(g_[oh:h]f_[oh:h]) (,) et(g) di(hi)vi(iij)ni(h!iwj)tá(ikjj)tem,(ji..) (;) et(g) sa(gh)pi(h)én(jj//jj)ti(ih)am,(h.) (,) et(h) for(h)ti(gf)tú(fg/hg/hi)di(h)nem,(h.) (,) et(gh/ji) ho(jvvIH'iw!jvIH)nó(gh!ivHG'h)rem.(hg..) (:) I(h)psi(gh) gló(hkj)ri(kjjh)a(h.) (,) et(h) im(g)pé(gh/i.h!iwj)ri(gh_G'_FE'f)um(fe..) (;) in(ef) saé(e/f'h)cu(h)la(h!iwj) sae(g)cu(g_[oh:h]e)ló(fgF'E)rum.(e.) (::)",
     source: "Graduale Romanum (GregoBase #128)"
+  },
+  "assumption": {
+    title: "Signum magnum",
+    latin: "Signum magnum appáruit in caelo : múlier amícta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.",
+    translation: "A great sign appeared in heaven: a woman clothed with the sun, and the moon under her feet, and on her head a crown of twelve stars.",
+    mode: "Introit · Mode VII",
+    gabc: "(c3) SI(ef)GNUM(f) ma(fdfe)gnum(e.) *(,) ap(fh)pá(hhh)ru(h)it(hji) in(ihhf!gwh) cae(efe___)lo :(e.) (:) mú(ef/hgh)li(h)er(h') a(h)mí(h)cta(fh) so(h)le,(hg/hiffe.) (;) et(e) lu(ef/hg)na(h') sub(g) pé(gh'i)di(i)bus(ijHF'gwh) e(hi)jus,(h.) (:) et(hg) in(h) cá(hji)pi(h)te(hhh) e(e!g'hffd~)jus(d.) (;) co(e)ró(ef)na(e') stel(e)lá(e)rum(e.f!gwh!iv'1) du(ihhf!gwh')ó(e)de(efe___)cim.(e.) (::)",
+    source: "Graduale Romanum (GregoBase #23)"
+  },
+  "all-saints": {
+    title: "Gaudeamus omnes",
+    latin: "Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre Sanctórum ómnium : de quorum solemnitáte gaudent Angeli, et colláudant Fílium Dei.",
+    translation: "Let us all rejoice in the Lord, celebrating a feast day in honor of all the Saints: at whose solemnity the Angels rejoice, and give praise to the Son of God.",
+    mode: "Introit · Mode I",
+    gabc: "(c4) GAU(c)DE(d)Á(ixdh'!iv)MUS(h.) *(,) o(hg~)mnes(hg) in(fg) Dó(gjh)mi(ixh.g!hwihi)no,(ih..) (;) di(h)em(fg~) fe(g)stum(gff) ce(dg)le(gff)brán(dg~)tes(gff) (,) sub(f) ho(g)nó(g./hjh)re(ghg.) San(f)ctó(h)rum(gjj) ó(h)mni(h_[oh:h]i_[oh:h]h_[oh:h])um :(h.) (:) de(fg) quo(fg)rum(f) sol(f)e(g)mni(g)tá(g./hjh)te(ghg.) (,) gau(fg)dent(f) An(fg/hgh)ge(gvFE'/!fwgfg)li,(gf..) (;) et(f) col(g)láu(g./hjH~G~)dant(h_g) (,) Fí(fge)li(f)um(fg/hfgvFE) De(d!ewfef)i.(e[ll:1]d..) (::)",
+    source: "Graduale Romanum (GregoBase #752)"
+  },
+  "requiem": {
+    title: "Requiem aeternam",
+    latin: "Réquiem aetérnam dona eis, Dómine: et lux perpétua lúceat eis.",
+    translation: "Eternal rest grant unto them, O Lord: and let perpetual light shine upon them.",
+    mode: "Introit · Mode VI",
+    gabc: "(c4) RE(ffg)qui(f)em(f) *() ae(fg'h)tér(hggfg)nam(gf..) (;) do(fg'h)na(hg) e(h)is(ixhjHG'hw!ivHG') Dó(f)mi(fg!hvGF'g)ne :(gf..) (:) et(hg~) lux(hvGF') per(h)pé(gh)tu(gf)a(f.) (;) lú(hg)ce(h)at(ixhjHG'hw!ivHG) e(fg!hvGF'g)is.(gf..) (::)",
+    abc: "F F G F F F G a a G G F G G F | F G a a G a a c a G a _b a G F F G a G F G G F | a G a G F a G a G F F | a G a a c a G a _b a G F G a G F G G F |]",
+    source: "Graduale Romanum (GregoBase #766)"
+  },
+  "immaculate-conception": {
+    title: "Gaudens gaudebo",
+    latin: "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo : quia índuit me vestiméntis salútis, et induménto justítiae circúmdedit me, quasi sponsam ornátam monílibus suis.",
+    translation: "I will greatly rejoice in the Lord, and my soul shall be joyful in my God: for he has clothed me with the garments of salvation, and with the robe of justice he has covered me, as a bride adorned with her jewels.",
+    mode: "Introit · Mode III",
+    gabc: "(c4) GAU(eef)DENS(dge) gau(eg~)dé(ghg/hj)bo(j.) *(,) in(hj~) Dó(jjjh)mi(hg)no(ghgg/efe.) (;) et(dfe) ex(f)sul(f)tá(ef'h)bit(h) á(h!jj)ni(h)ma(h) me(h.f!gwhgh)a(h_g) (,) in(f) De(f)o(df) me(egff)o :(fe..) (:) qui(ff)a(dge) ín(gh)du(h)it(hkJI'j) me(j_i) (,) ve(j)sti(j)mén(j_i/j_i/jlk)tis(k_[hl:1]i) sa(i)lú(ikj)tis,(iki/jhhg.) (:) et(g) in(h)du(g)mén(h!iwj)to(ih) ju(h)stí(h!jjj)ti(hg)ae(g.) (,) cir(gih)cúm(gv.ef'h)de(h)dit(h!iwjg~) me,(hg..) (;) qua(g)si(h) spon(gef)sam(e_[oh:h][ll:1]d) or(gh)ná(g.h!iwjij)tam(j_h) (,) mo(hk)ní(j.h!iwj)li(g)bus(g_[oh:h]e) su(fgF'E)is.(e.) (::)",
+    source: "Graduale Romanum (GregoBase #622)"
   },
 };
 

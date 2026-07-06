@@ -27,6 +27,14 @@
  */
 
 window.INTROITS = {
+  "sorrows": {
+    title: "Stabant iuxta crucem",
+    latin: "Stabant juxta crucem Jesu mater ejus, et soror matris ejus María Cléophae, et Salóme, et María Magdaléne.",
+    translation: "There stood by the cross of Jesus his mother, and his mother's sister, Mary of Cleophas, and Salome, and Mary Magdalene.",
+    mode: "Introit · Our Lady of Sorrows · Mode I",
+    gabc: "(c4) STA(ixdh'!iv)BANT(h) *(,) jux(h)ta(h) cru(gfh)cem(h) Je(ixhg/ih)su(h.) (,) ma(h)ter(jj) e(jk)jus,(h.) (;) et(h) so(fg'h)ror(hg) ma(h)tris(ji) e(j)jus(h.) (,) Ma(jj)rí(j)a(kvJ'Ij') Clé(h)o(h_[oh:h]i_[oh:h]h_[oh:h])phae,(h.) (:) et(h) Sa(f)ló(gh)me,(hghvGFD'ewf.) (;) et(d!fff) Ma(fd)rí(fh)a(g) Ma(g)gda(hfgvFE)lé(d!ewfef)ne.(e[ll:1]d..) (::)",
+    source: "Graduale Romanum (GregoBase #149)"
+  },
   /* ===================================================================
    * New fixed-date sanctoral feasts (not previously in the calendar):
    * Candlemas, the Visitation, the Nativity of the BVM, the Archangels,
@@ -765,6 +773,14 @@ window.INTROITS = {
     mode: "Introit · The Transfiguration of the Lord · Mode III",
     gabc: "(c4) TI(gj)bi(j) di(j)xit(jjj//jv.jjj) ()* cor(hj~) me(jvIH)um,(h.) (;) quae(gh)sí(fg)vi(g) vul(g!jjh/jjj)tum(gh) tu(hkj)um,(jkjj'j) (:) vul(gj~)tum(j) tu(jvIH)um(h.) Dó(h)mi(g)ne(h) re(hi)quí(gh)ram :(gh/igh.) (;) ne(g) a(i)vér(gh~)tas(h) fá(h)ci(g)em(ef) tu(g)am(g.) a(ghG'FgvFE) me.(e.) (::)",
     source: "Graduale Romanum (GregoBase #751)"
+  },
+  "lawrence": {
+    title: "Dispersit, dedit pauperibus",
+    latin: "Dispérsit, dedit paupéribus : justítia ejus manet in saéculum saéculi.",
+    translation: "He has distributed, he has given to the poor: his justice remains for ever and ever.",
+    mode: "Introit · St. Lawrence, Deacon and Martyr · Mode VIII",
+    gabc: "(c3) DIs(e)pér(eh)sit,(fe) *(,) de(f)dit(e') pau(d)pé(ef)ri(f)bus :(e.) (;) ju(gh)stí(i)ti(h)a(g_[uh:l]h) e(i_[uh:l]j)jus(i.) (,) ma(hih)net(hgh) in(f) saé(fh)cu(h)lum(g) saé(e)cu(e)li.(e.) (::)",
+    source: "Graduale Romanum (GregoBase #2419)"
   },
   "assumption-vigil": {
     title: "Vultum tuum",

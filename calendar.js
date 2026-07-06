@@ -146,11 +146,13 @@
     "6-28": { key: "peter-paul-vigil", title: "Sts. Peter and Paul, Apostles (Vigil)", rank: "Feast" },
     "6-29": { key: "peter-paul", title: "Sts. Peter and Paul, Apostles", rank: "Solemnity", color: "red" },
     "8-6":  { key: "transfiguration", title: "The Transfiguration of the Lord", rank: "Feast" },
+    "8-10": { key: "lawrence", title: "St. Lawrence, Deacon and Martyr", rank: "Feast", color: "red" },
     "8-14": { key: "assumption-vigil", title: "The Assumption of the Blessed Virgin Mary (Vigil)", rank: "Feast" },
     "8-15": { key: "assumption", title: "The Assumption of the Blessed Virgin Mary", rank: "Solemnity",
       options: [{ label: "Option 1", key: "assumption" }, { label: "Option 2", key: "assumption-opt2" }] },
     "9-8":  { key: "nativity-mary", title: "The Nativity of the Blessed Virgin Mary", rank: "Feast" },
     "9-14": { key: "triumph-cross", title: "The Exaltation of the Holy Cross", rank: "Feast", color: "red" },
+    "9-15": { key: "sorrows", title: "Our Lady of Sorrows", rank: "Memorial", color: "white" },
     "9-29": { key: "archangels", title: "Sts. Michael, Gabriel and Raphael, Archangels", rank: "Feast" },
     "11-1": { key: "all-saints", title: "All Saints", rank: "Solemnity" },
     "11-9": { key: "dedication-lateran", title: "The Dedication of the Lateran Basilica", rank: "Feast" },
@@ -162,6 +164,29 @@
   };
   function fixedFeast(date) {
     return SANCTORAL[(date.getUTCMonth() + 1) + "-" + date.getUTCDate()] || null;
+  }
+
+  // "Lesser" saints — well-known optional memorials with no Mass propers of
+  // their own, so `key` points straight at a Common-of-Saints category (see
+  // data/common-introits.js / data/common-propers.js) instead of a per-saint
+  // proper key. `feast()` doesn't care which table `key` resolves against —
+  // app.js's getPart() falls back to the Commons tables when a key isn't a
+  // real dayKey. Unlike SANCTORAL, these are gated on `!isSun` everywhere
+  // they're checked (including Ordinary Time): a real Optional Memorial never
+  // outranks a Sunday, unlike the higher-rank fixed feasts in SANCTORAL.
+  var LESSER = {
+    "1-28": { key: "common-confessor-doctor", title: "St. Thomas Aquinas, Priest and Doctor of the Church", rank: "Optional Memorial" },
+    "2-14": { key: "common-confessor-bishop", title: "Sts. Cyril and Methodius, Bishops", rank: "Optional Memorial" },
+    "4-29": { key: "common-virgin", title: "St. Catherine of Siena, Virgin and Doctor of the Church", rank: "Optional Memorial" },
+    "6-13": { key: "common-confessor-doctor", title: "St. Anthony of Padua, Priest and Doctor of the Church", rank: "Optional Memorial" },
+    "9-13": { key: "common-confessor-doctor", title: "St. John Chrysostom, Bishop and Doctor of the Church", rank: "Optional Memorial" },
+    "10-1": { key: "common-virgin", title: "St. Thérèse of the Child Jesus, Virgin and Doctor of the Church", rank: "Optional Memorial" },
+    "10-15": { key: "common-virgin", title: "St. Teresa of Jesus (Ávila), Virgin and Doctor of the Church", rank: "Optional Memorial" },
+    "11-11": { key: "common-confessor-bishop", title: "St. Martin of Tours, Bishop", rank: "Optional Memorial" },
+    "12-7": { key: "common-confessor-doctor", title: "St. Ambrose, Bishop and Doctor of the Church", rank: "Optional Memorial" }
+  };
+  function lesserFeast(date) {
+    return LESSER[(date.getUTCMonth() + 1) + "-" + date.getUTCDate()] || null;
   }
 
   function resolve(input) {
@@ -233,7 +258,10 @@
       var sundayKey = key; // every Advent Sunday now has an authored introit
       // A fixed feast (e.g. the Immaculate Conception, Dec 8) displaces an Advent
       // ferial day, but an Advent Sunday outranks it.
-      if (!isSun) { var af = fixedFeast(date); if (af) return feast(af, "advent"); }
+      if (!isSun) {
+        var af = fixedFeast(date); if (af) return feast(af, "advent");
+        var alf = lesserFeast(date); if (alf) return feast(alf, "advent");
+      }
       return out({ key: isSun ? sundayKey : "advent-feria", title: ferialTitle(aw, "of Advent", date),
         season: "advent", color: color, dayKey: isSun ? sundayKey : null,
         sundayKey: sundayKey, seasonKey: "season-advent" });
@@ -279,7 +307,10 @@
       }
       // Fixed solemnities (Joseph Mar 19, Annunciation Mar 25) displace a Lenten
       // weekday, but a Sunday of Lent outranks them.
-      if (!isSun) { var lfe = fixedFeast(date); if (lfe) return feast(lfe, "lent"); }
+      if (!isSun) {
+        var lfe = fixedFeast(date); if (lfe) return feast(lfe, "lent");
+        var llf = lesserFeast(date); if (llf) return feast(llf, "lent");
+      }
       if (date < addDays(A.ashWednesday, 4)) { // Ash Wed .. Sat before Lent I
         return out({ key: "lent-feria", title: "after Ash Wednesday", season: "lent",
           color: "violet", seasonKey: "season-lent" });
@@ -324,7 +355,10 @@
           cycle: lectionaryYear(date), seasonKey: "season-easter" });
       }
       // The Annunciation (Mar 25) can land in Eastertide on a weekday.
-      if (!isSun) { var efe = fixedFeast(date); if (efe) return feast(efe, "easter"); }
+      if (!isSun) {
+        var efe = fixedFeast(date); if (efe) return feast(efe, "easter");
+        var elf = lesserFeast(date); if (elf) return feast(elf, "easter");
+      }
       var ew = 1 + daysBetween(A.easter, sundayOnOrBefore(date)) / 7;
       // ew 1 is Easter week (octave -> Resurrexi); ew 2..7 are the Eastertide Sundays.
       var easterKey = ew === 1 ? "resurrexi" : "easter-" + ew;
@@ -359,6 +393,9 @@
     // Sunday they fall on, as well as every OT weekday.
     var otFeast = fixedFeast(date);
     if (otFeast) return feast(otFeast, "ordinary");
+    // Unlike the fixed feasts above, a real Optional Memorial never outranks an
+    // Ordinary-Time Sunday — gate this one on `!isSun`.
+    if (!isSun) { var otLesser = lesserFeast(date); if (otLesser) return feast(otLesser, "ordinary"); }
 
     var beforeLent = date < A.ashWednesday;
     var govSunday = sundayOnOrBefore(date);

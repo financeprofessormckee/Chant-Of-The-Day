@@ -18,9 +18,12 @@
  *     seasonLabel, so its pill is unchanged.
  *
  * V1 scope (mirrors the modern resolver's documented simplifications):
- *   - Temporal cycle Sundays + the marquee movable feasts only. The 1962 *sanctoral*
- *     (saints' days), octaves, commemorations, and impeded-feast transfers are out of
- *     scope — intentional gaps, not bugs.
+ *   - Temporal cycle Sundays + the marquee movable feasts, plus four fixed-date
+ *     solemnities (Assumption, All Saints, All Souls, Immaculate Conception) that
+ *     the modern calendar already authors with identical Graduale chant text — see
+ *     the FIXED map below. The rest of the 1962 *sanctoral* (saints' days), octaves,
+ *     commemorations, and impeded-feast transfers are out of scope — intentional
+ *     gaps, not bugs.
  *   - Epiphany fixed to Jan 6; Ascension on Thursday; Corpus Christi on its Thursday;
  *     Christ the King on the last Sunday of October (the 1962 date).
  *
@@ -61,6 +64,24 @@
     var month = Math.floor((h + l - 7 * mm + 114) / 31);
     var day = ((h + l - 7 * mm + 114) % 31) + 1;
     return ymd(year, month, day);
+  }
+
+  // Fixed-date solemnities kept in this V1 scope despite being sanctoral (not
+  // temporal-cycle): the four the modern calendar already authors and that share
+  // identical Graduale chant text across both Missals. Mirrors calendar.js's
+  // SANCTORAL mechanism, but deliberately narrow — the rest of the 1962 sanctoral
+  // cycle stays out of scope (see file header).
+  var FIXED = {
+    "8-15": { key: "assumption", title: "The Assumption of the Blessed Virgin Mary", rank: "Solemnity" },
+    "9-15": { key: "sorrows", title: "The Seven Sorrows of the Blessed Virgin Mary", rank: "Feast", color: "white" },
+    "11-1": { key: "all-saints", title: "All Saints", rank: "Solemnity" },
+    "11-2": { key: "requiem", title: "The Commemoration of All the Faithful Departed (All Souls)",
+      rank: "Feast", color: "violet" },
+    "12-8": { key: "immaculate-conception", title: "The Immaculate Conception of the Blessed Virgin Mary",
+      rank: "Solemnity" }
+  };
+  function fixedFeast(date) {
+    return FIXED[(date.getUTCMonth() + 1) + "-" + date.getUTCDate()] || null;
   }
 
   var ORDINAL = [
@@ -166,6 +187,12 @@
       if (aw === 2) akey = "populus-sion";
       else if (aw === 3) { akey = "gaudete"; acolor = "rose"; }
       else if (aw === 4) akey = "rorate";
+      // The Immaculate Conception (Dec 8) displaces an Advent weekday, but an
+      // Advent Sunday outranks it (mirrors calendar.js's Advent/sanctoral rule).
+      if (!isSun) { var adf = fixedFeast(date); if (adf) {
+        return out({ title: adf.title, season: "advent", seasonLabel: "Advent",
+          color: adf.color || "white", rank: adf.rank, dayKey: adf.key, seasonKey: "season-advent" });
+      } }
       return out({ title: ferial(aw, "of Advent", date, isSun), season: "advent", seasonLabel: "Advent",
         color: acolor, dayKey: isSun ? akey : null, sundayKey: akey, seasonKey: "season-advent" });
     }
@@ -217,6 +244,13 @@
       if (sameDay(date, A.ashWednesday)) {
         return out({ title: "Ash Wednesday", season: "lent", seasonLabel: "Lent", color: "violet",
           rank: "Feria", dayKey: "misereris", seasonKey: "season-lent" });
+      }
+      if (sameDay(date, addDays(A.easterSun, -3))) { // Holy Thursday
+        // The evening Mass of the Lord's Supper opens the Sacred Triduum, so it is
+        // no longer Lent proper (mirrors calendar.js's Holy Thursday handling).
+        return out({ title: "Holy Thursday of the Lord's Supper", season: "easter",
+          seasonLabel: "Passiontide", color: "white", rank: "Solemnity",
+          dayKey: "nos-autem", seasonKey: "season-lent" });
       }
       if (date < A.lentOne) { // Thu–Sat after Ash Wednesday
         return out({ title: WEEKDAY[dow(date)] + " after Ash Wednesday", season: "lent",
@@ -287,6 +321,14 @@
       return out({ title: "The Kingship of Our Lord Jesus Christ (Christ the King)", season: "ordinary",
         seasonLabel: "Time after Pentecost", color: "white", rank: "Solemnity",
         dayKey: "christ-king", seasonKey: "season-ordinary" });
+    }
+    // The Assumption, All Saints, and All Souls outrank the green Sunday after
+    // Pentecost they fall on, as well as every weekday (mirrors calendar.js's
+    // Ordinary-Time sanctoral-precedence rule).
+    var pfe = fixedFeast(date);
+    if (pfe) {
+      return out({ title: pfe.title, season: "ordinary", seasonLabel: "Time after Pentecost",
+        color: pfe.color || "white", rank: pfe.rank, dayKey: pfe.key, seasonKey: "season-ordinary" });
     }
 
     // Numbered Sundays after Pentecost (and resumed Sundays after Epiphany).

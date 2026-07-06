@@ -61,7 +61,7 @@ body {
 .subtitle { margin: 6px 0 0; opacity: 0.82; font-style: italic; }
 
 /* ---- Calendar version toggle (in the masthead, on the dark page) ---- */
-.calendar-version {
+.calendar-version:not([hidden]) {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -112,6 +112,20 @@ body {
 }
 .fallback-note { margin: 8px 0 0; font-size: 0.84rem; font-style: italic; opacity: 0.75; }
 
+/* ---- Common of Saints picker (reuses .day-card panel styling) ---- */
+.commons-picker:not([hidden]) { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.commons-label { margin: 8px 0 0; font-size: 0.85rem; opacity: 0.82; }
+.commons-select {
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(214, 173, 96, 0.4);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  max-width: 100%;
+}
+
 /* ---- Score card (cream parchment panel for the notation) ---- */
 .score-card {
   width: 100%;
@@ -131,6 +145,26 @@ body {
 }
 /* Exsurge renders dark-ink SVG square notes; keep it fluid on narrow screens. */
 .score svg { max-width: 100%; height: auto; }
+
+/* Follow-along highlight: playback.js adds .chant-active to the notation group that
+   is sounding. Each Exsurge notation group holds both the note glyph(s) and the
+   lyric <text>, so tinting the group lights the note and its syllable together in
+   the season's accent colour, with a soft glow. A short transition makes the
+   highlight sweep from note to note rather than blink. */
+.score .ChantNotationElement.chant-active use,
+.score .ChantNotationElement.chant-active path,
+.score .ChantNotationElement.chant-active rect,
+.score .ChantNotationElement.chant-active text {
+  fill: var(--accent);
+}
+.score .ChantNotationElement.chant-active {
+  filter: drop-shadow(0 0 2px var(--accent));
+}
+.score .ChantNotationElement use,
+.score .ChantNotationElement text,
+.score .ChantNotationElement rect {
+  transition: fill 90ms linear;
+}
 
 .score-tools {
   display: flex;
@@ -225,7 +259,7 @@ button.ghost:disabled { opacity: 0.5; cursor: default; }
 }
 
 /* ---- Jump-to-date ---- */
-.jump {
+.jump:not([hidden]) {
   display: flex;
   align-items: center;
   gap: 10px;

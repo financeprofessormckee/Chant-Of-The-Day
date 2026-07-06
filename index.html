@@ -17,6 +17,11 @@
         <button type="button" data-version="modern" class="active">Modern</button>
         <button type="button" data-version="1962">1962</button>
       </div>
+      <div id="mode-toggle" class="calendar-version" role="group" aria-label="Choose a browsing mode">
+        <span class="calendar-version-label">Browse:</span>
+        <button type="button" data-mode="calendar" class="active">Today</button>
+        <button type="button" data-mode="commons">Common of Saints</button>
+      </div>
     </header>
 
     <section class="day-card" id="day-card" aria-label="Today in the liturgical calendar">
@@ -24,6 +29,12 @@
       <p class="day-date" id="day-date"></p>
       <h2 class="day-title" id="day-title"></h2>
       <p class="fallback-note" id="fallback-note" hidden></p>
+    </section>
+
+    <section class="day-card commons-picker" id="commons-picker" aria-label="Browse the Common of Saints" hidden>
+      <span class="season-pill">Common of Saints</span>
+      <label class="commons-label" for="commons-select">Choose a Common:</label>
+      <select id="commons-select" class="commons-select"></select>
     </section>
 
     <section class="score-card">
@@ -42,7 +53,7 @@
       <p class="introit-mode" id="introit-mode"></p>
     </section>
 
-    <section class="jump" aria-label="Look up another day">
+    <section class="jump" id="jump-section" aria-label="Look up another day">
       <button type="button" id="prev-btn" class="ghost" aria-label="Previous day">◀ Prev</button>
       <label for="date-input">See another day</label>
       <input type="date" id="date-input" />
@@ -52,22 +63,20 @@
 
     <footer class="footnotes">
       <p class="source-note" id="source-note"></p>
-      <p class="draft-note">The notation is a first-pass draft &mdash; flag any wrong notes and they're a quick fix. Synthesized organ playback; melodies are public domain.</p>
+      <p class="draft-note">The notation is a first-pass draft &mdash; flag any wrong notes and they're a quick fix. Synthesized playback highlights each note as it sounds; melodies are public domain.</p>
     </footer>
   </main>
 
-  <!-- abcjs holds a hidden render used only to drive the synth -->
-  <div id="audio-staff" hidden aria-hidden="true"></div>
-
-  <script src="vendor/abcjs-basic-min.js"></script>
   <script src="vendor/exsurge.min.js"></script>
   <script src="calendar.js"></script>
   <script src="calendar-1962.js"></script>
-  <script src="gabc-to-abc.js"></script>
   <script src="data/introits.js"></script>
   <script src="data/introits-1962.js"></script>
   <script src="data/propers.js"></script>
   <script src="data/propers-1962.js"></script>
+  <script src="data/common-introits.js"></script>
+  <script src="data/common-propers.js"></script>
+  <script src="playback.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
