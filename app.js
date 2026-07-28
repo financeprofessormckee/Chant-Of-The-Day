@@ -16,13 +16,31 @@ const scoreEl = document.getElementById("score");
 const seasonPill = document.getElementById("season-pill");
 const dayDate = document.getElementById("day-date");
 const dayTitle = document.getElementById("day-title");
+const dayLink = document.getElementById("day-link");
 const fallbackNote = document.getElementById("fallback-note");
 const latinEl = document.getElementById("introit-latin");
 const translationEl = document.getElementById("introit-translation");
+const sequenceStanzas = document.getElementById("sequence-stanzas");
+const referenceEl = document.getElementById("introit-reference");
 const modeEl = document.getElementById("introit-mode");
 const sourceNote = document.getElementById("source-note");
 const playBtn = document.getElementById("play-btn");
 const playNote = document.getElementById("play-note");
+const tempoSlider = document.getElementById("tempo-slider");
+const tempoValue = document.getElementById("tempo-value");
+const pitchSlider = document.getElementById("pitch-slider");
+const pitchValue = document.getElementById("pitch-value");
+const volumeSlider = document.getElementById("volume-slider");
+const volumeValue = document.getElementById("volume-value");
+const verseToggle = document.getElementById("verse-toggle");
+const verseBlock = document.getElementById("verse-block");
+const verseLatinEl = document.getElementById("verse-latin");
+const verseTranslationEl = document.getElementById("verse-translation");
+const gloriaPatriLabel = document.getElementById("gloria-patri-label");
+const gloriaPatriLatinEl = document.getElementById("gloria-patri-latin");
+const gloriaPatriTranslationEl = document.getElementById("gloria-patri-translation");
+const shareBtn = document.getElementById("share-btn");
+const shareNote = document.getElementById("share-note");
 const dateInput = document.getElementById("date-input");
 const todayBtn = document.getElementById("today-btn");
 const prevBtn = document.getElementById("prev-btn");
@@ -35,12 +53,32 @@ const dayCard = document.getElementById("day-card");
 const jumpSection = document.getElementById("jump-section");
 const commonsPicker = document.getElementById("commons-picker");
 const commonsSelect = document.getElementById("commons-select");
+const votivePicker = document.getElementById("votive-picker");
+const votiveSelect = document.getElementById("votive-select");
+const printView = document.getElementById("print-view");
+const printSheet = document.getElementById("print-sheet");
+const printBtn = document.getElementById("print-btn");
+const orationsSection = document.getElementById("orations-section");
+const orationsNote = document.getElementById("orations-note");
+const collectLatin = document.getElementById("collect-latin");
+const collectTranslation = document.getElementById("collect-translation");
+const secretLatin = document.getElementById("secret-latin");
+const secretTranslation = document.getElementById("secret-translation");
+const postcommunionLatin = document.getElementById("postcommunion-latin");
+const postcommunionTranslation = document.getElementById("postcommunion-translation");
+const aboutChantSection = document.getElementById("about-chant-section");
+const aboutChantMode = document.getElementById("about-chant-mode");
+const aboutChantBlurb = document.getElementById("about-chant-blurb");
+const aboutChantSourceEl = document.getElementById("about-chant-source");
 
-// The active introit/propers tables and the calendar resolver. selectVersion()
-// repoints these at the modern or the 1962 dataset; everything below reads them
-// indirectly so a version switch needs no other changes.
+// The active introit/propers/orations tables and the calendar resolver.
+// selectVersion() repoints these at the modern or the 1962 dataset; everything
+// below reads them indirectly so a version switch needs no other changes.
 let INTROITS = window.INTROITS || {};
 let PROPERS = window.PROPERS || {};
+// Orations (Collect/Secret/Postcommunion) are 1962-only (Phase 7) — modern
+// always resolves to an empty table, so the panel simply never shows there.
+let ORATIONS = {};
 
 // The sung propers, in the order the tabs present them. "alleluia" and "tract"
 // occupy the same slot (Lent carries the Tract); only the one authored shows.
@@ -74,22 +112,40 @@ function prettyDate(iso) {
 // The introit lives in INTROITS; every other sung part lives in PROPERS, nested
 // one level under the feast key. getPart unifies the two so the fallback walk
 // below is identical for all parts.
-function getPart(key, part) {
-  if (part === "introit") return INTROITS[key] || (window.COMMON_INTROITS && window.COMMON_INTROITS[key]) || null;
+// `commonKey`, when given and distinct from `key`, is a third fallback tier
+// below the day's own key and that key's same-key Common lookup — the
+// designated Common backstop for a day that authors only some of its parts
+// under its own key (see pickPart's `day.commonKey` handling below).
+function getPart(key, part, commonKey) {
+  if (part === "introit") {
+    return INTROITS[key] || (window.COMMON_INTROITS && window.COMMON_INTROITS[key]) ||
+      (commonKey && commonKey !== key && window.COMMON_INTROITS && window.COMMON_INTROITS[commonKey]) || null;
+  }
   return (PROPERS[key] && PROPERS[key][part]) ||
-    (window.COMMON_PROPERS && window.COMMON_PROPERS[key] && window.COMMON_PROPERS[key][part]) || null;
+    (window.COMMON_PROPERS && window.COMMON_PROPERS[key] && window.COMMON_PROPERS[key][part]) ||
+    (commonKey && commonKey !== key && window.COMMON_PROPERS && window.COMMON_PROPERS[commonKey] &&
+      window.COMMON_PROPERS[commonKey][part]) || null;
 }
 
 // Resolve a base feast key to an authored `part`, preferring a 3-year-cycle
-// variant (key + "-a/-b/-c") when the day carries a cycle letter and one exists.
+// variant (key + "-a/-b/-c") when the day carries a cycle letter and one exists,
+// then a "-paschal" variant when `paschal` is set and one is authored (Commons
+// of Saints and self-contained sanctoral propers alike — e.g. a 1962 saint whose
+// feast can fall within Eastertide in some years, like St. Boniface, Jun 5).
 // Ordinary-Time Sundays whose chants change by lectionary year are keyed this way.
-function resolveKeyFor(baseKey, cycle, part) {
+// Nothing outside Commons/sanctoral propers authors a "-paschal" key, so the two
+// suffixes can never compete for the same key.
+function resolveKeyFor(baseKey, cycle, part, paschal, commonKey) {
   if (!baseKey) return null;
   if (cycle) {
     const k = baseKey + "-" + cycle.toLowerCase();
-    if (getPart(k, part)) return k;
+    if (getPart(k, part, commonKey)) return k;
   }
-  return getPart(baseKey, part) ? baseKey : null;
+  if (paschal) {
+    const pk = baseKey + "-paschal";
+    if (getPart(pk, part, commonKey)) return pk;
+  }
+  return getPart(baseKey, part, commonKey) ? baseKey : null;
 }
 
 // Try the day's own proper, then the Sunday that governs this week, then walk
@@ -97,9 +153,28 @@ function resolveKeyFor(baseKey, cycle, part) {
 // season anchor. Same logic for every part — a ferial day inherits the governing
 // Sunday's offertory/communion just as it inherits the introit.
 function pickPart(day, part) {
-  const dk = resolveKeyFor(day.dayKey, day.cycle, part);
-  if (dk) return { entry: getPart(dk, part), from: null };
-  const sk = resolveKeyFor(day.sundayKey, day.cycle, part);
+  // Paschal time sings a second Alleluia in place of the Gradual for EVERY
+  // Mass, including a Common-of-Saints Mass or a self-contained sanctoral
+  // proper — not just the temporal Sundays (which already model this by simply
+  // not authoring a "gradual" key). A day's own "gradual" entry stays defined
+  // year-round, so it must be suppressed explicitly here rather than left to
+  // fall through pickPart's usual walk-back, which would otherwise wander into
+  // a neighboring day (even Easter Sunday's own Gradual) that has nothing to do
+  // with this feast.
+  if (part === "gradual" && day.season === "easter" && day.dayKey &&
+      getPart((day.commonKey || day.dayKey) + "-paschal", "alleluia")) {
+    return { entry: null, from: null };
+  }
+  const paschal = day.season === "easter";
+  const dk = resolveKeyFor(day.dayKey, day.cycle, part, paschal, day.commonKey);
+  if (dk) return { entry: getPart(dk, part, day.commonKey), from: null };
+  // A day with an explicit Common backstop is a self-contained Mass: if the
+  // Common itself doesn't carry this part, stop here rather than falling
+  // through to the ferial/Sunday walk-back below, which would otherwise
+  // borrow a neighboring day's unrelated text for a part this Mass's own
+  // formulary genuinely lacks.
+  if (day.commonKey) return { entry: null, from: null };
+  const sk = resolveKeyFor(day.sundayKey, day.cycle, part, paschal);
   if (sk) return { entry: getPart(sk, part), from: day.isSunday ? null : describeSunday(day) };
   const base = fromIso(day.date);
   for (let i = 1; i <= 14; i++) {
@@ -133,7 +208,10 @@ function partsForDay(day) {
   // Tract (not a neighbouring feast's Alleluia) and a feast vigil from showing
   // the governing Sunday's Alleluia. Gradual/Offertory/Communion keep the
   // ferial fallback, so ferial days still inherit the governing Sunday's chants.
-  const selfContained = PART_ORDER.some(function (p) {
+  // A day with an explicit `commonKey` (a partial proper backed by a
+  // designated Common — see pickPart) is always self-contained, even before
+  // checking what its own dayKey authors on its own.
+  const selfContained = !!day.commonKey || PART_ORDER.some(function (p) {
     return p !== "introit" && resolveKeyFor(day.dayKey, day.cycle, p);
   });
   const out = [];
@@ -147,8 +225,20 @@ function partsForDay(day) {
       return;
     }
     if (selfContained && (part === "alleluia" || part === "tract")) {
-      const k = resolveKeyFor(day.dayKey, day.cycle, part);
-      if (k) out.push({ part: part, label: partLabel(part), entry: getPart(k, part), from: null });
+      // Commons of Saints are always self-contained (they author every part
+      // at their own dayKey), so this is the only place a Common's Alleluia
+      // is ever resolved — the paschal preference has to apply here too, not
+      // just in pickPart's fallback path below. The "-paschal" sibling always
+      // lives on the *Common's* own key (`day.commonKey || day.dayKey` — for
+      // an existing pure Common day with no `commonKey`, that's just
+      // `day.dayKey` itself, same as before), which is why it needs its own
+      // resolveKeyFor call rather than reusing the day-key-with-commonKey-
+      // fallback call below (that one only ever appends "-paschal" to
+      // `day.dayKey`, never to `day.commonKey`).
+      const cbase = day.commonKey || day.dayKey;
+      const paschalKey = day.season === "easter" ? resolveKeyFor(cbase, day.cycle, part, true) : null;
+      const k = paschalKey || resolveKeyFor(day.dayKey, day.cycle, part, false, day.commonKey);
+      if (k) out.push({ part: part, label: partLabel(part), entry: getPart(k, part, day.commonKey), from: null });
       return;
     }
     const picked = pickPart(day, part);
@@ -186,6 +276,32 @@ function partsForCommonKey(key) {
   return out;
 }
 
+// Resolve the day's Collect/Secret/Postcommunion set (1962 only). Unlike
+// pickPart, this is a single bundle per Mass — no per-part variation, no
+// 3-year lectionary cycle, no Paschal-Alleluia-style variant — so one
+// existence check per candidate key replaces pickPart's per-part resolveKeyFor
+// walk. Mirrors pickPart's dayKey -> sundayKey -> 14-day-within-season walk.
+// `orationsKey` is an optional override for days whose spoken propers differ
+// from the sung-propers dayKey they share with another day (e.g. the
+// Circumcision shares Christmas Day's dayKey "puer-natus" for its identical
+// sung Introit/Gradual/Offertory/Communion, but has its own distinct Collect).
+function pickOrations(day) {
+  const ownKey = day.orationsKey || day.dayKey;
+  if (ownKey && ORATIONS[ownKey]) return { entry: ORATIONS[ownKey], from: null };
+  if (day.sundayKey && ORATIONS[day.sundayKey]) {
+    return { entry: ORATIONS[day.sundayKey], from: day.isSunday ? null : describeSunday(day) };
+  }
+  const base = fromIso(day.date);
+  for (let i = 1; i <= 14; i++) {
+    const prev = window.RESOLVE_DAY(toIso(addDays(base, -i)));
+    if (prev.season !== day.season) break;
+    const prevKey = prev.orationsKey || prev.dayKey;
+    if (prevKey && ORATIONS[prevKey]) return { entry: ORATIONS[prevKey], from: prev.title };
+    if (prev.sundayKey && ORATIONS[prev.sundayKey]) return { entry: ORATIONS[prev.sundayKey], from: prev.title };
+  }
+  return { entry: null, from: null };
+}
+
 function describeSunday(day) {
   // sundayKey like "ot-11" -> a readable "11th Sunday in Ordinary Time" comes from
   // the governing Sunday's own resolution; cheap to recompute.
@@ -206,114 +322,158 @@ function renderDayCard(day) {
     : day.rank + " · " + seasonName;
   dayDate.textContent = prettyDate(day.date);
   dayTitle.textContent = day.title;
+  if (day.link) {
+    dayLink.href = day.link;
+    dayLink.hidden = false;
+  } else {
+    dayLink.hidden = true;
+  }
 }
 
 function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
 
-// Target on-screen size of one Exsurge layout unit, in CSS pixels. Exsurge's
-// native units are small (a staff line-space is ~6 units), so at the container's
-// pixel width it would pack a whole antiphon onto one line and the notes would be
-// an illegible smear. We hand Exsurge a layout width in *its* units
-// (container px / SCALE) so it wraps lines at a readable density, then map units
-// back to px at this scale — keeping note size constant as the screen changes.
-const CHANT_SCALE = 1.2;
-// Floor on the layout width (Exsurge units): if a line is narrower than a single
-// neume, Exsurge's line-fill loop never advances and the page hangs. This keeps
-// very narrow screens safe.
-const MIN_LAYOUT_WIDTH = 220;
-
-// Exsurge sometimes leaves a neume's aggregate bounds.height as NaN even though
-// its own notes measured fine. That single NaN poisons everything downstream:
-// the line's height, the lyric baseline (lyricVerticalOffset), and the vertical
-// stacking of wrapped lines — so the lyrics land on top of the notes and every
-// line after the first collapses to y=0. Rebuild any bad height from the notes
-// before layoutChantLines consumes it.
-function repairNotationBounds(score) {
-  score.notations.forEach(function (n) {
-    if (isFinite(n.bounds.height)) return;
-    var top = Infinity, bottom = -Infinity;
-    (n.notes || []).forEach(function (note) {
-      if (isFinite(note.bounds.y)) {
-        top = Math.min(top, note.bounds.y);
-        bottom = Math.max(bottom, note.bounds.y + (note.bounds.height || 0));
-      }
-    });
-    if (isFinite(top) && isFinite(bottom)) {
-      if (!isFinite(n.bounds.y)) n.bounds.y = top;
-      n.bounds.height = bottom - top;
-    } else {
-      n.bounds.height = 0;
-    }
-  });
-}
-
-// Exsurge fully justifies every non-final chant line by default, spreading the
-// leftover width across its divisiones. On short lines that slack collapses into
-// large blank gaps with the custos stranded at the right margin. Render
-// ragged-right (the Graduale's natural look) by neutralizing justification — the
-// sole justification entry point is ChantLine.justifyElements.
-if (window.exsurge && window.exsurge.ChantLine) {
-  window.exsurge.ChantLine.prototype.justifyElements = function () {};
-}
-
-// Exsurge's minified bundle defines its AccidentalType enum in one module scope
-// but references it as a free (global) name in convertGabcStaffPositionToScribamPitch,
-// so any chant whose pitches force an accidental decision throws "AccidentalType
-// is not defined" and fails to render (e.g. the Lenten tracts and a couple of
-// Ordinary-Time introits). Re-export the enum globally with Exsurge's own values
-// so that lookup resolves.
-if (typeof window.AccidentalType === "undefined") {
-  window.AccidentalType = { Flat: -1, Natural: 0, Sharp: 1 };
-}
-
-// Renders the gabc into #score. Exsurge's layout is async (it fires callbacks), so
-// the finished score + svg are handed back through onReady(score, svg) once the SVG
-// is in the DOM — playback.js drives audio and the follow-along highlight off that
-// same score object, so the two can never drift.
+// Renders the gabc into #score, via the shared renderer in chant-render.js
+// (extracted in Phase 10 so video.js can reuse the same Exsurge workarounds).
+// Exsurge's layout is async (it fires callbacks), so the finished score + svg
+// are handed back through onReady(score, svg) once the SVG is in the DOM —
+// playback.js drives audio and the follow-along highlight off that same score
+// object, so the two can never drift.
+// Live view renders into #score; the print preview renders each proper into its
+// own container. Both share this layout path.
 function renderChant(gabc, onReady) {
-  scoreEl.innerHTML = "";
-  try {
-    const ctxt = new window.exsurge.ChantContext();
-    const score = window.exsurge.Gabc.loadChantScore(ctxt, gabc, true);
-    const containerPx = scoreEl.clientWidth || 660;
-    const layoutWidth = Math.max(MIN_LAYOUT_WIDTH, containerPx / CHANT_SCALE);
-    score.performLayout(ctxt, function () {
-      // performLayout has now set every notation's bounds; fix the NaN ones
-      // before layoutChantLines derives line heights and the lyric baseline.
-      repairNotationBounds(score);
-      score.layoutChantLines(ctxt, layoutWidth, function () {
-        scoreEl.innerHTML = score.createDrawable(ctxt);
-        const svg = scoreEl.querySelector("svg");
-        if (svg) {
-          // Exsurge emits width/height but no viewBox. Derive a viewBox from the
-          // content that actually rendered (getBBox also captures the drop-cap,
-          // which spills left of x=0) so the score scales uniformly.
-          const PAD = 4;
-          const bb = svg.getBBox();
-          const vbW = bb.width + PAD * 2;
-          const vbH = bb.height + PAD * 2;
-          svg.setAttribute("viewBox", (bb.x - PAD) + " " + (bb.y - PAD) + " " + vbW + " " + vbH);
-          svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
-          svg.removeAttribute("height");
-          // Render at CHANT_SCALE px per unit; CSS max-width:100% reins it in on
-          // screens narrower than that, and height:auto keeps the ratio.
-          svg.setAttribute("width", Math.round(vbW * CHANT_SCALE));
-        }
-        if (onReady) onReady(score, svg);
-      });
+  window.ChantRender.renderChantInto(scoreEl, gabc, onReady);
+}
+
+// Traditional one-word Latin "character" tags for each of the 8 church modes
+// (gravis/tristis/mysticus/harmonicus/laetus/devotus/angelicus/perfectus),
+// attributed to the 18th-century Abbot Poisson and still repeated in chant
+// pedagogy today (e.g. chantacademy.com's "Praying with Gregorian Chant, Part
+// IV"). The English gloss below is this project's own wording, not a quote —
+// received tradition, not a rigid modern classification; the source article
+// itself makes the same caveat.
+const MODE_CHARACTER = {
+  I: "Mode I (gravis, “grave”) is traditionally heard as settled and weighty — a solemn, composed strength rather than excitement.",
+  II: "Mode II (tristis, “sorrowful”), the plagal partner of Mode I, is traditionally the most subdued of the eight — fitting for grief, penitence, and lament.",
+  III: "Mode III (mysticus, “mystical”) is traditionally described as searching and intense — a mode of exalted, unsettled feeling.",
+  IV: "Mode IV (harmonicus, “well-tempered”) is traditionally called “the mode without an end” for its lingering, unresolved, reflective quality.",
+  V: "Mode V (laetus, “joyful”) is traditionally the brightest of the eight — confident and trumpet-like.",
+  VI: "Mode VI (devotus, “devout”) is traditionally warm and simple — a mode of filial trust and quiet piety.",
+  VII: "Mode VII (angelicus, “angelic”) is traditionally exultant — triumphant, ringing joy.",
+  VIII: "Mode VIII (perfectus, “perfect”) is traditionally the voice of settled certainty — stable and majestic, often the calm “narrator’s” mode."
+};
+
+// entry.mode always ends "... Mode <roman numeral>" (verified across every
+// data file — no transposed/mixed-mode variants exist in this corpus).
+function modeCharacterFor(modeString) {
+  // Longest-alternative-first so "VIII" doesn't get short-circuited by "V"/"VI".
+  const m = /Mode (VIII|VII|VI|V|IV|III|II|I)$/.exec(modeString || "");
+  return m ? MODE_CHARACTER[m[1]] : null;
+}
+
+function renderAboutChant(entry) {
+  const character = entry ? modeCharacterFor(entry.mode) : null;
+  if (!character) {
+    aboutChantSection.hidden = true;
+    return;
+  }
+  aboutChantSection.hidden = false;
+  aboutChantMode.textContent = character;
+  if (entry.blurb && entry.blurb.text) {
+    aboutChantBlurb.hidden = false;
+    aboutChantBlurb.textContent = entry.blurb.text;
+  } else {
+    aboutChantBlurb.hidden = true;
+    aboutChantBlurb.textContent = "";
+  }
+  if (entry.blurb && entry.blurb.source) {
+    aboutChantSourceEl.hidden = false;
+    aboutChantSourceEl.textContent = "Source: " + entry.blurb.source;
+  } else {
+    aboutChantSourceEl.hidden = true;
+    aboutChantSourceEl.textContent = "";
+  }
+}
+
+// Sequences (Stabat Mater, Dies irae, Veni Sancte Spiritus, …) are long strophic
+// poems: rendered stanza-by-stanza (Latin lines split on " / ", the English prose
+// beneath) like a hand missal, so the text lines up with the numbered stanzas in
+// the notation above. Only entries carrying a `stanzas` array take this path; every
+// other proper keeps the flat single-paragraph latin/translation. Returns true when
+// it rendered stanzas (so renderText can hide the flat paragraphs).
+function renderSequenceStanzas(entry) {
+  sequenceStanzas.textContent = "";
+  if (!entry || !entry.stanzas || !entry.stanzas.length) {
+    sequenceStanzas.hidden = true;
+    return false;
+  }
+  entry.stanzas.forEach(function (st) {
+    const block = document.createElement("div");
+    block.className = "sequence-stanza";
+    const la = document.createElement("p");
+    la.className = "sequence-stanza-latin";
+    (st.latin || "").split(" / ").forEach(function (line, i) {
+      if (i > 0) la.appendChild(document.createElement("br"));
+      la.appendChild(document.createTextNode(line));
     });
-  } catch (err) {
-    console.error("Exsurge render failed:", err);
-    scoreEl.textContent = "Couldn't render this chant's notation.";
-    if (onReady) onReady(null, null);
+    block.appendChild(la);
+    if (st.translation) {
+      const en = document.createElement("p");
+      en.className = "sequence-stanza-en";
+      en.textContent = st.translation;
+      block.appendChild(en);
+    }
+    sequenceStanzas.appendChild(block);
+  });
+  sequenceStanzas.hidden = false;
+  return true;
+}
+
+// The doxology's text is invariant across every Introit, so it lives once
+// here rather than being repeated in ~95 data entries. This project's own
+// rendering after the Douay-Rheims, matching the register of the antiphon
+// translations elsewhere in the corpus.
+const GLORIA_PATRI = {
+  latin: "Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen.",
+  translation: "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
+};
+
+// Shows the psalm verse (+ Gloria Patri, when the entry's own gabc carries
+// it -- Passiontide and Requiem Introits traditionally omit it) beneath the
+// antiphon text, only when the toggle is on and the entry has one.
+function renderVerseBlock(entry) {
+  if (!verseOn || !entry || !entry.verse) {
+    verseBlock.hidden = true;
+    return;
+  }
+  verseBlock.hidden = false;
+  verseLatinEl.textContent = entry.verse.latin || "";
+  verseTranslationEl.textContent = entry.verse.translation || "";
+  if (entry.verse.gloriaPatri) {
+    gloriaPatriLabel.hidden = false;
+    gloriaPatriLatinEl.hidden = false;
+    gloriaPatriTranslationEl.hidden = false;
+    gloriaPatriLatinEl.textContent = GLORIA_PATRI.latin;
+    gloriaPatriTranslationEl.textContent = GLORIA_PATRI.translation;
+  } else {
+    gloriaPatriLabel.hidden = true;
+    gloriaPatriLatinEl.hidden = true;
+    gloriaPatriTranslationEl.hidden = true;
+    gloriaPatriLatinEl.textContent = "";
+    gloriaPatriTranslationEl.textContent = "";
   }
 }
 
 function renderText(entry, fallbackFrom) {
-  latinEl.textContent = entry.latin || "";
-  translationEl.textContent = entry.translation || "";
+  const isSequence = renderSequenceStanzas(entry);
+  latinEl.textContent = isSequence ? "" : (entry.latin || "");
+  translationEl.textContent = isSequence ? "" : (entry.translation || "");
+  latinEl.hidden = isSequence;
+  translationEl.hidden = isSequence;
+  renderVerseBlock(entry);
+  referenceEl.textContent = entry.reference || "";
   modeEl.textContent = entry.mode || "";
   sourceNote.textContent = entry.source ? "Source: " + entry.source : "";
+  renderAboutChant(entry);
   if (fallbackFrom) {
     fallbackNote.hidden = false;
     fallbackNote.textContent =
@@ -326,13 +486,45 @@ function renderText(entry, fallbackFrom) {
 
 function renderEmpty(day) {
   scoreEl.textContent = "No chant authored yet for this day.";
+  renderSequenceStanzas(null);
+  latinEl.hidden = false;
+  translationEl.hidden = false;
   latinEl.textContent = "";
   translationEl.textContent = "";
+  renderVerseBlock(null);
+  referenceEl.textContent = "";
   modeEl.textContent = "";
   sourceNote.textContent = "";
+  renderAboutChant(null);
   fallbackNote.hidden = false;
   fallbackNote.textContent = "Today is " + day.title + ". An introit for it hasn't been added yet.";
   playBtn.disabled = true;
+  verseToggle.disabled = true;
+}
+
+// Renders the Collect/Secret/Postcommunion panel. Independent of which sung-part
+// tab is selected (renderProperTabs), so this has its own note element rather
+// than sharing #fallback-note. Hides the whole section when nothing resolves
+// (modern calendar, or a 1962 day with no oration set authored yet).
+function renderOrations(entry, from) {
+  if (!entry) {
+    orationsSection.hidden = true;
+    return;
+  }
+  orationsSection.hidden = false;
+  collectLatin.textContent = entry.collect.latin;
+  collectTranslation.textContent = entry.collect.translation;
+  secretLatin.textContent = entry.secret.latin;
+  secretTranslation.textContent = entry.secret.translation;
+  postcommunionLatin.textContent = entry.postcommunion.latin;
+  postcommunionTranslation.textContent = entry.postcommunion.translation;
+  if (from) {
+    orationsNote.hidden = false;
+    orationsNote.textContent = "From " + from + ".";
+  } else {
+    orationsNote.hidden = true;
+    orationsNote.textContent = "";
+  }
 }
 
 /* ---- Playback (playback.js: synth + follow-along highlight) --------------- */
@@ -367,18 +559,29 @@ async function onPlayClick() {
 // The entry currently on screen (the selected part of the day's — or the chosen
 // Mass's — propers). Kept so the resize re-flow re-renders the right one.
 let currentEntry = null;
+// The "from" fallback note text for currentEntry, so the verse toggle can
+// re-render the same entry without re-walking the calendar/Common lookup.
+let currentFrom = null;
 // The proper currently selected ("introit", "communion", …) and the parts on
 // offer. Tracked so switching Mass keeps the same part when that Mass has it.
 let currentPart = "introit";
 let currentParts = [];
+// Heading shown atop the print sheet, captured whenever a day or Common is shown
+// (Print mode reads existing state and must not re-resolve the calendar itself).
+let printContext = { title: "", subtitle: "" };
+// Whether the psalm-verse + Gloria Patri toggle is on (see applyVerseToggle).
+let verseOn = false;
 
 function renderEntry(entry, from) {
   currentEntry = entry;
+  currentFrom = from;
   // renderChant lays out asynchronously; prepareAudio (its onReady) wires playback
   // once the SVG exists. Disable the button until then so a click can't race the load.
   playBtn.disabled = true;
-  renderChant(entry.gabc, prepareAudio);
+  const withVerse = verseOn && entry.fullGabc;
+  renderChant(withVerse ? entry.fullGabc : entry.gabc, prepareAudio);
   renderText(entry, from);
+  verseToggle.disabled = !entry.fullGabc;
 }
 
 // Reset playback state — shared by both selectors before they swap the score.
@@ -450,7 +653,12 @@ function show(iso) {
   const day = window.RESOLVE_DAY(iso);
   renderDayCard(day);
   dateInput.value = day.date;
+  printContext = { title: dayTitle.textContent, subtitle: dayDate.textContent };
   renderMassOptions(day);
+
+  // Independent of which sung-part tab ends up selected below.
+  const orations = pickOrations(day);
+  renderOrations(orations.entry, orations.from);
 
   const parts = partsForDay(day);
   if (!parts.length) {
@@ -483,8 +691,8 @@ function step(n) {
 // pilot batch (Lent only so far); days without an entry fall back to {} and
 // the propers-tab strip auto-hides for them.
 const VERSIONS = {
-  modern: { resolve: window.RESOLVE_DAY_MODERN, introits: window.INTROITS || {}, propers: window.PROPERS || {} },
-  "1962": { resolve: window.RESOLVE_DAY_1962, introits: window.INTROITS_1962 || {}, propers: window.PROPERS_1962 || {} },
+  modern: { resolve: window.RESOLVE_DAY_MODERN, introits: window.INTROITS || {}, propers: window.PROPERS || {}, orations: {} },
+  "1962": { resolve: window.RESOLVE_DAY_1962, introits: window.INTROITS_1962 || {}, propers: window.PROPERS_1962 || {}, orations: window.ORATIONS_1962 || {} },
 };
 
 function readVersion() {
@@ -498,12 +706,16 @@ function readVersion() {
 // Point the resolver + data tables at the chosen version, reflect it in the toggle,
 // the URL (?cal=), and localStorage, then re-render the day on screen. `silent`
 // skips the re-render for the one-time boot call (show() runs right after).
+let currentVersion = "modern";
+
 function selectVersion(v, silent) {
   if (!VERSIONS[v]) v = "modern";
+  currentVersion = v;
   const cfg = VERSIONS[v];
   window.RESOLVE_DAY = cfg.resolve;
   INTROITS = cfg.introits;
   PROPERS = cfg.propers;
+  ORATIONS = cfg.orations;
   if (calendarVersion) {
     Array.from(calendarVersion.querySelectorAll("button")).forEach((b) =>
       b.classList.toggle("active", b.dataset.version === v));
@@ -512,7 +724,13 @@ function selectVersion(v, silent) {
   const url = new URL(location.href);
   if (v === "modern") url.searchParams.delete("cal"); else url.searchParams.set("cal", v);
   history.replaceState(null, "", url);
-  if (!silent) show(dateInput.value || currentIso());
+  // Commons mode never reaches here (its calendarVersion toggle is hidden and
+  // so unclickable), but Votive mode keeps the toggle live, so a version
+  // switch there must re-render the votive Mass, not the date-driven day.
+  if (!silent) {
+    if (currentMode === "votive") showVotive(votiveSelect.value);
+    else show(dateInput.value || currentIso());
+  }
 }
 
 if (calendarVersion) {
@@ -521,6 +739,95 @@ if (calendarVersion) {
     if (btn) selectVersion(btn.dataset.version);
   });
 }
+
+/* ---- Tempo control (playback.js: setTempo) -------------------------------
+ * `bpm` lives as module state inside playback.js and is never reset by
+ * load()/stop()/play(), so it persists across score re-renders (date change,
+ * part-tab switch, resize) on its own — this just needs to set it once at
+ * boot and again on every slider move. */
+
+function applyTempo(bpm) {
+  const min = Number(tempoSlider.min), max = Number(tempoSlider.max);
+  bpm = Math.min(max, Math.max(min, bpm));
+  window.ChantPlayback.setTempo(bpm);
+  tempoSlider.value = bpm;
+  tempoValue.textContent = bpm + " bpm";
+  try { localStorage.setItem("chant-tempo", bpm); } catch (_) { /* private mode */ }
+}
+
+function readTempo() {
+  let saved = null;
+  try { saved = Number(localStorage.getItem("chant-tempo")); } catch (_) { /* private mode */ }
+  return saved && saved > 0 ? saved : window.ChantPlayback.DEFAULT_BPM;
+}
+
+tempoSlider.addEventListener("input", () => applyTempo(Number(tempoSlider.value)));
+
+/* ---- Pitch control (playback.js: setPitch) --------------------------------
+ * Same live-module-state pattern as tempo: pitchShift lives inside
+ * playback.js and now applies at tick() time (see buildSteps), so this just
+ * needs to set it once at boot and again on every slider move. */
+
+function applyPitch(semitones) {
+  const min = Number(pitchSlider.min), max = Number(pitchSlider.max);
+  semitones = Math.min(max, Math.max(min, semitones));
+  window.ChantPlayback.setPitch(semitones);
+  pitchSlider.value = semitones;
+  pitchValue.textContent = (semitones > 0 ? "+" : "") + semitones + " st";
+  try { localStorage.setItem("chant-pitch", semitones); } catch (_) { /* private mode */ }
+}
+
+function readPitch() {
+  let saved = null;
+  try { saved = localStorage.getItem("chant-pitch"); } catch (_) { /* private mode */ }
+  saved = saved === null ? NaN : Number(saved);
+  return Number.isFinite(saved) ? saved : window.ChantPlayback.DEFAULT_PITCH;
+}
+
+pitchSlider.addEventListener("input", () => applyPitch(Number(pitchSlider.value)));
+
+/* ---- Volume control (playback.js: setVolume) -------------------------------
+ * Slider is a 0-100 percentage; playback.js's setVolume takes a 0-1 fraction. */
+
+function applyVolume(percent) {
+  const min = Number(volumeSlider.min), max = Number(volumeSlider.max);
+  percent = Math.min(max, Math.max(min, percent));
+  window.ChantPlayback.setVolume(percent / 100);
+  volumeSlider.value = percent;
+  volumeValue.textContent = percent + "%";
+  try { localStorage.setItem("chant-volume", percent); } catch (_) { /* private mode */ }
+}
+
+function readVolume() {
+  let saved = null;
+  try { saved = localStorage.getItem("chant-volume"); } catch (_) { /* private mode */ }
+  saved = saved === null ? NaN : Number(saved);
+  return Number.isFinite(saved) ? saved : Math.round(window.ChantPlayback.DEFAULT_VOLUME * 100);
+}
+
+volumeSlider.addEventListener("input", () => applyVolume(Number(volumeSlider.value)));
+
+/* ---- Psalm verse + Gloria Patri toggle ------------------------------------
+ * Unlike tempo/pitch/volume (pure audio-engine params that apply live without
+ * a re-render), which score renders depends on this toggle -- so applying it
+ * re-renders the entry currently on screen (renderEntry stores currentEntry/
+ * currentFrom for exactly this). Default off, so a fresh visitor sees the
+ * antiphon-only score unchanged from before this feature existed. */
+
+function applyVerseToggle(on) {
+  verseOn = !!on;
+  verseToggle.checked = verseOn;
+  try { localStorage.setItem("chant-verse", verseOn ? "1" : "0"); } catch (_) { /* private mode */ }
+  if (currentEntry) renderEntry(currentEntry, currentFrom);
+}
+
+function readVerseToggle() {
+  let saved = null;
+  try { saved = localStorage.getItem("chant-verse"); } catch (_) { /* private mode */ }
+  return saved === "1";
+}
+
+verseToggle.addEventListener("change", () => applyVerseToggle(verseToggle.checked));
 
 playBtn.addEventListener("click", onPlayClick);
 dateInput.addEventListener("change", () => { if (dateInput.value) show(dateInput.value); });
@@ -541,6 +848,28 @@ function debounce(fn, ms) {
   let t;
   return function () { clearTimeout(t); t = setTimeout(fn, ms); };
 }
+
+/* ---- Print --------------------------------------------------------------
+ * The Orations <details> is closed by default (a reader has to opt in on
+ * screen). Force it open for the print stylesheet so the Collect/Secret/
+ * Postcommunion actually show up on paper, then restore whatever state the
+ * reader had before printing. */
+const orationsDetails = orationsSection.querySelector("details");
+let orationsWasOpen = false;
+// "About this chant" is the same shape (closed by default, would print as a
+// bare "About this chant" heading with nothing under it otherwise).
+const aboutChantDetails = aboutChantSection.querySelector("details");
+let aboutChantWasOpen = false;
+window.addEventListener("beforeprint", () => {
+  orationsWasOpen = orationsDetails.open;
+  orationsDetails.open = true;
+  aboutChantWasOpen = aboutChantDetails.open;
+  aboutChantDetails.open = true;
+});
+window.addEventListener("afterprint", () => {
+  orationsDetails.open = orationsWasOpen;
+  aboutChantDetails.open = aboutChantWasOpen;
+});
 
 /* ---- Common of Saints (browse by category, not by date) ------------------ */
 
@@ -579,7 +908,11 @@ function showCommon(key) {
   if (!parts.length) return;
   resetPlayback();
   currentParts = parts;
+  const opt = commonsSelect.options[commonsSelect.selectedIndex];
+  printContext = { title: opt ? opt.textContent : "Common of Saints", subtitle: "Common of Saints" };
   massOptions.hidden = true;
+  // Commons are browsed by category, not by date, so no oration set applies.
+  orationsSection.hidden = true;
   renderProperTabs(parts, "introit");
 }
 
@@ -590,26 +923,158 @@ function syncCommonUrl(key) {
   history.replaceState(null, "", url);
 }
 
+/* ---- Votive Masses (browse by Mass, not by date) --------------------------
+ * Unlike the Common of Saints (COMMON_INTROITS/COMMON_PROPERS: one shared
+ * table, never swapped by selectVersion, never has orations), a votive Mass
+ * like the Requiem lives in the ordinary versioned INTROITS/PROPERS/ORATIONS
+ * tables under its own key, authored separately per calendar (the 1962 tables
+ * even carry its Collect/Secret/Postcommunion) — exactly like any other day's
+ * Mass. So this reuses partsForKey (already used for Christmas's Midnight/
+ * Dawn/Day options) and a direct ORATIONS[key] lookup rather than inventing a
+ * parallel fallback system, and — unlike Commons mode — keeps the Modern/1962
+ * toggle live. VOTIVE_MASSES is a small, growable { key, label } list; adding
+ * a future votive Mass is authoring-only once its propers are sourced.
+ */
+const VOTIVE_MASSES = [
+  { key: "requiem", label: "Requiem (Mass for the Dead)" },
+];
+
+function populateVotiveSelect() {
+  votiveSelect.innerHTML = "";
+  VOTIVE_MASSES.forEach((m) => {
+    const opt = document.createElement("option");
+    opt.value = m.key;
+    opt.textContent = m.label;
+    votiveSelect.appendChild(opt);
+  });
+}
+
+function isVotiveKey(key) {
+  return VOTIVE_MASSES.some((m) => m.key === key);
+}
+
+function showVotive(key) {
+  const parts = partsForKey(key);
+  if (!parts.length) return;
+  resetPlayback();
+  currentParts = parts;
+  const opt = votiveSelect.options[votiveSelect.selectedIndex];
+  printContext = { title: opt ? opt.textContent : "Votive Mass", subtitle: "Votive Mass" };
+  massOptions.hidden = true;
+  renderOrations(ORATIONS[key], null);
+  renderProperTabs(parts, "introit");
+}
+
+function syncVotiveUrl(key) {
+  const url = new URL(location.href);
+  url.searchParams.set("votive", key);
+  url.searchParams.delete("date");
+  url.searchParams.delete("common");
+  history.replaceState(null, "", url);
+}
+
 // Switches between the date-driven calendar view and the Commons picker.
 // `silent` skips the render (the boot call renders separately once it knows
 // whether to open on a date or a deep-linked Common).
+let currentMode = "calendar";
+let printScope = "chant";
+
+// "Print" is a view over whatever's already loaded, not a content selector — it
+// reads currentParts/printContext captured by the last show()/showCommon() and
+// never re-resolves the calendar. Track the content mode we came from so leaving
+// Print restores it without a spurious re-render.
+let contentMode = "calendar";
+
 function selectMode(m, silent) {
-  const mode = m === "commons" ? "commons" : "calendar";
+  const mode = m === "commons" ? "commons" : (m === "votive" ? "votive" : (m === "print" ? "print" : "calendar"));
+  const prevMode = currentMode;
+  currentMode = mode;
+  if (mode !== "print") contentMode = mode;
   if (modeToggle) {
     Array.from(modeToggle.querySelectorAll("button[data-mode]")).forEach((b) =>
       b.classList.toggle("active", b.dataset.mode === mode));
   }
-  dayCard.hidden = mode === "commons";
-  jumpSection.hidden = mode === "commons";
+
+  if (mode === "print") {
+    // Swap the console for the print preview; the live sections are hidden by
+    // body.print-mode CSS, leaving their state untouched so returning restores it.
+    document.body.classList.add("print-mode");
+    printView.hidden = false;
+    buildPrintSheet();
+    return;
+  }
+
+  document.body.classList.remove("print-mode");
+  printView.hidden = true;
+  dayCard.hidden = mode === "commons" || mode === "votive";
+  jumpSection.hidden = mode === "commons" || mode === "votive";
+  // Commons is calendar-version-agnostic (one shared table), so its toggle is
+  // hidden there — but a votive Mass like the Requiem is authored per calendar
+  // (it even has its own 1962 orations), so the toggle stays live for votive.
   if (calendarVersion) calendarVersion.hidden = mode === "commons";
   commonsPicker.hidden = mode !== "commons";
+  votivePicker.hidden = mode !== "votive";
+  // "date" is deliberately left alone when landing on calendar mode — it's an
+  // entry-point-only param (see currentIso()'s comment), still unread at this
+  // point during boot, so deleting it here would blank out a ?date= deep link
+  // before show(currentIso()) ever gets to read it.
   const url = new URL(location.href);
-  if (mode === "commons") url.searchParams.delete("date"); else url.searchParams.delete("common");
+  if (mode === "commons") { url.searchParams.delete("date"); url.searchParams.delete("votive"); }
+  else if (mode === "votive") { url.searchParams.delete("date"); url.searchParams.delete("common"); }
+  else { url.searchParams.delete("common"); url.searchParams.delete("votive"); }
   history.replaceState(null, "", url);
-  if (!silent) {
-    if (mode === "commons") { showCommon(commonsSelect.value); syncCommonUrl(commonsSelect.value); }
-    else show(dateInput.value || currentIso());
+  if (silent) return;
+  // Leaving Print returns to the already-loaded content — don't re-render (which
+  // would reset the selected part / Mass option). Only a genuine content-mode
+  // switch re-renders.
+  if (prevMode === "print") return;
+  if (mode === "commons") { showCommon(commonsSelect.value); syncCommonUrl(commonsSelect.value); }
+  else if (mode === "votive") { showVotive(votiveSelect.value); syncVotiveUrl(votiveSelect.value); }
+  else show(dateInput.value || currentIso());
+}
+
+// Builds the paper-like preview from currentParts. Scope "chant" prints only the
+// selected part; "mass" prints every proper of the day, scores only.
+function buildPrintSheet() {
+  printSheet.innerHTML = "";
+  const head = document.createElement("header");
+  head.className = "print-masthead";
+  const h2 = document.createElement("h2");
+  h2.textContent = printContext.title || "Chant of the Day";
+  head.appendChild(h2);
+  if (printContext.subtitle) {
+    const p = document.createElement("p");
+    p.className = "print-subtitle";
+    p.textContent = printContext.subtitle;
+    head.appendChild(p);
   }
+  printSheet.appendChild(head);
+
+  const parts = printScope === "mass"
+    ? currentParts
+    : currentParts.filter(function (p) { return p.part === currentPart; });
+
+  if (!parts.length) {
+    const note = document.createElement("p");
+    note.className = "print-empty";
+    note.textContent = "No chant authored for this day.";
+    printSheet.appendChild(note);
+    return;
+  }
+
+  parts.forEach(function (p) {
+    const block = document.createElement("div");
+    block.className = "print-proper";
+    const label = document.createElement("h3");
+    label.className = "print-proper-label";
+    label.textContent = p.label;
+    block.appendChild(label);
+    const scoreDiv = document.createElement("div");
+    scoreDiv.className = "print-score";
+    block.appendChild(scoreDiv);
+    printSheet.appendChild(block);
+    window.ChantRender.renderChantInto(scoreDiv, p.entry.gabc);
+  });
 }
 
 if (modeToggle) {
@@ -622,14 +1087,74 @@ commonsSelect.addEventListener("change", () => {
   showCommon(commonsSelect.value);
   syncCommonUrl(commonsSelect.value);
 });
+votiveSelect.addEventListener("change", () => {
+  showVotive(votiveSelect.value);
+  syncVotiveUrl(votiveSelect.value);
+});
 
+// Print scope toggle + the print button (prints exactly the previewed sheet).
+const printScopeGroup = printView.querySelector(".print-scope");
+printScopeGroup.addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-scope]");
+  if (!btn) return;
+  printScope = btn.dataset.scope === "mass" ? "mass" : "chant";
+  Array.from(printScopeGroup.querySelectorAll("button[data-scope]")).forEach((b) =>
+    b.classList.toggle("active", b === btn));
+  buildPrintSheet();
+});
+printBtn.addEventListener("click", () => window.print());
+
+/* ---- Share (copy a deep link to what's currently on screen) -------------- */
+
+// Built on demand rather than kept live-synced to the address bar — the URL
+// bar deliberately stays clean during normal Prev/Next/Today browsing (see
+// currentIso()'s comment), so this reads current state instead of history.
+function buildShareUrl() {
+  const url = new URL(location.href);
+  url.search = "";
+  if (currentMode === "commons") {
+    url.searchParams.set("common", commonsSelect.value);
+  } else if (currentMode === "votive") {
+    url.searchParams.set("votive", votiveSelect.value);
+  } else {
+    url.searchParams.set("date", dateInput.value || currentIso());
+  }
+  if (currentVersion !== "modern") url.searchParams.set("cal", currentVersion);
+  return url.toString();
+}
+
+let shareNoteTimer;
+shareBtn.addEventListener("click", async () => {
+  const url = buildShareUrl();
+  clearTimeout(shareNoteTimer);
+  try {
+    await navigator.clipboard.writeText(url);
+    shareNote.textContent = "Copied!";
+  } catch (_) {
+    prompt("Copy this link:", url);
+    shareNote.textContent = "";
+    return;
+  }
+  shareNoteTimer = setTimeout(() => { shareNote.textContent = ""; }, 1500);
+});
+
+applyTempo(readTempo());
+applyPitch(readPitch());
+applyVolume(readVolume());
+applyVerseToggle(readVerseToggle());
 selectVersion(readVersion(), true);
 populateCommonsSelect();
+populateVotiveSelect();
 const initialCommon = new URLSearchParams(location.search).get("common");
+const initialVotive = new URLSearchParams(location.search).get("votive");
 if (initialCommon && isCommonKey(initialCommon)) {
   commonsSelect.value = initialCommon;
   selectMode("commons", true);
   showCommon(initialCommon);
+} else if (initialVotive && isVotiveKey(initialVotive)) {
+  votiveSelect.value = initialVotive;
+  selectMode("votive", true);
+  showVotive(initialVotive);
 } else {
   selectMode("calendar", true);
   show(currentIso());

@@ -29,6 +29,17 @@ body.color-violet    { --accent: #6f63b8; }   /* Ash Wednesday & penitential fer
 
 html, body { margin: 0; min-height: 100%; }
 
+/* Links live on the dark page (footnotes, "About this feast"). The browser
+   default blue is near-invisible on the aubergine ground, so anchor text uses
+   the warm gold-soft and brightens to full gold on hover/focus. */
+a {
+  color: var(--gold-soft);
+  text-decoration: underline;
+  text-decoration-color: rgba(214, 173, 96, 0.55);
+  text-underline-offset: 2px;
+}
+a:hover, a:focus-visible { color: var(--gold); text-decoration-color: var(--gold); }
+
 body {
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--text);
@@ -49,7 +60,13 @@ body {
 }
 
 /* ---- Masthead ---- */
-.masthead { text-align: center; }
+.masthead {
+  text-align: center;
+  width: 100%;
+  max-width: 560px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(214, 173, 96, 0.28);
+}
 .masthead h1 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -58,7 +75,7 @@ body {
   color: var(--gold-soft);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
 }
-.subtitle { margin: 6px 0 0; opacity: 0.82; font-style: italic; }
+.subtitle { margin: 8px 0 0; opacity: 0.85; font-style: italic; }
 
 /* ---- Calendar version toggle (in the masthead, on the dark page) ---- */
 .calendar-version:not([hidden]) {
@@ -86,11 +103,12 @@ body {
 .day-card {
   width: 100%;
   text-align: center;
-  padding: 16px 20px;
-  border-radius: 12px;
+  padding: 18px 22px;
+  border-radius: 14px;
   background: rgba(0, 0, 0, 0.22);
-  border: 1px solid rgba(214, 173, 96, 0.2);
+  border: 1px solid rgba(214, 173, 96, 0.22);
   border-top: 3px solid var(--accent);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(214, 173, 96, 0.08);
 }
 .season-pill {
   display: inline-block;
@@ -109,6 +127,20 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.2rem, 3.6vw, 1.6rem);
   color: var(--gold-soft);
+}
+.day-link {
+  display: inline-block;
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: var(--gold-soft);
+  opacity: 0.9;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.day-link:hover, .day-link:focus-visible {
+  color: var(--gold-soft);
+  opacity: 1;
+  border-bottom-color: var(--accent);
 }
 .fallback-note { margin: 8px 0 0; font-size: 0.84rem; font-style: italic; opacity: 0.75; }
 
@@ -163,18 +195,66 @@ body {
 .score .ChantNotationElement use,
 .score .ChantNotationElement text,
 .score .ChantNotationElement rect {
-  transition: fill 90ms linear;
+  transition: fill 90ms linear, opacity 90ms linear;
+}
+
+/* Multi-note neume: dim the whole syllable (glyphs + lyric), then pick out the exact
+   sounding note at full strength — playback.js's highlight() applies this split
+   instead of plain .chant-active whenever a neume's glyph count lines up 1:1 with
+   its note count (buildSteps' noteGlyphs), falling back to .chant-active above
+   otherwise. */
+.score .ChantNotationElement.chant-active-syllable use,
+.score .ChantNotationElement.chant-active-syllable path,
+.score .ChantNotationElement.chant-active-syllable rect,
+.score .ChantNotationElement.chant-active-syllable text {
+  fill: var(--accent);
+  opacity: 0.5;
+}
+.score .ChantNotationElement.chant-active-syllable use.chant-note-active {
+  opacity: 1;
+  filter: drop-shadow(0 0 2px var(--accent));
+}
+
+/* Click-to-seek (playback.js wireClicks): every clickable notation group gets a
+   pointer cursor so tapping a word/note to start playback there is discoverable. */
+.score .ChantNotationElement.chant-clickable {
+  cursor: pointer;
 }
 
 .score-tools {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-top: 8px;
-  padding-top: 12px;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 10px;
+  padding-top: 14px;
   border-top: 1px dashed var(--cream-edge);
 }
 .play-note { font-size: 0.82rem; color: #6b5d44; }
+
+.tempo-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #6b5d44;
+}
+.tempo-control input[type="range"] {
+  accent-color: var(--gold);
+  width: 110px;
+}
+.tempo-control #tempo-value { min-width: 4.5em; }
+.tempo-control #pitch-value { min-width: 3.5em; }
+.tempo-control #volume-value { min-width: 3em; }
+.verse-toggle-control {
+  cursor: pointer;
+  gap: 7px;
+}
+.verse-toggle-control input[type="checkbox"] {
+  accent-color: var(--gold);
+  width: 15px;
+  height: 15px;
+}
 
 /* ---- Same-day Mass / option selector (e.g. Christmas Midnight/Dawn/Day) ---- */
 .mass-options {
@@ -250,13 +330,102 @@ button.ghost:disabled { opacity: 0.5; cursor: default; }
   color: var(--gold-soft);
 }
 .introit-translation { margin: 8px 0 0; font-style: italic; opacity: 0.86; line-height: 1.45; }
+.verse-block {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--cream-edge);
+}
+.verse-label {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--gold-soft);
+  opacity: 0.75;
+}
+.verse-block .introit-translation:last-child { margin-bottom: 0; }
+.verse-block #gloria-patri-label { margin-top: 10px; }
+.introit-reference { margin: 4px 0 0; font-size: 0.82rem; font-style: italic; opacity: 0.78; }
 .introit-mode {
   margin: 10px 0 0;
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  opacity: 0.66;
+  opacity: 0.78;
 }
+
+/* ---- Sequence stanzas (Stabat Mater, Dies irae, …) ----
+   Strophic sequences render stanza-by-stanza (app.js renderSequenceStanzas)
+   instead of as one run-on paragraph, so the text tracks the numbered stanzas
+   in the notation above, hand-missal style. */
+.sequence-stanzas:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.sequence-stanza { margin: 0; }
+.sequence-stanza-latin {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+  line-height: 1.45;
+  color: var(--gold-soft);
+}
+.sequence-stanza-en {
+  margin: 4px 0 0;
+  font-style: italic;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  opacity: 0.82;
+}
+
+/* ---- About this chant (mode character, auto-derived; history/famous
+   settings, hand-authored on a growing subset — see ROADMAP.md Phase 8) ---- */
+.about-chant { width: 100%; max-width: 600px; text-align: center; }
+.about-chant summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.85;
+  padding: 4px 0;
+}
+.about-chant summary:hover { opacity: 1; }
+.about-chant-mode { margin: 10px 0 0; font-size: 0.92rem; line-height: 1.5; opacity: 0.9; }
+.about-chant-blurb { margin: 10px 0 0; font-size: 0.92rem; line-height: 1.5; opacity: 0.9; }
+.about-chant-source { margin: 8px 0 0; font-size: 0.78rem; font-style: italic; opacity: 0.65; }
+
+/* ---- Orations (Collect/Secret/Postcommunion, 1962 calendar only) ---- */
+.orations { width: 100%; max-width: 600px; text-align: center; }
+.orations summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.85;
+  padding: 4px 0;
+}
+.orations summary:hover { opacity: 1; }
+.orations-note { margin: 8px 0 0; font-size: 0.8rem; font-style: italic; opacity: 0.7; }
+.oration-block { margin-top: 14px; }
+.oration-block h3 {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--gold-soft);
+  opacity: 0.75;
+}
+.oration-latin {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--gold-soft);
+}
+.oration-translation { margin: 6px 0 0; font-size: 0.92rem; font-style: italic; opacity: 0.86; line-height: 1.45; }
 
 /* ---- Jump-to-date ---- */
 .jump:not([hidden]) {
@@ -280,9 +449,158 @@ button.ghost:disabled { opacity: 0.5; cursor: default; }
 
 /* ---- Footnotes ---- */
 .footnotes { width: 100%; text-align: center; }
-.source-note, .draft-note { margin: 0 0 6px; font-size: 0.8rem; opacity: 0.6; }
-.draft-note { font-style: italic; opacity: 0.48; max-width: 560px; margin: 4px auto 0; line-height: 1.4; }
+.source-note, .draft-note { margin: 0 0 6px; font-size: 0.8rem; opacity: 0.72; }
+.draft-note { font-style: italic; opacity: 0.62; max-width: 560px; margin: 4px auto 0; line-height: 1.4; }
 
 @media (max-width: 480px) {
   .console { gap: 16px; }
+}
+
+/* ---- Touch targets ----
+   The pill buttons below are sized tightly for a mouse cursor (25-27px
+   rendered height). On a touch device, bump their vertical padding to
+   comfortably clear the ~44px tap-target guideline. Scoped to `pointer:
+   coarse` (real touch hardware) rather than a viewport-width breakpoint, so
+   a desktop window resized narrow doesn't get the wider padding too. */
+@media (pointer: coarse) {
+  .calendar-version button {
+    padding: 11px 14px;
+  }
+  .mass-options button,
+  .propers-tabs button {
+    padding: 12px 13px;
+  }
+}
+
+/* In Print mode the live console collapses to just the masthead + mode toggle
+   (so the user can leave) and the print preview. The content sections stay in
+   the DOM (state preserved) but are hidden on screen. */
+body.print-mode #calendar-version,
+body.print-mode .commons-picker,
+body.print-mode .day-card,
+body.print-mode #jump-section,
+body.print-mode .score-card,
+body.print-mode .introit-text,
+body.print-mode .about-chant,
+body.print-mode .orations,
+body.print-mode .footnotes {
+  display: none !important;
+}
+
+/* ---- Print preview mode (on screen) ----
+   A paper-like sheet the "Print" browse mode shows, so what's on screen matches
+   the printout. Scores render dark-ink SVG on parchment, one block per proper. */
+.print-view:not([hidden]) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.print-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.print-sheet {
+  width: 100%;
+  background: var(--parchment);
+  color: var(--ink);
+  border: 1px solid var(--cream-edge);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 0 0 6px rgba(214, 173, 96, 0.18);
+  padding: 26px 24px 20px;
+}
+.print-masthead {
+  text-align: center;
+  border-bottom: 1px solid var(--cream-edge);
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+}
+.print-masthead h2 { margin: 0; color: var(--ink); font-size: 1.4rem; }
+.print-subtitle { margin: 4px 0 0; color: var(--ink); opacity: 0.7; font-size: 0.9rem; }
+.print-proper { margin-top: 20px; }
+.print-proper-label {
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 1.05rem;
+  letter-spacing: 0.3px;
+}
+.print-score {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+}
+.print-score svg { max-width: 100%; height: auto; }
+.print-empty { color: var(--ink); opacity: 0.7; margin: 16px 0 0; }
+
+/* ---- Print: from the dedicated Print mode ----
+   Everything except the preview sheet is hidden; each proper avoids splitting
+   across a page, and (whole-Mass) each proper starts on its own page. */
+@media print {
+  body.print-mode {
+    background: #ffffff;
+    color: var(--ink);
+    padding: 0;
+  }
+  body.print-mode .masthead,
+  body.print-mode .day-card,
+  body.print-mode #jump-section,
+  body.print-mode .score-card,
+  body.print-mode .introit-text,
+  body.print-mode .about-chant,
+  body.print-mode .orations,
+  body.print-mode .footnotes,
+  body.print-mode .print-controls {
+    display: none !important;
+  }
+  body.print-mode .print-sheet {
+    background: #ffffff;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+  body.print-mode .print-proper { break-inside: avoid; }
+  body.print-mode .print-proper + .print-proper { break-before: page; }
+}
+
+/* ---- Print ----
+   Nothing on this page is interactive on paper: strip the dark theme and
+   every control, keep the score, the introit text, and (forced open via
+   app.js's beforeprint handler) the Orations block. */
+@media print {
+  body {
+    background: #ffffff;
+    color: var(--ink);
+    padding: 0;
+  }
+  .calendar-version,
+  #mode-toggle,
+  .mass-options,
+  .propers-tabs,
+  .score-tools,
+  #jump-section,
+  .no-print {
+    display: none !important;
+  }
+  .masthead { border-bottom-color: #999; }
+  .masthead h1 { color: var(--ink); text-shadow: none; }
+  .subtitle { opacity: 1; }
+  a { color: var(--ink); }
+  .day-card {
+    background: none;
+    border: 1px solid #999;
+  }
+  .season-pill { background: none; border: 1px solid #999; color: var(--ink); }
+  .day-title, .introit-latin, .oration-latin, .sequence-stanza-latin, .verse-label { color: var(--ink); }
+  .score-card {
+    background: #ffffff;
+    box-shadow: none;
+    border: 1px solid #999;
+  }
+  .orations summary { color: var(--ink); opacity: 1; }
+  .oration-block h3 { color: var(--ink); opacity: 1; }
+  .about-chant summary { color: var(--ink); opacity: 1; }
 }

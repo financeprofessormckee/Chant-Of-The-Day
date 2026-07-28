@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The Introit proper to today in the General Roman Calendar, in square-note notation with organ playback." />
+  <meta name="description" content="The sung propers of today's Mass — Introit, Gradual, Alleluia, Offertory, Communion — in square-note notation with playback, for the modern and 1962 calendars." />
   <title>Chant of the Day</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -11,7 +11,7 @@
   <main class="console">
     <header class="masthead">
       <h1>Chant of the Day</h1>
-      <p class="subtitle">The Introit proper to today &mdash; sung by the Church across the year.</p>
+      <p class="subtitle">The sung propers of today's Mass &mdash; sung by the Church across the world.</p>
       <div id="calendar-version" class="calendar-version" role="group" aria-label="Choose the liturgical calendar">
         <span class="calendar-version-label">Calendar:</span>
         <button type="button" data-version="modern" class="active">Modern</button>
@@ -21,6 +21,8 @@
         <span class="calendar-version-label">Browse:</span>
         <button type="button" data-mode="calendar" class="active">Today</button>
         <button type="button" data-mode="commons">Common of Saints</button>
+        <button type="button" data-mode="votive">Votive Masses</button>
+        <button type="button" data-mode="print">Print</button>
       </div>
     </header>
 
@@ -28,6 +30,7 @@
       <span class="season-pill" id="season-pill"></span>
       <p class="day-date" id="day-date"></p>
       <h2 class="day-title" id="day-title"></h2>
+      <a class="day-link" id="day-link" href="#" target="_blank" rel="noopener" hidden>About this feast &#8599;</a>
       <p class="fallback-note" id="fallback-note" hidden></p>
     </section>
 
@@ -37,6 +40,12 @@
       <select id="commons-select" class="commons-select"></select>
     </section>
 
+    <section class="day-card commons-picker" id="votive-picker" aria-label="Browse Votive Masses" hidden>
+      <span class="season-pill">Votive Masses</span>
+      <label class="commons-label" for="votive-select">Choose a Mass:</label>
+      <select id="votive-select" class="commons-select"></select>
+    </section>
+
     <section class="score-card">
       <div id="mass-options" class="mass-options" role="group" aria-label="Choose which Mass to show" hidden></div>
       <div id="propers-tabs" class="propers-tabs" role="group" aria-label="Choose which proper to show" hidden></div>
@@ -44,13 +53,87 @@
       <div class="score-tools">
         <button type="button" id="play-btn" class="ghost">▶ Hear it</button>
         <span id="play-note" class="play-note"></span>
+        <label class="tempo-control" for="tempo-slider">
+          Tempo
+          <input type="range" id="tempo-slider" min="80" max="260" step="5" aria-label="Playback tempo in beats per minute" />
+          <span id="tempo-value"></span>
+        </label>
+        <label class="tempo-control" for="pitch-slider">
+          Pitch
+          <input type="range" id="pitch-slider" min="-12" max="12" step="1" aria-label="Playback pitch transposition in semitones" />
+          <span id="pitch-value"></span>
+        </label>
+        <label class="tempo-control" for="volume-slider">
+          Volume
+          <input type="range" id="volume-slider" min="0" max="100" step="1" aria-label="Playback volume percentage" />
+          <span id="volume-value"></span>
+        </label>
+        <label class="tempo-control verse-toggle-control" for="verse-toggle">
+          <input type="checkbox" id="verse-toggle" aria-label="Include the psalm verse and Gloria Patri, sung after the antiphon" />
+          ℣ Psalm verse
+        </label>
+        <button type="button" id="share-btn" class="ghost">🔗 Copy link</button>
+        <span id="share-note" class="play-note" aria-live="polite"></span>
       </div>
     </section>
 
     <section class="introit-text" aria-label="The introit text">
       <p class="introit-latin" id="introit-latin"></p>
       <p class="introit-translation" id="introit-translation"></p>
+      <div class="sequence-stanzas" id="sequence-stanzas" hidden></div>
+      <div class="verse-block" id="verse-block" hidden>
+        <p class="verse-label">℣ Psalm verse</p>
+        <p class="introit-latin" id="verse-latin"></p>
+        <p class="introit-translation" id="verse-translation"></p>
+        <p class="verse-label" id="gloria-patri-label" hidden>Glória Patri</p>
+        <p class="introit-latin" id="gloria-patri-latin"></p>
+        <p class="introit-translation" id="gloria-patri-translation"></p>
+      </div>
+      <p class="introit-reference" id="introit-reference"></p>
       <p class="introit-mode" id="introit-mode"></p>
+    </section>
+
+    <section class="about-chant" id="about-chant-section" hidden>
+      <details>
+        <summary>About this chant</summary>
+        <p class="about-chant-mode" id="about-chant-mode"></p>
+        <p class="about-chant-blurb" id="about-chant-blurb" hidden></p>
+        <p class="about-chant-source" id="about-chant-source" hidden></p>
+      </details>
+    </section>
+
+    <section class="orations" id="orations-section" hidden>
+      <details>
+        <summary>Orations (Collect, Secret, Postcommunion)</summary>
+        <p class="orations-note" id="orations-note" hidden></p>
+        <div class="oration-block">
+          <h3>Collect</h3>
+          <p class="oration-latin" id="collect-latin"></p>
+          <p class="oration-translation" id="collect-translation"></p>
+        </div>
+        <div class="oration-block">
+          <h3>Secret</h3>
+          <p class="oration-latin" id="secret-latin"></p>
+          <p class="oration-translation" id="secret-translation"></p>
+        </div>
+        <div class="oration-block">
+          <h3>Postcommunion</h3>
+          <p class="oration-latin" id="postcommunion-latin"></p>
+          <p class="oration-translation" id="postcommunion-translation"></p>
+        </div>
+      </details>
+    </section>
+
+    <section class="print-view" id="print-view" hidden>
+      <div class="print-controls no-print" role="group" aria-label="Print options">
+        <div class="print-scope calendar-version" role="group" aria-label="What to print">
+          <span class="calendar-version-label">Print:</span>
+          <button type="button" data-scope="chant" class="active">This chant only</button>
+          <button type="button" data-scope="mass">Whole Mass</button>
+        </div>
+        <button type="button" id="print-btn" class="ghost">🖨 Print</button>
+      </div>
+      <div class="print-sheet" id="print-sheet"></div>
     </section>
 
     <section class="jump" id="jump-section" aria-label="Look up another day">
@@ -63,17 +146,21 @@
 
     <footer class="footnotes">
       <p class="source-note" id="source-note"></p>
-      <p class="draft-note">The notation is a first-pass draft &mdash; flag any wrong notes and they're a quick fix. Synthesized playback highlights each note as it sounds; melodies are public domain.</p>
+      <p class="draft-note">English translations are original renderings after the Douay-Rheims; melodies are public domain.</p>
+      <p class="draft-note no-print">Spotted a wrong note, broken text, or a misassigned chant? <a href="https://github.com/financeprofessormckee/Chant-Of-The-Day/issues" target="_blank" rel="noopener">Open an issue on GitHub</a> &mdash; fixes are quick.</p>
+      <p class="draft-note no-print"><a href="SOURCES.md" target="_blank" rel="noopener">Sources & provenance</a></p>
     </footer>
   </main>
 
   <script src="vendor/exsurge.min.js"></script>
+  <script src="chant-render.js"></script>
   <script src="calendar.js"></script>
   <script src="calendar-1962.js"></script>
   <script src="data/introits.js"></script>
   <script src="data/introits-1962.js"></script>
   <script src="data/propers.js"></script>
   <script src="data/propers-1962.js"></script>
+  <script src="data/orations-1962.js"></script>
   <script src="data/common-introits.js"></script>
   <script src="data/common-propers.js"></script>
   <script src="playback.js"></script>
