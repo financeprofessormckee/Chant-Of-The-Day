@@ -123,7 +123,7 @@ window.PROPERS = {
       latin: "Suscépimus, Deus, misericórdiam tuam in médio templi tui : secúndum nomen tuum, Deus, ita et laus tua in fines terrae. ℣. Sicut audívimus, ita et vídimus in civitáte Dei nostri, in monte sancto ejus.",
       translation: "We have received your mercy, O God, in the midst of your temple: according to your name, O God, so also is your praise unto the ends of the earth. ℣. As we have heard, so have we seen, in the city of our God, in his holy mountain.",
       mode: "Gradual · The Presentation of the Lord · Mode V",
-      reference: "Ps. 47:10-11, 9",
+      reference: "Ps. 48:10-11, 9",
       gabc: "(c4) SUs(d)cé(ffg)pi(f)mus,(f.) *(,) De(ghg'/hg)us,(gv.fgFD.1) (,) mi(d)se(ffg)ri(f)cór(fg~)di(f)am(f) tu(fffvDC'dff/hghf)am(f.) (;) in(hj~) mé(j)di(kvJH)o(h) tem(f)pli(h) tu(gv.fhf/gh)i :(g.) (:) se(h)cún(hg~)dum(j) no(j)men(ij) tu(hhg)um,(h_g) De(fg!hvGF'g)us,(gf..) (;) i(ffg)ta(f) et(f) laus(ghg'hvG'F) tu(fv.ege/f_d)a(dc..) (;) in(fgf) fi(fg'h)nes(ixhjHG'hw!ivHG') ter(f)rae.(fffvDC.) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) ℣. Sic(d)ut(d) au(fe~)dí(eh)vi(h)mus,(h_[oh:h]i_[oh:h]h_2[oh:h]//i_[oh:h]hjvHF.1) (,) (h_g/ijh'___jvIH'jvIH'//hvGF.) (:) i(f!h'i)ta(ih/jkihhf.) (,) et(f) ví(hfh)di(hhh)mus(h.f!gwh!iv.hi/jhh/iih.0) (:) in(d) ci(d)vi(d)tá(d)te(d) De(d)i(d) no(de)stri,(d.) (,) in(d) mon(d)te(d) san(dfE'D)cto(ef) *() e(fhG'Fhhh)jus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #50)"
     },
@@ -141,7 +141,7 @@ window.PROPERS = {
       latin: "Diffúsa est grátia in lábiis tuis : proptérea benedíxit te Deus in aetérnum, et in saéculum saéculi.",
       translation: "Grace is poured abroad on your lips: therefore has God blessed you for ever, and for ages of ages.",
       mode: "Offertory · The Presentation of the Lord · Mode VIII",
-      reference: "Ps. 44:3",
+      reference: "Ps. 45:3",
       gabc: "(c4) DIf(df)fú(ef!ghhghhgh)sa(fhg) est(g.) *(,) grá(hv./[-0.5]jkjkvJ'I)ti(jjj_h)a(hg..) (;) in(hggf~) lá(h_g/jjjh//jkJ'I)bi(jjjhhg)is(h.) tu(gjIH'hg)is :(ghggf.0) (:) pro(hj)ptér(jjj//jkj)e(jj/kj)a(jkjjgh.) (,) be(gihhg)ne(g)dí(hv./[-0.5]jkj)xit(j) te(jkjj) De(ji)us(j.) (;) in(jjj_ghjkj) ae(jjj_g//hj/klj)tér(jjj_g//jvIH'hg~)num,(ghggf.0) (:) et(fh) in(hjI'H) saé(gj//j'1j//jjj)cu(jj/k_[hl:1]j)lum(j.) (,) saé(jkjjg//hj/kj/kjjh//jjj_h/jj//jkj//hiH'G)cu(fg)li.(g.) (,) (jjvH'Gh_ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #177)"
     },
@@ -237,7 +237,7 @@ window.PROPERS = {
       latin: "Benedícite Dóminum omnes Angeli ejus : poténtes virtúte, qui fácitis verbum ejus. ℣. Bénedic ánima mea Dóminum, et ómnia interióra mea nomen sanctum ejus.",
       translation: "Bless the Lord, all you his Angels: mighty in strength, who do his word. ℣. Bless the Lord, O my soul, and let all that is within me bless his holy name.",
       mode: "Gradual · Sts. Michael, Gabriel and Raphael, Archangels · Mode III",
-      reference: "Ps. 102:20, 1",
+      reference: "Ps. 103:20, 1",
       gabc: "(c4) BE(f)ne(ffff_c)dí(d!ewf_e)ci(f)te(fffd/fff) (,) * Dó(e.f!gwh_g)mi(hg)num(ixg_[uh:l]h//e.f!gw!higff/ded.) (;) o(g)mnes(hj) An(j)ge(j)li(j) e(jj//jjjvHGigh)jus :(h.) (,) (i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pot(g)én(hjI~H~)tes(jkJ'H) vir(jjh~)tú(jjj_g)te,(ixg_[uh:l]h//e.f!gw!higff/ded.) (;) qui(gji) fá(jji/j_k)ci(jkJ'Hg!ihi)tis(ij'k) ver(jk~)bum(g_[oh:h]f) (,) e(f!h'j~)jus.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'Ef_h//ixivGFghg/hgge.) (::) ℣. Bé(e)ne(e)dic(ege/ghgff/ded.) (,) á(dc)ni(g)ma(hj) me(ijh)a(h.) Dó(h!jij)mi(hgh)num,(h.) (,) (i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) et(ijg) ó(h_j)mni(j)a(jj) (,) in(ijg)ter(h_i)i(i)ó(ki/jk_[hl:1]j//ki/jk_[hl:1]jk//ij/kjkkj)ra(j_i) (,) me(jh/jjjvHG'h!jjjvHG'h)a(hv.gjh/ihhg.) (:) no(hji)men(jj//jjjh/ijHG.) (,) (jj//jjjh/ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jg/i_[uh:l]j//gh!jjjvH'GF'fd.) (;) san(fd/ffd/ef!gh/jjj)ctum(g_[oh:h]f) *() e(f!h'j~)jus.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::)",
       source: "Graduale Romanum (GregoBase #609)"
     },
@@ -255,7 +255,7 @@ window.PROPERS = {
       latin: "Benedícite Dóminum omnes Angeli ejus : minístri ejus, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
       translation: "Bless the Lord, all you his Angels: his ministers, who do his word, hearkening to the voice of his commands.",
       mode: "Offertory · Sts. Michael, Gabriel and Raphael, Archangels · Mode I",
-      reference: "Ps. 102:20-21",
+      reference: "Ps. 103:20-21",
       gabc: "(c4) BE(c)ne(d)dí(ixdh'!iv)ci(h)te(h) *() Dó(h!jjj_h)mi(hg)num(h.) (;) o(f!gwhg~)mnes(h) An(hjh___!iwj)ge(g)li(fgffe) e(de!fvE~D~)jus :(e[ll:1]d..) (:) mi(d)ní(d!f'g)stri(g) e(hgh)jus,(ixhig'hvF'Df.) (;) qui(df) fá(ghg)ci(h)tis(gf) ver(hjI~'H~)bum(hgh) e(fg!hvG~F~)jus,(gf..) (:) ad(g) au(fgf)di(d)én(d!ew!fvEDevD~C~)dam(dc__) vo(f!hgh)cem(hjhghgfgF'Df.) (,) ser(d!fff)mó(f)num(fgffe) e(de!fvED'e)jus.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #1270)"
     },
@@ -275,7 +275,7 @@ window.PROPERS = {
       latin: "Constítues eos príncipes super omnem terram : mémores erunt nóminis tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii : proptérea pópuli confitebúntur tibi.",
       translation: "You shall make them princes over all the earth: they shall remember your name, O Lord. ℣. Instead of your fathers, sons are born to you: therefore shall the peoples praise you.",
       mode: "Gradual · St. Andrew, Apostle · Mode V",
-      reference: "Ps. 44:17-18",
+      reference: "Ps. 45:17-18",
       gabc: "(c4) COn(d)stí(ff)tu(f!hgh)es(h) e(gg)os(gf..) *(,) prín(h)ci(ixi)pes(h_g//hiHF.ghFD.ev.dec.!/[-0.5]fg/!hggf.0) (;) su(jjk)per(j_h) o(jk~)mnem(j) ter(ixjhi)ram :(hgiHGkv.jkJ//F.0gh/jiih.0) (:) mé(ixj_h/i!jwk)mo(ixjk_[hl:1]J'_[hl:1]IH'i)res(h.) e(ixgh!i'j)runt(i_[oh:h]h) (,) nó(ixjhi)mi(gf)nis(f) tu(h_g)i,(jj) (`) Dó(ixjhi)mi(gf)ne.(fhg___) (,) (jkijh.fhg/hggf.0) (z0::c3) ℣. Pro(df) pá(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)tri(gh)bus(h.) (,) tu(ih/kkh/ih/kkvIH)is(hv.ghGF.) (;) na(h.i!jwk)ti(ih) sunt(h.) ti(f!hhe)bi(f.) (,) fí(gxfgFE.fgFD.fvEDe[ll:1]d)li(bd)i :(d.) (:) pro(de)ptér(ef)e(hf/ge)a(ef!hih.) (,) pó(h)pu(gh)li(gxfhE'D//hf/gf..) (,) con(d)fi(ef)te(f)bún(f)tur(hV_!fg~) *() ti(e.f!gwh)bi.(he) (,) (gxhfgED'//ef/hff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #307)"
     },
@@ -293,7 +293,7 @@ window.PROPERS = {
       latin: "In omnem terram exívit sonus eórum : et in fines orbis terrae verba eórum.",
       translation: "Their sound has gone forth into all the earth: and their words unto the ends of the world.",
       mode: "Offertory · St. Andrew, Apostle · Mode II",
-      reference: "Ps. 18:5",
+      reference: "Ps. 19:5",
       gabc: "(c4) IN(e!g'h) o(hiH'G)mnem(g.ggg//hihi) ter(ghE'D)(,)(de/ghg___//hi/k_[hl:1]i/j_kh)ram(h.) *(;) ex(jj)í(j_i)vit(jjj_h) so(hjjh)nus(h.) e(gh)ó(hjj'1jjh//kjjh/ig)rum :(g.) (:) et(jj) in(j) fi(kjjh)nes(h) or(g!jjj)bis(j) ter(hig)rae(e!geg.) (;) ver(deg)ba(e/ghg___//ikj'kvJ'IH) e(h)ó(h)rum.(h!iwjjvIHiih.0) (::)",
       source: "Graduale Romanum (GregoBase #570)"
     },
@@ -313,7 +313,7 @@ window.PROPERS = {
       latin: "Sedérunt príncipes, et advérsum me loquebántur : et iníqui persecúti sunt me. ℣. Adjuva me, Dómine Deus meus : salvum me fac propter misericórdiam tuam.",
       translation: "Princes sat, and spoke against me: and the wicked persecuted me. ℣. Help me, O Lord my God: save me for your mercy's sake.",
       mode: "Gradual · St. Stephen, the First Martyr · Mode V",
-      reference: "Ps. 118:23, 86",
+      reference: "Ps. 119:23, 86",
       gabc: "(c3) SE(b)dé(dd/f_ef)runt(ded.) *(,) prín(de'f)ci(f)pes,(fefED'dfvEDe[ll:1]d..) (;) et(d) ad(d)vér(e)sum(f) me(h_[oh:h]i_[oh:h]h_[oh:h]/ihh/fgf.) (,) lo(f)que(hh)bán(hh//hh)tur :(f.) (:) et(f) in(h)í(i!jwk)qui(i.) per(h)se(h)cú(h)ti(gh) sunt(fe~) me.(dfe___//highf.dfe/fee[ll:1]d.0) (::) ℣. Ad(d)ju(d)va(f) me,(gxg) Dó(h)mi(h)ne(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (;) De(f!h'i)us(ih/jkihhf.) (`) me(hf/hhh)us :(h.f!gwh!iv.hi/jhh/iih.0) (:) sal(d)vum(d) me(d) fac(d.) (,) pro(d)pter(d) mi(d)se(d)ri(d)cór(dfE'D)di(ef)am(f.) () * tu(fhG'Fhhh)am.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #906)"
     },
@@ -369,7 +369,7 @@ window.PROPERS = {
       latin: "Justus ut palma florébit : sicut cedrus, quae in Líbano est, multiplicábitur.",
       translation: "The just shall flourish like the palm tree: he shall grow up like the cedar of Lebanon.",
       mode: "Offertory · St. John, Apostle and Evangelist · Mode IV",
-      reference: "Ps. 91:13",
+      reference: "Ps. 92:13",
       gabc: "(c4) JU(e.f!gwhgfffdgvFE)stus(fff) *(,) ut(dge) pal(gh)ma(g!jjjvH'GF.//ixfff!gwhg/hih.) (,) flo(ghf)ré(dgF'E)bit :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) sic(dg)ut(gh) ce(h!iwj!kvJH//gih)drus,(hjHG'hffe.) (,) quae(ghf) in(fe~) Lí(ghF'E//fh)ba(h_g!jjjvH'G)no(g_[oh:h]f//hvGFgvFE) est,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (;) mul(ff)ti(dgf)pli(f)cá(ixff/hihhghvGFg_[oh:h]e//hggf/ghg')bi(e)tur.(egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #777)"
     },
@@ -389,7 +389,7 @@ window.PROPERS = {
       latin: "Anima nostra, sicut passer, erépta est de láqueo venántium : láqueus contrítus est, et nos liberáti sumus.",
       translation: "Our soul has escaped like a bird from the snare of the fowlers: the snare is broken, and we are delivered.",
       mode: "Gradual · The Holy Innocents, Martyrs · Mode II",
-      reference: "Ps. 123:7-8",
+      reference: "Ps. 124:7-8",
       gabc: "(f3) A(ce)ni(ef)ma(f) *() no(f/hhh_f/hjIH'ihh'hhvF'Ef!gwhf)stra,(f.) (;) sic(f!hfh)ut(ef) pas(f!gwh/ih)ser,(f!hfh.) (,) e(ef)ré(hi)pta(ij) est(kxhj/kjji.) (;) de(kxh.i!jwk_[hl:1]j) lá(jji)que(ih)o(h!iwjihh/fgf.) (,) ve(hhi)nán(kxjkij)ti(h_f)um :(fhF'Ef.) (:) lá(fh)que(hhh//hv.hhh)us(fh) con(hih)trí(hi)tus(kxi./jki) est,(h.) (:) et(iv.hhhi) nos(ijhh/fgf.) (,) li(h_g)be(gihh)rá(iv.hjIH'hf/hih)ti(hv.hhh//hv.hhh) (,) su(f)mus.(f!hhh_f/hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::)",
       source: "Graduale Romanum (GregoBase #1031)"
     },
@@ -398,7 +398,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Anima nostra sicut passer erépta est de láqueo venántium : láqueus contrítus est, et nos liberáti sumus.",
       translation: "Alleluia. ℣. Our soul has escaped like a bird from the snare of the fowlers: the snare is broken, and we are delivered.",
       mode: "Alleluia · The Holy Innocents, Martyrs · Mode VII",
-      reference: "Ps. 123:7-8",
+      reference: "Ps. 124:7-8",
       gabc: "(c2) AL(c)le(cfe)lú(fg~){ia}.(g.) *(,) ij.(ffg/e!g'h//fhg___!hwi_[oh:h]g.e.[ll:1]d!ewf/gffc) (,) (fffd//fe/gffvD'Cd_eddc.) (::) ℣. A(cfe)ni(fg)ma(g) no(ghF'Ef_g)stra(g.) (;) sic(g)ut(g) pas(g)ser(i.g!hw!ivHG') e(g)ré(ghF'E)pta(f_g) est(ghfgvFEfe..) (;) de(f) lá(e.f!gwh)que(hg)o(ghFDgv) ve(g)nán(gffvE'DC)ti(fg)um :(g.) (:) lá(cfe)que(fg)us(g) con(gh)trí(g!hwi/jiig!hwi_[oh:h]hivHG)tus(h_g) est,(g.) (:) et(g) nos(i.g!hwi_[oh:h]hivHGh_g) li(g)be(gf)rá(g)ti(dfe) () * su(fg)mus.(g.) (,) (ffg/e!g'h//fhg___!hwi_[oh:h]g.e.[ll:1]d!ewf/gffc) (,) (fffd//fe/gffvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #1302)"
     },
@@ -407,7 +407,7 @@ window.PROPERS = {
       latin: "Anima nostra, sicut passer, erépta est de láqueo venántium : láqueus contrítus est, et nos liberáti sumus.",
       translation: "Our soul has escaped like a bird from the snare of the fowlers: the snare is broken, and we are delivered.",
       mode: "Offertory · The Holy Innocents, Martyrs · Mode II",
-      reference: "Ps. 123:7-8",
+      reference: "Ps. 124:7-8",
       gabc: "(f3) A(ce)ni(ef)ma(f) *() no(f/hhh_f/hjIH'ihh'hhvF'Ef!gwhf)stra,(f.) (;) sic(f!hfh)ut(ef) pas(f!gwh/ih)ser,(f!hfh.) (,) e(ef)ré(hi)pta(ij) est(kxhj/kjji.) (;) de(kxh.i!jwk_[hl:1]j) lá(jji)que(ih)o(h!iwjihh/fgf.) (,) ve(hhi)nán(kxjkij)ti(h_f)um :(fhF'Ef.) (:) lá(fh)que(hhh//hv.hhh)us(fh) con(hih)trí(hi)tus(kxi./jki) est,(h.) (:) et(iv.hhhi) nos(ijhh/fgf.) (,) li(h_g)be(gihh)rá(iv.hjIH'hf/hih)ti(hv.hhh//hv.hhh) (,) su(f)mus.(f!hhh_f/hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::)",
       source: "Graduale Romanum (GregoBase #1031)"
     },
@@ -475,7 +475,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Áperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with blessing.",
       mode: "Gradual · The Most Holy Body and Blood of Christ (Corpus Christi) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     },
@@ -547,7 +547,7 @@ window.PROPERS = {
       latin: "Dulcis et rectus Dóminus, propter hoc legem dabit delinquéntibus in via. ℣. Díriget mansuétos in judício, docébit mites vias suas.",
       translation: "Sweet and righteous is the Lord, and for this he will give a law to sinners in the way. ℣. He will guide the meek in judgment, he will teach the gentle his ways.",
       mode: "Gradual · The Most Sacred Heart of Jesus · Mode I",
-      reference: "Ps. 24:8-9",
+      reference: "Ps. 25:8-9",
       gabc: "(c4) DUl(ixdh!ivHGfhg/hi)cis(h.) *(,) et(h/jjkvJH.ixgiH'Gh) re(f!gwhg)ctus(h.) (,) Dó(ghG'Efgf/g_[uh:l]h)mi(d!ewfd)nus,(d.) (:) pro(dfd)pter(ddc) hoc(d_[oh:h]e_[oh:h]d_[oh:h]) (,) le(dh)gem(hg) da(gj)bit(jj) de(jkj)lin(jijvIHiij)quén(g)ti(g.h!iwj)bus(ih..) (;) in(fh) vi(ixh_g/jjvH'Ghig)a.(efd/f_h//ghG'Ef_g//fgFD.1) (::) ℣. Dí(dh)ri(h)get(h) man(h)su(hg)é(h)tos(hjH'GF.eg/hgh/fgFD.1) (,) (cd/fd//cd/ff/g.h!iw!jvIH.) (;) in(h) ju(h)dí(h)ci(h)o,(hjH'Gh/jjjh//jjjvIH'jggf.0) (:) do(hkkj)cé(jlKJ'kjj'jh)bit(i_[oh:h]h) (,) mi(ixhv.fhg/hiG'F//gf/ghff'fd!ewfef)tes(e[ll:1]d..) (,) vi(d/fff)as(g_[oh:h]f) () * su(f!hgh)as.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (;) (cd!fvvDC'd/ff/gff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #1035)"
     },
@@ -565,7 +565,7 @@ window.PROPERS = {
       latin: "Impropérium exspectávit cor meum, et misériam : et sustínui qui simul mecum contristarétur, et non fuit : consolántem me quaesívi, et non invéni : et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
       translation: "My heart has expected reproach and misery: and I looked for someone to grieve with me, but there was none: I sought one to comfort me, and I found none. And they gave me gall for my food, and in my thirst they gave me vinegar to drink.",
       mode: "Offertory · The Most Sacred Heart of Jesus · Mode VIII",
-      reference: "Ps. 68:21",
+      reference: "Ps. 69:21",
       gabc: "(c4) IM(fgffe)pro(cd)pé(ff)ri(f!gwhgh)um(hg__) *(,) ex(gh)spe(g)ctá(h!iwj)vit(g) cor(g!jj//jjjhhg~) me(ixgih'ivGF')um,(gffe.) (;) et(g) mi(h!iwj_i)sé(jkjjh)ri(h!iw!jvI'HG'h)am :(hg..) (:) et(f) sus(g)tí(gjji)nu(ikjj)i(j_i) (,) qui(i) si(ikjj)mul(j_i) con(ij)tri(ij)sta(j)ré(jvIH)tur,(iki'/jkhhg.) (;) et(g!i'k~) non(k_[hl:1]ik) fu(ikjj'ji)it :(i.) (:) con(g!jjj)so(j)lán(ikjj)tem(jh~) me(iji) (,) quae(jkj)sí(jjjh)vi,(hg/hih.) (;) et(f!h'j~) non(j_h/jjjlvKJjv'1IH) in(hg~)vé(giH'GhvGF)ni :(f.) (:) et(f!gwh) de(hg)dé(hv.jj//jjj)runt(h!iw!jvI'HGhih.) (,) in(gf) e(ghg)scam(h) me(hjI'H)am(gf~) fel,(ghg/h_g/hjIH.) (:) et(fg) in(hg~) si(j)ti(j!kwl_k) me(kjji)a(hg..) (,) po(j)ta(jkj)vé(jjjh)runt(g.fgwh!ivH~G~) me(hg..) (,) a(h)cé(jkjjh/jjh/jjvH'G)to.(g!hwihhg.) (::)",
       source: "Graduale Romanum (GregoBase #486)"
     },
@@ -598,7 +598,7 @@ window.PROPERS = {
       latin: "Haec dies, quam fecit Dóminus : exsultémus, et laetémur in ea. ℣. Confitémini Dómino, quóniam bonus : quóniam in saéculum misericórdia ejus.",
       translation: "This is the day which the Lord has made: let us be glad and rejoice therein. ℣. Give praise to the Lord, for he is good: for his mercy endures forever.",
       mode: "Gradual · Easter Sunday of the Resurrection · Mode II",
-      reference: "Ps. 117:24, 1",
+      reference: "Ps. 118:24, 1",
       gabc: "(c3) HAec(gxf_egvFEfd/f_h) di(hhhvFEfef)es,(f.) *(;) quam(ef) fe(hh)cit(hh//ijhhvF'Ef.) (,) Dó(hfh)mi(hhh)nus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ex(f)sul(h)té(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)mus,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'f) lae(fef)té(hf/hhh)mur(hiHF.1) (;) in(ef) e(hf/h_i)a.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Con(f)fi(h)té(hi~)mi(i)ni(i) Dó(ih/ij!kvJH)mi(hi/jij)no,(j_0kvJH'//jh/j_i//kvJIkvJI.) (:) quó(h.0/[-0.5]ijijHF.h.0/[-0.5]ijHF.1e.f!gwh!iv./[-0.5]llvJ'I)ni(ji)am(i.) (,) bo(iv.hhhjv_I_H_3jv_I_H_3i_[oh:h]f)nus :(f.) (:) quó(hhi)ni(h)am(h) in(h) saé(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')cu(f)lum(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) mi(d)se(de'f)ri(f)cór(f.0/[-0.5]hvGF'g)di(e)a(f) *() e(hf/h_i)jus.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1075)"
     },
@@ -633,7 +633,7 @@ window.PROPERS = {
       latin: "Terra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúia.",
       translation: "The earth trembled and was still when God arose in judgment, alleluia.",
       mode: "Offertory · Easter Sunday of the Resurrection · Mode IV",
-      reference: "Ps. 75:9-10",
+      reference: "Ps. 76:9-10",
       gabc: "(c4) TEr(dfe)ra(fffdf) ()* tré(ef'g)mu(gfh)it,(h.) (;) et(h/jjvH'G) qui(f!gwhg)é(gv.fhg)vit,(dgF'EfgFD.1) (:) dum(d!fffd~) re(ef)súr(gh)ge(gf)ret(fh!jjjh..) (;) in(dh) ju(h)dí(h/jjh)ci(g)o(giHG'h) De(ef!hvGE'fd)us,(d.) (:) al(d!fff//f_e/[1]{ix}fv.hiH'GF'fe~)le(ghg//f'/ge/f_d)(,)(df/hg//df/hg//f'/ge/f_d//hvGF'g)lú(e){ia}.(egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #725)"
     },
@@ -662,7 +662,7 @@ window.PROPERS = {
       latin: "Lauda, ánima mea, Dóminum : laudábo Dóminum in vita mea : psallam Deo meo, quámdiu ero, allelúia.",
       translation: "Praise the Lord, O my soul: I will praise the Lord in my life: I will sing to my God as long as I shall be, alleluia.",
       mode: "Offertory · 3rd Sunday of Easter · Mode IV",
-      reference: "Ps. 145:2",
+      reference: "Ps. 146:2",
       gabc: "(c4) LAu(ce/ge/ghGF'fvED)da(fd/efe.) *(,) á(fd)ni(fe)ma(f) me(hgge)a(fhG'Fghg) Dó(e)mi(egff)num :(eef.) (:) lau(e[ll:1]d~)dá(ghg)bo(h) Dó(ixhjh/i_[uh:l]j)mi(g)num(fgFE.) (;) in(f) vi(f_e/f!gwh)ta(hhg) me(ge/ghffe)a :(efE'Deef.) (:) psal(ce/gf)lam(ffff_c) De(d!ewf!gvFE)o(f.) me(ixfh!ivHG)o,(gh..) (;) quám(f)di(ixef!hig)u(g_[oh:h]f) e(f)ro,(d!ewffvED.) (;) al(ce/gf)le(ffff_c//fff_e//hg/hffe)lú(egF~'E~){ia}.(e.) (::)",
       source: "Graduale Romanum (GregoBase #668)"
     },
@@ -682,7 +682,7 @@ window.PROPERS = {
       latin: "Cantáte Dómino, allelúia : cantáte Dómino, benedícite nomen ejus : bene nuntiáte de die in diem salutáre ejus, allelúia, allelúia.",
       translation: "Sing to the Lord, alleluia: sing to the Lord, bless his name: show forth his salvation from day to day, alleluia, alleluia.",
       mode: "Communion · 3rd Sunday of Easter · Mode II",
-      reference: "Ps. 95:2",
+      reference: "Ps. 96:2",
       gabc: "(c3) CAn(f)tá(h)te(hg) Dó(hi)mi(ivH'GhvGF'g)no,(g_[oh:h]f) *(,) al(f!gwh)le(egf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia} :(f.) (:) can(f)tá(h)te(hg) Dó(hj)mi(ji)no,(hih.) (,) be(h)ne(hg)dí(i)ci(hg)te(f) no(f!gwhgh)men(g_[oh:h]f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus :(f.) (:) be(j_h/i_[oh:h]g//hihi)ne(f.) nun(f!gwh)ti(hf)á(hi!jvI'HG'hwihi)te(ih..) (,) de(h) di(i)e(f) in(fe~) di(f!gw!hvG'FE'f)em(fe..) (,) sa(fgf)lu(e[ll:1]d)tá(fgf)re(ef) e(f_[oh:h]g_[oh:h]f_[oh:h])jus,(f.) (;) al(jk)le(j)lú(jij){ia},(h_f) (,) al(hi)le(ghijhivHG)lú(f!gwhgh){ia}.(gf..) (::)",
       source: "Graduale Romanum (GregoBase #579)"
     },
@@ -704,7 +704,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Redemptiónem misit Dóminus in pópulo suo.",
       translation: "Alleluia. ℣. The Lord has sent redemption to his people.",
       mode: "Alleluia · 4th Sunday of Easter · Mode II",
-      reference: "Ps. 110:9",
+      reference: "Ps. 111:9",
       gabc: "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) *(,) ij.(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) ℣. Red(f)em(f)pti(f)ó(f_e/fh!ivHGhiH'Gh_i)nem(i.) (,) mi(ijij)sit(h!jij) Dó(gh'/i_[oh:h]fhv.gh'i)mi(fhG'F)nus(f.) (;) in(fe~) pó(f)pu(f)lo(hg) () * su(hi)o.(i_[oh:h]h/iggf.0) (,) (hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1341). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -713,7 +713,7 @@ window.PROPERS = {
       latin: "Deus, Deus meus, ad te de luce vígilo : et in nómine tuo levábo manus meas, allelúia.",
       translation: "O God, my God, to you do I watch at break of day: and in your name I will lift up my hands, alleluia.",
       mode: "Offertory · 4th Sunday of Easter · Mode II",
-      reference: "Ps. 62:2, 5",
+      reference: "Ps. 63:2, 5",
       gabc: "(f3) DE(ef)us,(fhffe.) (,) * De(f!gwh)us(h_g) me(hhhvF'E//f!gwh_f)us,(f.) (;) ad(fe~) te(f) de(hg) lu(h_f/ij)ce(hiH'GhvG'FEfe__) (,) ví(fhGF')gi(ef'!gvF'E)lo :(e.) (:) et(hg) in(hi~) nó(i)mi(h)ne(hjIH'GFh') tu(e!hhh/i_[oh:h]h)o(h.) (;) le(fhg)vá(hhhf/ghg)bo(f_e) (,) ma(f/hhh)nus(fhGF') me(f)as,(fhGF.) (;) al(fg)le(e/hhhhiH//E'//f/hhh_f/hihi)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::)",
       source: "Graduale Romanum (GregoBase #924)"
     },
@@ -733,7 +733,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Déxtera Dei fecit virtútem : déxtera Dómini exaltávit me.",
       translation: "Alleluia. ℣. The right hand of God has wrought strength: the right hand of the Lord has exalted me.",
       mode: "Alleluia · 5th Sunday of Easter · Mode IV",
-      reference: "Ps. 117:16",
+      reference: "Ps. 118:16",
       gabc: "(c4) AL(dfddc~)le(f)lú(gh~){ia}.(h!iw!jvHGhvGFgge.) *(,) ij.(e!gwhgh//g!hw!ivHGh.//de!f'g//fh/ghffe.) (::) ℣. Déx(h)te(ghG'E)ra(g) De(fg!hvED'ewfef)i(e[ll:1]d..) (;) fe(de!f'g/hgh)cit(ffe) vir(dc~)tú(d!ewfef)tem :(e[ll:1]d..) (:) déx(c)te(d)ra(f_e) Dó(fg)mi(gvF'EfvED'e)ni(e[ll:1]d..) *(;) ex(dfdd)al(dc~)tá(f)vit(gh~) me.(h!iw!jvHGhvGFgge.) (,) (e!gwhgh//g!hw!ivHGh.//de!f'g//fh/ghffe.) (::)",
       source: "Graduale Romanum (GregoBase #159). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -742,7 +742,7 @@ window.PROPERS = {
       latin: "Jubiláte Deo univérsa terra : psalmum dícite nómini ejus : veníte, et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimae meae, allelúia.",
       translation: "Shout joyfully to God, all the earth: sing a psalm to his name: come and hear, all you that fear God, and I will tell you what great things the Lord has done for my soul, alleluia.",
       mode: "Offertory · 5th Sunday of Easter · Mode I",
-      reference: "Ps. 65:1-2, 16",
+      reference: "Ps. 66:1-2, 16",
       gabc: "(c4) JU(c)bi(d)lá(ixdh'!iv)te(h) *() De(hjh)o(ghggf.0) (;) u(ghg)ni(hg)vér(hv.g!jjj)sa(fg) ter(ixfh!jvHGig/hi)ra :(h.) (:) ju(h)bi(h)lá(jhjGF'fvD'C)(,)(ddc/dd//cd!ff//g/hhg/hh)(,)(fg/hhh//gh!jjj//ij/kkj)(,)([oll:1;7.4mm]lk/lmK[oll:0]J'jvIH'k)te(kjjvIH) De(hjh)o(ghggf.0) (;) u(ghg)ni(hg)vér(hv.g!jjj)sa(fg) ter(fh!jvHGig/h!jjh)(,)(jjvH'Gh!iwj_i)ra :(jjjvIH'jggf.0) (:) psal(fh)mum(hg~) dí(h_g/jjj)ci(h_g)te(ghGF.) (,) nó(fg/h_f/ghg___//jkj)mi(jjji)ni(hg) e(gv.fhhghv.gh!jjjh~)jus :(hhgh.) (:) ve(jk)ní(klkl)te,(j_h) (,) et(h_g) au(gh)dí(hj/kjk)te,(k_[hl:1]h_[hl:1]) (,) et(jk[oll:1{1]/lkl[oll:}]) nar(j_h)rá(hj)bo(jjj) vo(hhg)bis,(g_[oh:h]fg.) (;) o(fg/h_f//ghg___//jkj//j'j)mnes(hjG'Fg.) (,) qui(f) ti(ghg)mé(h_fg)tis(fgd) De(fhg___)um,(g.) (:) quan(hj)ta(jji) fe(jvIH)cit(h_g) Dó(g_[oh:h]e)mi(fgffg)nus(gd..) (;) á(df/gfgf//f'ffd/g_[oh:h]ef.)(,)(hjg)ni(fdf)mae(f) me(fffgvFD)ae,(d.) (:) al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #937)"
     },
@@ -793,7 +793,7 @@ window.PROPERS = {
       latin: "Benedícite, gentes, Dóminum Deum nostrum, et obaudíte vocem laudis ejus : qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos : benedíctus Dóminus, qui non amóvit deprecatiónem meam, et misericórdiam suam a me, allelúia.",
       translation: "O bless the Lord our God, you nations, and make the voice of his praise to be heard: who has set my soul to live, and has not let my feet be moved: blessed be the Lord, who has not turned away my prayer, nor his mercy from me, alleluia.",
       mode: "Offertory · 6th Sunday of Easter · Mode II",
-      reference: "Ps. 65:8-9, 20",
+      reference: "Ps. 66:8-9, 20",
       gabc: "(f3) BE(c)ne(c)dí(e!fg')ci(e)te(ce) gen(ce/fef)tes(fe..) *(,) Dó(eg/ih)mi(hhh)num(f) De(f!hhhf)um(fe~) no(ef/gfge)strum,(ce..) (;) et(f) ob(e)au(f)dí(hh)te(f_g) vo(e!hhh)cem(h'/ihh) lau(fe~)dis(hh) e(fgF~'E~)jus :(fe..) (:) qui(f) pó(hh)su(hji)it(ijhh/fgf.) (,) á(f!hji)ni(h)mam(hhh) me(fh)am(hhh) ad(h'/ihh) vi(f)tam,(f!gwhf/ghg.) (;) et(f) non(fe~) de(fh)dit(h'/ihh) com(f)mo(fe)vé(fh)ri(h'/ihh) (,) pe(f)des(e!hhh) me(f!gw!hvG'FE'f)os :(ef..) (:) be(e)ne(f)dí(hih)ctus(hhh) Dó(h'/ihh)mi(f)nus,(f_[oh:h]g_[oh:h]f._[oh:h]) (;) qui(ef) non(f/hih) a(hhh)mó(fge)vit(ce) (,) de(f)pre(f)ca(e)ti(f)ó(hh)nem(fg) me(e!hhh)am,(g_[oh:h]ef.) (;) et(f!hhh) mi(h)se(h)ri(f)cór(f!hhh)di(fe)am(efe___) su(ef!hv'1jvIH)am(h.) (,) a(h) me,(h_f/hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (:) al(fg)le(e/hhhhiH//E'//f/hhh_f/hihi)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::)",
       source: "Graduale Romanum (GregoBase #860)"
     },
@@ -813,7 +813,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Ascéndit Deus in jubilatióne, et Dóminus in voce tubae.",
       translation: "Alleluia. ℣. God is ascended with jubilee, and the Lord with the sound of trumpet.",
       mode: "Alleluia · The Ascension of the Lord · Mode IV",
-      reference: "Ps. 46:6",
+      reference: "Ps. 47:6",
       gabc: "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) *(,) ij.(ixhiHG'ge./ghGF'Ef_gffe.) (::) ℣. A(h)scén(h)dit(g) De(ghG'E)us(fgfg.) (,) in(gh~) ju(h)bi(g)la(ghg'/hf)ti(e[ll:1]d)ó(egF'D)ne,(d.) (:) et(dc~) Dó(f)mi(ghg)nus(ixhiG'Eg./hiF'D//fffdgvFE.) (,) (df/h_f/g_[oh:h]efv.df!gvFEfe..) (:) in(fd~) vo(ef'g)ce(gdgvFE) ()~~* tu(fd/ef!g'h)bae.(ixhiHG'gf.0) (,) (ixhiHG'/!ge./ghGF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #17). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -853,7 +853,7 @@ window.PROPERS = {
       latin: "Psállite Dómino, qui ascéndit super caelos caelórum ad Oriéntem, allelúia.",
       translation: "Sing to the Lord, who mounts above the heaven of heavens to the East, alleluia.",
       mode: "Communion · The Ascension of the Lord · Mode I",
-      reference: "Ps. 67:33-34",
+      reference: "Ps. 68:33-34",
       gabc: "(c4) PSál(d)li(c)te(dfe) Dó(fg)mi(gvF'EfvED'e)no,(e[ll:1]d..) (;) * qui(f) a(gh)scén(hV!gh~)dit(h.) (,) su(h!iwji/jkj)per(hf~) cae(ixgiH'G)los(h_g) cae(ef)ló(ixgiH'G)rum(hg..) (,) ad(f_[oh:h]g_[oh:h]e_[oh:h]e[ll:1]d) O(d!ewf!g'h)ri(fe)én(de~)tem,(c.) (;) al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #263)"
     },
@@ -864,7 +864,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Regnávit Dóminus super omnes gentes : Deus sedet super sedem sanctam suam.",
       translation: "Alleluia. ℣. The Lord has reigned over all nations: God sits upon his holy throne.",
       mode: "Alleluia · 7th Sunday of Easter (after the Ascension) · Mode I",
-      reference: "Ps. 46:9",
+      reference: "Ps. 47:9",
       gabc: "(c4) AL(de)le(dc)lú(e!g'h~){ia}.(hvGFD.1) *(,) ij.(fvECeg//hvGFge//fvECee[ll:1]d.0) (::) ℣. Re(dc/e[ll:1]d/fg~)gná(e[ll:1]d)vit(fe) Dó(dc)mi(efd)nus(d.) (,) su(hhg)per(evDC) o(de~)mnes(e) gen(c!e'f~)tes :(d.) (:) De(h_g/h!iw!jvIH)us(ge) se(fg)det(e_[oh:h][ll:1]d_[oh:h]) (,) su(f)per(ghg~) se(hvEDfv.ced)dem(d.) *(,) san(de)ctam(dc~) su(e!g'h)am.(hvGFD.1) (,) (fvECeg//hvGFge//fvECee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #405). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -873,7 +873,7 @@ window.PROPERS = {
       latin: "Ascéndit Deus in jubilatióne, Dóminus in voce tubae, allelúia.",
       translation: "God is ascended with jubilee, the Lord with the sound of trumpet, alleluia.",
       mode: "Offertory · 7th Sunday of Easter (after the Ascension) · Mode I",
-      reference: "Ps. 46:6",
+      reference: "Ps. 47:6",
       gabc: "(c4) A(d_cd)scén(d!ewf)dit(gh) *(,) De(h!iwj/ki'jvHG'hwihi)us(ih..) (;) in(dh/ih) ju(hjhhg)bi(ghgh)la(gfg)ti(gh)ó(j_i/jjj_gjvIH'hg)ne,(ghggf.0) (:) Dó(dh/ih)mi(h!jjh/jggfg)nus(gf..) (,) in(hg~) vo(h_g/jhhfg)ce(f_df) tu(fgf)bae,(fgf.) (;) al(fff_d/f/[1]{/[-1]ix}f/hiH'GF'fe~)le(ghGF'ge/f_d)(,)(fge/fhGF'fd//gf'/gff)lú(dc~){ia}.(d/fff_d/fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)",
       source: "Graduale Romanum (GregoBase #211)"
     },
@@ -893,7 +893,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Emítte Spíritum tuum, et creabúntur : et renovábis fáciem terrae.",
       translation: "Alleluia. ℣. Send forth your Spirit, and they shall be created: and you shall renew the face of the earth.",
       mode: "Alleluia · Pentecost Sunday · Mode IV",
-      reference: "Ps. 103:30",
+      reference: "Ps. 104:30",
       gabc: "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) *(,) ij.(ixhiHG'ge./ghGF'Ef_gffe.) (::) ℣. E(h)mít(h)te(ixg'//ivHG'hffe.) (,) Spí(fh)ri(ghg'/hf)tum(e[ll:1]d~) tu(egF'D)um,(d.) (:) et(dc~) cre(f)a(ghg)bún(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/!g_[oh:h]e/!fv.df!gvef~)tur :(e.) (:) et(f) re(f)no(f)vá(ef)bis(f) fá(ef'g)ci(gdgvFE)em(e.) (,) * ter(fd/ef!g'h)rae.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #99). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -922,7 +922,7 @@ window.PROPERS = {
       latin: "Confírma hoc, Deus, quod operátus es in nobis : a templo tuo, quod est in Jerúsalem, tibi ófferent reges múnera, allelúia.",
       translation: "Confirm, O God, what you have wrought in us: from your temple, which is in Jerusalem, kings shall offer presents to you, alleluia.",
       mode: "Offertory · Pentecost Sunday · Mode IV",
-      reference: "Ps. 67:29-30",
+      reference: "Ps. 68:29-30",
       gabc: "(c4) COn(d!ewf)fír(f)ma(e'fg) *() hoc(ixghf___//ih/igh) De(e)us,(egf/gffe.) (;) quod(f) o(fgff)pe(df)rá(fff/ghg)tus(gef) es(e_[oh:h][ll:1]d) (,) in(gh) no(g/jjj)bis :(hjhhg.) (:) a(g) tem(gh)plo(h_g) tu(ixgih'ivGF')o,(gffe.) (;) quod(f_e/f_g) est(ixhig'hvF'E) (,) in(gh) Je(gjh)rú(ghf/ghg)sa(fd)lem,(ev.fgfgd.) (:) ti(df/gef)bi(f.) óf(ixf_e/hih'/ih)fe(hhgh)rent(g.) re(df/gef)ges(f.) (,) mú(f_[oh:h]g_[oh:h]e_[oh:h])ne(f/ghf)ra,(ff/ghg.___) (;) al(hg~)le(ixh_f/ih/igh)lú(e){ia}.(egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #361)"
     },
@@ -942,7 +942,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Emítte Spíritum tuum, et creabúntur : et renovábis fáciem terrae.",
       translation: "Alleluia. ℣. Send forth your Spirit, and they shall be created: and you shall renew the face of the earth.",
       mode: "Alleluia · Pentecost Sunday (Vigil Mass) · Mode IV",
-      reference: "Ps. 103:30",
+      reference: "Ps. 104:30",
       gabc: "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) *(,) ij.(ixhiHG'ge./ghGF'Ef_gffe.) (::) ℣. E(h)mít(h)te(ixg'//ivHG'hffe.) (,) Spí(fh)ri(ghg'/hf)tum(e[ll:1]d~) tu(egF'D)um,(d.) (:) et(dc~) cre(f)a(ghg)bún(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/!g_[oh:h]e/!fv.df!gvef~)tur :(e.) (:) et(f) re(f)no(f)vá(ef)bis(f) fá(ef'g)ci(gdgvFE)em(e.) (,) * ter(fd/ef!g'h)rae.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #99). In Eastertide a second Paschal Alleluia follows; only the first is shown."
     },
@@ -951,7 +951,7 @@ window.PROPERS = {
       latin: "Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terrae : sit glória Dómini in saécula, allelúia.",
       translation: "Send forth your Spirit, and they shall be created, and you shall renew the face of the earth: may the glory of the Lord endure forever, alleluia.",
       mode: "Offertory · Pentecost Sunday (Vigil Mass) · Mode VIII",
-      reference: "Ps. 103:30-31",
+      reference: "Ps. 104:30-31",
       gabc: "(c4) E(d_cd)mít(d!ewf)te(fg) (,) * Spí(fh/jh)ri(g!hw!ivHG')tum(h) tu(fg!hvhg)um,(h/jjj) (;) et(g_[oh:h]f) cre(fh/ji)a(jkj)bún(jjjhiv_[oh:h]H~G~)tur,(hg..) (:) et(f) re(fh!jkj)no(j)vá(jkjhkj)bis(j'//kj'/ki'jvH'Gh.) (;) fá(gh/ji)ci(jkjj)em(hj) ter(jjj//lvKJkvJI)rae :(i.) (:) sit(g/jjj//jkj) gló(kkj)ri(ij'k)a(kljjh/j_i) Dó(jkJ'H)mi(h_g/j_i)ni(j.) (;) in(jv_I~H~) saé(jvv//jj//jjj)cu(gh!ivGF)la,(f.) (;) al(h!iwj)le(jv.jjj_ghvGFg.)(,)(jjvIH'iw!jvIH)lú(hg~){ia}.(gjh/ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #1176)"
     },
@@ -983,7 +983,7 @@ window.PROPERS = {
       latin: "Miserére mei Deus, miserére mei : quóniam in te confídit ánima mea. ℣. Misit de caelo, et liberávit me : dedit in oppróbrium conculcántes me.",
       translation: "Have mercy on me, O God, have mercy on me: for my soul trusts in you. ℣. He has sent from heaven and delivered me: he has made them a reproach that trampled upon me.",
       mode: "Gradual · Ash Wednesday · Mode I",
-      reference: "Ps. 56:2, 4",
+      reference: "Ps. 57:2, 4",
       gabc: "(c4) MI(d)se(dv.ced)ré(d)re(d.) * me(fffddc)i(d.) (,) De(f)us,(fv.d!f'g/fffd/ff/ge'fvDC'fd'/e[ll:1]ddc.) (:) mi(cf)se(gfg)ré(ixg_[oh:h]f/g/igh)re(h) me(ixjhhg/hiGF')(,)(gh!jjvHF'//hvGF'fvED')i :(d/ffd/fgf/!f'f/ded.) (:) quó(d_c/f!gwhgh)ni(hjH'G)am(g.) (,) in(gh) te(fg) con(ge/fhGF')fí(gffe)dit(d//ffd/fge'/fgd'/e[ll:1]ddc.) (:) á(d_c/f!gwhgh)ni(hvGF'fvED')ma(d!f/[1]{/[-1]ix}f/hiGF'hvGF') me(gffvD'Cffc)(,)(fgfg)a.(ixhg/hiGF'ghgh'//jvHG'hvF'Dfff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) ℣. Mi(dh)sit(h) de(hg) cae(ixhv.fh!ivHGhv.)(,)(fghjij//h!jjjvGFh./jjh//jjg/jj)lo,(h_[oh:h]i_[oh:h]h._[oh:h]) (;) et(hj) li(hgh)be(gfg)rá(hhg/hhg/jj)vit(h_[oh:h]i_[oh:h]h_[oh:h]) me :(h.) (:) de(j)dit(h) in(f) op(ghg)pró(h_f/gh!jv.ijh.1)(,)(ixjjvH'G//hiG'F//ghF'Dfv.e!gwhgh)bri(h)um(ixhf/higff/ded.) (;) con(d!fffd~)cul(ef)cán(ixghgh/!hg/!hv./!fh!ivGF'E//f!gwh!ivH~G~)tes(hg__) (,) * me.(ixhg/hiGF'ghgh'//jvHG'hvF'Dfff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)",
       source: "Graduale Romanum (GregoBase #754)"
     },
@@ -992,7 +992,7 @@ window.PROPERS = {
       latin: "Dómine, non secúndum peccáta nostra, quae fécimus nos : neque secúndum iniquitátes nostras retríbuas nobis. ℣. Dómine, ne memíneris iniquitátum nostrárum antiquárum : cito antícipent nos misericórdiae tuae, quia páuperes facti sumus nimis. ℣. Ádjuva nos, Deus salutáris noster : et propter glóriam nóminis tui, Dómine, líbera nos : et propítius esto peccátis nostris, propter nomen tuum.",
       translation: "O Lord, repay us not according to the sins we have committed: nor according to our iniquities. ℣. O Lord, remember not our former iniquities: let your mercies speedily go before us, for we are become exceeding poor. ℣. Help us, O God our Saviour: and for the glory of your name, O Lord, deliver us: and forgive us our sins for your name's sake.",
       mode: "Tract · Ash Wednesday · Mode II",
-      reference: "Ps. 102:10",
+      reference: "Ps. 103:10",
       gabc: "(f3) DO(f)mi(efE'C)ne,(efeffe//f!gwhghhg/h_f//ghghf.) (;) * non(f) se(f)cún(f)dum(efE'C) pec(e.f!gwh)cá(h)ta(gf) no(g)stra,(f/gh/iffe.) (;) quae(e) fé(gh)ci(f)mus(f_e/f!gwh'!iv) nos :(hg/hiih.0) (:) ne(e)que(gh) se(f)cún(fg~)dum(f) in(f)i(f)qui(f)tá(fg)tes(f) no(f_e/f!gwh'!iv)stras(hg/hiih.0) (;) re(ehg)trí(hihhe)bu(fgf)as(hg~) no(hvGF)bis.(fefEC//fefggf.0) (::) ℣. Dó(fhg)mi(hi)ne,(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) ne(fe) me(h)mí(hi'j)ne(jvIH'GhvGF'g)ris(gf..) (;) in(f)i(f)qui(hg)tá(h)tum(f) no(f)strá(fg)rum(f.) (,) an(fg~)ti(f)quá(f!hh//hhh)rum :(fe/ggf/gh/iffe.) (:) ci(e)to(e) an(gh)tí(f)ci(f)pent(fg~) nos(f.) (,) mi(f)se(f)ri(f)cór(fg~)di(f)ae(f) tu(f_e/f!gwh'!iv)ae,(hg/hiih.0) (;) qui(h)a(h) páu(hihhg)pe(fe)res(fhg) fa(h)cti(h) su(h)mus(gh/ihi) ni(f)mis.(f/ggf.0) (::) ℣. Ad(kxh!iwj'!kv)ju(j)va(j) nos,(j) De(ji)us(ij..) (,) sa(h)lu(hf)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(hg) gló(h)ri(f)am(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(kxhgi.jkiih.0) (;) pro(hihhg)pter(fe~) no(fgf)men(g.) *() tu(i_[oh:h]hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
       source: "Graduale Romanum (GregoBase #425)"
     },
@@ -1001,7 +1001,7 @@ window.PROPERS = {
       latin: "Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me : Dómine, clamávi ad te, et sanásti me.",
       translation: "I will extol you, O Lord, for you have upheld me: and have not let my enemies rejoice over me: O Lord, I cried to you, and you have healed me.",
       mode: "Offertory · Ash Wednesday · Mode II",
-      reference: "Ps. 29:2-3",
+      reference: "Ps. 30:2-3",
       gabc: "(c3) EX(c)al(e)tá(egf)bo(f) te(f.) *(,) Dó(f)mi(f!hhh)ne,(fefe..) (;) quó(hh)ni(fef)am(f/hhh//giH'GhvGFgf..) (,) sus(fhF'Ef')ce(d)pí(df!hvF'D)sti(d_[oh:h]e_[oh:h]d_[oh:h]) me,(d.) (:) nec(f/hhi) de(f!hhh)le(f!hhh)ctá(e/fgf)sti(fe/f!hhhvFE'ece.) (;) in(c)i(c)mí(ef)cos(fe~) me(f/hh/i_[oh:h]h)os(h.) (,) su(hi/jij)per(h_f/ih'/ihhe/f!gw!hvGFgv_[oh:h]F~E~) me :(fe..) (:) Dó(fh/ih)mi(ivHF)ne(fefvECe.) (,) cla(ec~)má(ef)vi(fe) ad(f/hh/i_[oh:h]h) te,(h.) (;) et(h) sa(f!gwhg)ná(hhhvF'Ef/hhhvF'E//fgf/gf/hhh)sti(f_[oh:h]g_[oh:h]f_[oh:h]) me.(f.) (::)",
       source: "Graduale Romanum (GregoBase #648)"
     },
@@ -1021,7 +1021,7 @@ window.PROPERS = {
       latin: "Sciant gentes quóniam nomen tibi Deus : tu solus Altíssimus super omnem terram. ℣. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.",
       translation: "Let the nations know that God is your name: you alone are the Most High over all the earth. ℣. O my God, make them like a wheel, and as stubble before the face of the wind.",
       mode: "Gradual · 2nd Sunday of Lent · Mode I",
-      reference: "Ps. 82:19, 14",
+      reference: "Ps. 83:19, 14",
       gabc: "(c4) SCi(dfd)ant(d/ffd/fffhvGF) gen(gff'f)tes(d/ffdev'1//fgddc.) (;) * quó(d)ni(fdf)am(gfg) no(ixg_[oh:h]f/g/igh)men(h) ti(ixh.g!hwi)bi(h.) (;) De(ixg_[oh:h]f/g/igh)us :(hgi//hihiggf.0) (:) tu(f) so(hf/gh!jjh)lus(hghvGFg.) (,) Al(h!jij)tís(h_f)si(gf~)mus(f_g//d!f'g//fh!jvGF'fd/ff/ge'/fgd'/e[ll:1]ddc.) (:) su(c)per(d) o(fg/hg)mnem(h!jj/hjg) ter(fv.dge//f!gwh)ram.(ghffgFE.) (,) (h_jHG'hvF'D//ff/gffd.) (::) ℣. De(hg)us(g) me(gh/jh/jggf)us,(f.) (;) po(hj)ne(j_i) il(jjj)los(hg__) (,) ut(gf~) ro(ixgv.fhg/hiGF.hf/gh!jj/k!mmmvKJ'jvH'G)(,)(jkjjh)tam,(hjh/jjjh..) (:) et(f) sic(f)ut(ghg~) stí(h_f/ghGF.)(,)(hV!ghfg./d!ewf//e!gwhg/h!jj)pu(hfg)lam(ghgff/ded.) (:) an(d!fffd~)te(ef) fá(ghghhghv.ixfh!ivGF'E//f!gwh!ivHG)ci(hg)em(g.) *(,) ven(ixhiGF'h!jjvH'G)ti.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1265)"
     },
@@ -1030,7 +1030,7 @@ window.PROPERS = {
       latin: "Commovísti, Dómine, terram, et conturbásti eam. ℣. Sana contritiónes ejus, quia mota est. ℣. Ut fúgiant a fácie arcus, ut liberéntur elécti tui.",
       translation: "You have moved the earth, O Lord, and have troubled it. ℣. Heal its breaches, for it has been shaken. ℣. That they may flee from before the bow, that your elect may be delivered.",
       mode: "Tract · 2nd Sunday of Lent · Mode VIII",
-      reference: "Ps. 59:4, 6",
+      reference: "Ps. 60:4, 6",
       gabc: "(c4) COm(e)mo(e)ví(gh/j.h!iwj)sti(k_[hl:1]j//j'jjvH'GF.) (,) (gh!jjjvIGh_g/h!iw!jvIHivHGhg..) (;) * Dó(gjjk)mi(h)ne(hg/hf//h!jhj) ter(jvIH'iw!jvI'HG'h)ram,(hg..) (:) et(g) con(h_g/h!iwj)tur(g_[oh:h]f~)bá(g)sti(h) e(j./kjjg//j./kj/!j'jj/kjjh)(,)(ji/jjvI'G//hjhjvHF.1)(,)(gh!jvvI'G//hjHF'g)am.(g/hhg.) (::) ℣. Sa(g!jj/kljj'jg)(,)(jj/kljj'jh//ijH'GF.g.h!iwjjk)na(j.) (;) con(ij'k~)tri(k_[hl:1]i)ti(kj)ó(j_kJ'//G)nes(g_[uh:l]h) (,) e(fh/ji/jkhhg/hg!jjhjvG~F~)jus,(gf..) (:) qui(ixfh/ih/ig)a(j.) mo(jjjvHG'h)ta(g) est.(dg'//jvHG.dg'//hjhhg.) (,) (jjjg/hhfgv.dg/hg/hg/hhg.) (::) ℣. Ut(fg) fú(g!jj)gi(j)ant(jj/kljj'jg) (,) (jj/kljj'jh//ijH'GF.g.h!iwjjv) (;) a(jj) fá(jk'l)ci(j_h)e(h_g) ar(h!jj//jjj'jk~)cus,(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) ut(fg!hj~) li(igh)be(gfgh!jij)rén(j.h!iwj)tur(jjjvIHivHGhg..) (;) e(g)lé(hg/jjghvG'F)cti(f!h'j) *() tu(j)i.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #1178)"
     },
@@ -1039,7 +1039,7 @@ window.PROPERS = {
       latin: "Meditábor in mandátis tuis, quae diléxi valde : et levábo manus meas ad mandáta tua, quae diléxi.",
       translation: "I will meditate on your commandments, which I have loved exceedingly: and I will lift up my hands to your commandments, which I have loved.",
       mode: "Offertory · 2nd Sunday of Lent · Mode II",
-      reference: "Ps. 118:47, 48",
+      reference: "Ps. 119:47, 48",
       gabc: "(c3) ME(c)di(ef)tá(f/hhe/gf)bor(f.) *(,) in(e) man(f)dá(hih)tis(hh/ih) tu(hh/ihhvGF)is,(gf..) (;) quae(hg) di(h)lé(hji)xi(hji) val(h_g_f~)de :(f.) (:) et(e) le(f)vá(hhi)bo(h.hhh) (,) ma(fhh'1hh)nus(ef) me(fh)as(hhh/ih/!ih//h'hhvF'Ef.) (,) ad(e) man(f)dá(hih)ta(high) tu(fgffe)a,(e.) (;) quae(hg) di(h)lé(hjIH'/!hf//ih/!ih//h'hhvFE'D)(,)(efE'Defef)xi.(f!gwhhvGF'gwhhvGF.) (::)",
       source: "Graduale Romanum (GregoBase #810)"
     },
@@ -1068,7 +1068,7 @@ window.PROPERS = {
       latin: "Ad te levávi óculos meos, qui hábitas in caelis. ℣. Ecce sicut óculi servórum in mánibus dominórum suórum : ℣. Et sicut óculi ancíllae in mánibus dóminae suae : ℣. Ita óculi nostri ad Dóminum Deum nostrum, donec misereátur nostri. ℣. Miserére nobis, Dómine, miserére nobis.",
       translation: "To you have I lifted up my eyes, who dwell in the heavens. ℣. Behold, as the eyes of servants are on the hands of their masters: ℣. And as the eyes of the handmaid are on the hands of her mistress: ℣. So are our eyes unto the Lord our God, until he have mercy on us. ℣. Have mercy on us, O Lord, have mercy on us.",
       mode: "Tract · 3rd Sunday of Lent · Mode VIII",
-      reference: "Ps. 122:1-3",
+      reference: "Ps. 123:1-3",
       gabc: "(c4) AD(d) te(fg) le(ge/fgD'Cd)vá(fg)vi(ixf!iiivHGhhg.) *(;) ó(gjjk)cu(h)los(hg/hf//h!jhj) me(jvIH'iw!jvI'HG'h)os,(hg..) (:) qui(g) há(h_g/h!iwj)bi(gf)tas(g) in(h) cae(j./kjjg//j./kjj'jj/kjjh)(,)(ji/jjvI'G//hjhjvHF.1)(,)(gh!jvvI'G//hjHF'g)lis.(g/hhg.) (::) ℣. Ec(g!hwi'!jv)ce(j) sic(jjjvIH)ut(h) ó(hjI'H)cu(gf)li(ghg) ser(hi)vó(g.h!iwjhi)rum(hg..) (;) in(h) má(hhgh)ni(f)bus(fg!hvhg.) (,) do(gh)mi(g)nó(hg/jjghvG'F)rum(f!h'j) su(j)ó(j)rum :(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) ℣. Et(gh'j) sic(jjjvIH)ut(h) ó(hjI'H)cu(gf)li(ghg) an(hi)cíl(g.h!iwjhi)lae(hg..) (;) in(h) má(hhgh)ni(f)bus(fg!hvhg.) (,) dó(hg/jjghvG'F)mi(f!h'j)nae(j) su(j)ae :(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) ℣. I(d!ff//fffd//f_!h_f_g_)ta(fg!hvhg.) (,) ó(gjjk)cu(h)li(hg/hf//h!jhj) no(jvIH'iw!jvI'HG'h)stri(hg..) (;) ad(g) Dó(gj)mi(j)num(j) De(ij/kjji)um(i.) (`) no(hjIG'h)strum,(gv.fh/ji/jkh/!hg/hg/jjh/jggf.0) (:) do(f!h'j)nec(igh) mi(gf/gh)se(gh)re(g)á(g)tur(gh/jij) no(j.h!iwj)stri.(jjjvIHivHGhg..) (::) ℣. Mi(g)se(g)ré(g!hwi'!jv)re(j) no(jjjvIH)bis(h) Dó(hjI'H)mi(gf)ne,(g_0[uh:l]/hfg.) (,) (ixi_[oh:h]hivGF.g/hg/hg/hg/jjh/jggf.0) (:) mi(h_g/h!iwj)se(ghG'F)ré(f!h'j)re(j) *() no(j)bis.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #1329)"
     },
@@ -1077,7 +1077,7 @@ window.PROPERS = {
       latin: "Justítiae Dómini rectae, laetificántes corda, et dulcióra super mel et favum : nam et servus tuus custódiet ea.",
       translation: "The justices of the Lord are right, rejoicing hearts, and sweeter than honey and the honeycomb: for your servant keeps them.",
       mode: "Offertory · 3rd Sunday of Lent · Mode IV",
-      reference: "Ps. 18:9, 10, 11, 12",
+      reference: "Ps. 19:9, 10, 11, 12",
       gabc: "(c4) JU(d)stí(f)ti(fff)ae(f!gwhg/h_g) Dó(f)mi(fg!hvGF'g)ni(gf..) (,) * re(fff!gwhgh)ctae,(gf..) (;) lae(fff)ti(d!ew!fvEC)fi(d)cán(f)tes(fff) cor(f!gwhghv_G~F~)da,(gf..) (:) et(fd~) dul(fg)ci(fg'h)ó(hggf/ghGF'g)ra(gf..) (;) su(f)per(d) mel(df'!gv) et(g_[oh:h]f) fa(f.d!ewf/ge//fddcd)vum :(dc..) (:) nam(c!fff) et(fe~) ser(gh)vus(f_e) tu(fhg___)us(g.) (;) cu(f)stó(h_f/hgh)di(gf)et(fv.fffcfv) e(fv.fffhvGFgvFE)a.(e.) (::)",
       source: "Graduale Romanum (GregoBase #591)"
     },
@@ -1097,7 +1097,7 @@ window.PROPERS = {
       latin: "Laetátus sum in his quae dicta sunt mihi : in domum Dómini íbimus. ℣. Fiat pax in virtúte tua : et abundántia in túrribus tuis.",
       translation: "I rejoiced at the things that were said to me: we shall go into the house of the Lord. ℣. Let peace be in your strength: and abundance in your towers.",
       mode: "Gradual · 4th Sunday of Lent (Laetare) · Mode VII",
-      reference: "Ps. 121:1, 7",
+      reference: "Ps. 122:1, 7",
       gabc: "(c2) LAe(ff)tá(g)tus(fgF'Dgfg) sum(g./hiHG'gf/ghg.___) *(;) in(fg) his(gj) quae(j) di(jii)cta(g) sunt(gj~) mi(j_)hi :(g) (,) (ihij_i//hjii/ghg.) (:) in(gh) do(gh)mum(g_[oh:h]e) Dó(f)mi(dec)ni(c.) (,) í(eggf/g_[oh:h]e//fvED'ef'!gffd!ewf)bi(cdc___)mus.(c.) (::) ℣. Fi(gfg)at(gj~) pax(j_kJ'//G//ihij_i//hjii/ghg.) (;) in(f) vir(g)tú(g!ii//iikvJI'ig)te(gffd) tu(fdffd/ec)a :(c.) (:) et(g) a(c)bun(df~)dán(fv.d!gf'gjv.iiiih~)ti(ij)a(j_g//ihij_i//hjii/ghg.) (;) * in(cd) túr(fgf)ri(dgf/gh)bus(gh) tu(gf)is.(f.) (,) (hg/i_[oh:h]hgiHG'ge./fge'fvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #1011)"
     },
@@ -1106,7 +1106,7 @@ window.PROPERS = {
       latin: "Qui confídunt in Dómino, sicut mons Sion : non commovébitur in aetérnum, qui hábitat in Jerúsalem. ℣. Montes in circúitu ejus : et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in saéculum.",
       translation: "They that trust in the Lord shall be as mount Sion: he shall not be moved for ever that dwells in Jerusalem. ℣. Mountains are round about it: so the Lord is round about his people, from henceforth now and for ever.",
       mode: "Tract · 4th Sunday of Lent (Laetare) · Mode VIII",
-      reference: "Ps. 124:1-2",
+      reference: "Ps. 125:1-2",
       gabc: "(c4) QUI(g) con(g)fí(g/hih)dunt(g/hhg.) (,) * in(fg) Dó(gjjk)mi(h)no,(gf/ghhg.) (;) sic(iijh)ut(jk) mons(kij) Si(hjI'G)on :(g.) (,) (fh/ji/jkhhg/hg/jjh/jggf.0) (:) non(g) com(gef)mo(dg)vé(gv.fgh!jjh)(,)(jjvH'Ghji/j.h!iwj)bi(hiHG'h)tur(hg..) (,) in(gj) ae(j)tér(ik/ljjh)num,(jhhg/hg/jjh/jggf.0) (:) qui(f) há(hj)bi(igh)tat(gf/gh) (,) in(gh~) Je(g)rú(gh/jij)sa(j.h!iwj)lem.(jjjvIHivHGhg..) (::) ℣. Mon(dg'//jvHG.dg'//hjhhg.)(,)(jjjg/hhfgv.dg/hgh)tes(ghg/hhg.) (;) in(g) cir(g)cú(gj)i(j)tu(j) e(ik/ljjh)jus :(jhhg/hg/jjh/jggf.0) (:) et(h!iwj) Dó(j)mi(jjj)nus(jh//jjlvKJ'jvI'HGhg..) (;) in(gh) cir(fg)cú(gh/jij)i(j)tu(g.) (`) pó(gh)pu(h)li(h) su(h)i,(hf/ghg/hg/hg/hg/jjh/jggf.0) (:) ex(g/h!jij) hoc(j.h!iwj) nunc(jjjvIHivHGhg..) (;) et(g) us(h_g/h!iwj)que(g_[uh:l]h) *() in(f) saé(f!h'j)cu(j)lum.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #1377)"
     },
@@ -1115,7 +1115,7 @@ window.PROPERS = {
       latin: "Laudáte Dóminum, quia benígnus est : psállite nómini ejus, quóniam suávis est : ómnia quaecúmque vóluit, fecit in caelo et in terra.",
       translation: "Praise the Lord, for he is good: sing to his name, for it is sweet: whatever he willed, he has done in heaven and on earth.",
       mode: "Offertory · 4th Sunday of Lent (Laetare) · Mode II",
-      reference: "Ps. 134:3, 6",
+      reference: "Ps. 135:3, 6",
       gabc: "(f3) LAu(fc~)dá(ef)te(f!gwhhvGF'geec) () * Dó(ef)mi(fhf)num,(efe.) (;) qui(fe)a(f) be(f!hhh)ní(hihh)gnus(f) est :(f!gw!hvGEgf..) (:) psál(fh/ih)li(hhh)te(f) nó(f!hhh)mi(f)ni(eh) e(ghG~'F~)jus,(gf..) (;) quó(f!gw!hvGF)ni(fe)am(f) su(hh)á(hihh)vis(fe) est :(e!fwgffe.) (:) ó(e.f!gwh'!iv)mni(ih)a(hihh'h) (,) quae(f)cúm(hhi)que(h) vó(hih)lu(hhhf)it,(fiHG.) (,) fe(hghf)cit(f.e!fwgf.) (;) in(fe~) cae(ffe)lo(fiHG.) (,) et(hghf) in(f.e!fw!gvFE'f) ter(f!gwhgh)ra.(gf..) (::)",
       source: "Graduale Romanum (GregoBase #899)"
     },
@@ -1135,7 +1135,7 @@ window.PROPERS = {
       latin: "Eripe me, Dómine, de inimícis meis : doce me fácere voluntátem tuam. ℣. Liberátor meus, Dómine, de géntibus iracúndis : ab insurgéntibus in me exaltábis me : a viro iníquo erípies me.",
       translation: "Deliver me, O Lord, from my enemies: teach me to do your will. ℣. My deliverer, O Lord, from the angry nations: you will lift me up above them that rise up against me: from the unjust man you will rescue me.",
       mode: "Gradual · 5th Sunday of Lent (Passion Sunday) · Mode III",
-      reference: "Ps. 142:9, 10",
+      reference: "Ps. 143:9, 10",
       gabc: "(c4) E(fv.ffff_c)ri(d!ewf_e)pe(ege/ghGF'fd) me,(fff) (,) * Dó(e.f!gwh_g)mi(hg)ne,(ixg_[uh:l]h//e.f!gw!higff/ded.) (;) de(dc) in(g)i(hi)mí(iij)cis(h) me(h!jj//jjjvHGigh)is :(h.) (,) (i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) do(hj)ce(j_i) me(jijh) (,) fá(jhig)ce(fg)re(ghg___/hiHG'hffe.) (;) vo(eef)lun(dg)tá(hv.gh/jij)tem(hv.g!jj//jj//jjjggf) (,) tu(f.0h!iwj)am.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0/f_h//ivGFghg/hgge.) (::) ℣. Li(g)be(g)rá(g)tor(hj~) me(j)us,(i./jkh/jijHG.) (,) (ji/j_k//li/jkJ'IH.) (,) ([oll:1{1]k/li/jk[oll:}]/J'IH.jijHGjg/i_[uh:l]j//gh!jjjvH'GF'fd.) (;) Dó(fd/ffd/ef/gh/j_[hl:1]k_[hl:1]j_[hl:1]//j'jjvHGjjj)mi(ji)ne,(i.) (;) de(i) gén(jk)ti(kljjij)bus(ji..) (,) i(ij)ra(j)cún(jjjj_ijv.ikJI'jh)dis :(hv.gh!jjjvHGhh//giHG'hffe.) (:) ab(ef'g) in(g)sur(gh~)gén(h_g)ti(hjh/ij)bus(i.) in(jk) me(jv.iji//hihghFE.) (;) ex(ef'g)al(g)tá(h_g)bis(gjh/ij) me :(i.) (:) a(jvvIG) vi(hi)ro(ik//jlkki) in(i)í(i)quo(ikjj'jhivHG'hffe.) *(;) e(ef'g)rí(h_g)pi(g!jhj)es(j) me.(jvIHjvIGhh//fg/hh//giHG'hffe.) (::)",
       source: "Graduale Romanum (GregoBase #760)"
     },
@@ -1144,7 +1144,7 @@ window.PROPERS = {
       latin: "Saepe expugnavérunt me a juventúte mea. ℣. Dicat nunc Israel : saepe expugnavérunt me a juventúte mea. ℣. Étenim non potuérunt mihi : supra dorsum meum fabricavérunt peccatóres. ℣. Prolongavérunt iniquitátem sibi : Dóminus justus concídet cervíces peccatórum.",
       translation: "Often have they fought against me from my youth. ℣. Let Israel now say: often have they fought against me from my youth. ℣. But they could not prevail over me: the sinners have wrought upon my back. ℣. They have lengthened their iniquities: the just Lord will cut the necks of sinners.",
       mode: "Tract · 5th Sunday of Lent (Passion Sunday) · Mode VIII",
-      reference: "Ps. 128:1-4",
+      reference: "Ps. 129:1-4",
       gabc: "(c4) SAe(g)pe(gv.fff_d/e_[oh:h]ccd!fvv//g./hjhhg.) *(,) ex(gh)pu(f)gna(ixg!hwi)vé(i)runt(iiivH~G~) me(g.) (;) a(g) ju(h_g/h!iwj)ven(ghf)tú(f!h'j)te(j) me(jijHG.ixjjvH'GhiGF.)(,)(iyh./jh/ig)a.(g/hhg.) (::) ℣. Di(d!ff//fffd//f_!h_f_g_)cat(f) nunc(fg!hvhg.) (;) Is(gh)ra(fg)el :(gh/ji/jkhhg/hg/jjh/jggf.0) (:) sae(fh)pe(hghvGF) ex(gh)pu(gh~)gna(gh/jij)vé(j)runt(h!iwj) me(jjjvIHivHGhg..) (;) a(g) ju(h_g/h!iwj)ven(ghf)tú(f!h'j)te(j) me(jkjjg)(,)(jv.kli/jki'/jhhg.ixhiGF.)(,)(iyh./jh/ig)a.(g/hhg.) (::) ℣. Et(g)e(h!jhj'jjkvJ'IGh_g/h!iw!jvIHijh)nim(hg..) (;) non(g) po(ghg)tu(fg)é(jj)runt(hji) mi(j)hi :(jjjkhhg/hg/jjh/jggf.0) (:) su(g)pra(g) dor(hi~)sum(gh/jij) me(j.h!iwj)um(jjjvIHivHGhg..) (;) fa(g)bri(g)ca(g)vé(h_g/h!iwj)runt(ghf) pec(f!h'j)ca(j)tó(jijHG.ixjjvH'GhiGF.)(,)(iyh./jh/ig)res.(g/hhg.) (::) ℣. Pro(gd)lon(g)ga(hih)vé(jjjkvJ'IGh_g/h!iw!jvIHijh)runt(hg..) (;) in(g)i(ghg)qui(fg)tá(jj)tem(hji) si(j)bi :(jjjkhhg/hg/jjh/jggf.0) (:) Dó(f)mi(f)nus(h') ju(j)stus(igh) (,) con(gfgh!jij)cí(j.h!iwj)det(jjjvIHivHGhg..) (;) cer(g)ví(h_g/h!iwj)ces(ghf) ()* pec(f!h'j)ca(j)tó(jijHGg'g/hggfg.)(,)(jjjkvJ'IH'hg)rum.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #742)"
     },
@@ -1153,7 +1153,7 @@ window.PROPERS = {
       latin: "Confitébor tibi, Dómine, in toto corde meo : retríbue servo tuo : vivam, et custódiam sermónes tuos : vivífica me secúndum verbum tuum, Dómine.",
       translation: "I will praise you, O Lord, with my whole heart: render good to your servant: I shall live and keep your words: quicken me according to your word, O Lord.",
       mode: "Offertory · 5th Sunday of Lent (Passion Sunday) · Mode I",
-      reference: "Ps. 85:12, 5",
+      reference: "Ps. 86:12, 5",
       gabc: "(c4) COn(c)fi(d)té(ixdh'!iv)bor(h) *(,) ti(ixh!jjh/i_[uh:l]j)bi,(g_[oh:h]fg) Dó(iyhjI'H)mi(h_[oh:h]i_[oh:h]h_[oh:h])ne,(h.) (;) in(f) to(hjh___!iwj)to(ghF'Df') cor(d!fff)de(fgffe) me(de!fvED'e)o :(e[ll:1]d..) (:) re(d)trí(d!f'g)bu(hgh)e(ixhig'hvF'Df.) ser(df)vo(ghg) tu(h)o :(gf) (;) vi(hjI'H)vam,(h_[oh:h]i_[oh:h]h._[oh:h]) (,) et(fh) cu(h)stó(hjI'H)di(hgh)am(hgg) (,) ser(fg)mó(fg'h)nes(ixhjHG'hw!ivHG) tu(fg!hvGF'g)os :(gf..) (:) vi(f)ví(fh/jhj)fi(g)ca(fgf) me(dff'1ff) (;) se(d)cún(d!ew!fvEDevD~C~)dum(dc__) (,) ver(f./[-0.5]hjhghgfgF'Dfff)bum(f) tu(f)um,(fgffe) Dó(d)mi(de!fvED'e)ne.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #318)"
     },
@@ -1182,7 +1182,7 @@ window.PROPERS = {
       latin: "Deus, Deus meus, réspice in me : quare me dereliquísti? ℣. Longe a salúte mea verba delictórum meórum. ℣. Deus meus, clamábo per diem, nec exáudies : in nocte, et non ad insipiéntiam mihi. ℣. Tu autem in sancto hábitas, laus Israel. ℣. In te speravérunt patres nostri : speravérunt, et liberásti eos. ℣. Ad te clamavérunt, et salvi facti sunt : in te speravérunt, et non sunt confúsi. ℣. Ego autem sum vermis, et non homo : oppróbrium hóminum, et abjéctio plebis. ℣. Omnes qui vidébant me, aspernabántur me : locúti sunt lábiis, et movérunt caput. ℣. Sperávit in Dómino, erípiat eum : salvum fáciat eum, quóniam vult eum. ℣. Ipsi vero consideravérunt, et conspexérunt me : divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem. ℣. Líbera me de ore leónis : et a córnibus unicornuórum humilitátem meam. ℣. Qui timétis Dóminum, laudáte eum : univérsum semen Jacob, magnificáte eum. ℣. Annuntiábitur Dómino generátio ventúra : et annuntiábunt caeli justítiam ejus. ℣. Pópulo qui nascétur, quem fecit Dóminus.",
       translation: "O God, my God, look upon me: why have you forsaken me? ℣. Far from my salvation are the words of my sins. ℣. O my God, I shall cry by day, and you will not hear: and by night, and it shall not be reputed as folly in me. ℣. But you dwell in the holy place, the praise of Israel. ℣. In you our fathers have hoped: they have hoped, and you have delivered them. ℣. They cried to you, and they were saved: they trusted in you, and were not confounded. ℣. But I am a worm, and no man: the reproach of men, and the outcast of the people. ℣. All they that saw me have scorned me: they have spoken with the lips, and wagged the head. ℣. He hoped in the Lord, let him deliver him: let him save him, seeing he delights in him. ℣. But they have looked and stared upon me: they parted my garments among them, and upon my vesture they cast lots. ℣. Deliver me from the lion's mouth: and my lowness from the horns of the unicorns. ℣. You that fear the Lord, praise him: all you the seed of Jacob, glorify him. ℣. There shall be declared to the Lord a generation to come: and the heavens shall show forth his justice. ℣. To a people that shall be born, which the Lord has made.",
       mode: "Tract · Palm Sunday of the Passion of the Lord · Mode II",
-      reference: "Ps. 21:2-9, 18, 19, 22, 24, 32",
+      reference: "Ps. 22:2-9, 18, 19, 22, 24, 32",
       gabc: "(f3) DE(f)us,(efE'C//efe/fgf./efe/fgf.) (,) (ef/hghhvGFg.f!gwh_ghvGFgf..) (:) * De(e)us(fe~) me(eh)us,(h.) (,) ré(h)spi(h)ce(hggf) in(fe~) me :(ef/gf/ggf/gh/iffe.) (:) qua(hi)re(hi) me(hg/hiih.0) de(ef)re(eh)li(gh/ih)quí(hvGF')sti?(f/ggf.0) (::) ℣. Lon(fh'/ihhf/g'/hggf/h'/ihhg/i'/jiig/h'/ighf)ge(f.) (,) a(f) sa(hg)lú(h)te(f) me(f!hh//hhh)a(fe/ggf/gh/iffe.) (:) ver(f_e/f!gwh'!iv)ba(hg/hiih.0) (,) de(e)li(ehg)ctó(h/ihhe)rum(fgf) (`) me(hg)ó(h_f/ggf)(,)(hiH'GhiF'E//hhhvGF')rum.(f/ggf.0) (::) ℣. De(fhg)us(hi) me(i_j_i_2/j_i/j_f)us(f.) (;) cla(h)má(hi!jvIH'GhvGF'g)bo(gf..) per(hg~) di(h_fg)em,(f.) (;) nec(g) ex(i)áu(hhg)di(fe)es :(ef/gf/ggf/gh/iffe.) (:) in(e) no(gh)cte,(f.) (,) et(f_e/f!gwh'!iv) non(hg/hiih.0) (`) ad(e) in(fh)si(h)pi(h)én(gh!ijh)ti(f)am(f!gwh_g) mi(hvGF')hi.(f/ggf.0) (::) ℣. Tu(ef) au(h/ihhf/hh/ijhhg/ihhggf!gwhgh)tem(gf..) (,) in(h) san(hhg~)cto(i) há(hhg)bi(fe)tas,(ef/gf/ggf/gh/iffe.) (:) laus(hhhv_GE) Is(f!gwhg)ra(h)el.(h./ijhhg/ihhggf!gwh_ghvGFgf..) (::) ℣. In(ef'h~) te(h) spe(gh)ra(f)vé(f!hh//hhh)runt(f!gwh.) (,) pa(h)tres(f) no(f!hh//hhh)stri :(fe/ggf/gh/iffe.) (:) spe(gh)ra(f)vé(f_e/f!gwh'!iv)runt,(hg/hiih.0) (:) et(hi) li(hhg)be(fef)rá(eh)sti(gh/ihi) e(f)os.(f/ggf.0) (::) ℣. Ad(h) te(i) cla(hih)ma(f)vé(f!h_gh//gh!jvIGhvGF'g)runt,(gf..) (;) et(h) sal(hhg~)vi(i) fa(hhg)cti(fe) sunt :(ef/gf/ggf/gh/iffe.) (:) in(e) te(gh) spe(fg)ra(f)vé(f_e/f!gwh'!iv)runt,(hg/hiih.0) (;) et(hi) non(h/ihhe~) sunt(fgf) con(hg~)fú(hvGF)si.(fefEC//fefggf.0) (::) ℣. E(e)go(f) au(h/ihhf/hh/ijhhg/ihhggf!gwhgh)tem(gf..) (,) sum(fi) ver(i)mis,(i_[uh:l]j) et(f') non(i) ho(jiif/hhfjvIH'hvGF)mo :(fe/ggf/gh/iffe.) (:) op(e)pró(gh)bri(f)um(f) hó(f_e/f!gwh'!iv)mi(hi)num,(hg/hiih.0) (;) et(i) ab(e)jé(f)cti(f)o(hg) ple(hvGF)bis.(fefEC//fefggf.0) (::) ℣. O(h)mnes(hh//hhh) qui(f) vi(hfh)dé(iv.hi/ji)bant(ig~) me,(giH'GhvGFgf..) (;) a(f)sper(f')na(i)bán(jiif/hhfjvIH'hvGF)tur(fg~) me :(fe/ggf/gh/iffe.) (:) lo(e)cú(gh)ti(f) sunt(f) lá(f_e/f!gwh'!iv)bi(hi)is(hg/hiih.0) (;) et(i) mo(e)vé(f)runt(hg~) ca(hvGF)put.(fefEC//fefggf.0) (::) ℣. Spe(h)rá(i)vit(hiH'F) in(fi~) Dó(i_[oh:h]g)mi(hiH'F)no,(f.) (;) e(hg)rí(hi)pi(hvGE')at(f) e(g_[oh:h]fg)um :(fe/ggf/gh/!iffe.) (:) sal(e)vum(e) fá(gh)ci(f)at(f) e(f_e/f!gwh'!iv)um,(hg/hiih.0) (;) quó(i)ni(hvGE')am(f) vult(hg~) e(hvGF)um.(fefEC//fefggf.0) (::) ℣. I(h)psi(f) ve(h)ro(hh//hhh) (,) con(f)si(f)de(f)ra(f)vé(h)runt,(hh//hhh) (,) et(f) con(f)spe(i)xé(hhg)runt(fe~) me :(ef/gf/ggf/gh/iffe.) (:) di(e)vi(e)sé(gh)runt(f) si(f_e/f!gwh'!iv)bi(hg/hiih.0) (;) ve(i)sti(e)mén(f)ta(h) me(hvGF')a,(f/ggf.0) (:) et(g) su(e)per(fh~) ve(h)stem(h) me(gh!ijH'F)am(f.) (;) mi(f!gw!hvG'FE')sé(f)runt(f!gwh/ig/h_g) sor(f)tem.(fefEC//fefggf.0) (::) ℣. Lí(h_0i_0j)be(ij)ra(ih) me(kxiji___//jkI'H//kxj_i/jkI'H) (,) (jjijvIH//jjijvIH//j_i/jiif.) (;) de(h) o(hi'j)re(jvIGhvGF) le(fi)ó(jiif/hhfjvIH'hvGF)nis :(fe/ggf/gh/iffe.) (:) et(e) a(f) cór(hh)ni(hi!jvIH'GhvGF'g)bus(gf..) (,) u(fg)ni(f)cor(fg~)nu(f)ó(f_e/f!gwh'!iv)rum(hg/hiih.0) (;) hu(hi)mi(hhg)li(fef)tá(eh)tem(gh/ihi) me(f)am.(f/ggf.0) (::) ℣. Qui(e) ti(f)mé(hi)tis(f) Dó(hi)mi(ivH'GhvGF'g)num,(gf..) (;) lau(hg~)dá(h)te(f) e(f!hh//hhh)um :(fe/ggf/gh/iffe.) (:) u(e)ni(e)vér(gh)sum(f) se(fg)men(f) Ja(f_e/f!gwh'!iv)cob,(hg/hiih.0) (;) ma(hi)gni(hhg)fi(fef)cá(eh)te(gh/ihi) e(f)um.(f/ggf.0) (::) ℣. An(g)nun(e)ti(f)á(h)bi(hhi)tur(f) Dó(hi)mi(ivH'GhvGF'g)no(gf..) (;) ge(f)ne(hg)rá(h)ti(hhhf)o(f) ven(f)tú(f!hh//hhh)ra :(fe/ggf/gh/iffe.) (:) et(e) an(e)nun(gh)ti(f)á(fg)bunt(f) cae(f_e/f!gwh'!iv)li(kxhgi.jkiih.0) (;) ju(hi)stí(h/ihhe)ti(fgf)am(hg) (`) e(h_f/ggf)(,)(hiH'GhiF'E//hhhvGF')jus.(f/ggf.0) (::) ℣. Pó(ef)pu(fe)lo(f/hhhvF'E//f_ef.) (,) qui(e) na(fh)scé(hhhi)tur,(h.) (;) quem(hi) fe(h/ihhe)cit(f!gwhg) (,) * Dó(hv.gh/ihi)mi(f)nus.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
       source: "Graduale Romanum (GregoBase #372)"
     },
@@ -1191,7 +1191,7 @@ window.PROPERS = {
       latin: "Impropérium exspectávit cor meum, et misériam : et sustínui qui simul contristarétur, et non fuit : consolántem me quaesívi, et non invéni : et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
       translation: "My heart has expected reproach and misery: and I looked for one that would grieve together with me, but there was none: I sought for one that would comfort me, and I found none: and they gave me gall for my food, and in my thirst they gave me vinegar to drink.",
       mode: "Offertory · Palm Sunday of the Passion of the Lord · Mode VIII",
-      reference: "Ps. 68:21",
+      reference: "Ps. 69:21",
       gabc: "(c4) IM(fgffe)pro(cd)pé(ff)ri(f!gwhgh)um(hg__) *(,) ex(gh)spe(g)ctá(h!iwj)vit(g) cor(g!jj//jjjhhg~) me(ixgih'ivGF')um,(gffe.) (;) et(g) mi(h!iwj_i)sé(jkjjh)ri(h!iw!jvI'HG'h)am :(hg..) (:) et(f) sus(g)tí(gjji)nu(ikjj)i(j_i) (,) qui(i) si(ikjj)mul(j_i) con(ij)tri(ij)sta(j)ré(jvIH)tur,(iki'/jkhhg.) (;) et(g!i'k~) non(k_[hl:1]ik) fu(ikjj'ji)it :(i.) (:) con(g!jjj)so(j)lán(ikjj)tem(jh~) me(iji) (,) quae(jkj)sí(jjjh)vi,(hg/hih.) (;) et(f!h'j~) non(j_h/jjjlvKJjv'1IH) in(hg~)vé(giH'GhvGF)ni :(f.) (:) et(f!gwh) de(hg)dé(hv.jj//jjj)runt(h!iw!jvI'HGhih.) (,) in(gf) e(ghg)scam(h) me(hjI'H)am(gf~) fel,(ghg/h_g/hjIH.) (:) et(fg) in(hg~) si(j)ti(j!kwl_k) me(kjji)a(hg..) (,) po(j)ta(jkj)vé(jjjh)runt(g.fgwh!ivH~G~) me(hg..) (,) a(h)cé(jkjjh/jjh/jjvH'G)to.(g!hwihhg.) (::)",
       source: "Graduale Romanum (GregoBase #486)"
     },
@@ -1211,7 +1211,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Aperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with your blessing.",
       mode: "Gradual · Holy Thursday (Mass of the Lord's Supper) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     },
@@ -1240,7 +1240,7 @@ window.PROPERS = {
       latin: "Passer invénit sibi domum, et turtur nidum, ubi repónat pullos suos : altária tua, Dómine virtútum, Rex meus, et Deus meus : beáti qui hábitant in domo tua, in saéculum saéculi laudábunt te.",
       translation: "The sparrow has found herself a house, and the turtledove a nest where she may lay her young: your altars, O Lord of hosts, my King and my God: blessed are they that dwell in your house, they shall praise you for ever and ever.",
       mode: "Communion · 3rd Sunday of Lent · Mode I",
-      reference: "Ps. 83:4-5",
+      reference: "Ps. 84:4-5",
       gabc: "(c2) PAs(fi)ser(i) *() in(i)vé(i)nit(ig~) si(hj)bi(j) do(hi)mum,(hi) (,) et(gh~) tur(fg~)tur(gh~) ni(fg)dum,(g.) (;) u(g)bi(g) re(g)pó(iv.iii)nat(g_[oh:h]f) pul(f)los(exegf) su(f_[oh:h]g_[oh:h]d_[oh:h])os :(d.) (:) al(f)tá(gih)ri(h)a(h) tu(j)a(jh) Dó(jk)mi(j)ne(iih) vir(fi~)tú(iv.iii)tum,(hg..) (;) Rex(h_fh) me(ghF'D)us,(d.) (,) et(d!f'g) De(ghf)us(fef) me(deD'C)us :(c.) (:) be(fgd)á(f)ti(fg) qui(gd) há(fh)bi(gh)tant(fg/h_g) (,) in(ig~) do(ij)mo(kjk) tu(igjvIH)a,(h.) (;) in(f) saé(hih)cu(g)lum(ge~) saé(ghgh)cu(g)li(fge.) (,) lau(ef/gf/gh~)dá(d)bunt(d!ewf_d) te.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1090)"
     },
@@ -1251,7 +1251,7 @@ window.PROPERS = {
       latin: "Passer invénit sibi domum, et turtur nidum, ubi repónat pullos suos : altária tua, Dómine virtútum, Rex meus, et Deus meus : beáti qui hábitant in domo tua, in saéculum saéculi laudábunt te.",
       translation: "The sparrow has found herself a house, and the turtledove a nest where she may lay her young: your altars, O Lord of hosts, my King and my God: blessed are they that dwell in your house, they shall praise you for ever and ever.",
       mode: "Communion · 3rd Sunday of Lent · Mode I",
-      reference: "Ps. 83:4-5",
+      reference: "Ps. 84:4-5",
       gabc: "(c2) PAs(fi)ser(i) *() in(i)vé(i)nit(ig~) si(hj)bi(j) do(hi)mum,(hi) (,) et(gh~) tur(fg~)tur(gh~) ni(fg)dum,(g.) (;) u(g)bi(g) re(g)pó(iv.iii)nat(g_[oh:h]f) pul(f)los(exegf) su(f_[oh:h]g_[oh:h]d_[oh:h])os :(d.) (:) al(f)tá(gih)ri(h)a(h) tu(j)a(jh) Dó(jk)mi(j)ne(iih) vir(fi~)tú(iv.iii)tum,(hg..) (;) Rex(h_fh) me(ghF'D)us,(d.) (,) et(d!f'g) De(ghf)us(fef) me(deD'C)us :(c.) (:) be(fgd)á(f)ti(fg) qui(gd) há(fh)bi(gh)tant(fg/h_g) (,) in(ig~) do(ij)mo(kjk) tu(igjvIH)a,(h.) (;) in(f) saé(hih)cu(g)lum(ge~) saé(ghgh)cu(g)li(fge.) (,) lau(ef/gf/gh~)dá(d)bunt(d!ewf_d) te.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1090)"
     },
@@ -1262,7 +1262,7 @@ window.PROPERS = {
       latin: "Illúmina óculos meos, ne quando obdórmiam in morte : ne quando dicat inimícus meus : Praeválui advérsus eum.",
       translation: "Enlighten my eyes, that I never sleep in death: lest at any time my enemy say: I have prevailed against him.",
       mode: "Offertory · 4th Sunday of Lent (Laetare) · Mode IV",
-      reference: "Ps. 12:4-5",
+      reference: "Ps. 13:4-5",
       gabc: "(c4) IL(ff)lú(fhg'/hf)mi(dgF'E)na(e.) *(,) ó(g_[oh:h]e)cu(ghg)los(h) me(ixhv.gih'ivG'Ff'g!hiH'Gih)os,(h.) (;) ne(jj)quán(gh)do(ff) ob(e)dór(ge/ghg)mi(gffvED)am(e_[oh:h][ll:1]d_[oh:h]) (,) in(fh~) mor(h_g/jjjvG'E//g_[oh:h]f/ghG'FgvFE)te :(e.) (:) ne(ef!ghg)quán(gh)do(ghG'F) di(gh)cat(h/jjjvIH.) (,) in(h)i(ghg)mí(h/jjjvIH)cus(g_[uh:l]h) me(egF'E)us :(fff) (;) Prae(dec)vá(fv.fff)lu(dc)i(cccc_[oh:h]a_[oh:h]) (;) ad(c@f!de~)vér(eef)sus(d!ewf) e(fff/ghG'//D//fffhvGFgvFE)um.(e.) (::)",
       source: "Graduale Romanum (GregoBase #708)"
     },
@@ -1271,7 +1271,7 @@ window.PROPERS = {
       latin: "Jerúsalem, quae aedificátur ut cívitas, cujus participátio ejus in idípsum : illuc enim ascendérunt tribus, tribus Dómini, ad confiténdum nómini tuo, Dómine.",
       translation: "Jerusalem, which is built as a city, which is compact together: for thither did the tribes go up, the tribes of the Lord, to give praise to your name, O Lord.",
       mode: "Communion · 4th Sunday of Lent (Laetare) · Mode IV",
-      reference: "Ps. 121:3-4",
+      reference: "Ps. 122:3-4",
       gabc: "(c4) JE(eef)rú(de)sa(cd)lem,(dg/hffe.) (,) * quae(f) ae(fd)di(fe)fi(f)cá(g)tur(f) ut(fd~) cí(ef)vi(f)tas,(eef.) (;) cu(fd~)jus(dfe) par(fg~)ti(g)ci(g)pá(gh)ti(h)o(h') e(j)jus(g') in(h) id(f')í(g)psum :(e.) (:) il(h)luc(j) e(jjj)nim(g') a(h)scen(j)dé(ikjj)runt(ji..) (,) tri(jjj)bus,(g') tri(h)bus(f') Dó(h)mi(gh_G'_FE'f)ni,(fe..) (;) ad(fff) con(f)fi(fd)tén(dg~)dum(g.) (,) nó(gh)mi(f)ni(d) tu(ff)o,(dec//f!gwhgh_g) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1353)"
     },
@@ -1282,7 +1282,7 @@ window.PROPERS = {
       latin: "Illúmina óculos meos, ne quando obdórmiam in morte : ne quando dicat inimícus meus : Praeválui advérsus eum.",
       translation: "Enlighten my eyes, that I never sleep in death: lest at any time my enemy say: I have prevailed against him.",
       mode: "Offertory · 4th Sunday of Lent (Laetare) · Mode IV",
-      reference: "Ps. 12:4-5",
+      reference: "Ps. 13:4-5",
       gabc: "(c4) IL(ff)lú(fhg'/hf)mi(dgF'E)na(e.) *(,) ó(g_[oh:h]e)cu(ghg)los(h) me(ixhv.gih'ivG'Ff'g!hiH'Gih)os,(h.) (;) ne(jj)quán(gh)do(ff) ob(e)dór(ge/ghg)mi(gffvED)am(e_[oh:h][ll:1]d_[oh:h]) (,) in(fh~) mor(h_g/jjjvG'E//g_[oh:h]f/ghG'FgvFE)te :(e.) (:) ne(ef!ghg)quán(gh)do(ghG'F) di(gh)cat(h/jjjvIH.) (,) in(h)i(ghg)mí(h/jjjvIH)cus(g_[uh:l]h) me(egF'E)us :(fff) (;) Prae(dec)vá(fv.fff)lu(dc)i(cccc_[oh:h]a_[oh:h]) (;) ad(c@f!de~)vér(eef)sus(d!ewf) e(fff/ghG'//D//fffhvGFgvFE)um.(e.) (::)",
       source: "Graduale Romanum (GregoBase #708)"
     },
@@ -1334,7 +1334,7 @@ window.PROPERS = {
       latin: "Univérsi qui te exspéctant, non confundéntur, Dómine. ℣. Vias tuas, Dómine, notas fac mihi : et sémitas tuas édoce me.",
       translation: "None who wait for you shall be confounded, O Lord. ℣. Show me your ways, O Lord: and teach me your paths.",
       mode: "Gradual · 1st Sunday of Advent · Mode I",
-      reference: "Ps. 24:3, 4",
+      reference: "Ps. 25:3, 4",
       gabc: "(f3) U(e)ni(f)vér(fh!ivHF'gvEC.efef)si(f.) *(,) qui(fe) te(h) ex(ij)spé(j)ctant,(j_i/j_i/j_g/h_[oh:h]i_[oh:h]h._[oh:h]) (;) non(i_[oh:h]) con(hg~)fun(ef)dén(hi)tur,(gh/ihivHG') Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (,) (kxef!hh//i./jkI'Gh_ihhf.) (z0::c4) ℣. Vi(dh)as(h) tu(hg)as,(gh) Dó(g_[oh:h]f)mi(g_[uh:l]h)ne,(h.) (,) (fgh!jvjh//fgh!jvjh//jvvH'Gjk//jkJH.1) (,) (ixfgh!jvjh/jjh/!iggf.0) (:) no(hk)tas(k_[hl:1]j) fac([oll:1{0]j_lKJ'[oll:}]/kjjh.) (,) mi(hf/gh/jjh//jjvH'Gh!iwj_i)hi :(jjjvIH'jggf.0) (:) et(fg~) sé(g./hjHG'gf)mi(g)tas(g) tu(hv.fgf//ef'!gvffd/ec)as(c.) *(,) é(ff)do(g_[oh:h]f)ce(f!hgh) me.(hvvGF'EC//d!ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1169)"
     },
@@ -1343,7 +1343,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Osténde nobis, Dómine, misericórdiam tuam : et salutáre tuum da nobis.",
       translation: "Alleluia. ℣. Show us, O Lord, your mercy: and grant us your salvation.",
       mode: "Alleluia · 1st Sunday of Advent · Mode VIII",
-      reference: "Ps. 84:8",
+      reference: "Ps. 85:8",
       gabc: "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) *(;) ij.(gh//efED.f!gwhhgehf/gffe.) (::) ℣. Os(h)tén(hv.gih)de(h) no(hg)bis(g) Dó(gh!ivvHFhfg)mi(hg)ne(g.) (;) mi(g)se(g)ri(gf)cór(hji)di(h)am(gh) tu(f_ehvvGE.gxfgFD.1egF'Efe)am :(e.) (:) et(e) sa(e)lu(e)tá(feh)re(h.) tu(hfh'GE//fhF'D//gxgvFEf.0/[-1.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHG'he.gxf_e/g_[oh:h]e//gvFEfd)um(d.) (;) * da(fd/ef) no(hg/hfh)bis.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1115)"
     },
@@ -1352,7 +1352,7 @@ window.PROPERS = {
       latin: "Ad te, Dómine, levávi ánimam meam : Deus meus, in te confído, non erubéscam : neque irrídeant me inimíci mei : étenim univérsi qui te exspéctant, non confundéntur.",
       translation: "To you, O Lord, have I lifted up my soul: my God, in you I trust, let me not be put to shame; neither let my enemies laugh at me: for none who wait for you shall be confounded.",
       mode: "Offertory · 1st Sunday of Advent · Mode II",
-      reference: "Ps. 24:1-3",
+      reference: "Ps. 25:1-3",
       gabc: "(f3) AD(c) te(ef//efefhhh_g) Dó(f)mi(fg!hvGF'g)ne(gf..) (;) * le(f_e/f!gwh)vá(h)vi(gf) á(hhhvF'Ef/hhh)ni(f)mam(fgef) me(f_[oh:h]g_[oh:h]f_[oh:h])am :(f.) (:) De(h)us(h) me(hihh)us,(g_[oh:h]f) (,) in(fe~) te(f) con(fe~)fí(fhG'E)do,(fe..) (;) non(hhi) e(h)ru(high)bé(h_[oh:h]i_[oh:h]h_[oh:h])scam :(h.) (:) ne(hh)que(h_g) ir(hhh)rí(f)de(e!gw!hvGF)ant(fgf) me(f.) (,) in(e)i(g)mí(i_[oh:h]h)ci(h) me(h_fgvFE'f)i :(fe..) (:) ét(fe)e(fgf)nim(fc) (,) u(efe)ni(f)vér(fih~)si(hi) qui(hg) te(f) ex(e)spé(efe)ctant,(c_[oh:h]bc.) (;) non(ef) con(ef)fun(f!gwh/ig/h_g)dén(fg!hvGF'g)tur.(gf..) (::)",
       source: "Graduale Romanum (GregoBase #962)"
     },
@@ -1361,7 +1361,7 @@ window.PROPERS = {
       latin: "Dóminus dabit benignitátem : et terra nostra dabit fructum suum.",
       translation: "The Lord will give goodness: and our land shall yield her fruit.",
       mode: "Communion · 1st Sunday of Advent · Mode I",
-      reference: "Ps. 84:13",
+      reference: "Ps. 85:13",
       gabc: "(c4) DO(ff)mi(fhg)nus(ghF'EfvE'DCdc..) *(,) da(ff)bit(ffg) be(fd)ni(f)gni(gh)tá(hj!kvJH)tem :(h.) (:) et(h) ter(ghg)ra(ef) no(ghhg)stra(g.) (;) da(hv.fhghvF'ED)bit(dfddc.) (,) fru(fg)ctum(e_[oh:h][ll:1]d/fgF'Ef) su(d_[oh:h]e_[oh:h]d_[oh:h])um.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1036)"
     },
@@ -1372,7 +1372,7 @@ window.PROPERS = {
       latin: "Ex Sion spécies decóris ejus : Deus maniféste véniet. ℣. Congregáte illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia.",
       translation: "Out of Sion, the loveliness of his beauty: God shall come openly. ℣. Gather to him his saints, who have set his covenant before sacrifices.",
       mode: "Gradual · 2nd Sunday of Advent · Mode V",
-      reference: "Ps. 49:2-3, 5",
+      reference: "Ps. 50:2-3, 5",
       gabc: "(c3) EX(d) Si(fh)on(h_fhvGE//f'/hffd.) (;) * spé(f_d/ef!gwhhi)ci(h)es(h//ij'IH.ghGF.) (;) de(f!hgh)có(f_e)ris(f!gwh) e(e_[oh:h][ll:1]d~)jus :(df//e!hhhffef.) (:) De(fh/ih)us(hg!ijIH.ghGF.) (;) ma(f)ni(hg)fé(h_fhvGE'f)ste(d_e) (,) vé(def!hv.ijHF./!ghFE.)(,)(fhef)ni(d)et.(efe/fhff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) ℣. Con(d)gre(f)gá(hf/hhf//hhf//hhjvIH.!f!hhjvIH'/!ihh'hf)(,)(gxgvFEfvEDfv.!hhvF'Ef)te(f.) (;) il(fh)li(h_g) san(fg'h)ctos(gxe_f_d_2//f_e/fgF'E) e(d_[oh:h]e_[oh:h]d~)jus,(d.) (:) qui(d) or(ef~)di(f)na(hfge)vé(f!hhh)runt(h./ihghFE.) (,) (h_[oh:h]i_[oh:h]h_[oh:h]/ihghFE.) (;) (f/hghivHF.1//h_g/hif.1/h_gef!gvgf.0) (:) te(f!h'i)sta(h_g)mén(fg'h)tum(e_[oh:h][ll:1]d) (`) e(fdfED//f_d/ef!gwh'/ih~)jus(hg/ijIH.ghGF.) *(;) su(f!h'i)per(hg~) sa(fg'h)cri(ef)fí(gxhfge)ci(gxd)a.(de/gf/g_[uh:l]h) (,) (gxfgE'De_[uh:l]fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1268)"
     },
@@ -1381,7 +1381,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Laetátus sum in his quae dicta sunt mihi : in domum Dómini íbimus.",
       translation: "Alleluia. ℣. I rejoiced at the things that were said to me: we shall go into the house of the Lord.",
       mode: "Alleluia · 2nd Sunday of Advent · Mode I",
-      reference: "Ps. 121:1",
+      reference: "Ps. 122:1",
       gabc: "(c4) AL(dc~)le(f)lú(ixgfi){ia}.(h.) *(,) ij{.}(ixiji'hig.fg/hjhhg.) (,) (fhgev.dec./ef!gvvFD'ewfd.1) (::) ℣. Lae(d)tá(fddc/fg)tus(ixfhg/hi) sum(h.) (,) in(h) his(h) quae(h) di(hjH'GF.eg/hgh)cta(fg) sunt(ef~) mi(de!fvED'e)hi :(e[ll:1]d..) (:) in(cd~) do(df/efd.1cd/fdhvhggf/hjh___)mum(h.) (;) Dó(f_[oh:h]g_[oh:h]d_[oh:h]fv.efd.!fg!hvhg)mi(egff)ni(fe..) (;) * í(d!fff/ghf)bi(ixgi)mus.(h./iji'hig.fg/hjhhg.) (,) (fhgev.dec./ef!gvvFD'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #292)"
     },
@@ -1390,7 +1390,7 @@ window.PROPERS = {
       latin: "Deus, tu convértens vivificábis nos, et plebs tua laetábitur in te : osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.",
       translation: "O God, you will turn and bring us to life: and your people shall rejoice in you: show us, O Lord, your mercy, and grant us your salvation.",
       mode: "Offertory · 2nd Sunday of Advent · Mode III",
-      reference: "Ps. 84:7-8",
+      reference: "Ps. 85:7-8",
       gabc: "(c4) DE(gh'j)us(j.) * tu(jkjji) con(jjj)vér(jjjh~)tens(iji.) (;) vi(gih)vi(j)fi(jjjvHG')cá(g/jj//jjj)bis(hkjjvI~G~) nos,(hg/h!jjjvHGhh//giHG'hffe.) (:) et(f) plebs(ef'g) tu(hgj)a(jv.jjjvIH'jggf.0) (;) lae(g)tá(gjji)bi(jjjvIH')tur(h) in(hiH~'G~) te :(hg..) (:) os(g)tén(gi)de(iki/jkhhg) no(ig/h!jj/kjji)bis,(jjjvIH) (,) Dó(hj)mi(ghG'__FE'f)ne,(fe..) (;) mi(ef)se(ef)ri(e)cór(ef'h)di(hjg)am(g) tu(gfgvFE)am,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) et(gj~) sa(jv.jjj)lu(h)tá(hih)re(g.) tu(ghG'F)um(gh!ivih.0) (,) da(jv.jjj//giHG'gf/g.h!iwj'/kjjvIH.) no(fhG'FgvFE)bis.(e.) (::)",
       source: "Graduale Romanum (GregoBase #631)"
     },
@@ -1410,7 +1410,7 @@ window.PROPERS = {
       latin: "Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni. ℣. Qui regis Israel, inténde : qui dedúcis velut ovem Joseph.",
       translation: "You who sit, O Lord, upon the Cherubim, stir up your power, and come. ℣. Give ear, O you that rule Israel: you that lead Joseph like a sheep.",
       mode: "Gradual · 3rd Sunday of Advent (Gaudete) · Mode VII",
-      reference: "Ps. 79:2, 3, 2",
+      reference: "Ps. 80:2, 3, 2",
       gabc: "(c3) QUI(f) se(hi)des,(iih/i_[oh:h]f//hvGFhi!kvJI') Dó(i)mi(iji___)ne,(i.) *(;) su(j!llj)per(j_f) Ché(fhg)ru(h)bim,(ijIH'hf//hg/hiH'GE.) (:) éx(ef)ci(f)ta(fef) pot(d)én(de)ti(d)am(be~) tu(e)am,(ev.de'/f_b.) (;) et(e[ll:1]d/ef!hhhvF'ED'/!db./d!fde) ve(e)ni.(gxe./fgED'db.//dc/de'!hvFE.) (::) ℣. Qui(ei) re(iv.hi!jvHF'ivH'GE'f/hhfgvFEfvEDe.)(,)(hh//hhhe/fhF'D//fhF'De.)(,)(hhi/kkkvIHG.ijIH'Gh_i)gis(i.) Is(i)ra(j!kwl)el,(lv_KI') in(h)tén(jk)de :(ji..) (:) qui(ij) de(h_f)dú(hvGE'f/hhfgvFEfvEDef)cis(e.) (;) vel(ef)ut(e) o(d!f'h)vem(h_g) *() Jo(fihi)seph.(ie..) (,) (igijki./jkJ'Ijh/iig./hig'hvFEfde.) (,) (hhvF'EfvDB.1ehf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1007)"
     },
@@ -1419,7 +1419,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Excita, Dómine, poténtiam tuam, et veni, ut salvos fácias nos.",
       translation: "Alleluia. ℣. Stir up your power, O Lord, and come, that you may save us.",
       mode: "Alleluia · 3rd Sunday of Advent (Gaudete) · Mode IV",
-      reference: "Ps. 79:3",
+      reference: "Ps. 80:3",
       gabc: "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) *(,) ij.(ixhiHG'ge./ghGF'Ef_gffe.) (::) ℣. Ex(h)ci(h)ta,(ixg'//ivHG'hffe.) Dó(fd/ef!ghhg)mi(fg)ne,(g.) (;) pot(g)én(gh)ti(ghg'/hf)am(e[ll:1]d~) tu(egF'D)am,(d.) (:) et(f!gwhg) ve(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/g_[oh:h]efv.df!gvFE'f)ni,(fe..) (:) ut(d) sal(fd~)vos(f) *() fá(ef'g)ci(gdgvFE)as(fd/ef!g'h) nos.(ixhiHG'/!gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #855)"
     },
@@ -1428,7 +1428,7 @@ window.PROPERS = {
       latin: "Benedixísti, Dómine, terram tuam : avertísti captivitátem Jacob : remisísti iniquitátem plebis tuae.",
       translation: "You have blessed, O Lord, your land: you have turned away the captivity of Jacob: you have forgiven the iniquity of your people.",
       mode: "Offertory · 3rd Sunday of Advent (Gaudete) · Mode IV",
-      reference: "Ps. 84:2",
+      reference: "Ps. 85:2",
       gabc: "(c4) BE(e)ne(e)di(e)xí(ege/ghgffd!fw!gvFE)sti,(e.) (,) * Dó(ef'g)mi(ixfhg/hi)ne,(h.) (,) ter(jhjvGF'fd./fg!hvGF')ram(gffd~) tu(dgF'E)am :(e.) (:) a(d)ver(g)tí(ixhg/hi)sti(h.) (,) ca(h)pti(h)vi(h)tá(h)tem(jhhf~) Ja(ghg)cob :(dghvFDgv.gg/hjhhg.) (:) re(dg)mi(g)sí(hiHG'hwi'!jv)sti(j.) (,) in(j)i(j)qui(ih)tá(jkj)tem(ig~) ple(hv.ghG'Fg_[uh:l]hghG'Fg_[uh:l]h)bis(g.) tu(egff)ae.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #113)"
     },
@@ -1448,7 +1448,7 @@ window.PROPERS = {
       latin: "Prope est Dóminus ómnibus invocántibus eum : ómnibus qui ínvocant eum in veritáte. ℣. Laudem Dómini loquétur os meum : et benedícat omnis caro nomen sanctum ejus.",
       translation: "The Lord is near to all that call upon him: to all that call upon him in truth. ℣. My mouth shall speak the praise of the Lord: and let all flesh bless his holy name.",
       mode: "Gradual · 4th Sunday of Advent / Rorate Mass · Mode V",
-      reference: "Ps. 144:18, 21",
+      reference: "Ps. 145:18, 21",
       gabc: "(c4) PRo(f)pe(f) est(f) Dó(f_)mi(d)nus(d//ffg/fffd) (,) (ff/ge'fvDC'//fd'/e[ll:1]ddc.) (;) * ó(f)mni(gh)bus(h) in(h)vo(g)cán(fhg)ti(g)bus(g) (`) e(hg/h!jjjh)(,)(jjjvIH'jggfg)um :(gf..) (:) ó(hj)mni(gf)bus(f) qui(f) ín(f)vo(e)cant(dgf~) e(fge'/fddcd)um(dc..) (;) in(e_[oh:h]) ve(c)ri(d!ewf)tá(fgF//C'd!fff)te.(f.) (,) (ixhhg/hh//gh!ivGF/!hh//iyfh!jkijh.) (,) (fg/h!jj/klijh.ixgiHF.1) (z0::c3) ℣. Lau(hh)dem(h) Dó(h)mi(h)ni(ihh'hh_f) (,) (hhf/hhe//gxfgED./[-3]gy/[0.5]hhjvIH//hvGF.) (:) lo(f!h'i)qué(i)tur(ih/jkIH'hf.) (,) os(hf/hhh) me(h)um :(h.f!gwh!iv.hi/!jh/!h/iih.0) (:) et(d) be(d)ne(fe)dí(eh)cat(h.) (,) o(ihhg~)mnis(i'/jk) ca(i_[oh:h]h)ro(hg/i_[oh:h]h//jvIH'Ghf..) (;) no(f_e)men(gxegf'gvE'D) san(fe~)ctum(h.) *(,) e(hiH'F)jus.(f./de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #284)"
     },
@@ -1504,7 +1504,7 @@ window.PROPERS = {
       latin: "Tóllite portas, príncipes, vestras : et elevámini, portae aeternáles, et introíbit Rex glóriae.",
       translation: "Lift up your gates, O you princes: and be lifted up, O eternal gates, and the King of glory shall enter in.",
       mode: "Offertory · The Nativity of the Lord (Vigil Mass) · Mode II",
-      reference: "Ps. 23:7",
+      reference: "Ps. 24:7",
       gabc: "(c3) TOl(ce/fgf)li(f)te(f.) * por(f!gwh/ig/hffe~)tas,(f.) (,) prín(f/hhh)ci(h)pes,(hji) ve(i_[oh:h]h//hhhvF'Ef!gwh_f)stras :(f.) (:) et(fge) e(h)le(hif)vá(hhhjvIHhv'1GF)mi(gf)ni,(f.) (;) por(f!gwh/ihhvG~F~)tae(f.) ae(hfh)ter(efe~)ná(hi!kvJI)les,(ih..) (:) et(h_f) in(hi)tro(i_[oh:h]h)í(hfivHG'F)bit(fhffe.) (;) Rex(ef!hhi) gló(jkI'H)ri(h_g)ae.(hhh_f) (,) (h/ihh'h//hhhf/ihghf//ihh'hh_efv.) (::)",
       source: "Graduale Romanum (GregoBase #171)"
     },
@@ -1524,7 +1524,7 @@ window.PROPERS = {
       latin: "Tecum princípium in die virtútis tuae : in splendóribus sanctórum, ex útero ante lucíferum génui te. ℣. Dixit Dóminus Dómino meo : Sede a dextris meis : donec ponam inimícos tuos scabéllum pedum tuórum.",
       translation: "With you is the principality in the day of your strength: in the brightness of the saints, from the womb before the day star I begot you. ℣. The Lord said to my Lord: Sit at my right hand: until I make your enemies your footstool.",
       mode: "Gradual · The Nativity of the Lord (Mass during the Night) · Mode II",
-      reference: "Ps. 109:3, 1",
+      reference: "Ps. 110:3, 1",
       gabc: "(c3) TE(f)cum(c) prin(f)cí(f)pi(fgF'Efef)um(f.) *(,) in(hh/ijIH') di(ig'hvF'Ef/hh/if)e(f.) (;) vir(f!gwh)tú(hv.gihghf)tis(gxfegvFE.) (`) tu(e[ll:1]d/fef)ae :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) in(f) splen(e)dó(hh)ri(hji)bus(ihhf.) (,) san(f)ctó(h.f!gwh/i_[oh:h]f/ij)rum,(h_fhv.ghF'Ef.) (;) ex(f) ú(hfh)te(hhh)ro(h.f!gwh!iv.hi/jhh/iih.0) (:) an(hhi~)te(h) lu(h)cí(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')fe(f)rum(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) gé(de'fhvGF'g)nu(ef)i(hf/h_i) te.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Di(f)xit(h) Dó(hi)mi(i)nus(i) (`) Dó(i)mi(i)no(ij) me(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)o :(ji..) (:) Se(i!jw!kvJI'jw!kvJI)de(i.) (,) a(i) dex(i)tris(ij) me(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)is :(f.) (:) do(hh)nec(h) po(hji)nam(ihhf.) (,) in(f)i(fi)mí(i_[oh:h]f/ij)cos(h_fhv.ghF'Ef.) (,) tu(hf/hhh)os(h.f!gwh!iv.hi/jhh/iih.0) (:) sca(hh)bél(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)lum(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) pe(de'fhvGF'g)dum(e) *() tu(f)ó(hf/h_i)rum.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #518)"
     },
@@ -1542,7 +1542,7 @@ window.PROPERS = {
       latin: "Laeténtur caeli, et exsúltet terra ante fáciem Dómini : quóniam venit.",
       translation: "Let the heavens rejoice, and let the earth be glad before the face of the Lord: because he comes.",
       mode: "Offertory · The Nativity of the Lord (Mass during the Night) · Mode IV",
-      reference: "Ps. 95:11, 13",
+      reference: "Ps. 96:11, 13",
       gabc: "(c4) LAe(cd'f)tén(f)tur(ef'g) *() cae(dgF'E//ghG'FgvFE)li,(f.) (;) et(f) ex(f)súl(fgf/gff'fd~)tet(dgF'E) (,) ter(hgh_fhggd~)ra(dgF'EfgFD.1) (:) an(df/gef)te(f.) fá(f/[1]{/[-3]ix}f/hih/ih)ci(hg)em(gh/igh.) Dó(e.f!gwhhg)mi(gf)ni :(fg!hvhg.) (;) quó(g_[oh:h]d)ni(dgF'E)am(e.) ve(eg!hvGFghg)nit.(egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #811)"
     },
@@ -1551,7 +1551,7 @@ window.PROPERS = {
       latin: "In splendóribus sanctórum, ex útero ante lucíferum génui te.",
       translation: "In the brightness of the saints, from the womb before the day star I begot you.",
       mode: "Communion · The Nativity of the Lord (Mass during the Night) · Mode VI",
-      reference: "Ps. 109:3",
+      reference: "Ps. 110:3",
       gabc: "(c4) IN(f) splen(d)dó(ff)ri(d)bus(ff) * san(g_[oh:h]f)ctó(f_[oh:h]g_[oh:h]f_[oh:h])rum,(f.) (;) ex(f) ú(fg'h)te(h_g)ro(gv.fgFD.1) (;) an(ffg~)te(f) lu(hg)cí(hv.f!h'j)fe(g)rum(fgFD.1) (,) gé(df/gh)nu(ff)i(f_[oh:h]g_[oh:h]f_[oh:h]) te.(f.) (::)",
       source: "Graduale Romanum (GregoBase #117)"
     },
@@ -1562,7 +1562,7 @@ window.PROPERS = {
       latin: "Benedíctus qui venit in nómine Dómini : Deus Dóminus, et illúxit nobis. ℣. A Dómino factum est : et est mirábile in óculis nostris.",
       translation: "Blessed is he that comes in the name of the Lord: the Lord is God, and he has shone upon us. ℣. This is the Lord's doing: and it is wonderful in our eyes.",
       mode: "Gradual · The Nativity of the Lord (Mass at Dawn) · Mode V",
-      reference: "Ps. 117:26, 27, 23",
+      reference: "Ps. 118:26, 27, 23",
       gabc: "(c3) BE(d)ne(fh)dí(h)ctus(f.) *(,) qui(h_g) ve(hiH'GF)nit(fhE'Deffe.) (;) in(d) nó(gxefe/fg)mi(f)ne(hffe.) (,) Dó(f!gwh_g)mi(hiH'GF)ni :(fighvGF.) (:) De(hvGF')us(h) Dó(hg/hi'j)mi(hvGF)nus,(fhE'Deffe.) (;) et(f) il(h)lú(h)xit(gh~) no(f)bis.(gxfe/fgED'ewfef.) (,) (hiHF'ghf./ghFE'gvFE.) (,) (d!ew!f!e/fhff/ded.) (::) ℣. A(df) Dó(h)mi(h)no(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (;) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (;) fa(hhihhf)ctum(hfhhe/fd) est :(d.) (:) et(hh) est(hi/j_h) mi(h)rá(hiH'GhvGF.ihhf'/ghf'/ghf.1)(,)(de/f!hh/ijhhg)bi(hg)le(h.) *(;) in(hh) ó(h)cu(h)lis(h) no(ihhf)stris.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #217)"
     },
@@ -1571,7 +1571,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dóminus regnávit, decórem índuit : índuit Dóminus fortitúdinem, et praecínxit se virtúte.",
       translation: "Alleluia. ℣. The Lord has reigned, he is clothed with beauty: the Lord is clothed with strength, and has girded himself with power.",
       mode: "Alleluia · The Nativity of the Lord (Mass at Dawn) · Mode II",
-      reference: "Ps. 96:1",
+      reference: "Ps. 97:1",
       gabc: "(f3) AL(ef)le(f)lú(hhivHGh_i){ia}.(ijIH'h//fihhe/f!gwhf.1) (,) * {ij.}(hhf/hghvFE//ivHGh.f!gwhf.1) (::) ℣. Dó(fi!jvIHfihi)mi(ighf)nus(f.) (,) re(feg)gná(gv.fig/h.f!gwhgh)vit,(hg..) (;) de(gh)có(ijij)rem(h_f/hjI'Gh.) (,) ín(eg/ihi/ghf.1/hiH'Gh)du(f_[oh:h]g_[oh:h]f_[oh:h])it :(f.) (:) ín(f)du(f!h'i)it(ijI'Hh'h) Dó(gh!ivHF.gh'i)mi(i)nus(i) (,) for(kxji/jki)ti(h)tú(hjihhf)di(f)nem,(fh//fhhegvFE.) (;) et(e) prae(f)cín(hhi)xit(f) se(fhg) *(,) vir(hi~)tú(ivihi)te.(i./jijIG.hiH'//Ef!gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #714)"
     },
@@ -1580,7 +1580,7 @@ window.PROPERS = {
       latin: "Deus enim firmávit orbem terrae, qui non commovébitur : paráta sedes tua, Deus, ex tunc, a saéculo tu es.",
       translation: "For God has established the world, which shall not be moved: your throne, O God, is prepared from of old: you are from everlasting.",
       mode: "Offertory · The Nativity of the Lord (Mass at Dawn) · Mode VIII",
-      reference: "Ps. 92:1-2",
+      reference: "Ps. 93:1-2",
       gabc: "(c4) DE(h)us(fhg) e(g)nim(g.) *() fir(hg~)má(hjh___!iwj)vit(g.) (,) or(fgh!jjj_h/jjjh~)bem(hv.f!hfg) ter(g)rae,(g/jjhgiHG'gf.0) (;) qui(fg) non(gh!jjjvHGjjjvHG'g/fg~) com(g)mo(ghfg)vé(g)bi(ghg___)tur :(g.) (:) pa(j)rá(ikjj'j)ta(h_g) (,) se(j_i//jjj_g/j)des(j.jjj) tu(h_g)a,(g_[oh:h]f) De(giH'G)us,(g.) (,) ex(f) tunc,(g_h_g_2/h_[oh:h]i_[oh:h]h._[oh:h]) (:) a(g) saé(g!jjj)cu(h.g!hwi_[oh:h]h)lo(hggf.0) (,) tu(fg'h//fg!hih/ig/hhg) es.(g.) (::)",
       source: "Graduale Romanum (GregoBase #979)"
     },
@@ -1600,7 +1600,7 @@ window.PROPERS = {
       latin: "Vidérunt omnes fines terrae salutáre Dei nostri : jubiláte Deo, omnis terra. ℣. Notum fecit Dóminus salutáre suum : ante conspéctum géntium revelávit justítiam suam.",
       translation: "All the ends of the earth have seen the salvation of our God: sing joyfully to God, all the earth. ℣. The Lord has made known his salvation: in the sight of the nations he has revealed his justice.",
       mode: "Gradual · Mary, the Holy Mother of God · Mode V",
-      reference: "Ps. 97:3, 2",
+      reference: "Ps. 98:3, 2",
       gabc: "(c3) VI(d)dé(d)runt(fh~) o(hiH'F//hhhjvIH)mnes(h.) *(,) fi(hi)nes(h_f) ter(hfhhf)rae(f/hhf/hg/hf..) (;) sa(f)lu(hg)tá(h_gi)re(ivHGh_f) (,) De(f_e/f!gwh/i_[oh:h]h)i(hg/ijk) no(i_[oh:h]h)stri :(hg/hf..) (:) ju(f)bi(hg)lá(h)te(hhh) De(fhee[ll:1]d)o(de!fhFD.1) (;) o(d!f'h/ijh)mnis(gxh.f!gw!hvGE'fw!gvFE) ter(ded)ra.(d!f'h//d!f'hhv'1GE//dfe/fee[ll:1]d.0) (::) ℣. No(d)tum(fe~) fe(eh)cit(hi~) Dó(ihhf/hiHG.hiFD.1)(,)(f/hhi/hhf/hiHG.hiFD.1)(,)(gxfg//e!g'h/ghghvFD.1)(,)(fdfED//fd/ef!hh/i!jwk)mi(ih)nus(hiHF.1) (;) sa(f)lu(hg)tá(hhf/hhf)re(f) su(fhf/hhf)um :(f.) (:) an(f)te(f) con(fi~)spé(i)ctum(hiH'F) gén(h.i!jwk)ti(ih)um(hiHF.1) (;) re(f!h'i/hhf)ve(f)lá(hfhhe/fd)vit(d.) *(,) ju(f)stí(f/hhfg)ti(ef)am(gxhf/ge) su(d)am.(cd/efe.) (,) (de!fhFE.gxde'f!hhe'gvFD.1) (::)",
       source: "Graduale Romanum (GregoBase #1163)"
     },
@@ -1618,7 +1618,7 @@ window.PROPERS = {
       latin: "Tui sunt caeli, et tua est terra : orbem terrárum, et plenitúdinem ejus tu fundásti : justítia et judícium praeparátio sedis tuae.",
       translation: "Yours are the heavens, and yours is the earth: the world and its fullness you have founded: justice and judgment are the preparation of your throne.",
       mode: "Offertory · Mary, the Holy Mother of God · Mode IV",
-      reference: "Ps. 88:12, 15",
+      reference: "Ps. 89:12, 15",
       gabc: "(c4) TU(f)I(ded) sunt(f) *() cae(e/fgF'EfvED)li,(fd/efe.) (;) et(fd~) tu(dfe)a(f) est(g_[oh:h]efvEDgvFE) ter(hvGFgvFE)ra :(e.) (:) or(d!g'h)bem(g) ter(fgffe)rá(egffe)rum,(fff) (;) et(dec) ple(dfe)ni(e)tú(e!gfg)di(d)nem(d.) (,) e(ff/gd/fffd/fffv_E~D~)jus(e[ll:1]d..) (,) tu(f!h'j) fun(gh)dá(egff)sti :(fe..) (:) ju(hg)stí(h_ghvGE//f!gwhgh//f!gwhgh)ti(f)a(eef.) (,) et(f.d!ewf) ju(f)dí(fffhvGF'D//gvFE'D)ci(d!ewf_d)um(d.) (;) prae(d)pa(ef)rá(gh)ti(g)o(ghGF.efED.) (,) se(fv.fffdgvFE)dis(g_[oh:h]f/hggf/ghg) tu(egff)ae.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1274)"
     },
@@ -1627,7 +1627,7 @@ window.PROPERS = {
       latin: "Vidérunt omnes fines terrae salutáre Dei nostri.",
       translation: "All the ends of the earth have seen the salvation of our God.",
       mode: "Communion · Mary, the Holy Mother of God · Mode I",
-      reference: "Ps. 97:3",
+      reference: "Ps. 98:3",
       gabc: "(c4) VI(fg)dé(gff)runt(de~) o(cd~)mnes(d.) *(,) fi(d!f'g)nes(gh) ter(hjjg)rae(g_[oh:h]fhvGE.) (;) sa(f)lu(ghg)tá(hv.fh!jvvH'GE'f)re(f.) (,) De(f_dfvECfhg___)i(ghF'Ef) no(d_[oh:h]e_[oh:h]d_[oh:h])stri.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1139)"
     },
@@ -1638,7 +1638,7 @@ window.PROPERS = {
       latin: "Unam pétii a Dómino, hanc requíram, ut inhábitem in domo Dómini. ℣. Ut vídeam voluptátem Dómini : et prótegar a templo sancto ejus.",
       translation: "One thing I have asked of the Lord, this will I seek after: that I may dwell in the house of the Lord. ℣. That I may see the delight of the Lord: and may be protected from his holy temple.",
       mode: "Gradual · The Holy Family · Mode V",
-      reference: "Ps. 26:4",
+      reference: "Ps. 27:4",
       gabc: "(c4) U(ffg)nam(f) pé(ghgh)ti(g)i(fgFD.1) (,) * a(d) Dó(dgf/gh)mi(g)no,(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) hanc(hj~) re(j_h)quí(jhjjh)ram,(h.) (;) ut(h) in(hj)há(j)bi(ixij!kvJ'IHi)tem(ih..) (,) in(ixi) do(hhg)mo(gh) Dó(hg/hf/g_[oh:h]f)mi(ef)ni.(ixf./hiHF.) (,) (hg/hjhh/fgf.) (z0::c3) ℣. Ut(d) ví(d)de(f)am(gxfh/ih/i_[oh:h]h//ivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0d'dd!f_h/ijh.1) (;) vo(hi)lu(h)ptá(h)tem(hg/ij) Dó(i_[oh:h]h)mi(h)ni :(hg/i_[oh:h]h//jvIH'Ghf..) (:) et(hh) pró(ih/ij_hih/ij_ij//hi/jij)te(j)gar(jh/jkihh/fgf.) (;) a(d) tem(d)plo(d) san(dfE'D)cto(ef) *() e(fhG'Fhhh)jus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #229)"
     },
@@ -1647,7 +1647,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Gaudéte, justi, in Dómino : rectos decet collaudátio.",
       translation: "Alleluia. ℣. Rejoice in the Lord, you just: praise becomes the upright.",
       mode: "Alleluia · The Holy Family · Mode IV",
-      reference: "Ps. 32:1",
+      reference: "Ps. 33:1",
       gabc: "(c4) AL(d!ff)le(ef)lú(ghG'Fggh){ia}.(hjHG'gf.0) (;) * ij.(ghg'hvGF'fd./ghG'F//g_[oh:h]f/gffe.) (::) ℣. Gau(fffg~)dé(ixdg/hg/hi)te(h) ju(hhgh)sti(e.) (,) in(f!gwhg~) Dó(hhg)mi(hgh)no :(fgf'gvd_[oh:h]e_[oh:h]d._[oh:h]) (:) re(d!ffd/ffdd!ef!gh)ctos(ghg.) (,) de(h_f/gffv//ce'!gv//hgg'g//ggge//fefvED//fgfg)cet(fe..) (;) * col(e!fwg'!hv)lau(gh~)dá(hvGF)ti(ghg)o.(hjHG'gf.0) (;) (ghg'hvGF'fd./ghG'F//g_[oh:h]f/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #216)"
     },
@@ -1656,7 +1656,7 @@ window.PROPERS = {
       latin: "In te sperávi, Dómine : dixi : Tu es Deus meus, in mánibus tuis témpora mea.",
       translation: "In you, O Lord, have I hoped: I said: You are my God, my times are in your hands.",
       mode: "Offertory · The Holy Family · Mode II",
-      reference: "Ps. 30:15-16",
+      reference: "Ps. 31:15-16",
       gabc: "(f3) IN(c) te(ef'g) spe(f)rá(h.f!gwh/i_[oh:h]h)vi,(hhhvGEf!gw!hvGF') (,) * Dó(f)mi(f!gwhgh)ne :(gf..) (:) di(fh)xi :(hhh/i_[uh:l]j) (,) Tu(hiH'F) es(f.) De(f!gw!hvGF)us(ef) me(f!gwh/ihhgh)us,(hg..) (:) in(hh) má(hi/jij)ni(h)bus(hhvGF) tu(hh/i_[oh:h]h)is(h.) (;) tém(h_f/hhvF'E//f!hhh)po(f_e)ra(egf) me(f_[oh:h]g_[oh:h]f_[oh:h])a.(f.) (::)",
       source: "Graduale Romanum (GregoBase #967)"
     },
@@ -1676,7 +1676,7 @@ window.PROPERS = {
       latin: "Speciósus forma prae fíliis hóminum : diffúsa est grátia in lábiis tuis. ℣. Eructávit cor meum verbum bonum : dico ego ópera mea Regi : lingua mea cálamus scribae velóciter scribéntis.",
       translation: "Beautiful in form beyond the sons of men: grace is poured abroad on your lips. ℣. My heart has uttered a good word: I speak my works to the King: my tongue is the pen of a scribe that writes swiftly.",
       mode: "Gradual · 2nd Sunday after the Nativity · Mode III",
-      reference: "Ps. 44:3, 2",
+      reference: "Ps. 45:3, 2",
       gabc: "(c3) SPe(e)ci(fhg)ó(h)sus(h.) *(,) for(hh//hhh.f!gwh/i_[oh:h]h//j_ijvIG)ma(ig/hi/jh) (,) (hhh'ih/ihhg.) (;) prae(fhg) fí(hihhf)li(hig)is(hiffe.) (,) hó(fhg/h_fi)mi(hg)num :(gv.eg/ihh/fgf.) (:) dif(f)fú(hf/ghg)sa(ge/f!hhhvFE'ec) est(d_e) (,) grá(eg)ti(g)a(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) in(f) lá(hf/gh!ivFE')bi(feec)is(efe/f!hh) tu(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)is.(c./eec//e[ll:1]d/ec..) (::) ℣. E(e)ru(e)ctá(e.f!gwhgh)vit(h_g) cor(g.h!iwjij) me(jihhf/ig/h_[oh:h]i_[oh:h]h_[oh:h])(,)(hhhvFEhg/h_i)um(ih/ihhg.) (;) ver(gh/iji/jhhg)bum(g) bo(h.f!gwh_g)num :(gv.eg/ihh/fgf.) (:) di(f)co(fi) e(ivvH'Fijhhgh)go(hg..) (;) ó(hv.fhg)pe(g)ra(g) me(gh/iji/jhhg)a(g.) (,) Re(h.f!gwh_g)gi :(gv.eg/ihh/fgf.) (:) lin(f)gua(f) me(f)a(f) cá(fgfg)la(ge/f!hhhvFE'ec)mus(d_e) (,) scri(eg)bae(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) ve(f)ló(hf/gh!ivFE')ci(feec)ter(efef) (,) * scri(hh)bén(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)tis.(c./eec//e[ll:1]d/ec..) (::)",
       source: "Graduale Romanum (GregoBase #1308)"
     },
@@ -1685,7 +1685,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dóminus regnávit, decórem índuit : índuit Dóminus fortitúdinem, et praecínxit se virtúte.",
       translation: "Alleluia. ℣. The Lord has reigned, he is clothed with beauty: the Lord is clothed with strength, and has girded himself with power.",
       mode: "Alleluia · 2nd Sunday after the Nativity · Mode II",
-      reference: "Ps. 96:1",
+      reference: "Ps. 97:1",
       gabc: "(f3) AL(ef)le(f)lú(hhivHGh_i){ia}.(ijIH'h//fihhe/f!gwhf.1) (,) * {ij.}(hhf/hghvFE//ivHGh.f!gwhf.1) (::) ℣. Dó(fi!jvIHfihi)mi(ighf)nus(f.) (,) re(feg)gná(gv.fig/h.f!gwhgh)vit,(hg..) (;) de(gh)có(ijij)rem(h_f/hjI'Gh.) (,) ín(eg/ihi/ghf.1/hiH'Gh)du(f_[oh:h]g_[oh:h]f_[oh:h])it :(f.) (:) ín(f)du(f!h'i)it(ijI'Hh'h) Dó(gh!ivHF.gh'i)mi(i)nus(i) (,) for(kxji/jki)ti(h)tú(hjihhf)di(f)nem,(fh//fhhegvFE.) (;) et(e) prae(f)cín(hhi)xit(f) se(fhg) *(,) vir(hi~)tú(ivihi)te.(i./jijIG.hiH'//Ef!gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #714)"
     },
@@ -1694,7 +1694,7 @@ window.PROPERS = {
       latin: "Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus : et renovábitur, sicut áquilae, juvéntus tua.",
       translation: "Bless the Lord, O my soul, and forget not all his benefits: and your youth shall be renewed like the eagle's.",
       mode: "Offertory · 2nd Sunday after the Nativity · Mode V",
-      reference: "Ps. 102:2, 5",
+      reference: "Ps. 103:2, 5",
       gabc: "(c3) BE(d)ne(f)dic(hh) *(,) á(hihi)ni(f)ma(fe) me(fh)a(hhi) Dó(ijI'H)mi(ih)no,(h_[oh:h]i_[oh:h]h._[oh:h]) (;) et(f) no(f!h'i)li(ih) ob(hihhg)li(fe)ví(f)sci(hh) (,) o(hf~)mnes(gxg_[oh:h]f) re(d)tri(ef)bu(fe)ti(gyf!gwh)ó(h_g)nes(hihhg) e(f!gwhgh)jus :(gf..) (:) et(g) re(e)no(f)vá(h)bi(hhh)tur,(h.) (,) sic(ivHF)ut(h.f!gwh_g) á(hf/hh//hhh)qui(fgFE'f)lae,(fe..) (;) ju(hh)vén(h_f/hhf/hhf./def!hh/ijH'FhvGEf.)(,)(f!hh//hhh.f!gwh)tus(hhh_f) tu(d_[oh:h]e_[oh:h]d_[oh:h])a.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1359)"
     },
@@ -1732,7 +1732,7 @@ window.PROPERS = {
       latin: "Reges Tharsis et ínsulae múnera ófferent : reges Arabum et Saba dona addúcent : et adorábunt eum omnes reges terrae, omnes gentes sérvient ei.",
       translation: "The kings of Tharsis and the islands shall offer gifts: the kings of the Arabians and of Saba shall bring presents: and all the kings of the earth shall adore him, all nations shall serve him.",
       mode: "Offertory · The Epiphany of the Lord · Mode V",
-      reference: "Ps. 71:10-11",
+      reference: "Ps. 72:10-11",
       gabc: "(c3) RE(h)ges(fh) Thar(h)sis(hhh//hv.hhh) *(,) et(fh) ín(hhhjvIH)su(hvGF)lae(fhG'Fh.) (;) mú(defivHG')ne(hggfg)ra(g_[oh:h]f) óf(gxdf!gvFE')fe(feede)rent :(e[ll:1]d..) (:) re(f)ges(e) A(ef!gvgf)ra(ef!hhvFE')bum(fee[ll:1]d.0) (,) et(de) Sa(f)ba(hig'hvFE.//hig'hvFE'e[ll:1]d.0) (;) do(fhh'1hhi)na(i) ad(hhh)dú(hi!jvIH'GhvGF'g)cent :(gf..) (:) et(hf) ad(h)o(hi)rá(iv.hihhe)bunt(fhg) e(h_g)um(hig'hvFD.1) (;) o(df)mnes(f_e) re(f!hhh)ges(f_e) ter(egF'Efe)rae,(e.) (:) o(f!hihh'h)mnes(ef/g_[oh:h]f) gen(f!hihh'h)tes(ef/g_[oh:h]f) (;) sér(fh/i_[oh:h]h)vi(gxf!hhf/ge)ent(de/fhf) e(gxegF'Efd)i.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1147)"
     },
@@ -1752,7 +1752,7 @@ window.PROPERS = {
       latin: "Benedíctus Dóminus Deus Israel, qui facit mirabília magna solus a saéculo. ℣. Suscípiant montes pacem pópulo tuo, et colles justítiam.",
       translation: "Blessed be the Lord, the God of Israel, who alone does wondrous things from of old. ℣. Let the mountains receive peace for your people, and the hills justice.",
       mode: "Gradual · The Baptism of the Lord · Mode VII",
-      reference: "Ps. 40:14; 135:4; 71:3",
+      reference: "Ps. 41:14; 135:4; 71:3",
       gabc: "(c3) BE(e)NE(e)DÍC(e/fgf)TUS(e/ffe) *(,) Dó(ehhi)mi(f)nus(ed/ef/fe) (;) De(gghf)us(hi) Is(igh)ra(fhGE)el,(ev//df/hg/hiffe/fe!hhf/heed) (:) qui(ef) fa(de)cit(effefvfe/fhhfh) (,) mi(ef)ra(e)bí(d!fh)li(hi)a(igh) ma(fg~)gna(e) (,) so(de/fe/fhg)lus(highvFE,ffe/ff//ef!hhhf/hvvGF/heed) (:) a(df) saé(f!hi/kki)cu(ihhvGE)lo.(f/hhh/ijhhe,hhjvIHGE//f!gwhg/ihhhvFE/fgffe) ℣.(::) Su(eh)scí(hi)pi(ijIH)ant(ihhg~) mon(hi/hihi)tes(iki!jwkjkvJIji) (;) pa(i/jg/hi//ji/jg/hi,kkh/jijvHF/gwh!iv//giHGE,fhgh//fh//ghFDe;ijIDfe//f!gwh!iv//h!kki,kj/lklvKIkjkvIHiwj)cem(ijhivHGhg) (:) pó(iji/kki/jil)pu(kj)lo(jlkk/iji) (,) tu(ij//hk/jki/jji)o,(i) (:) et(g!hi~) col(i/jg/hi//ji/jg/hi,kvvIH)les(ighvFE,fegvFEDdb) *(;) jus(e)tí(ef!gwh!ivHE//fhe/fe)ti(de)am.(e) (;) (ei/ki!jwki/kki/hhf//egFE) (::)",
       source: "Graduale Romanum (GregoBase #1547)"
     },
@@ -1761,7 +1761,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Invéni David servum meum : óleo sancto meo unxi eum.",
       translation: "Alleluia. ℣. I have found David my servant: with my holy oil I have anointed him.",
       mode: "Alleluia · The Baptism of the Lord · Mode II",
-      reference: "Ps. 88:21",
+      reference: "Ps. 89:21",
       gabc: "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) *(,) ij.(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) ℣. In(f_e/f!gwh'!iv)vé(jiihi)ni(iv.hh/fgf.) (,) Da(f!hh/ijHF'ivH'GEf./hfhhf/ge)vid(e.) (;) ser(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)vum(ivH'Gh) me(f_[oh:h]g_[oh:h]f_[oh:h])um :(f.) (:) ó(f!h'i)le(jiihi)o(iv.hh/fgf.) (,) san(fg~)cto(f) me(f!hh/ijHF'ivH'GEf./hfhhf/ge)o(e.) (;) un(hh)xi(hi) *() e(i_[oh:h]h/jij)um.(jvvIH'GE//f!gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1350)"
     },
@@ -1770,7 +1770,7 @@ window.PROPERS = {
       latin: "Benedíctus qui venit in nómine Dómini : benedíximus vobis de domo Dómini : Deus Dóminus, et illúxit nobis, allelúia, allelúia.",
       translation: "Blessed is he that comes in the name of the Lord: we have blessed you out of the house of the Lord: the Lord is God, and he has shone upon us, alleluia, alleluia.",
       mode: "Offertory · The Baptism of the Lord · Mode VIII",
-      reference: "Ps. 117:26-27",
+      reference: "Ps. 118:26-27",
       gabc: "(c4) BE(fgffe)ne(cd)dí(ff!gwhgh)ctus(hg__) *(,) qui(g) ve(hjj'1j/k_[hl:1]j)nit(j.) (;) in(j) nó([oll:1{1]jk/lk[oll:}])mi(kjj)ne(ghg___//ikj) (,) Dó(jki'/jh)mi(gf)ni :(h!iwj_hivHGhg..) (:) be(f)ne(g)dí(gj)xi(j)mus(jjjvH'Gh) vo(fg)bis(hjH'Gh.) (;) de(fg) do(gh)mo(hj) Dó(jjjkv./0[oll:0{0]jlk)mi(klj[oll:}]/jh!iwj_i)ni :(i.) (:) De(g/jjjkv./0[oll:0{0]jlk)us(klj[oll:}]/jh!iwj_i) (,) Dó(g/jjj/k_[hl:1]j)mi(jkj'/ki'/jhgih)nus,(hggfg.) (;) et(fg) il(gh)lú(h/k'l)xit(j_i) no(jjj_h)bis,(hv.g!jhj.) (;) al(f)le(g)lú(h/jjj){ia},(jkJ'Ijv.jjj_g) (,) al(hj)le(jjj//kj'/kjj)lú(hg~){ia}.(gjh/ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #941)"
     },
@@ -1799,7 +1799,7 @@ window.PROPERS = {
       latin: "Dómine, praevenísti eum in benedictiónibus dulcédinis : posuísti in cápite ejus corónam de lápide pretióso. ℣. Vitam pétiit, et tribuísti ei longitúdinem diérum in saéculum saéculi.",
       translation: "O Lord, you went before him with blessings of sweetness: you have set on his head a crown of precious stones. ℣. He asked life of you, and you have given him length of days for ever and ever.",
       mode: "Gradual · Saint Joseph, Spouse of the Blessed Virgin Mary · Mode IV",
-      reference: "Ps. 20:4-5",
+      reference: "Ps. 21:4-5",
       gabc: "(c4) DO(fe)mi(fg)ne,(gv.ff/ded.) (,) * prae(fe)ve(fg)ní(g)sti(df) e(egF'E)um(e.) (;) in(e[ll:1]d~) be(g)ne(hj)di(j)cti(i!jw!kvJI')ó(h)ni(fhf/gh)bus(g.) dul(d)cé(feg)di(gefd)nis :(d.) (:) po(f)su(gh)í(ixh.0/[-0.5]ivHG'h)sti(ef'g) (,) in(g) cá(gfh)pi(h)te(gf) e(g_[oh:h]d~)jus(d.) co(feg)ró(gefd)nam(d.) (;) de(dc) lá(f)pi(gh)de(ixh.0/[-0.5]ivHG'ef'g) pre(g)ti(df)ó(efED.)(,)(ixf.0/[-0.5]hiHG'/!ge./ghGF'Ef_gF'E)so.(e.) (::) ℣. Vi(h)tam(ixjhhgh/ef'!geg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) pé(gf/gh)ti(g)it,(g.) (:) et(f) tri(ghgh)bu(h)í(hgh'1f)sti(e[ll:1]d) e(f_g//ef!hvGE'fd)i(d.) (;) lon(c)gi(d)tú(dffd/ffdd'd/gffd)di(fdec)nem(c.) (,) di(f)é(ghgh)rum(hgh'1f) (;) in(e[ll:1]d~) saé(f_g//ef!hvGE'fd)cu(cd)lum(d.) (,) * saé(c.d!ewf/g_[oh:h]f)cu(f!hgh)li.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #600)"
     },
@@ -1808,7 +1808,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Amávit eum Dóminus, et ornávit eum : stolam glóriae índuit eum.",
       translation: "Alleluia. ℣. The Lord loved him and adorned him: he clothed him with a robe of glory.",
       mode: "Alleluia · Saint Joseph, Spouse of the Blessed Virgin Mary · Mode IV",
-      reference: "Ps. 45:9",
+      reference: "Ps. 46:9",
       gabc: "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) ij.(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) ℣. A(c)má(dfd/ef)vit(f.) e(ffe)um(e[ll:1]d~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
       source: "Graduale Romanum (GregoBase #14)"
     },
@@ -1817,7 +1817,7 @@ window.PROPERS = {
       latin: "Véritas mea, et misericórdia mea cum ipso : et in nómine meo exaltábitur cornu ejus.",
       translation: "My truth and my mercy shall be with him: and in my name shall his horn be exalted.",
       mode: "Offertory · Saint Joseph, Spouse of the Blessed Virgin Mary · Mode II",
-      reference: "Ps. 88:25",
+      reference: "Ps. 89:25",
       gabc: "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::)",
       source: "Graduale Romanum (GregoBase #630)"
     },
@@ -1837,7 +1837,7 @@ window.PROPERS = {
       latin: "Diffúsa est grátia in lábiis tuis : proptérea benedíxit te Deus in aetérnum. ℣. Propter veritátem, et mansuetúdinem, et justítiam : et dedúcet te mirabíliter déxtera tua.",
       translation: "Grace is poured abroad on your lips: therefore has God blessed you for ever. ℣. Because of truth and meekness and justice: and your right hand shall conduct you wonderfully.",
       mode: "Gradual · The Annunciation of the Lord · Mode V",
-      reference: "Ps. 44:3, 5",
+      reference: "Ps. 45:3, 5",
       gabc: "(c4) DIf(d)fú(ff)sa(fg) est(ghghff'f) (,) * grá(gv.fhg)ti(ghg___)a(g.) (;) in(g) lá(gh/ji)bi(jj)is(jvHG) (`) tu(ig/h!jjjh)(,)(kljjvIH)is :(hjh___!iwjjvIHih..) (:) pro(h!jj)ptér(k_[hl:1]jk)e(j_hj)a(jjj_hivHGhg..) (;) be(f)ne(gh)dí(h!iwj)xit(g_[oh:h]f) te(f_[oh:h]d_[oh:h]!gv_[oh:h]) De(gffvED)us(dfddc.) (:) in(ffgffc/ff/ghF'Ef) (`) ae(ixf!gwhg/hih)tér(gf/ghggf)num.(ixhf/hiGF'f//f'hg/hggf.0) (z0::c3) ℣. Pro(d)pter(d) ve(d)ri(fh)tá(hv.hihhfh.)(,)(df!hvv//hihhfh./gh/ihi)tem,(hh) (;) et(d) man(d)su(d)e(fe)tú(eh)di(h)nem,(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) et(d) ju(d)stí(fdfED//f_d/ef!gwhhi)ti(h)am :(hhi!kvvhih.) (:) et(f) de(fi)dú(i)cet(ih/jkihhf/hh/ijH'Gh) te(h.) (,) mi(h)ra(h)bí(i_[oh:h]h//ghG'Fi_[oh:h]h//h'hhvFEfe//f!hhivHGh')li(h)ter(h.) *(;) déx(hh)te(h)ra(h) tu(ihhf/hh/ijH'G)a.(hhhf//hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #947)"
     },
@@ -1893,7 +1893,7 @@ window.PROPERS = {
       latin: "Magna est glória ejus in salutári tuo : glóriam et magnum decórem impónes super eum, Dómine.",
       translation: "Great is his glory in your salvation: glory and great honor shall you lay upon him, O Lord.",
       mode: "Communion · The Nativity of St. John the Baptist (Vigil) · Mode IV",
-      reference: "Ps. 20:6",
+      reference: "Ps. 21:6",
       gabc: "(c4) MA(g)gna(gh) est(h) *(,) gló(jj)ri(hg)a(g) e(gh~)jus(g.) (,) in(gh~) sa(h)lu(hf)tá(g)ri(gff) tu(f.d!ew!fvE'DC'd)o :(dc..) (:) gló(cd/fef)ri(f)am(fff) (,) et(fd~) ma(fg~)gnum(g) de(gh)có(fv.efd)rem(e[ll:1]d..) (:) im(fh~)pó(h)nes(fgf) su(g_[oh:h]f)per(f) e(fdfvEC)um,(d!ewf!g'h) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #365)"
     },
@@ -1922,7 +1922,7 @@ window.PROPERS = {
       latin: "Justus ut palma florébit : sicut cedrus, quae in Líbano est, multiplicábitur.",
       translation: "The just shall flourish like the palm tree: he shall grow up like the cedar of Lebanon.",
       mode: "Offertory · The Nativity of St. John the Baptist · Mode IV",
-      reference: "Ps. 91:13",
+      reference: "Ps. 92:13",
       gabc: "(c4) JU(e.f!gwhgfffdgvFE)stus(fff) *(,) ut(dge) pal(gh)ma(g!jjjvH'GF.//ixfff!gwhg/hih.) (,) flo(ghf)ré(dgF'E)bit :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) sic(dg)ut(gh) ce(h!iwj!kvJH//gih)drus,(hjHG'hffe.) (,) quae(ghf) in(fe~) Lí(ghF'E//fh)ba(h_g!jjjvH'G)no(g_[oh:h]f//hvGFgvFE) est,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (;) mul(ff)ti(dgf)pli(f)cá(ixff/hihhghvGFg_[oh:h]e//hggf/ghg')bi(e)tur.(egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #777)"
     },
@@ -1942,7 +1942,7 @@ window.PROPERS = {
       latin: "In omnem terram exívit sonus eórum : et in fines orbis terrae verba eórum. ℣. Caeli enárrant glóriam Dei : et ópera mánuum ejus annúntiat firmaméntum.",
       translation: "Their sound has gone forth into all the earth: and their words unto the ends of the world. ℣. The heavens declare the glory of God: and the firmament proclaims the work of his hands.",
       mode: "Gradual · Sts. Peter and Paul, Apostles (Vigil) · Mode II",
-      reference: "Ps. 18:5, 2",
+      reference: "Ps. 19:5, 2",
       gabc: "(c3) IN(c) o(ef~)mnem(f) *() ter(hfghvF'Ege/fg)ram(f.) (;) ex(hh/ijIH')í(ig'hvF'Ef!hh/if)vit(f.) (,) so(fh//gihghf)nus(gxfegvFE.) (,) e(e)ó(e[ll:1]d/fef)rum :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) in(h) fi(hji)nes(ihhf.) or(f)bis(fi) ter(i_[oh:h]f/ij~)rae(h_fhv.ghF'Ef.) (;) ver(de'fhvGF'g)ba(e) e(f)ó(hf/h_i)rum.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Cae(f)li(h) e(ij)nár(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)rant(ji..) (:) gló(i!jw!kvJI'jw!kvJI')ri(i)am(ij~) De(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)i :(f.) (:) et(hh) ó(h)pe(h)ra(h) má(h)nu(h)um(hi) e(ivH'GE//fhGEfh..)(,)(gi!jvHF)jus(fhF'Efh/!hf//hvvGF'hee[ll:1]d.0) (:) an(d)nún(de'f)ti(f)at(f.0/[-0.5]hvGF'g) ()*() fir(e)ma(f)mén(hf/hi~)tum.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #351)"
     },
@@ -1951,7 +1951,7 @@ window.PROPERS = {
       latin: "Constítues eos príncipes super omnem terram : mémores erunt nóminis tui, in omni progénie et generatióne.",
       translation: "You shall make them princes over all the earth: they shall remember your name throughout all generations.",
       mode: "Offertory · Sts. Peter and Paul, Apostles (Vigil) · Mode III",
-      reference: "Ps. 44:17-18",
+      reference: "Ps. 45:17-18",
       gabc: "(c4) COn(dg)stí(g./hji)tu(jkj)es(jvIH.) *() e(hj!kvJH)os(hjhhg.) (,) prín(ikj)ci(jvIH)pes(h_g//ih/igh.) (;) su(ef)per(g) o(h_g/jki'jvH'G)mnem(g_[oh:h]fh) ter(ghfg)ram :(f.) (:) mé(ffff_d/gih)mo(g)res(g./hjh) e(f_d/fhg)runt(ef'g) (,) nó(gh/jij)mi(gjj'1jj)nis(gj) tu(ixjjjvH'GF'gwh!ivHG'h)i,(hg..) (:) in(hji___) o(jkjijh)mni(h.) pro(dg)gé(gj)ni(jjjvH'G)e(g.) (;) et(f) ge(ef'g)ne(fh/jgh)ra(ef)ti(g)ó(g./h!iw!jvIH)ne.(hjH'GF.) (,) (fff//hvG'FEf_e//g_[oh:h]f/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1319)"
     },
@@ -1971,7 +1971,7 @@ window.PROPERS = {
       latin: "Constítues eos príncipes super omnem terram : mémores erunt nóminis tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii : proptérea pópuli confitebúntur tibi.",
       translation: "You shall make them princes over all the earth: they shall remember your name, O Lord. ℣. Instead of your fathers, sons are born to you: therefore shall the peoples praise you.",
       mode: "Gradual · Sts. Peter and Paul, Apostles · Mode V",
-      reference: "Ps. 44:17-18",
+      reference: "Ps. 45:17-18",
       gabc: "(c4) COn(d)stí(ff)tu(f!hgh)es(h) e(gg)os(gf..) *(,) prín(h)ci(ixi)pes(h_g//hiHF.ghFD.ev.dec.!/[-0.5]fg/!hggf.0) (;) su(jjk)per(j_h) o(jk~)mnem(j) ter(ixjhi)ram :(hgiHGkv.jkJ//F.0gh/jiih.0) (:) mé(ixj_h/i!jwk)mo(ixjk_[hl:1]J'_[hl:1]IH'i)res(h.) e(ixgh!i'j)runt(i_[oh:h]h) (,) nó(ixjhi)mi(gf)nis(f) tu(h_g)i,(jj) (`) Dó(ixjhi)mi(gf)ne.(fhg___) (,) (jkijh.fhg/hggf.0) (z0::c3) ℣. Pro(df) pá(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)tri(gh)bus(h.) (,) tu(ih/kkh/ih/kkvIH)is(hv.ghGF.) (;) na(h.i!jwk)ti(ih) sunt(h.) ti(f!hhe)bi(f.) (,) fí(gxfgFE.fgFD.fvEDe[ll:1]d)li(bd)i :(d.) (:) pro(de)ptér(ef)e(hf/ge)a(ef!hih.) (,) pó(h)pu(gh)li(gxfhE'D//hf/gf..) (,) con(d)fi(ef)te(f)bún(f)tur(hV_!fg~) *() ti(e.f!gwh)bi.(he) (,) (gxhfgED'//ef/hff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #307)"
     },
@@ -1989,7 +1989,7 @@ window.PROPERS = {
       latin: "Constítues eos príncipes super omnem terram : mémores erunt nóminis tui, in omni progénie et generatióne.",
       translation: "You shall make them princes over all the earth: they shall remember your name throughout all generations.",
       mode: "Offertory · Sts. Peter and Paul, Apostles · Mode III",
-      reference: "Ps. 44:17-18",
+      reference: "Ps. 45:17-18",
       gabc: "(c4) COn(dg)stí(g./hji)tu(jkj)es(jvIH.) *() e(hj!kvJH)os(hjhhg.) (,) prín(ikj)ci(jvIH)pes(h_g//ih/igh.) (;) su(ef)per(g) o(h_g/jki'jvH'G)mnem(g_[oh:h]fh) ter(ghfg)ram :(f.) (:) mé(ffff_d/gih)mo(g)res(g./hjh) e(f_d/fhg)runt(ef'g) (,) nó(gh/jij)mi(gjj'1jj)nis(gj) tu(ixjjjvH'GF'gwh!ivHG'h)i,(hg..) (:) in(hji___) o(jkjijh)mni(h.) pro(dg)gé(gj)ni(jjjvH'G)e(g.) (;) et(f) ge(ef'g)ne(fh/jgh)ra(ef)ti(g)ó(g./h!iw!jvIH)ne.(hjH'GF.) (,) (fff//hvG'FEf_e//g_[oh:h]f/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1319)"
     },
@@ -2009,7 +2009,7 @@ window.PROPERS = {
       latin: "Speciósus forma prae fíliis hóminum : diffúsa est grátia in lábiis tuis. ℣. Eructávit cor meum verbum bonum : dico ego ópera mea Regi : lingua mea cálamus scribae velóciter scribéntis.",
       translation: "Beautiful in form beyond the sons of men: grace is poured abroad on your lips. ℣. My heart has uttered a good word: I speak my works to the King: my tongue is the pen of a scribe that writes swiftly.",
       mode: "Gradual · The Transfiguration of the Lord · Mode III",
-      reference: "Ps. 44:3, 2",
+      reference: "Ps. 45:3, 2",
       gabc: "(c3) SPe(e)ci(fhg)ó(h)sus(h.) *(,) for(hh//hhh.f!gwh/i_[oh:h]h//j_ijvIG)ma(ig/hi/jh) (,) (hhh'ih/ihhg.) (;) prae(fhg) fí(hihhf)li(hig)is(hiffe.) (,) hó(fhg/h_fi)mi(hg)num :(gv.eg/ihh/fgf.) (:) dif(f)fú(hf/ghg)sa(ge/f!hhhvFE'ec) est(d_e) (,) grá(eg)ti(g)a(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) in(f) lá(hf/gh!ivFE')bi(feec)is(efe/f!hh) tu(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)is.(c./eec//e[ll:1]d/ec..) (::) ℣. E(e)ru(e)ctá(e.f!gwhgh)vit(h_g) cor(g.h!iwjij) me(jihhf/ig/h_[oh:h]i_[oh:h]h_[oh:h])(,)(hhhvFEhg/h_i)um(ih/ihhg.) (;) ver(gh/iji/jhhg)bum(g) bo(h.f!gwh_g)num :(gv.eg/ihh/fgf.) (:) di(f)co(fi) e(ivvH'Fijhhgh)go(hg..) (;) ó(hv.fhg)pe(g)ra(g) me(gh/iji/jhhg)a(g.) (,) Re(h.f!gwh_g)gi :(gv.eg/ihh/fgf.) (:) lin(f)gua(f) me(f)a(f) cá(fgfg)la(ge/f!hhhvFE'ec)mus(d_e) (,) scri(eg)bae(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) ve(f)ló(hf/gh!ivFE')ci(feec)ter(efef) (,) * scri(hh)bén(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)tis.(c./eec//e[ll:1]d/ec..) (::)",
       source: "Graduale Romanum (GregoBase #1308)"
     },
@@ -2047,7 +2047,7 @@ window.PROPERS = {
       latin: "Probásti, Dómine, cor meum, et visitásti nocte : igne me examinásti, et non est invénta in me iníquitas. ℣. Igne me examinásti, et non est invénta in me iníquitas.",
       translation: "You have proved my heart, O Lord, and visited it by night: you have tried me by fire, and iniquity has not been found in me. ℣. You have tried me by fire, and iniquity has not been found in me.",
       mode: "Gradual · St. Lawrence, Deacon and Martyr · Mode V",
-      reference: "Ps. 16:3",
+      reference: "Ps. 17:3",
       gabc: "(c4) PRo(d)bá(ff)sti,(fh) *(,) Dó(ixhiHG')mi(hggfg)ne,(fv.eg'!hv//fg!hvF'EDef!gvgf.0) (;) cor(ixfg/ih) me(ixii//iiivGF'ixgi'!jvIH'i)um,(iv.hi'j/hig./hihig.) (:) et(f) vi(f)si(f)tá(ixhf/giif)sti(f.) (,) no(ixffgffc/d_f//eg/hig)cte.(ixg'/hi'GF//{/[-3]iy}hgh/fh/ji/j_h) (,) (ixiv.hig./ihivG'Fg.) (,) (fgf//f'ff'hg/hggf.0) (z0::c3) ℣. I(hi)gne(hi) me(hgh.) (,) ex(h)a(h)mi(h)ná(gxhihh'hf//gvFEfvEDf.0/[-0.5]hhvF'Ef)sti,(f.) (:) et(h) non(i_[oh:h]h/i!jwkk) est(k_l_h.1_) (,) in(ih~)vén(hj!kv'1IG'hvF'E//f!gwhhi~)ta(h.) in(hh) me(hih.) *(,) in(f)í(fh!ij)qui(hg)tas.(hhhf/hhhf/hhf.) (,) (de/!f!hh/!ijghf.gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #1027)"
     },
@@ -2065,7 +2065,7 @@ window.PROPERS = {
       latin: "Conféssio et pulchritúdo in conspéctu ejus : sánctitas et magnificéntia in sanctificatióne ejus.",
       translation: "Praise and beauty are in his sight: holiness and majesty in his sanctuary.",
       mode: "Offertory · St. Lawrence, Deacon and Martyr · Mode IV",
-      reference: "Ps. 95:6",
+      reference: "Ps. 96:6",
       gabc: "(c4) COn(f)fés(f)si(ixg!hwih)o(hhg.) *(,) et(g_[oh:h]f) pul(h/jjh)chri(gh/igh)tú(e)do(egf/gffe.) (;) in(df/gV!ef~) con(f)spé(ff/gf/gff)ctu(dgF'E) (,) e(fff//ghG'//Dfff//ghgh)jus :(h.) (:) sán(h)cti(g)tas(ixgiHG'hffe.) (,) et(fg) ma(fge~)gni(fg)fi(hvGF)cén(ixgiHG'h)ti(ef/gfg)a(fgFD.1) (;) in(ef) san(e[ll:1]d~)cti(ef)fi(e[ll:1]d)ca(ef)ti(e[ll:1]d)ó(ixfh!ivHGhvGE)ne(g_h_g_2//h_ghvGF'fd) (,) e(fffd/fff//ghgh)jus.(hvG'FEf_e//g_[oh:h]f/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #105)"
     },
@@ -2103,7 +2103,7 @@ window.PROPERS = {
       latin: "Laetámini in Dómino, et exsultáte, justi : et gloriámini, omnes recti corde.",
       translation: "Be glad in the Lord, and rejoice, you just: and glory, all you upright of heart.",
       mode: "Offertory · Sts. Fabian and Sebastian, Martyrs · Mode I",
-      reference: "Ps. 31:11",
+      reference: "Ps. 32:11",
       gabc: "(c4) LAe(d)tá(d!ewf!gvFD)mi(d!ewf_c)ni(c.) *(,) in(fg) Dó(gj!kvJH')mi(h)no,(h/jjj/h_[oh:h]i_[oh:h]h._[oh:h]) (;) et(fh!jvHG) ex(g_[oh:h]f)sul(fg)tá(gjIH'hg)te(g_[oh:h]f/gff/ded.) (,) ju(dff'1f/[1]{/[-1]ix}f/hig'hvF'D)sti :(dfddc.) (:) et(dff'1ff/gfg) glo(d!fdf)ri(cd)á(df)mi(fhg)ni(g.) (;) o(f/hjg')mnes(f/hjG'FED'ewf.) (,) re(d!ewf/g_[oh:h]f)cti(fff/h_g/h_f) cor(fg//ffg/ffgvFE')de.(d//fff_d/fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)",
       source: "Graduale Romanum (GregoBase #786)"
     },
@@ -2152,7 +2152,7 @@ window.PROPERS = {
       latin: "Audi, fília, et vide, et inclína aurem tuam : quia concupívit rex spéciem tuam. ℣. Spécie tua, et pulchritúdine tua inténde, próspere procéde, et regna.",
       translation: "Hearken, O daughter, and see, and incline your ear: for the king has desired your beauty. ℣. In your comeliness and your beauty set out, proceed prosperously, and reign.",
       mode: "Gradual · The Assumption of the Blessed Virgin Mary (Option 1) · Mode VII",
-      reference: "Ps. 44:11, 12",
+      reference: "Ps. 45:11, 12",
       gabc: "(c3) AU(e)di,(e) fí(e)li(e)a,(ehg.) *(,) et(hi~) vi(iv.hiH'Ghihi)de,(iv.h/iih/ii) (,) (hi!kkkikvvJI'jh//ivHGhg..) (:) et(f) in(hh)clí(hi//kj)na(kkkvJI'jh//ivHGhg..) (;) au(fi)rem(i!jwk) tu(ih/ikJI'H)am :(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (:) qui(e)a(fd) con(e)cu(f)pí(hih)vit(hf~) rex(hi/kkkvIH'G//hi!jvIHih/jihvvG'FEfe..) (;) spé(g_[oh:h]e/f.g!hwiiv)ci(ih)em(hi) tu(hv.f!hhvFDff,e!hhe'gvF'E)am.(hf/hhf'ivH'GE) (,) (f!gwh_g/ihh'hhvF'Ef_gffe.) (::) ℣. Spé(eh!ivji/kki//jvIHihi)ci(ihhf)e(f_efv.) tu(hg/hiF'Ehh)a,(hiHG.) (;) et(e) pul(e)chri(hh)tú(hi)di(hh/ig/hiF'E)ne(hh) (,) tu(hi)a(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) in(ij)tén(hi)de,(i!jwk) pró(i_[oh:h]h)spe(ih)re(h.) (,) pro(h)cé(ih/ikJI'H)de,(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) *(;) et(ef) re(e.f!gwh'!iv)gna.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #840)"
     },
@@ -2190,7 +2190,7 @@ window.PROPERS = {
       latin: "Audi, fília, et vide, et inclína aurem tuam : quia concupívit rex spéciem tuam. ℣. Spécie tua, et pulchritúdine tua inténde, próspere procéde, et regna.",
       translation: "Hearken, O daughter, and see, and incline your ear: for the king has desired your beauty. ℣. In your comeliness and your beauty set out, proceed prosperously, and reign.",
       mode: "Gradual · The Assumption of the Blessed Virgin Mary (Option 2) · Mode VII",
-      reference: "Ps. 44:11, 12",
+      reference: "Ps. 45:11, 12",
       gabc: "(c3) AU(e)di,(e) fí(e)li(e)a,(ehg.) *(,) et(hi~) vi(iv.hiH'Ghihi)de,(iv.h/iih/ii) (,) (hi!kkkikvvJI'jh//ivHGhg..) (:) et(f) in(hh)clí(hi//kj)na(kkkvJI'jh//ivHGhg..) (;) au(fi)rem(i!jwk) tu(ih/ikJI'H)am :(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (:) qui(e)a(fd) con(e)cu(f)pí(hih)vit(hf~) rex(hi/kkkvIH'G//hi!jvIHih/jihvvG'FEfe..) (;) spé(g_[oh:h]e/f.g!hwiiv)ci(ih)em(hi) tu(hv.f!hhvFDff,e!hhe'gvF'E)am.(hf/hhf'ivH'GE) (,) (f!gwh_g/ihh'hhvF'Ef_gffe.) (::) ℣. Spé(eh!ivji/kki//jvIHihi)ci(ihhf)e(f_efv.) tu(hg/hiF'Ehh)a,(hiHG.) (;) et(e) pul(e)chri(hh)tú(hi)di(hh/ig/hiF'E)ne(hh) (,) tu(hi)a(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) in(ij)tén(hi)de,(i!jwk) pró(i_[oh:h]h)spe(ih)re(h.) (,) pro(h)cé(ih/ikJI'H)de,(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) *(;) et(ef) re(e.f!gwh'!iv)gna.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #840)"
     },
@@ -2266,7 +2266,7 @@ window.PROPERS = {
       latin: "Timéte Dóminum, omnes sancti ejus : quóniam nihil deest timéntibus eum. ℣. Inquiréntes autem Dóminum non defícient omni bono.",
       translation: "Fear the Lord, all you his saints: for there is no want to them that fear him. ℣. But they that seek the Lord shall not be deprived of any good.",
       mode: "Gradual · All Saints · Mode I",
-      reference: "Ps. 33:10, 11",
+      reference: "Ps. 34:10, 11",
       gabc: "(c4) TI(d_c)mé(d)te(fef.) * Dó(g)mi(fe)num(d.0/[-0.5]fgF'D//fvED'fddc.) (;) o(ixf!gwh'!iv)mnes(h) san(hjhhg~)cti(gfgd) e(fg)jus :(gv.) (,) (fg!hjGF'fvED'fddc.) (:) quó(ixf!gwh'!iv)ni(h)am(h) ni(jj)hil(ixhih) de(gfg)est(d_[oh:h]e_[oh:h]d._[oh:h]) (;) ti(d)mén(d!g'h~)ti(g)bus(g) e(gf/ghd)um.(dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::) ℣. In(d'/fdd[ll:1]c~)qui(d)rén(ded/[1]{/[-4]ix}hi~)tes(hhg/h_f//eg/hgh/fgFD.1cd/fd) (,) (cd!ff/g.h!iw!jvIH.) (;) au(ixhf/gh!jjh/jjvH'GhiG'F)(,)(ghfff'1dfED'//ef'g~)tem(gh) Dó(gh)mi(g)num(fgFE.) (;) non(fg) de(g_[oh:h]e)fí(fge)ci(fgF'EfvED'e)ent(e[ll:1]d..) (;) o(d!ffd/fff)mni(fg) * bo(g_[oh:h]f/hgh)no.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #371)"
     },
@@ -2304,7 +2304,7 @@ window.PROPERS = {
       latin: "Réquiem aetérnam dona eis, Dómine : et lux perpétua lúceat eis. ℣. In memória aetérna erit justus : ab auditióne mala non timébit.",
       translation: "Eternal rest grant unto them, O Lord: and let perpetual light shine upon them. ℣. The just shall be in everlasting remembrance: he shall not fear the evil hearing.",
       mode: "Gradual · Mass for the Dead (All Souls) · Mode II",
-      reference: "Ps. 111:7",
+      reference: "Ps. 112:7",
       gabc: "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(e[ll:1]d/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tu(f)a(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) * non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1261)"
     },
@@ -2381,7 +2381,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Adorábo ad templum sanctum tuum : et confitébor nómini tuo.",
       translation: "Alleluia. ℣. I will worship toward your holy temple: and I will give glory to your name.",
       mode: "Alleluia · The Dedication of the Lateran Basilica · Mode VII",
-      reference: "Ps. 137:2",
+      reference: "Ps. 138:2",
       gabc: "(c3) AL(e)le(fde)lú(hf/hhi){ia}.(ijhh'he.) *(,) ij.(hig'hvFD.1//fhg/ihh'hhvF'Ef_gffe.) (::) ℣. Ad(e)o(hh)rá(iv.hif.1/[-0.5]efd.1/f!gwhhvG'FEf_e)bo(e.) (;) ad(ef~) tem(ef~)plum(e) san(df!hh/jij)ctum(i_[oh:h]h) tu(fhff/d/ef_d)um :(d.) (:) et(d) con(e)fi(f)té(h_i!kkh/ii//hhhf/hhe/ffdev.)(,)(defh_i!kkh/ii//hhhf/hhe/ffdev.)(,)(de/ffdev.f!gwhhvG'FEf_e)bor(e.) (;) * nó(ef)mi(e)ni(e.f!gwh) tu(h_f/g!hwihi)o.(i_[oh:h]g/h!iwjij//ijIG.) (,) (hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #242)"
     },
@@ -2437,7 +2437,7 @@ window.PROPERS = {
       latin: "Gloriósa dicta sunt de te, María : quia fecit tibi magna qui potens est.",
       translation: "Glorious things are said of you, O Mary: for he that is mighty has done great things for you.",
       mode: "Communion · The Immaculate Conception of the Blessed Virgin Mary · Mode VIII",
-      reference: "Ps. 86:3; Luke 1:49",
+      reference: "Ps. 87:3; Luke 1:49",
       gabc: "(c4) GLo(gg)ri(gh)ó(hvGF//g.h!iwjg)sa(g.) *(,) di(g!jj)cta(j) sunt(kij) de(h) te,(hvGF') Ma(h)rí(hjI'G)a :(g.) (:) qui(g)a(hih) fe(g)cit(e) ti(ffg)bi(gvFED.) () () ma(f/gh/jg)gna(g.) (,) qui(f) pot(ghg/h!jjh)ens(hig) est.(g.) (::)",
       source: "Graduale Romanum (GregoBase #1004)"
     },
@@ -2455,7 +2455,7 @@ window.PROPERS = {
       latin: "Misit Dóminus verbum suum, et sanávit eos : et erípuit eos de intéritu eórum. ℣. Confiteántur Dómino misericórdiae ejus : et mirabília ejus fíliis hóminum.",
       translation: "The Lord sent his word, and healed them: and delivered them out of their destructions. ℣. Let them confess to the Lord his mercies, and his wonderful works to the children of men.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 106:20-21",
+      reference: "Ps. 107:20-21",
       gabc: "(c3) MI(dd)sit(ef~) Dó(f_devDC[ull:0]B.e_[oh:h]c/de)mi(d)nus(d.) *(;) ver(fd/ef!hh/ihi)bum(hgh) su(f_e/f!hhvFD.1fvEDe[ll:1]d)um,(d.) (:) et(fe~) sa(eh)ná(h)vit(gxhfgED.) (`) e(fdfED//fd/ef!hh/ig/hf/hi!kkk_[hl:1]h)os :(h.) (:) et(f) e(h)rí(hi)pu(h)it(hh) e(hh//hhjvIG'hvF'Ef!hhivHG)os(h.) (;) de(h) in(h)tér(h)i(h_g)tu(e) e(f)ó(hiH'F)rum.(de//fiH'GE.) (,) (gxfhF'E//fgED.) (::) ℣. Con(d)fi(d)te(f)án(hf/hhf/hhf/hhh)(,)(f!hhf/hhf/hhh//ih/!hf/hhf/hhh)tur(h.) (,) Dó(h)mi(h)no(ih//h'hh_f//hhf/hhe//gxfgED./[-0.5]hhjvIH.) (:) mi(d)se(d)ri(fe)cór(eh)di(h)ae(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) e(fdfED//f_d/ef!gwh'!iv)jus :(hg/ijIH.ghGF.) (:) et(f) mi(hfh)ra(h)bí(i)li(hi)a(hh) (,) e(hh//hhjvIG'hvF'Ef!hhivHG)jus(h.) (;) fí(hh)li(hih)is(h_f) *() hó(fh!ij)mi(hg)num.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #932)"
     },
@@ -2473,7 +2473,7 @@ window.PROPERS = {
       latin: "Jubiláte Deo univérsa terra : jubiláte Deo univérsa terra : psalmum dícite nómini ejus : veníte, et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimae meae, allelúia.",
       translation: "Shout with joy to God, all the earth: shout with joy to God, all the earth: sing a psalm to his name: come and hear, and I will tell you, all you that fear God, what great things the Lord has done for my soul, alleluia.",
       mode: "Offertory · Ordinary Time · Mode I",
-      reference: "Ps. 65:1-2, 16",
+      reference: "Ps. 66:1-2, 16",
       gabc: "(c4)IU(c)bi(d)lá(ixdh'iv)te(h) *() De(hjh)o(ghggf.) (;) u(ghg)ni(hg)vér(hv.g!jjj)sa(fg) ter(ixfhjvHGig/hi)ra:(h.) (:) iu(h)bi(h)lá(jhjGF'fvD'C,ddc/dd/cdff!g!hhg/hh,fghhh//ghjjj//ij/kkj,lk/lmKJ'jvIH'k)te(kjjvIH) De(hjh)o(ghggf.) (;) u(ghg)ni(hg)vér(hv.g!jjj)sa(fg) ter(fhjvHGig/h/jjh,jjvH'Ghiw!j_i)ra:(jjjvIH'jggf.) (:) psal(fh)mum(hg~) dí(h_g/jjj)ci(h_g)te(ghGF.) (,) nó(fg//h_f/g_h_g_///jkj)mi(jjji)ni(hg) e(gv.fhhg/hv.gh/jjjh~)ius:(hhgh.) (:) ve(jk)ní(klkl)te,(j_h) (,) et(h_g) au(gh)dí(hj/kjk)te,(k_h_) (,) et(jk!lkl) nar(j_h)rá(hj)bo(jjj) vo(hhg)bis,(g_fg.) (;) om(fg/h_f/g_h_g_///jkjj'j)nes(hjG'Fg.) (,) qui(f) ti(ghg)mé(h_fg)tis(fgd) De(f_h_g_)um,(g.) (:) quan(hj)ta(jji) fe(jvIH)cit(h_g) Dó(g_e)mi(fgffg)nus(g.d.) (;) á(df/gfgff'ffd/g_ef.,hjg)ni(fdf)mæ(f) me(fff/gvFD)æ,(d.) (:) al(fg~)le(e_d/fh///ghg/e!fg//hf/gvFE)lú(dew!fef)ia.(e.d.) (::)",
       source: "Graduale Romanum (GregoBase #7575)"
     },
@@ -2482,7 +2482,7 @@ window.PROPERS = {
       latin: "Laetábimur in salutári tuo : et in nómine Dómini Dei nostri magnificábimur.",
       translation: "We will rejoice in your salvation: and in the name of the Lord our God we shall be magnified.",
       mode: "Communion · Ordinary Time · Mode II",
-      reference: "Ps. 19:6",
+      reference: "Ps. 20:6",
       gabc: "(f3) LAe(f)tá(fefvEDefef)bi(g)mur(f!gwh.) *(,) in(hf~) sa(hih)lu(iji)tá(jlKJ')ri(i) tu(hg/hihi)o :(f!gwh.) (;) et(f) in(h) nó(ij)mi(i)ne(i) Dó(j)mi(ih)ni(hihh/fgf.) (,) De(hhg)i(hi/jij) no(h)stri(hv.fgFE.) (,) ma(e)gni(hg)fi(hi)cá(iv.giHG'F//e_[uh:l]f)bi(e.[ll:1]d!ewfe/fg)mur.(f.) (::)",
       source: "Graduale Romanum (GregoBase #1296)"
     },
@@ -2516,7 +2516,7 @@ window.PROPERS = {
       latin: "Timébunt gentes nomen tuum, Dómine, et omnes reges terrae glóriam tuam. ℣. Quóniam aedificávit Dóminus Sion, et vidébitur in majestáte sua.",
       translation: "The Gentiles shall fear your name, O Lord, and all the kings of the earth your glory. ℣. For the Lord has built up Sion: and he shall be seen in his majesty.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 101:16-17",
+      reference: "Ps. 102:16-17",
       gabc: "(c4) TI(d)mé(ff)bunt(gh~) gen(h_fgvFED.g_[oh:h]e/fg)tes(f.) (;) * no(hf/gh!jj/kjk)men(jij) tu(h_g/h/jjvH'GF)um,(h_g~) Dó(f)mi(fg!hvGF'g)ne,(gf..) (:) et(f) o(ghgh)mnes(jhhg) re(h!iwj)ges(j_i) (`) ter(jkJ'IH)rae(hjH'GhjjhjvvIH'jggf.0) (;) gló(fg'h!fg'h)ri(gf)am(fv.ef!gvgf.0) (,) tu(f!hhh//gh!jjjhjvvIH'jg./f.0h!iw!jvIH'GF'f//hvGFgf)am.(f.) (z0::c3) ℣. Quó(d)ni(d)am(d) ae(d)di(d)fi(fe)cá(eh)vit(h.) (,) Dó(h)mi(h)nus(ihh'hh_f//hhf/hhegxfgE0/[-0.5]{/[0.5]gy}D0.0/[-0.5]hhjvIH'//hvGF.) (;) Si(hi)on,(i_[oh:h]h/i/kkhi_[oh:h]h/kkkvIH'//hvGF.) (:) et(f) vi(hf)dé(h)bi(hfh)tur(hhhvF'Ef!hhhf/hhhvGF'hee[ll:1]d.0) (;) in(d) ma(d)je(d)stá(dfE'D)te(ef) *() su(fhG'Fhhh)a.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1173)"
     },
@@ -2525,7 +2525,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dóminus regnávit, exsúltet terra : laeténtur ínsulae multae.",
       translation: "Alleluia. ℣. The Lord has reigned, let the earth rejoice: let many islands be glad.",
       mode: "Alleluia · Ordinary Time · Mode VIII",
-      reference: "Ps. 96:1",
+      reference: "Ps. 97:1",
       gabc: "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) *(;) ij.(gh//efED.f!gwhhgehf/gffe.) (::) ℣. Dó(hv.gih)mi(h)nus(h) re(hg)gná(gh!ivvHFhf/gh)vit,(g.) (;) ex(gf)súl(hji)tet(hv.ghfgF'E) ter(hvvGE.gxfgFD.egF'Efe)ra :(e.) (:) lae(e)tén(fehhhfh'GE//fhF'DgxgvFEf.0/[-0.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHG'he.gxf_e/g_[oh:h]e//gvFEfd)tur(d.) (;) ín(fd)su(ef)lae(f) *() mul(hg/hfh)tae.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'E/!f_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1001)"
     },
@@ -2534,7 +2534,7 @@ window.PROPERS = {
       latin: "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me : non móriar, sed vivam, et narrábo ópera Dómini.",
       translation: "The right hand of the Lord has wrought strength, the right hand of the Lord has exalted me: I shall not die, but live, and shall declare the works of the Lord.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 117:16, 17",
+      reference: "Ps. 118:16, 17",
       gabc: "(c4) DEx(e!g'h)te(hiH'G)ra(g.ggg/hihi) Dó(gh)mi(efED'e)ni(e[ll:1]d..) *(;) fe(de/ghg___)cit(h.) vir(hi!kki/j_k)tú(hv.gih)tem,(h.) (:) déx(jj)te(j_i)ra(jjj_h) Dó(hjjh)mi(h)ni(h.) (,) ex(g)al(h)tá(hjj'1jjh/kjjh)vit(hiH'~G~) me :(hg..) (:) non(h!iwj') mó(j)ri(jvIH)ar,(h.) (,) sed(g!jjj) vi(hig)vam,(e!geg.) (;) et(d) nar(e)rá(g)bo(e) ó(ghg___)pe(h)ra(h./jkj'kvJ'IH) Dó(h)mi(h)ni.(h!iwjjvIHiih.0) (::)",
       source: "Graduale Romanum (GregoBase #47)"
     },
@@ -2566,7 +2566,7 @@ window.PROPERS = {
       latin: "Quis sicut Dóminus Deus noster, qui in altis hábitat : humília réspicit in caelo et in terra? ℣. Súscitans a terra ínopem, et de stércore érigens páuperem.",
       translation: "Who is as the Lord our God, who dwells on high: and looks down on the low things in heaven and in earth? ℣. Raising up the needy from the earth, and lifting up the poor out of the dunghill.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 112:5-7",
+      reference: "Ps. 113:5-7",
       gabc: "(c4) QUis(d) sic(ff)ut(gh~) Dó(h_fgvFED.g_[oh:h]e/fg)mi(f)nus(f.) *(;) De(fg'h)us(hg/h_g) no(fg!hvGF'g)ster,(gf..) (;) qui(f) in(hj) al(j)tis(h) há(jk)bi(j.i!jwkjk)tat :(kj..) (:) hu(h)mí(h)li(ixgiH'Ghf)a(f.) ré(h_g)spi(h)cit(f.) (`) in(hj~) cae(j)lo(ij) (,) et(h) in(fg~) ter(f)ra?(gffgD0'/[-0.5]{ix}C0hv.giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3) ℣. Sús(h)ci(hi)tans(ihhf/hiHG.hiFD.1) (,) (f/hhi/hhf/hiHG.hiFD.1) (,) (gxfg//e!g'h/ghghvFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (;) a(hi/j.i!jwk) ter(ikH'Gh)ra(f.) ín(fh)o(hef)pem,(d.) (:) et(d) de(fe) stér(eh)co(h)re(h_[oh:h]i_[oh:h]h_2[oh:h]//i_[oh:h]hjvIH'Ghf..) (;) é(de'f)ri(f)gens(f) *() páu(fhGF')pe(i)rem.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhf.0/dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #472)"
     },
@@ -2575,7 +2575,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Adorábo ad templum sanctum tuum : et confitébor nómini tuo.",
       translation: "Alleluia. ℣. I will worship toward your holy temple: and I will give glory to your name.",
       mode: "Alleluia · Ordinary Time · Mode VII",
-      reference: "Ps. 137:2",
+      reference: "Ps. 138:2",
       gabc: "(c3) AL(e)le(fde)lú(hf/hhi){ia}.(ijhh'he.) *(,) ij.(hig'hvFD.1//fhg/ihh'hhvF'Ef_gffe.) (::) ℣. Ad(e)o(hh)rá(iv.hif.1/[-0.5]efd.1/f!gwhhvG'FEf_e)bo(e.) (;) ad(ef~) tem(ef~)plum(e) san(df!hh/jij)ctum(i_[oh:h]h) tu(fhff/d/ef_d)um :(d.) (:) et(d) con(e)fi(f)té(h_i!kkh/ii//hhhf/hhe/ffdev.)(,)(defh_i!kkh/ii//hhhf/hhe/ffdev.)(,)(de/ffdev.f!gwhhvG'FEf_e)bor(e.) (;) * nó(ef)mi(e)ni(e.f!gwh) tu(h_f/g!hwihi)o.(i_[oh:h]g/h!iwjij//ijIG.) (,) (hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #242)"
     },
@@ -2584,7 +2584,7 @@ window.PROPERS = {
       latin: "Bonum est confitéri Dómino, et psállere nómini tuo, Altíssime.",
       translation: "It is good to give praise to the Lord, and to sing to your name, O Most High.",
       mode: "Offertory · Ordinary Time · Mode VIII",
-      reference: "Ps. 91:2",
+      reference: "Ps. 92:2",
       gabc: "(c4) BO(ff)num(fhg) est(g_[oh:h]d) *(,) con(dg)fi(h)té(h!jjjvH'G)ri(g.f!gw!hvGF'g) Dó(g)mi(gh/jhi)no,(hg..) (:) et(fg) psál(gjj'1jj/kl)le(j_i)re(jjjhhg.) (,) nó(g!jjj)mi(jk_[hl:1]J'_[hl:1]IH'i)ni(h) tu(gh!jvIH'i)o,(ih..) (;) Al(f!h'j~)tís(j)si(j)me.(jijvHF'gwhghj/kjjh//jjh/jjvH'Gh_ihhg.) (::)",
       source: "Graduale Romanum (GregoBase #1194)"
     },
@@ -2593,7 +2593,7 @@ window.PROPERS = {
       latin: "Illúmina fáciem tuam super servum tuum, et salvum me fac in tua misericórdia : Dómine, non confúndar, quóniam invocávi te.",
       translation: "Make your face to shine upon your servant, and save me in your mercy: Lord, let me not be confounded, for I have called upon you.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode I",
-      reference: "Ps. 30:17-18",
+      reference: "Ps. 31:17-18",
       gabc: "(c4) IL(df~)lú(fef)mi(dc)na(c.) (,) * fá(fg)ci(f)em(df~) tu(f)am(f.) (;) su(d)per(d) ser(d)vum(c) tu(dfE'D)um,(d.) (:) et(d) sal(fg)vum(gh) me(efd) fac(d.) (,) in(fh~) tu(h_g/jjh)a(h) mi(ixhih)se(g)ri(g_[oh:h]e)cór(gh~)di(fg!hvGF'g)a :(gf..) (:) Dó(ixhih)mi(g)ne,(ge) non(g) con(g)fún(fef)dar,(dfEC.) (;) quó(ffg)ni(f)am(f) in(fg)vo(efE'C)cá(de!fvED)vi(d_[oh:h]e_[oh:h]d_[oh:h]) te.(d.) (::)",
       source: "Graduale Romanum (GregoBase #640)"
     },
@@ -2625,7 +2625,7 @@ window.PROPERS = {
       latin: "Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea : inclína aurem tuam, et exáudi verba mea : mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine.",
       translation: "Perfect my goings in your paths, that my footsteps be not moved: incline your ear, and hear my words: show forth your wonderful mercies, you who save them that trust in you, O Lord.",
       mode: "Offertory · Ordinary Time · Mode IV",
-      reference: "Ps. 16:5, 6-7",
+      reference: "Ps. 17:5, 6-7",
       gabc: "(c4) PEr(c)fi(dfe)ce(f.) *() gres(ff//fff_d)sus(cd'f) me(f_e)os(egff) (,) in(dg~) sé(gv.f!h'j)mi(g_[oh:h]e)tis(gh) tu(fdgvFE)is,(e.) (;) ut(dg) non(gfg) mo(fe)ve(d!ff)án(fff)tur(d!ff) (,) ve(d)stí(fv.ffd)gi(f)a(fhG'Fghg) me(egff)a :(fe..) (:) in(f)clí(ixef/hig)na(ghffe) au(fffd~)rem(f) tu(gf)am,(f.) (;) et(fffd) ex(f)áu(gf~)di(fg) ver(g)ba(fgff) me(d!ffd)a :(d!ewf.) (:) mi(c)rí(cd/fef)fi(f)ca(f) mi(fgf)se(f)ri(ef)cór(gh)di(g)as(ef) tu(g.f!gwhgh)as,(hg..) (;) qui(f) sal(e.f!gwh)vos(ghF'E) fa(g)cis(fff_g) (,) spe(dc)rán(df~)tes(fffddc) in(df) te,(ef'g) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #265)"
     },
@@ -2636,7 +2636,7 @@ window.PROPERS = {
       latin: "Dispérsit, dedit paupéribus : justítia ejus manet in saéculum saéculi. ℣. Potens in terra erit semen ejus : generátio rectórum benedicétur.",
       translation: "He has distributed, he has given to the poor: his justice remains for ever and ever. ℣. His seed shall be mighty upon earth: the generation of the righteous shall be blessed.",
       mode: "Gradual · Ordinary Time (Year A) · Mode II",
-      reference: "Ps. 111:9",
+      reference: "Ps. 112:9",
       gabc: "(c3) DIs(c)pér(ef~)sit,(f.) *(,) de(hfghvF'Ege/fg)dit(f.) (,) pau(f)pé(hf/hi'j)ri(hvGF)bus :(gxfegvFE.) (:) ju(e)stí(e[ll:1]d/fef)ti(f)a(f) e(fd/ef!hvvF'E//f!hhivHF)jus(f.) (;) ma(fe/hji)net(ihhf.) (,) in(f) saé(h.f!gwh/i_[oh:h]f/ij)cu(h)lum(fh./ghF'Ef.) (,) saé(de'fhvGFgef)cu(hf/h_i)li.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Pot(f)ens(h) in(ij~) ter(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ra(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(i) se(i)men(ij) e(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)jus :(f.) (:) ge(hh)ne(h)rá(h)ti(h)o(h) re(hi)ctó(ivH'GE//fhGEfh..)(,)(gi!jvHF)rum(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) * be(de'fhvGF'g)ne(e)di(f)cé(hf/h_i)tur.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1212)"
     },
@@ -2645,7 +2645,7 @@ window.PROPERS = {
       latin: "Introíbo ad altáre Dei, ad Deum qui laetíficat juventútem meam.",
       translation: "I will go in to the altar of God, to God who gives joy to my youth.",
       mode: "Communion · Ordinary Time (Years A & C) · Mode VIII",
-      reference: "Ps. 42:4",
+      reference: "Ps. 43:4",
       gabc: "(c4) IN(gj)tro(j)í(jhjvIG)bo(g.) *(,) ad(gh/ji) al(i)tá(ij'k)re(k_[hl:1]h) De(h_[hl:1]k_[hl:1]j_[hl:1])i,(ikjj/ghg.) (:) ad(g) De(g.h!iwj)um(j) qui(hi) lae(h_g)tí(h!iwj)fi(ghGF'g)cat(gf..) (;) ju(g)ven(hgh)tú(gh/i.h!iwj)tem(hih) me(gh!ivHG'h)am.(hg..) (::)",
       source: "Graduale Romanum (GregoBase #554)"
     },
@@ -2656,7 +2656,7 @@ window.PROPERS = {
       latin: "Tóllite hóstias, et introíte in átria ejus : adoráte Dóminum in aula sancta ejus. ℣. Revelábit Dóminus condénsa : et in templo ejus omnes dicent glóriam.",
       translation: "Bring up sacrifices, and come into his courts: adore the Lord in his holy court. ℣. The Lord shall lay bare the thickets: and in his temple all shall speak his glory.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode V",
-      reference: "Ps. 95:8-9",
+      reference: "Ps. 96:8-9",
       gabc: "(c3) TOl(de)li(efe)te(d.) (,) * hó(d!ewfef)sti(d!ewfe)as,(e.[ll:1]d!ewfe/fhF'ED'Cdee[ll:1]d.0) (;) et(d) in(d.0f!gwh'!iv)tro(h)í(hi)te(h.) (,) in(f) á(fee[ll:1]d/fh)tri(highf)a(fv.egf.) e(dfe___hv.ijii)jus :(hihh/fgf.) (:) ad(f)o(h)rá(ij)te(i) Dó(hi)mi(ih)num(h.) (;) in(f) au(f_efvED'e)la(e_[oh:h][ll:1]d) (,) san(dfe___/hgh)cta(f) e(de)jus.(dfe___hv.hhhff//dfe/fee[ll:1]d.0) (::) ℣. Re(d)ve(fe)lá(eh)bit(h.) (,) Dó(ihh'hh_f/hh//ihh'hh_egxfgED./[-0.5]hh)mi(ih)nus(h.) (;) con(h)dén(ih/kkh/ih/kkkiih~)sa :(hihh/fgf.) (:) et(f) in(h) tem(ij)plo(i_[oh:h]h) e(ffeffefhffeede)jus(e[ll:1]d..) (;) o(d)mnes(d) di(dfE'D)cent(ef) *() gló(fhG'Fhhh)ri(h)am.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #282)"
     },
@@ -2676,7 +2676,7 @@ window.PROPERS = {
       latin: "Tóllite hóstias, et introíte in átria ejus : adoráte Dóminum in aula sancta ejus. ℣. Revelábit Dóminus condénsa : et in templo ejus omnes dicent glóriam.",
       translation: "Bring up sacrifices, and come into his courts: adore the Lord in his holy court. ℣. The Lord shall lay bare the thickets: and in his temple all shall speak his glory.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode V",
-      reference: "Ps. 95:8-9",
+      reference: "Ps. 96:8-9",
       gabc: "(c3) TOl(de)li(efe)te(d.) (,) * hó(d!ewfef)sti(d!ewfe)as,(e.[ll:1]d!ewfe/fhF'ED'Cdee[ll:1]d.0) (;) et(d) in(d.0f!gwh'!iv)tro(h)í(hi)te(h.) (,) in(f) á(fee[ll:1]d/fh)tri(highf)a(fv.egf.) e(dfe___hv.ijii)jus :(hihh/fgf.) (:) ad(f)o(h)rá(ij)te(i) Dó(hi)mi(ih)num(h.) (;) in(f) au(f_efvED'e)la(e_[oh:h][ll:1]d) (,) san(dfe___/hgh)cta(f) e(de)jus.(dfe___hv.hhhff//dfe/fee[ll:1]d.0) (::) ℣. Re(d)ve(fe)lá(eh)bit(h.) (,) Dó(ihh'hh_f/hh//ihh'hh_egxfgED./[-0.5]hh)mi(ih)nus(h.) (;) con(h)dén(ih/kkh/ih/kkkiih~)sa :(hihh/fgf.) (:) et(f) in(h) tem(ij)plo(i_[oh:h]h) e(ffeffefhffeede)jus(e[ll:1]d..) (;) o(d)mnes(d) di(dfE'D)cent(ef) *() gló(fhG'Fhhh)ri(h)am.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #282)"
     },
@@ -2685,7 +2685,7 @@ window.PROPERS = {
       latin: "Introíbo ad altáre Dei, ad Deum qui laetíficat juventútem meam.",
       translation: "I will go in to the altar of God, to God who gives joy to my youth.",
       mode: "Communion · Ordinary Time (Years A & C) · Mode VIII",
-      reference: "Ps. 42:4",
+      reference: "Ps. 43:4",
       gabc: "(c4) IN(gj)tro(j)í(jhjvIG)bo(g.) *(,) ad(gh/ji) al(i)tá(ij'k)re(k_[hl:1]h) De(h_[hl:1]k_[hl:1]j_[hl:1])i,(ikjj/ghg.) (:) ad(g) De(g.h!iwj)um(j) qui(hi) lae(h_g)tí(h!iwj)fi(ghGF'g)cat(gf..) (;) ju(g)ven(hgh)tú(gh/i.h!iwj)tem(hih) me(gh!ivHG'h)am.(hg..) (::)",
       source: "Graduale Romanum (GregoBase #554)"
     },
@@ -2697,7 +2697,7 @@ window.PROPERS = {
       latin: "Tu es Deus qui facis mirabília solus : notam fecísti in géntibus virtútem tuam. ℣. Liberásti in bráchio tuo pópulum tuum, fílios Israel et Joseph.",
       translation: "You are the God who alone does wonders: you have made your power known among the nations. ℣. With your arm you have redeemed your people, the children of Israel and Joseph.",
       mode: "Gradual · Ordinary Time · Mode III",
-      reference: "Ps. 76:15, 16",
+      reference: "Ps. 77:15, 16",
       gabc: "(c4) Tu(c_d!ffgvFE) es(e.) *(,) De(ixe.f!gwh_g)us,(giH'GfffdgvFE.) (;) qui(ef'g) fa(hv.gjh/ij)cis(i.) (,) mi(ij)ra(i)bí(ij/kj)li(jjjh)a(h_g/jij) (,) so(hjI'G)lus :(ixg_[uh:l]h//e.f!gw!higff/ded.) (:) no(ghg'k)tam(kjjhj) fe(g')cí(giihi)sti(g.) (,) in(g) gén(giihjjhi)ti(g_[uh:l]h)bus(ixe.f!gw!higff/ded.) (:) vir(gj//hi~)tú(iji___!jw!kvJ'IH)tem(hv.g!jj//jj//jjjggf) (,) tu(f.0h!iwj)am.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::) ℣. Li(g)be(g)rá(gj)sti(j.) (,) in(j) brá(jkij)chi(ih)o(h!iwj) tu(j)o(ihjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pó(ij//jjjvH'Gh!iwj_i)(,)(e!gh/jij/h!jj//jjjvH'Gh!iwj)pu(jjjvHG'h)lum(hv.giHG'hffe.) (;) tu(fd/ffd/ef/gh//j_[hl:1]k_[hl:1]j_[hl:1]//j'jjvHGjjjj_i)um,(i.) (:) fí(g)li(hj)os(j) Is(j)ra(j)el(i./jkh/jijHG.) (,) (ji/j_k//li/jkJ'IH.) (,) (k/li/jkJ'IH.jijHGjg/i_[uh:l]jgh!jjjvH'GF'fd.) *(;) et(g) Jo(hj)seph.(iij/hihghg.ef'gh_e//giHG'hffe.) (::)",
       source: "Graduale Romanum (GregoBase #850)"
     },
@@ -2706,7 +2706,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Cantáte Dómino cánticum novum : quia mirabília fecit Dóminus.",
       translation: "Alleluia. ℣. Sing to the Lord a new song: for the Lord has done wonderful things.",
       mode: "Alleluia · Ordinary Time · Mode I",
-      reference: "Ps. 97:1",
+      reference: "Ps. 98:1",
       gabc: "(c4) AL(d)le(ff)lú(gv.f!hgh){ia}.(hjH'GF.) *(;) ij.(e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::) ℣. Can(cd)tá(ixdh//gihivGF//ggf/gg//fgh!jjg)(,)(ixhhghvGF.hiHG'hw!ivHGhi)te(h.) (,) Dó(h_g/jjvH'G//ixhihi)mi(g)no(g_[oh:h]f_[oh:h]) (;) cán(f_e/f!gwhgh)ti(hg/hf/ghg)cum(gd~) no(f_e/g_[oh:h]fgvFD'ewfd)vum :(d.) (:) qui(d/ffd/ffddef!gh)a(ghg.) (,) mi(f)ra(ghg)bí(h/jjhhgh.)(,)(ixfh!ivGF'fd/ffhvGF'fvED)li(e[ll:1]d)a(d.) (;) fe(ff)cit(fg) () * Dó(g_[oh:h]f)mi(f!gwhgh)nus.(hjH'GF.) (;) (e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1077)"
     },
@@ -2715,7 +2715,7 @@ window.PROPERS = {
       latin: "Benedíctus es, Dómine, doce me justificatiónes tuas : benedíctus es, Dómine, doce me justificatiónes tuas : in lábiis meis pronuntiávi ómnia judícia oris tui.",
       translation: "Blessed are you, O Lord, teach me your justifications: blessed are you, O Lord, teach me your justifications: with my lips I have pronounced all the judgments of your mouth.",
       mode: "Offertory · Ordinary Time · Mode III",
-      reference: "Ps. 118:12-13",
+      reference: "Ps. 119:12-13",
       gabc: "(c4) BE(g_[oh:h])ne(g_[oh:h])dí(ikj)ctus(h!iwj) es(j_i) *() Dó(i)mi(ikjj)ne,(ji..) (;) do(j)ce(ji) me(ji) ju(h)sti(h/jji)fi(hg)ca(h)ti(g)ó(g!jjjhkvJI'j)nes(i_[oh:h]h) tu(gh!jvHF)as :(gf..) (:) be(g)ne(g)dí(ikj)ctus(h!iwj) es(j_i) Dó(i)mi(ikjj)ne,(ji..) (;) do(j)ce(ji) me(ji) ju(h)sti(h/jji)fi(hg)ca(h)ti(g)ó(g!jjjhkvJI'j)nes(i_[oh:h]h) (,) tu(gh!jj/klj/!j'jh!iwj_i)as :(jjjvIH'jhh/fgf.) (:) in(ef) lá(ef)bi(g)is(g_0[uh:l]h_[uh:l]i) me(hhgh)is(h!jj/khhg.) (;) pro(j)nun(j)ti(h!iwj)á(ijhhg)(,)(jjjhkvJI)vi(jjjvIH'jhh/fgf.) (:) ó(dg)mni(g)a(ji/jhjvIH') ju(g)dí(hjh___!iwj)ci(g)a(f_g) (,) o(g/jjg/jjj)ris(g!jjj) tu(ixhg/hiG'FghF'Ef_gF'E)i.(e.) (::)",
       source: "Graduale Romanum (GregoBase #1317)"
     },
@@ -2724,7 +2724,7 @@ window.PROPERS = {
       latin: "Manducavérunt, et saturáti sunt nimis, et desidérium eórum áttulit eis Dóminus : non sunt fraudáti a desidério suo.",
       translation: "So they did eat, and were filled exceedingly, and the Lord gave them their desire: they were not defrauded of that which they craved.",
       mode: "Communion · Ordinary Time · Mode I",
-      reference: "Ps. 77:29-30",
+      reference: "Ps. 78:29-30",
       gabc: "(c4) MAn(de)du(c)ca(d)vé(fg)runt,(hf/ghhg.) *(,) et(fh) sa(g)tu(fe)rá(fh)ti(g) sunt(gf~) ni(g)mis,(d.) (:) et(d) de(fe)si(f)dé(gh)ri(g)um(g) e(g)ó(gfg)rum(dec.) (,) át(fg)tu(f)lit(f) e(f)is(ixfghi.g!hw!ivHG') Dó(f)mi(fg!hvGF'g)nus :(gf..) (:) non(h) sunt(g) frau(gf~)dá(gg)ti(d.) (,) a(d!ewffvED'd) de(c)si(d)dé(fg)ri(g)o(ghfgvFE) su(d!ewfef)o.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #677)"
     },
@@ -2736,7 +2736,7 @@ window.PROPERS = {
       latin: "Ego dixi : Dómine, miserére mei : sana ánimam meam, quóniam peccávi tibi. ℣. Beátus qui intélligit super egénum et páuperem : in die mala liberábit eum Dóminus.",
       translation: "I said: O Lord, be merciful to me: heal my soul, for I have sinned against you. ℣. Blessed is he that understands concerning the needy and the poor: the Lord will deliver him in the evil day.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 40:5, 2",
+      reference: "Ps. 41:5, 2",
       gabc: "(c4) E(ffg)go(f) *() di(f)xi :(fV_{ix}e/g!hwi) Dó(g_[oh:h]f)mi(gf)ne,(fg) (,) (d!ff/ge'/fgd'/e[ll:1]ddc.) (;) mi(f)se(fdf)ré(fdf/efd'/ec)re(d.) me(fg)i :(ghg___//jjh/jggf.0) (:) sa(f)na(g) á(h)ni(gf)mam(gf//gh!jjvH'G) me(hg/hff'gf)am,(fg) (,) (d!ff/ge'/fgd'/e[ll:1]ddc.) (:) quó(f)ni(fd)am(f) pec(ghg)cá(h)vi(ixhgiHG.) (`) ti(gf/hgh)bi.(hf) (,) (gh!jvvH'G//h!iwj/kjj/hih.) (;) (fg/h!jj/klijh.ixgiHF.1) (z0::c3) ℣. Be(d)á(df!hh/ijh)tus(h.) (,) qui(h_g) in(i!jwk)tél(i_[oh:h]h)li(h)git(hvv//i_[oh:h]h//jvIH'Ghf..) (;) su(hh)per(h) e(h)gé(ih/ij_hih/ij_ij//hi/jij)num(jh/jkihhf.) (,) et(f) páu(hf/hhh)pe(h)rem :(h.f!gwh!iv.hi/jhh/iih.0) (:) in(hh) di(h)e(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) li(d)be(ef)rá(f)bit(f) e(f.0/[-0.5]hvGF'g)um(ef) *() Dó(hf)mi(hi)nus.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #399)"
     },
@@ -2775,7 +2775,7 @@ window.PROPERS = {
       latin: "Ad Dóminum, dum tribulárer, clamávi, et exaudívit me. ℣. Dómine, líbera ánimam meam a lábiis iníquis, et a lingua dolósa.",
       translation: "In my trouble I cried to the Lord, and he heard me. ℣. O Lord, deliver my soul from wicked lips, and from a deceitful tongue.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 119:1-2",
+      reference: "Ps. 120:1-2",
       gabc: "(c4) AD(d) Dó(ff)mi(fgff'f)num,(f_d/fge'/fgd'/e[ll:1]ddc.) *(;) dum(f) tri(f)bu(h)lá(jh/jjj)rer,(j.) (,) cla(j)má(k_[hl:1]j//ijI'H//k_[hl:1]j//j'jjvHGhg/h!jjkvJI)vi,(j.) (:) et(h) ex(h!j'k)au(jh~)dí(h!jjg/h)vit(fg) me.(fgh!jv.0/klJH.1) (,) (ixjjvH'G//hiGF'gwhg/hjhh/fgf.) (z0::c3) ℣. Dó(h)mi(ih)ne,(hvvGF//ig/h_[oh:h]i_[oh:h]g_[oh:h]//hih//h'i_[oh:h]H'_[oh:h]GEf.ff) (,) (fffgxfff//fh/ihgg/efe.) (;) lí(gxgh'i)be(hi_[oh:h]H'_[oh:h]GF'g)ra(f.) (,) á(gxfg'h)ni(g)mam(fe~) me(f/hhh)am(hv.fhff/ded.) (;) a(d) lá(fdfED//f_d/ef!gwhhi)bi(h)is(h.) (,) in(h)í(i_[oh:h]h//ghG'F//i_[oh:h]h//h'hhvFEfe/f!hhivHG)quis,(h.) (:) et(hhi) a(h) lin(h_f/hhhe/fe/fd~)gua(e[ll:1]d..) *(,) do(h)ló(h)sa.(ihh'hvFE'e[ll:1]d.0) (;) (fdfED//fd/ef/hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #697)"
     },
@@ -2832,7 +2832,7 @@ window.PROPERS = {
       latin: "Ego clamávi, quóniam exaudísti me, Deus : inclína aurem tuam, et exáudi verba mea.",
       translation: "I have cried, for you, O God, have heard me: incline your ear unto me, and hear my words.",
       mode: "Communion · Ordinary Time · Mode VIII",
-      reference: "Ps. 16:6",
+      reference: "Ps. 17:6",
       gabc: "(c4) E(fg)go(gh) cla(h)má(hfg)vi,(ge/fd.) (;) * quó(fg)ni(g)am(gh) ex(g)au(hi~)dí(iij)sti(hk) me(k) De(ij)us :(ih..) (:) in(j)clí([oll:1{0]jl)na(klk[oll:}]) au(ji~)rem(j) tu(klK'J)am,(jh__) (;) et(ji) ex(j)áu(k_[hl:1]i/jk~)di(h_g) (,) ver(fvE'D//geg)ba(g) me(ghg___)a.(g.) (::)",
       source: "Graduale Romanum (GregoBase #464)"
     },
@@ -2843,7 +2843,7 @@ window.PROPERS = {
       latin: "Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me fácias. ℣. Deus, in te sperávi : Dómine, non confúndar in aetérnum.",
       translation: "Be unto me a God, a protector, and a place of refuge, to save me. ℣. O God, in you have I hoped: O Lord, let me never be confounded.",
       mode: "Gradual · Ordinary Time (Year A) · Mode V",
-      reference: "Ps. 30:3",
+      reference: "Ps. 31:3",
       gabc: "(c4) E(ffg)sto(f) mi(fg)hi(f.) *(,) in(fg) De(gf)um(f) pro(ghgh)te(hgffd/ff//fg'h)ctó(gv.fgf)rem,(fv.) (,) (d!ff/ge'/fgd'/e[ll:1]ddc.) (:) et(fg) in(f) lo(ghghvGF)cum(g.) (,) re(g.h!iwji/jkj)fú(hvGF)gi(hg)i,(gv.d!f'g/fh!jvGF'fd) (,) (ff/ge'/fgd'/e[ll:1]ddc.) (:) ut(d) sal(fd/fff)vum(c_[ll:1]d) me(ff) (,) fá(ixhhg/hh//gh!ivGFhh//f!h'j)ci(j)as.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) ℣. De(d)us,(d) in(f) te(fh/ih/ijh) spe(h)rá(h)vi :(hhi.) (,) Dó(i_[oh:h]h)mi(h_g)ne,(hhf//hhf//hihh/fgf.) (:) non(hh) con(h)fún(ih/ij_hih/ij_ij//hi/jij)dar(jh/jkihh/fgf.) *(;) in(de'f) ae(f)tér(fhG'Fhhh)num.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #886)"
     },
@@ -2854,7 +2854,7 @@ window.PROPERS = {
       latin: "Jacta cogitátum tuum in Dómino, et ipse te enútriet. ℣. Dum clamárem ad Dóminum, exaudívit vocem meam ab his qui appropínquant mihi.",
       translation: "Cast your care upon the Lord, and he shall sustain you. ℣. When I cried to the Lord, he heard my voice, from them that draw near to me.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 54:23, 17, 19",
+      reference: "Ps. 55:23, 17, 19",
       gabc: "(c3) JA(ehf)cta(efED.) *(,) co(e)gi(fh)tá(h)tum(hf~) tu(hi!kkvI'G//ijhhg)um(h.) (,) in(h) Dó(hi/jk)mi(j)no,(i.) (;) et(h) i(i)pse(h) te(h_g/h_g/hjIG'hvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (;) e(e.f!gwh!ivH//E.f'/gef)nú(cd)tri(e)et.(e./ih/ie..) (,) (igijkIG.hig'hvF'Ef_gffe.) (::) ℣. Dum(e) cla(hh)má(hi)rem(hh/ig'/hiffe.) (,) ad(eh) Dó(hi)mi(i)num,(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) ex(f)au(hh)dí(hi)vit(hh/ig'/hiffe.) (,) vo(hh)cem(h) me(hv.gh/ih/ij)am(i.) (;) ab(i) his(ikjikJI'ig//hih/iffe.) (;) qui(ef) ap(e)pro(ef)pín(e)quant(ef'h) *() mi(hv.gh/ihi)hi.(ie..) (,) (igijki./jkJ'Ijh/iig./hig'hvFEfde.) (,) (hhvF'EfvD[ull:0]B.1e!hf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #423)"
     },
@@ -2865,7 +2865,7 @@ window.PROPERS = {
       latin: "Jacta cogitátum tuum in Dómino, et ipse te enútriet. ℣. Dum clamárem ad Dóminum, exaudívit vocem meam ab his qui appropínquant mihi.",
       translation: "Cast your care upon the Lord, and he shall sustain you. ℣. When I cried to the Lord, he heard my voice, from them that draw near to me.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 54:23, 17, 19",
+      reference: "Ps. 55:23, 17, 19",
       gabc: "(c3) JA(ehf)cta(efED.) *(,) co(e)gi(fh)tá(h)tum(hf~) tu(hi!kkvI'G//ijhhg)um(h.) (,) in(h) Dó(hi/jk)mi(j)no,(i.) (;) et(h) i(i)pse(h) te(h_g/h_g/hjIG'hvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (;) e(e.f!gwh!ivH//E.f'/gef)nú(cd)tri(e)et.(e./ih/ie..) (,) (igijkIG.hig'hvF'Ef_gffe.) (::) ℣. Dum(e) cla(hh)má(hi)rem(hh/ig'/hiffe.) (,) ad(eh) Dó(hi)mi(i)num,(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) ex(f)au(hh)dí(hi)vit(hh/ig'/hiffe.) (,) vo(hh)cem(h) me(hv.gh/ih/ij)am(i.) (;) ab(i) his(ikjikJI'ig//hih/iffe.) (;) qui(ef) ap(e)pro(ef)pín(e)quant(ef'h) *() mi(hv.gh/ihi)hi.(ie..) (,) (igijki./jkJ'Ijh/iig./hig'hvFEfde.) (,) (hhvF'EfvD[ull:0]B.1e!hf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #423)"
     },
@@ -2886,7 +2886,7 @@ window.PROPERS = {
       latin: "Illúmina óculos meos, ne umquam obdórmiam in morte : ne quando dicat inimícus meus : Praeválui advérsus eum.",
       translation: "Enlighten my eyes, that I never sleep in death: lest at any time my enemy say: I have prevailed against him.",
       mode: "Offertory · Ordinary Time · Mode IV",
-      reference: "Ps. 12:4-5",
+      reference: "Ps. 13:4-5",
       gabc: "(c4) IL(ff)lú(fhg'/hf)mi(dgF'E)na(e.) *(,) ó(g_[oh:h]e)cu(ghg)los(h) me(ixhv.gih'ivG'Ff'g!hiH'Gih)os,(h.) (;) ne(jj)quán(gh)do(ff) ob(e)dór(ge/ghg)mi(gffvED)am(e_[oh:h][ll:1]d_[oh:h]) (,) in(fh~) mor(h_g/jjjvG'E//g_[oh:h]f/ghG'FgvFE)te :(e.) (:) ne(ef!ghg)quán(gh)do(ghG'F) di(gh)cat(h/jjjvIH.) (,) in(h)i(ghg)mí(h/jjjvIH)cus(g_[uh:l]h) me(egF'E)us :(fff) (;) Prae(dec)vá(fv.fff)lu(dc)i([ull:1{0]cccc_[oh:h]a_[oh:h][ull:}]) (;) ad(c@f!de~)vér(eef)sus(d!ewf) e(fff/ghG'//D//fffhvGFgvFE)um.(e.) (::)",
       source: "Graduale Romanum (GregoBase #708)"
     },
@@ -2897,7 +2897,7 @@ window.PROPERS = {
       latin: "Propítius esto, Dómine, peccátis nostris : ne quando dicant gentes : Ubi est Deus eórum? ℣. Adjuva nos, Deus salutáris noster : et propter honórem nóminis tui, Dómine, líbera nos.",
       translation: "Forgive us our sins, O Lord: lest the Gentiles should at any time say: Where is their God? ℣. Help us, O God our Saviour: and for the honor of your name, O Lord, deliver us.",
       mode: "Gradual · Ordinary Time (Years A & C) · Mode V",
-      reference: "Ps. 78:9, 10",
+      reference: "Ps. 79:9, 10",
       gabc: "(c4) PRo(d)pí(ffg)ti(f)us(f) e(ghgh)sto(gv.fgFD.1) (,) * Dó(dgf/gh)mi(g)ne(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) pec(f)cá(ghghjkj)tis(ixhiH'G) no(ixhjg___!hwihi)stris :(ih..) (:) ne(f) quan(hg~)do(gj) di(hhg)cant(gh) gen(hg/hfg)tes :(fv.e!g'h/fg!hvF'EDef!gvgf.0) (:) U(ixf!hhi)bi(g) est(gjj) De(j)us(j) e(ixj.h!iw!jvIG'hw!ivHG)ó(fgf)rum?(f!h'j) (,) (fh'!jvjv'1IGfhg/hggf.0) (z0::c3) ℣. Ad(d)ju(d)va(f) nos,(gxg) De(h)us(h.) sa(h)lu(h)tá(h)ris(h) no(h)ster :(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/!ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___jvIH'jvIH'hvGF.) (:) et(hh) pro(h)pter(h) ho(h)nó(ih/ij_hih/ij_ij//hi/jij)rem(jh/jkihh/fgf.) (;) nó(d)mi(d)nis(d) tu(d)i(d) Dó(d)mi(d)ne,(d.) (,) * lí(dfE'D)be(ef)ra(fhG'Fhhh) nos.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #332)"
     },
@@ -2906,7 +2906,7 @@ window.PROPERS = {
       latin: "Dóminus firmaméntum meum, et refúgium meum, et liberátor meus : Deus meus adjútor meus.",
       translation: "The Lord is my firmament, and my refuge, and my deliverer: my God is my helper.",
       mode: "Communion · Ordinary Time (Years A & C) · Mode II",
-      reference: "Ps. 17:3",
+      reference: "Ps. 18:3",
       gabc: "(f3) DO(h)mi(gh)nus(fhe.) *(,) fir(hg~)ma(hi)mén(iih)tum(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])um,(f.) (;) et(e) re(f)fú(f!gwh)gi(e)um(ec~) me(ef!hvGF)um,(f!gwh.) (;) et(hf~) li(hih)be(iji)rá(jji)tor(hi) me(hiih)us :(h.) (:) De(j)us(ij) me(hvGF)us(fhffe.) (;) ad(gh'i~)jú(iih)tor(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::)",
       source: "Graduale Romanum (GregoBase #512)"
     },
@@ -2917,7 +2917,7 @@ window.PROPERS = {
       latin: "Exaltábo te, Dómine, quóniam suscepísti me : nec delectásti inimícos meos super me. ℣. Dómine Deus meus, clamávi ad te, et sanásti me : Dómine, abstraxísti ab ínferis ánimam meam, salvásti me a descendéntibus in lacum.",
       translation: "I will extol you, O Lord, for you have upheld me: and have not made my enemies to rejoice over me. ℣. O Lord my God, I have cried to you, and you have healed me: O Lord, you have brought forth my soul from hell, you have saved me from them that go down into the pit.",
       mode: "Gradual · Ordinary Time (Year B) · Mode III",
-      reference: "Ps. 29:2-4",
+      reference: "Ps. 30:2-4",
       gabc: "(c4) EX(f)al(ffff_c~)tá(d!ewf_e)bo(f) te,(fffd/fff) (,) * Dó(e.f!gwh_g)mi(hg)ne,(ixg_[uh:l]h//e.f!gw!higff/ded.) (;) quó(f.d!ewfe)ni(e)am(ege/ghgff/ded.) (,) sus(g)ce(hih)pí(j)sti(jh/jj//jj/khhg.) me :(ig/h!jjjh/klJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) nec(gj) de(jkjji)le(jjj_h)ctá(h!jj)sti(jjjvH'G) (;) in(h_g/h!iwj)i(h_g/h!iwj)mí(hvGF'gwh)cos(ghg) me(ghG'Fgh!jjjh)(,)(k_[hl:1]j//kvJHgjh/ij)os(i.) (;) su(jk)per(kijvH'GF.h!iwj'!kv) me.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::) ℣. Dó(e[ll:1]d)mi(g)ne(hi) De(iij)us(h) me(h!jj//jjjvHGigh)us,(h.) (,) (i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) cla(dg)má(gh'j)vi(j) ad(j) te,(i_[oh:h]g) (,) et(h) sa(j)ná(iki/jk_[hl:1]j//ki/jk_[hl:1]jk//ij/kjkkj)sti(j_i) me :(jh) (,) (jjjvHG'h!jjjvHGhh//gjh/ihhg.) (:) Dó(ij//j'jjvH'Gh!iwj_i)(,)(e!gh/jij//h!jj//jjjvH'Gh!iwj)mi(jjjvHG'h)ne,(hv.giHG'hffe.) (:) ab(ef)stra(dge)xí(gh//g.h!iwj)sti(jjjvH'G) (,) ab(hggf) ín(jj)fe(kjjvIH)ris(h_g//ivHG'hffe.) (;) á(ef)ni(dg)mam(g) me(hg/h!jjjhhg)am,(g.) (:) sal(dg)vá(gh'j)sti(j) me(jj//jjjh/ijHG.) (,) (jj//jjjh/!ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jgjvvIH//jhjvIHjh/ihhg.) (:) a(g) de(g)scen(g)dén(ghG'Fgh/jjjhk)ti(jkJHgjh/ij)bus(i.) *(,) in(jk) la(kijvH'GF.h!iwj'!kv)cum.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'E/!f_h/!/!ixivGFghg/hgge.) (::)",
       source: "Graduale Romanum (GregoBase #277)"
     },
@@ -2937,7 +2937,7 @@ window.PROPERS = {
       latin: "Propítius esto, Dómine, peccátis nostris : ne quando dicant gentes : Ubi est Deus eórum? ℣. Adjuva nos, Deus salutáris noster : et propter honórem nóminis tui, Dómine, líbera nos.",
       translation: "Forgive us our sins, O Lord: lest the Gentiles should at any time say: Where is their God? ℣. Help us, O God our Saviour: and for the honor of your name, O Lord, deliver us.",
       mode: "Gradual · Ordinary Time (Years A & C) · Mode V",
-      reference: "Ps. 78:9, 10",
+      reference: "Ps. 79:9, 10",
       gabc: "(c4) PRo(d)pí(ffg)ti(f)us(f) e(ghgh)sto(gv.fgFD.1) (,) * Dó(dgf/gh)mi(g)ne(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) pec(f)cá(ghghjkj)tis(ixhiH'G) no(ixhjg___!hwihi)stris :(ih..) (:) ne(f) quan(hg~)do(gj) di(hhg)cant(gh) gen(hg/hfg)tes :(fv.e!g'h/fg!hvF'EDef!gvgf.0) (:) U(ixf!hhi)bi(g) est(gjj) De(j)us(j) e(ixj.h!iw!jvIG'hw!ivHG)ó(fgf)rum?(f!h'j) (,) (fh'!jvjv'1IGfhg/hggf.0) (z0::c3) ℣. Ad(d)ju(d)va(f) nos,(gxg) De(h)us(h.) sa(h)lu(h)tá(h)ris(h) no(h)ster :(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/!ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___jvIH'jvIH'hvGF.) (:) et(hh) pro(h)pter(h) ho(h)nó(ih/ij_hih/ij_ij//hi/jij)rem(jh/jkihh/fgf.) (;) nó(d)mi(d)nis(d) tu(d)i(d) Dó(d)mi(d)ne,(d.) (,) * lí(dfE'D)be(ef)ra(fhG'Fhhh) nos.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #332)"
     },
@@ -2946,7 +2946,7 @@ window.PROPERS = {
       latin: "Dóminus firmaméntum meum, et refúgium meum, et liberátor meus : Deus meus adjútor meus.",
       translation: "The Lord is my firmament, and my refuge, and my deliverer: my God is my helper.",
       mode: "Communion · Ordinary Time (Years A & C) · Mode II",
-      reference: "Ps. 17:3",
+      reference: "Ps. 18:3",
       gabc: "(f3) DO(h)mi(gh)nus(fhe.) *(,) fir(hg~)ma(hi)mén(iih)tum(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])um,(f.) (;) et(e) re(f)fú(f!gwh)gi(e)um(ec~) me(ef!hvGF)um,(f!gwh.) (;) et(hf~) li(hih)be(iji)rá(jji)tor(hi) me(hiih)us :(h.) (:) De(j)us(ij) me(hvGF)us(fhffe.) (;) ad(gh'i~)jú(iih)tor(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::)",
       source: "Graduale Romanum (GregoBase #512)"
     },
@@ -2958,7 +2958,7 @@ window.PROPERS = {
       latin: "Protéctor noster áspice, Deus, et réspice super servos tuos. ℣. Dómine Deus virtútum, exáudi preces servórum tuórum.",
       translation: "Behold, O God our protector: and look upon your servants. ℣. O Lord God of hosts, hear the prayers of your servants.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 83:10, 9",
+      reference: "Ps. 84:10, 9",
       gabc: "(c4) PR{o}(d)té(ff)ctor(f) no(fgf//f'f)ster(f_d//fge'/fgd'/e[ll:1]ddc.) *(;) á(hf/gh!jj/kjk)spi(jij)ce(h_g) De(h/jjvHF.1hvGFgf)us,(f.) (:) et(f) ré(ghghjkj)spi(ixh_[oh:h]i_[oh:h]g_[oh:h]!iw!jvIH'i)ce(ih..) (;) su(jk)per(j_h~) ser(ixjhi)vos(gh) tu(gf)os.(ixffh//giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3) ℣. Dó(d)mi(d)ne(fe) De(eh)us(h) vir(h)tú(h)tum,(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (:) ex(f)áu(hi!jvIH'/!hf/hhhi~)di(h.) (,) pre(gxfgFE.fgFD.1fvEDe[ll:1]d)ces(d.) (;) ser(d)vó(dfE'D)rum(ef) *() tu(h)ó(hiH'Fhhh)rum.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1226)"
     },
@@ -2967,7 +2967,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dómine, in virtúte tua laetábitur rex : et super salutáre tuum exsultábit veheménter.",
       translation: "Alleluia. ℣. In your strength, O Lord, the king shall rejoice: and in your salvation he shall exult exceedingly.",
       mode: "Alleluia · Ordinary Time · Mode VI",
-      reference: "Ps. 20:1",
+      reference: "Ps. 21:1",
       gabc: "(c4) AL(d)le(ff)lú(ixfgfivHG'h){ia}.(hv.fgf//ivGFhhf.) *(,) ij.(dfe___gvFD'dc//ffc.) (,) (f_0!h_0g_0j._0/!jjj//kjjh./fhg/hggf.0) (::) ℣. Dó(ff)mi(ixfgfivHG'h)ne,(hv.fgf//ivGFhhf.) (;) in(f!h'j) vir(ixjjvIG')tú(ixg/jjj//kjjhi)te(i_[oh:h]h) tu(fghjhhgh)a(hvGF.) (;) lae(f)tá(f!hgh//fgFD.cd/fd//cd!ff)(,)(ixg.h!iw!jvIH)bi(ghf)tur(ixf!gwh!ivHGhih~) rex :(h.) (:) et(ixf!gwhghjjjvIH'G//jjjvIG'Fhv.) (,) (ixf!gwhghjjjvIH'G//jjjvIG'Fhv.//ixfgf/ih) su(ghf)per(f.) (,) sa(df)lu(fgf)tá(fv.efd)re(cf) tu(df/hghv_GF)um(f.) (;) ex(d)sul(ff)tá(ixfgfivHG'h)bit(ixhv.fgf//ivGFhhf.) *(,) ve(dfe___gvFD'dc)he(ffc)mén(ixf_0!h_0g_0j._0/!jjj//kjjhi)ter.(hv.fhg/hggf.0) (::)",
       source: "Graduale Romanum (GregoBase #797)"
     },
@@ -2976,7 +2976,7 @@ window.PROPERS = {
       latin: "Benedícam Dóminum, qui mihi tríbuit intelléctum : providébam Deum in conspéctu meo semper : quóniam a dextris est mihi, ne commóvear.",
       translation: "I will bless the Lord, who has given me understanding: I set the Lord always in my sight: for he is at my right hand, that I be not moved.",
       mode: "Offertory · Ordinary Time · Mode I",
-      reference: "Ps. 15:7, 8",
+      reference: "Ps. 16:7, 8",
       gabc: "(c4) BE(c)ne(d)dí(ixdh'!iv)cam(hg~) Dó(h!jjj_h)mi(hg)num,(h.) *(;) qui(f) mi(g.h!iwj_h)hi(h) trí(h)bu(hgh)it(fg!hvhg.) (,) in(f)tel(ghg~)lé(h/jjjvG'F//h_g/hjh___!iwj_h)ctum :(h.) (:) pro(f)vi(g)dé(h)bam(j) De(jkJ'H)um(h.) (;) in(f) con(gh)spé(h_fh)ctu(h) me(gh!jjjggf)o(f.) sem(ixh_g/ihhf~)per :(gf..) (:) quó(fh)ni(h!iwji)am(ijh'ivG'Fg.) (,) a(f!gwhg) dex(h_f/g_[oh:h]f/hjh___!iwj)tris(g) est(f) mi(d!ew!fvED'e)hi,(dc..) (;) ne(d) com(fe~)mó(f_d//gf/gffd//g_[oh:h]f//hvGF)(,)(fff/gf/gffe)ve(de!fvED'e)ar.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #143)"
     },
@@ -2985,7 +2985,7 @@ window.PROPERS = {
       latin: "Unam pétii a Dómino, hanc requíram : ut inhábitem in domo Dómini ómnibus diébus vitae meae.",
       translation: "One thing I have asked of the Lord, this will I seek after: that I may dwell in the house of the Lord all the days of my life.",
       mode: "Communion · Ordinary Time · Mode VII",
-      reference: "Ps. 26:4",
+      reference: "Ps. 27:4",
       gabc: "(c3) U(i)nam(ig~) pé(ijij)ti(i)i(h.) *(,) a(fh) Dó(hgh)mi(fe)no,(e./fhe/fee[ll:1]d.0) (;) hanc(df!hv'1//i!kki) re(i.g!hw!ivH'GF'gw!hvGF)quí(ef!gvFE'f)ram :(fe..) (:) ut(h) in(ik)há(k)bi(jk)tem(i.) in(j) do(ijg)mo(h) Dó(jk)mi(j)ni(iji.) (;) ó(i)mni(h)bus(ghg) di(e)é(ghg)bus(fg'i~) (,) vi(i)tae(i.g!hw!ivH'GF'gw!hvGF) me(ef!gvFE'f)ae.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #574)"
     },
@@ -2998,7 +2998,7 @@ window.PROPERS = {
       latin: "Vidérunt omnes fines terræ salutáre Dei nostri : jubiláte Deo, omnis terra. ℣. Notum fecit Dóminus salutáre suum : ante conspéctum géntium revelávit justítiam suam.",
       translation: "All the ends of the earth have seen the salvation of our God: sing joyfully to God, all the earth. ℣. The Lord has made known his salvation: in the sight of the nations he has revealed his justice.",
       mode: "Gradual · The Nativity of the Lord (Mass of the Day) · Mode V",
-      reference: "Ps. 97:3, 2",
+      reference: "Ps. 98:3, 2",
       gabc: "(c3) VI(d)dé(d)runt(fh~) o(hiH'F//hhhjvIH)mnes(h.) *(,) fi(hi)nes(h_f) ter(hfhhf)rae(f/hhf/hg/hf..) (;) sa(f)lu(hg)tá(h_gi)re(ivHGh_f) (,) De(f_e/f!gwh/i_[oh:h]h)i(hg/ijk) no(i_[oh:h]h)stri :(hg/hf..) (:) ju(f)bi(hg)lá(h)te(hhh) De(fhee[ll:1]d)o(de!fhFD.1) (;) o(d!f'h/ijh)mnis(gxh.f!gw!hvGE'fw!gvFE) ter(ded)ra.(d!f'h//d!f'hhv'1GE//dfe/fee[ll:1]d.0) (::) ℣. No(d)tum(fe~) fe(eh)cit(hi~) Dó(ihhf/hiHG.hiFD.1)(,)(f/hhi/hhf/hiHG.hiFD.1)(,)(gxfg//e!g'h/ghghvFD.1)(,)(fdfED//fd/ef!hh/i!jwk)mi(ih)nus(hiHF.1) (;) sa(f)lu(hg)tá(hhf/hhf)re(f) su(fhf/hhf)um :(f.) (:) an(f)te(f) con(fi~)spé(i)ctum(hiH'F) gén(h.i!jwk)ti(ih)um(hiHF.1) (;) re(f!h'i/hhf)ve(f)lá(hfhhe/fd)vit(d.) *(,) ju(f)stí(f/hhfg)ti(ef)am(gxhf/ge) su(d)am.(cd/efe.) (,) (de!fhFE.gxde'f!hhe'gvFD.1) (::)",
       source: "Graduale Romanum (GregoBase #1163)"
     },
@@ -3016,7 +3016,7 @@ window.PROPERS = {
       latin: "Tui sunt cæli, et tua est terra : orbem terrárum, et plenitúdinem ejus tu fundásti : justítia et judícium præparátio sedis tuæ.",
       translation: "Yours are the heavens, and yours is the earth: the world and its fullness you have founded: justice and judgment are the preparation of your throne.",
       mode: "Offertory · The Nativity of the Lord (Mass of the Day) · Mode IV",
-      reference: "Ps. 88:12, 15",
+      reference: "Ps. 89:12, 15",
       gabc: "(c4) TU(f)I(ded) sunt(f) *() cae(e/fgF'EfvED)li,(fd/efe.) (;) et(fd~) tu(dfe)a(f) est(g_[oh:h]efvEDgvFE) ter(hvGFgvFE)ra :(e.) (:) or(d!g'h)bem(g) ter(fgffe)rá(egffe)rum,(fff) (;) et(dec) ple(dfe)ni(e)tú(e!gfg)di(d)nem(d.) (,) e(ff/gd/fffd/fffv_E~D~)jus(e[ll:1]d..) (,) tu(f!h'j) fun(gh)dá(egff)sti :(fe..) (:) ju(hg)stí(h_ghvGE//f!gwhgh//f!gwhgh)ti(f)a(eef.) (,) et(f.d!ewf) ju(f)dí(fffhvGF'D//gvFE'D)ci(d!ewf_d)um(d.) (;) prae(d)pa(ef)rá(gh)ti(g)o(ghGF.efED.) (,) se(fv.fffdgvFE)dis(g_[oh:h]f/hggf/ghg) tu(egff)ae.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1274)"
     },
@@ -3025,7 +3025,7 @@ window.PROPERS = {
       latin: "Vidérunt omnes fines terræ salutáre Dei nostri.",
       translation: "All the ends of the earth have seen the salvation of our God.",
       mode: "Communion · The Nativity of the Lord (Mass of the Day) · Mode I",
-      reference: "Ps. 97:3",
+      reference: "Ps. 98:3",
       gabc: "(c4) VI(fg)dé(gff)runt(de~) o(cd~)mnes(d.) *(,) fi(d!f'g)nes(gh) ter(hjjg)rae(g_[oh:h]fhvGE.) (;) sa(f)lu(ghg)tá(hv.fh!jvvH'GE'f)re(f.) (,) De(f_dfvECfhg___)i(ghF'Ef) no(d_[oh:h]e_[oh:h]d_[oh:h])stri.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1139)"
     }
@@ -3038,7 +3038,7 @@ window.PROPERS = {
       latin: "Angelis suis mandávit de te, ut custódiant te in ómnibus viis tuis. ℣. In mánibus portábunt te, ne unquam offéndas ad lápidem pedem tuum.",
       translation: "He has given his angels charge over you, to keep you in all your ways. ℣. In their hands they shall bear you up, lest you dash your foot against a stone.",
       mode: "Gradual · 1st Sunday of Lent · Mode II",
-      reference: "Ps. 90:11-12",
+      reference: "Ps. 91:11-12",
       gabc: "(c3) AN(egf)ge(f)lis(f.) *() su(hfghvF'Ege/fg)is(f.) (;) man(f)dá(hf/hi'j)vit(gxhffe!gvFE.) (`) de(e) te,(e[ll:1]d/feffd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) ut(hh) cu(h)stó(h)di(h)ant(hg/hi!jvHGhhg) (,) (i_[oh:h]hivHF) te(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) ó(de'f)mni(f)bus(f.0/[-0.5]hvGF'g) vi(e)is(f) tu(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. In(f) má(h)ni(hi)bus(i) por(ij~)tá(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)bunt(ji~) te,(i.) (:) ne(i) un(k.i!jw!kvJI')quam(i) of(ij)fén(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)das(f.) (:) ad(d) lá(de'f)pi(f)dem(f.0/[-0.5]hvGF'g) (,) * pe(e)dem(f) tu(hf/h_i)um.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #834)"
     },
@@ -3047,7 +3047,7 @@ window.PROPERS = {
       latin: "Qui hábitat in adjutório Altíssimi, in protectióne Dei cæli commorábitur. ℣. Dicet Dómino : Suscéptor meus es tu, et refúgium meum : Deus meus, sperábo in eum. ℣. Quóniam ipse liberávit me de láqueo venántium, et a verbo áspero. ℣. Scápulis suis obumbrábit tibi, et sub pennis ejus sperábis. ℣. Scuto circúmdabit te véritas ejus : non timébis a timóre noctúrno. ℣. A sagítta volánte per diem, a negótio perambulánte in ténebris, a ruína et dæmónio meridiáno. ℣. Cadent a látere tuo mille, et decem míllia a dextris tuis : tibi autem non appropinquábit. ℣. Quóniam Angelis suis mandávit de te, ut custódiant te in ómnibus viis tuis. ℣. In mánibus portábunt te, ne unquam offéndas ad lápidem pedem tuum. ℣. Super áspidem et basilíscum ambulábis, et conculcábis leónem et dracónem. ℣. Quóniam in me sperávit, liberábo eum : prótegam eum, quóniam cognóvit nomen meum. ℣. Invocábit me, et ego exáudiam eum : cum ipso sum in tribulatióne. ℣. Erípiam eum, et glorificábo eum : longitúdine diérum adimplébo eum, et osténdam illi salutáre meum.",
       translation: "Whoever dwells in the shelter of the Most High shall abide under the protection of the God of heaven. ℣. He shall say to the Lord: You are my support and my refuge: my God, in him will I trust. ℣. For he has delivered me from the snare of the hunters, and from the harsh word. ℣. He will overshadow you with his shoulders, and under his wings you shall trust. ℣. His truth shall encompass you with a shield: you shall not fear the terror of the night. ℣. Of the arrow that flies by day, of the trouble that walks about in darkness, of ruin and the noonday demon. ℣. A thousand shall fall at your side, and ten thousand at your right hand: but it shall not come near you. ℣. For he has given his angels charge over you, to keep you in all your ways. ℣. In their hands they shall bear you up, lest you dash your foot against a stone. ℣. You shall walk upon the asp and the basilisk, and shall trample the lion and the dragon. ℣. Because he hoped in me, I will deliver him: I will protect him, because he has known my name. ℣. He shall cry to me, and I will hear him: I am with him in tribulation. ℣. I will rescue him and glorify him: with length of days will I fill him, and I will show him my salvation.",
       mode: "Tract · 1st Sunday of Lent · Mode II",
-      reference: "Ps. 90:1-7, 11-16",
+      reference: "Ps. 91:1-7, 11-16",
       gabc: "(f3) QUI(f_) há(f_)bi(efE'C)tat(ef//ef/hghvvGFggf.0) *(;) in(g) ad(e)ju(f)tó(hi)ri(hvGF)o(f') Al(gh'i)tís(hhg)si(fe)mi,(ef/gf/ggf/gh/iffe.) (:) in(e) pro(e)te(gh)cti(f)ó(f_e/f!gwh'!iv)ne(hgh.) De(i_[oh:h])i(e) cae(f!hh//hhh)li(gf..) (,) com(hg~)mo(h)rá(i_[oh:h]f//ihhvGF)bi(ef)tur.(f/ggf.0) (::) ℣. Di(hi)cet(f) Dó(hi)mi(ivH'GhvGF'g)no :(gf..) (;) Sus(hg)cé(h)ptor(fg~) me(f!hh//hhh)us(fg) es,(fe/ggf/gh/iffe.) (:) et(e) re(f)fú(f!h_gh//gh!jvIGhvGF'g)gi(fg)um(fg) me(fg)um,(fg) (,) De(fg)us(fg) me(f_e/f!gwh'!iv)us :(hg/hiih.0) (;) spe(ehg)rá(h/ihhe)bo(fgf) (`) in(hg) e(h_f/ggf)(,)(hiH'GhiF'E//hhhvGF')um.(f/ggf.0) (::) ℣. Quó(f)ni(e)am(f) i(h/ihhf/hh/ijhhg/ihhggf!gwhgh)pse(gf..) (;) li(f)be(hfh)rá(iv.hi/ji)vit(ig~) me(giH'GhvGFgf..) (;) de(hg) lá(hi)que(hvGE)o(f') ve(gh'i)nán(hhg)ti(fe)um,(ef/gf/ggf/gh/iffe.) (:) et(e) a(f) ver(hhi~)bo(h) á(hv.gh/ihi)spe(f)ro.(f/ggf.0) (::) ℣. Scá(i)pu(hiH'F)lis(f!gwh) su(hiH'F)is(f.) (,) ob(hg)um(hi~)brá(i_[oh:h]gi)bit(hg~) ti(hvGF)bi,(fe/ggf/gh/iffe.) (:) et(e) sub(e) pen(gh)nis(f) e(f_e/f!gwh'!iv)jus(hiH'GhvG'FEf_e) (,) spe(fhf)rá(hvvGF')bis.(f/ggf.0) (::) ℣. Scu(h)to(hh//hhh) cir(f)cúm(hfh)da(iv.hi/ji)bit(ig~) te(giH'GhvGFgf..) (;) vé(hi)ri(hvGE')tas(f) e(g_[oh:h]fg)jus :(fe/ggf/gh/iffe.) (:) non(gh) ti(f)mé(f_e/f!gwh'!iv)bis(hg/hiih.0) (;) a(i) ti(e)mó(f)re(f) no(hg)ctúr(hvGF)no.(fefEC//fefggf.0) (::) ℣. A(fhg) sa(h)gít(iji___/jij)ta(f.) vo(h)lán(hi!jvIH'GhvGF'g)te(gf..) (,) per(hg~) di(h_fg)em,(fe/ggf/gh/iffe.) (:) a(c) ne(c)gó(ef)ti(fe)o(f/hhhvF'E//f_efv.) (;) per(f)am(f)bu(hg)lán(hv.gh/ihi)te(f') in(gh'i) té(hhg)ne(fe)bris,(ef/gf/ggf/gh/iffe.) (:) a(c) ru(c)í(ef)na(f/hhhvF'E//f_efv.) (;) et(f) dae(hg)mó(hv.gh/ihi)ni(fe)o(ef) (,) me(ec)ri(e)di(f)á(fih/ihh'hhvF'EDef/hf)no.(f.) (::) ℣. Ca(hi/j_i)dent(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) a(h) lá(hi'j)te(jvIH'GhvGF'g)re(g_[oh:h]f) tu(f)o(fi) (,) mil(hiHF'fe//hiHF'fe//hvGF'ihhvGF'hfgv_[oh:h]F~E~)le,(fe..) (;) et(f) de(e)cem(f) míl(f!hh/ijhhg/ihhggf!gwh_g)li(hg)a(f.) (;) a(f!gwh_g) dex(h)tris(f!gwh_g) tu(hvGF)is :(fe/ggf/gh/iffe.) (:) ti(gh)bi(f) au(f_e/f!gwh'!iv)tem(hg/hiih.0) (;) non(i) ap(e)pro(f)pin(hg~)quá(hvGF)bit.(fefEC//fefggf.0) (::) ℣. Quó(f)ni(e)am(f) An(hi)ge(hiH'F)lis(f!gwh) su(hiH'F)is(f.) (;) man(fi~)dá(i_[oh:h]gi)vit(hg) de(fg) te,(fe/ggf/gh/iffe.) (:) ut(e) cu(e)stó(gh)di(f)ant(f_e/f!gwh'!iv) te(hg/hiih.0) (;) in(i) ó(i)mni(e)bus(f) vi(h)is(g/hihi) tu(f)is.(f/ggf.0) (::) ℣. In(h) má(i)ni(jiihi)bus(iv.hh/fgf.) (;) por(hfh)tá(iv.hi/ji)bunt(ig~) te,(giH'GhvGFgf..) (;) ne(hg) un(hi)quam(hvGE') of(f)fén(g_[oh:h]fg)das(fe/ggf/gh/iffe.) (:) ad(gh~) lá(f_e/f!gwh'!iv)pi(hi)dem(ivH'GhvG'FEf_e) (`) pe(h)dem(gh/ihi) tu(f)um.(f/ggf.0) (::) ℣. Su(fhg)per(h) á(i)spi(jiihi)dem(iv.hh/fgf.) (;) et(f) ba(f)si(hfh)lí(iv.hi!jvIG)scum(giH'GhvGFgf..) (;) am(f)bu(i)lá(hiHF'fe//hiHF'fe//hvGF'ihhvGF)bis,(fhffe.) (:) et(gh~) con(fg~)cul(f)cá(f_e/f!gwh'!iv)bis(hg/hiih.0) (;) le(f)ó(fefEC//f_e/f!gw!hvGF'g)nem(gf..) (,) et(hg~) dra(h)có(hjihjIH'ihh'hhvGEf_e/f!gw!hvGF'g)nem.(gf..) (::) ℣. Quó(f_)ni(f_e)am(e) in(f) me(hi) spe(f)rá(f!hh/ijhhg/ihhggf!gwhgh)vit,(gf..) (;) li(f)be(hg)rá(h)bo(f) e(f!hh//hhh)um :(fe/ggf/gh/iffe.) (:) pró(gh)te(f)gam(f) e(f_e/f!gwh'!iv)um,(hg/hiih.0) (;) quó(hi)ni(hvGE')am(f) co(fe~)gnó(gh)vit(h) no(h)men(gh/ihi) me(f)um.(f/ggf.0) (::) ℣. In(fhg)vo(h)cá(i)bit(jiihi) me,(iv.hh/fgf.) (;) et(h) e(hi'j)go(jvIH'GhvGFgf..) (,) ex(hg)áu(hi)di(hvGE')am(f) e(g_[oh:h]fg)um :(fe/ggf/gh/iffe.) (:) cum(gh) i(f)pso(f_e/f!gwh'!iv) sum(hg/hiih.0) (;) in(hi) tri(hhg)bu(fef)la(eh)ti(gh/ihi)ó(f)ne.(f/ggf.0) (::) ℣. E(h)rí(i)pi(hiH'F)am(f.) e(f!h_gh//gh!jvIGhvGF'g)um,(gf..) (;) et(fg~) glo(f)ri(f)fi(hg)cá(h)bo(f) e(f!hh//hhh)um :(fe/ggf/gh/iffe.) (:) lon(e)gi(f)tú(f!h_gh//gh!jvIGhvGF'g)di(fg)ne(fg) di(f)é(h)rum(hh//hhh) (,) ad(f)im(hg~)plé(h)bo(f) e(f!hh//hhh)um,(fe/ggf/gh/iffe.) (:) et(e) os(e)tén(gh)dam(f) il(f_e/f!gwh'!iv)li(kxhgi.jkiih.0) (;) sa(h/ihhg)lu(fe)tá(fgf)re(g.) *() me(i_[oh:h]hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
       source: "Graduale Romanum (GregoBase #889)"
     },
@@ -3056,7 +3056,7 @@ window.PROPERS = {
       latin: "Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus sperábis : scuto circúmdabit te véritas ejus.",
       translation: "The Lord will overshadow you with his shoulders, and under his wings you shall trust: his truth shall encompass you with a shield.",
       mode: "Offertory · 1st Sunday of Lent · Mode VIII",
-      reference: "Ps. 90:4-5",
+      reference: "Ps. 91:4-5",
       gabc: "(c4) SCá(h)pu(g)lis(g) su(gih)is(h.) *(,) ob(g)um(g)brá(gh/ji)bit(ih~) ti(jk)bi(hv.fhg) Dó(g)mi(ghg___)nus,(g.) (:) et(g) sub(g) pen(gh/ji)nis(j) e(j)jus(jjjvI'HGhg__) (;) spe(hih)rá(jj//hj/kjk)bis :(ji..) (:) scu(hj/kj)to(jj//jjj) cir(hg~)cúm(g.h!iwj)da(jkJ'H)bit(h_g) te(gf..) (;) vé(ixfg!ivHGh./jkj)ri(h_f)tas(fhg) e(ghg___)jus.(g.) (::)",
       source: "Graduale Romanum (GregoBase #294)"
     },
@@ -3065,7 +3065,7 @@ window.PROPERS = {
       latin: "Scápulis suis obumbrábit tibi, et sub pennis ejus sperábis : scuto circúmdabit te véritas ejus.",
       translation: "He will overshadow you with his shoulders, and under his wings you shall trust: his truth shall encompass you with a shield.",
       mode: "Communion · 1st Sunday of Lent · Mode III",
-      reference: "Ps. 90:4-5",
+      reference: "Ps. 91:4-5",
       gabc: "(c4) SCá(gh/ji)pu(j)lis(j) su(jvvIH)is(ih..) *(,) ob(f)um(gh)brá(h_fh)bit(g) ti(egff)bi,(fe..) (:) et(g) sub(g) pen(jv.jjj)nis(g) e(h)jus(f.) spe(ixfghig/h_g)rá(egff)bis :(fe..) (:) scu(ixhjhhgi)to(h_[oh:h]g_[oh:h]/!h_[oh:h]i_[oh:h]h._[oh:h]) (,) cir(f)cúm(hg~)da(h_fh)bit(gvFE'fwgfg) te(gf..) (,) vé(h_f)ri(gh)tas(g) e(egff)jus.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1100)"
     }
@@ -3123,7 +3123,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Omnes gentes pláudite mánibus : jubiláte Deo in voce exsultatiónis.",
       translation: "Alleluia. ℣. O clap your hands, all you nations: shout unto God with the voice of joy.",
       mode: "Alleluia · Ordinary Time · Mode I",
-      reference: "Ps. 46:2",
+      reference: "Ps. 47:2",
       gabc: "(c4) AL(d)le(ff)lú(gv.f!hgh){ia}.(hjh___!iw!jvIH'hg//ixhiHG'gf.0) *(;) ij.(ixfg!hihhg/h_g//hfgvF'ED') (;) (fef.hg/h_g//hfgvF'ED'ewfd.1) (::) ℣. O(ixfg'i~)mnes(i) gen(ixiiij_ggf.0)(,)(ixj_i/j_[hl:1]k_[hl:1]i_[hl:1]ig!hw!ivHG'h)tes(h_ghvGFg.) (;) pláu(ixfg/iV_[oh:h]!gh~)di(ixh.0/ijh/iggf/hjh.1)(,)(ixf.g!hwigh./ijh/iggf/hjh.1)(,)(ixj_[hl:1]k_[hl:1]j_[hl:1]jhivGF'gwhg/hi)te(i.) (;) má(ixivHF'gffdde'f)ni(gffefvED'e)bus :(e[ll:1]d..) (:) ju(f)bi(f)lá(gh)te(h/iih) De(g.h!iw!jkj)o(jvIH.) (;) in(hg~) vo(fg/hg/hhg)ce(g./fghjjg/hhghvFE.) (;) * ex(e)sul(ef'g)ta(ghG'F)ti(ghg)ó(h)nis.(hjh___!iw!jvIH'hg//ixhiHG'gf.0) (;) (ixfg!hihhg/h_g//hfgvF'ED') (;) (fef.hg/h_g//hfgvF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #77)"
     },
@@ -3145,7 +3145,7 @@ window.PROPERS = {
       latin: "Veníte fílii, audíte me : timórem Dómini docébo vos. ℣. Accédite ad eum, et illuminámini : et fácies vestræ non confundéntur.",
       translation: "Come, O children, hearken to me: I will teach you the fear of the Lord. ℣. Come to him and be enlightened: and your faces shall not be confounded.",
       mode: "Gradual · Ordinary Time (Year A) · Mode V",
-      reference: "Ps. 33:12, 6",
+      reference: "Ps. 34:12, 6",
       gabc: "(c4) VE(d)ní(ff)te(ghgh) fí(h_fg)li(g)i,(f.) *(,) au(hj~)dí(j_h//jij)te(ixgjh/i_[uh:l]j) me :(ixih..) (:) ti(h)mó(hg)rem(j) Dó(j)mi(ij)ni(h_f) do(gh)cé(f)bo(ef) vos.(dec.) (,) (fhg___//jkijh.fhg/hggf.0) (z0::c3) ℣. Ac(d)cé(d)di(f)te(hvvGFhvGEff) (,) (gxde!fgF'EfvEDe.) (,) (fh/ih/ih/ijh.1) (,) ad(h) e(ih/kkh/ih/kkvIH)um,(hv.ghGF.) (;) et(h) il(h)lu(h)mi(h)ná(i!jwk)mi(ih)ni :(hihh/fgf.) (:) et(fh~) fá(h)ci(h)es(g) ve(h)strae(f.) *(,) non(df) con(e!hgh)fun(f)dén(de~)tur.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1022)"
     },
@@ -3167,7 +3167,7 @@ window.PROPERS = {
       latin: "Inclína aurem tuam, accélera, ut éruas nos.",
       translation: "Incline your ear to me: make haste to deliver us.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode IV",
-      reference: "Ps. 30:3",
+      reference: "Ps. 31:3",
       gabc: "(c4) IN(f)clí(fgf)na(f_d) *() au(fe~)rem(f) tu(ghG'Fg_[uh:l]h)am,(h.) (:) ac(f)cé(h)le(gh_G'_FE'f)ra,(f_e) (,) ut(f) é(ghG'F)ru(g)as(ghG'FghG'F) nos.(e.) (::)",
       source: "Graduale Romanum (GregoBase #339)"
     }
@@ -3180,7 +3180,7 @@ window.PROPERS = {
       latin: "Exaltábo te, Dómine, quóniam suscepísti me : nec delectásti inimícos meos super me. ℣. Dómine Deus meus, clamávi ad te, et sanásti me : Dómine, abstraxísti ab ínferis ánimam meam, salvásti me a descendéntibus in lacum.",
       translation: "I will extol you, O Lord, for you have upheld me, and have not let my enemies rejoice over me. ℣. O Lord my God, I cried out to you, and you healed me: O Lord, you brought up my soul from the netherworld, you saved me from among those that go down into the pit.",
       mode: "Gradual · Ordinary Time (Year C) · Mode III",
-      reference: "Ps. 29:2-4",
+      reference: "Ps. 30:2-4",
       gabc: "(c4) EX(f)al(ffff_c~)tá(d!ewf_e)bo(f) te,(fffd/fff) (,) * Dó(e.f!gwh_g)mi(hg)ne,(ixg_[uh:l]h//e.f!gw!higff/ded.) (;) quó(f.d!ewfe)ni(e)am(ege/ghgff/ded.) (,) sus(g)ce(hih)pí(j)sti(jh/jj//jj/khhg.) me :(ig/h!jjjh/klJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) nec(gj) de(jkjji)le(jjj_h)ctá(h!jj)sti(jjjvH'G) (;) in(h_g/h!iwj)i(h_g/h!iwj)mí(hvGF'gwh)cos(ghg) me(ghG'Fgh!jjjh)(,)(k_[hl:1]j//kvJHgjh/ij)os(i.) (;) su(jk)per(kijvH'GF.h!iwj'!kv) me.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::) ℣. Dó(e[ll:1]d)mi(g)ne(hi) De(iij)us(h) me(h!jj//jjjvHGigh)us,(h.) (,) (i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) cla(dg)má(gh'j)vi(j) ad(j) te,(i_[oh:h]g) (,) et(h) sa(j)ná(iki/jk_[hl:1]j//ki/jk_[hl:1]jk//ij/kjkkj)sti(j_i) me :(jh) (,) (jjjvHG'h!jjjvHGhh//gjh/ihhg.) (:) Dó(ij//j'jjvH'Gh!iwj_i)(,)(e!gh/jij//h!jj//jjjvH'Gh!iwj)mi(jjjvHG'h)ne,(hv.giHG'hffe.) (:) ab(ef)stra(dge)xí(gh//g.h!iwj)sti(jjjvH'G) (,) ab(hggf) ín(jj)fe(kjjvIH)ris(h_g//ivHG'hffe.) (;) á(ef)ni(dg)mam(g) me(hg/h!jjjhhg)am,(g.) (:) sal(dg)vá(gh'j)sti(j) me(jj//jjjh/ijHG.) (,) (jj//jjjh/!ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jgjvvIH//jhjvIHjh/ihhg.) (:) a(g) de(g)scen(g)dén(ghG'Fgh/jjjhk)ti(jkJHgjh/ij)bus(i.) *(,) in(jk) la(kijvH'GF.h!iwj'!kv)cum.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'E/!f_h/!/!ixivGFghg/hgge.) (::)",
       source: "Graduale Romanum (GregoBase #277)"
     },
@@ -3189,7 +3189,7 @@ window.PROPERS = {
       latin: "Inclína aurem tuam, accélera, ut éruas nos.",
       translation: "Incline your ear to me: make haste to deliver us.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode IV",
-      reference: "Ps. 30:3",
+      reference: "Ps. 31:3",
       gabc: "(c4) IN(f)clí(fgf)na(f_d) *() au(fe~)rem(f) tu(ghG'Fg_[uh:l]h)am,(h.) (:) ac(f)cé(h)le(gh_G'_FE'f)ra,(f_e) (,) ut(f) é(ghG'F)ru(g)as(ghG'FghG'F) nos.(e.) (::)",
       source: "Graduale Romanum (GregoBase #339)"
     }
@@ -3204,7 +3204,7 @@ window.PROPERS = {
       latin: "Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me fácias. ℣. Deus, in te sperávi : Dómine, non confúndar in aetérnum.",
       translation: "Be unto me a God of protection, and a house of refuge, to save me. ℣. In you, O God, have I hoped: O Lord, let me never be confounded.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 30:3",
+      reference: "Ps. 31:3",
       gabc: "(c4) E(ffg)sto(f) mi(fg)hi(f.) *(,) in(fg) De(gf)um(f) pro(ghgh)te(hgffd/ff//fg'h)ctó(gv.fgf)rem,(fv.) (,) (d!ff/ge'/fgd'/e[ll:1]ddc.) (:) et(fg) in(f) lo(ghghvGF)cum(g.) (,) re(g.h!iwji/jkj)fú(hvGF)gi(hg)i,(gv.d!f'g/fh!jvGF'fd) (,) (ff/ge'/fgd'/e[ll:1]ddc.) (:) ut(d) sal(fd/fff)vum(c_[ll:1]d) me(ff) (,) fá(ixhhg/hh//gh!ivGFhh//f!h'j)ci(j)as.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) ℣. De(d)us,(d) in(f) te(fh/ih/ijh) spe(h)rá(h)vi :(hhi.) (,) Dó(i_[oh:h]h)mi(h_g)ne,(hhf//hhf//hihh/fgf.) (:) non(hh) con(h)fún(ih/ij_hih/ij_ij//hi/jij)dar(jh/jkihh/fgf.) *(;) in(de'f) ae(f)tér(fhG'Fhhh)num.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #886)"
     },
@@ -3213,7 +3213,7 @@ window.PROPERS = {
       latin: "Pópulum húmilem salvum fácies, Dómine, et óculos superbórum humiliábis : quóniam quis Deus praeter te, Dómine?",
       translation: "You will save the humble people, O Lord, and will bring down the eyes of the proud: for who is God but you, O Lord?",
       mode: "Offertory · Ordinary Time · Mode V",
-      reference: "Ps. 17:28, 32",
+      reference: "Ps. 18:28, 32",
       gabc: "(c4) PO(fgf)pu(fgf)lum(fg'h) hú(hjHG')mi(hggfg)lem(gf..) *(;) sal(hj)vum(jh~) fá(jlk)ci(j_i)es,(jjj//hjG'Fg.) (,) Dó(d/ff//gh/j.h!iwj)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne,(f.) (:) et(fg) ó(g.h!iw!jvIH)cu(h_[oh:h]i_[oh:h]h_[oh:h])los(h.) su(h)per(h_g~)bó(ixgiHG')rum(hggf.0) (,) hu(hf)mi(g)li(hj)á(jkJ'Hjjj_h//jkJ'H)bis :(h_[oh:h]i_[oh:h]h._[oh:h]) (:) quó(f)ni(g)am(h) quis(j_h/jjhi) De(g.h!iwj/kjjij)us(ji..) (;) prae(hi)ter(hg~) te,(jj) Dó(jkj'/ki'jvHG.jkj'/ki'jvH'Fg.)(,)(fhhgh//jki'/jh)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne?(f.) (::)",
       source: "Graduale Romanum (GregoBase #1080)"
     },
@@ -3222,7 +3222,7 @@ window.PROPERS = {
       latin: "Gustáte et vidéte, quóniam suávis est Dóminus : beátus vir, qui sperat in eo.",
       translation: "Taste and see that the Lord is sweet: blessed is the man who hopes in him.",
       mode: "Communion · Ordinary Time · Mode III",
-      reference: "Ps. 33:9",
+      reference: "Ps. 34:9",
       gabc: "(c4) GU(g)stá(hj)te(j.) *(,) et(j) vi(j)dé(jjj)te,(h.) (,) quó(h/jjj)ni(gh_G'_FE'f)am(f_e) su(f)á(ef'h)vis(h) est(hggf/ghg) Dó(e)mi(egff)nus :(fe..) (:) be(ef'g)á(g)tus(ghGF'h) vir,(h.) (,) qui(hv.ghF'D) spe(fh)rat(g) in(hggf/ghg) e(egff)o.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1203)"
     }
@@ -3248,7 +3248,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Magnus Dóminus, et laudábilis valde, in civitáte Dei, in monte sancto ejus.",
       translation: "Alleluia. ℣. Great is the Lord, and exceedingly to be praised, in the city of our God, in his holy mountain.",
       mode: "Alleluia · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 47:2",
+      reference: "Ps. 48:2",
       gabc: "(c3) AL(ei)le(i)lú(hhivHFhi~){ia}.(i.) *(,) {ij.}(hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) (;) (ei!jvIH'Fg./fh!ivFE'DeegE'Dffe.) (::) ℣. Ma(ivHFhi~)gnus(i.) Dó(ikj/klm)mi(kvJI)nus,(i.) (;) et(ij~) lau(ih~)dá(fe)bi(de)lis(e.) val(ivHFhi~)de,(i.) (:) in(i) ci(hg)vi(hi)tá(i)te(hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) De(egf/gh)i,(fe..) *(;) in(e) mon(g)te(e) san(g)cto(h) e(ij)jus.(i.) (,) (hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) (;) (ei!jvIH'Fg./fh!ivFE'DeegE'Dffe.) (::)",
       source: "Graduale Romanum (GregoBase #709)"
     }
@@ -3261,7 +3261,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Magnus Dóminus, et laudábilis valde, in civitáte Dei, in monte sancto ejus.",
       translation: "Alleluia. ℣. Great is the Lord, and exceedingly to be praised, in the city of our God, in his holy mountain.",
       mode: "Alleluia · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 47:2",
+      reference: "Ps. 48:2",
       gabc: "(c3) AL(ei)le(i)lú(hhivHFhi~){ia}.(i.) *(,) {ij.}(hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) (;) (ei!jvIH'Fg./fh!ivFE'DeegE'Dffe.) (::) ℣. Ma(ivHFhi~)gnus(i.) Dó(ikj/klm)mi(kvJI)nus,(i.) (;) et(ij~) lau(ih~)dá(fe)bi(de)lis(e.) val(ivHFhi~)de,(i.) (:) in(i) ci(hg)vi(hi)tá(i)te(hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) De(egf/gh)i,(fe..) *(;) in(e) mon(g)te(e) san(g)cto(h) e(ij)jus.(i.) (,) (hij!kvJI'Hi./hii) (,) (hij!kvJI'Hi./hii) (,) (gi!jvIH'Fg./fh!ivFE'De.) (;) (ei!jvIH'Fg./fh!ivFE'DeegE'Dffe.) (::)",
       source: "Graduale Romanum (GregoBase #709)"
     }
@@ -3276,7 +3276,7 @@ window.PROPERS = {
       latin: "Convértere, Dómine, aliquántulum, et deprecáre super servos tuos. ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.",
       translation: "Turn somewhat, O Lord, and be entreated in favor of your servants. ℣. Lord, you have been our refuge, from generation to generation.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 89:13, 1",
+      reference: "Ps. 90:13, 1",
       gabc: "(c4) COn(d)vér(f/[1]{ix}f/g!hwi)te(gf)re(fgFD.1) *(,) Dó(dgf/gh)mi(g)ne(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) a(h)li(jj)quán(j)tu(ji)lum,(hgj.klkkj.0) (:) et(j) de(ixhi)pre(h_g)cá(h/jjjk)re(j.) (,) su(jk)per(j_h~) ser(ixjhi)vos(gh) tu(gf)os.(ixffh//giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3) ℣. Dó(h)mi(ih)ne(hvvGFhvGEff//gxde!fgF'EfvEDe.) (,) (fh/ih/ih/ijh.1) (;) re(h)fú(ih!kkh/ih!kkvIH)gi(h_ghvGF'g)um(gf..) (;) fa(h.i!jwk)ctus(ih) es(h.) no(gxfgFE.fgFD.1fvEDe[ll:1]d)bis,(d.) (:) a(d) ge(d)ne(d)ra(d)ti(d)ó(dfE'D)ne(ef) *(,) et(h) pro(h)gé(hiH'Fhhh)ni(h)e.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1046)"
     },
@@ -3285,7 +3285,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. In te, Dómine, sperávi, non confúndar in aetérnum : in tua justítia líbera me, et éripe me : inclína ad me aurem tuam, accélera ut erípias me.",
       translation: "Alleluia. ℣. In you, O Lord, have I hoped, let me never be confounded: in your justice deliver me and rescue me: incline your ear to me, make haste to deliver me.",
       mode: "Alleluia · Ordinary Time · Mode III",
-      reference: "Ps. 30:2-3",
+      reference: "Ps. 31:2-3",
       gabc: "(c4) AL(f)le(fgh)lú(gh!ivHG'j){ia}.(j.) *(,) {ij.}(jj//ghGF.jh/i_[oh:h]g//hg/hffe.) (;) (ef'ghghF'Ef_gffe.) (::) ℣. In(g) te(g) Dó(gh'j)mi(jijh)ne(jhhg.) (,) spe(hih)rá(jv.jjjvIHjgh)vi,(ge..) (;) non(e!fwg'!hv) con(g)fún(gh!jvH'GF'gwh'!iv)dar(hg__) (,) in(g) ae(hih)tér(ivHG'hffe//ghG'FgvFE)num :(e.) (:) in(e[ll:1]d~) tu(ghg)a(hi) ju(hg)stí(h!jj)ti(gh)a(g_[oh:h]f_[oh:h]) lí(g)be(f)ra(g) me,(e.) (;) et(e) é(e)ri(ef'g)pe(gh!jvH'GF'gwh'!iv) me :(hg..) (:) in(g)clí(gh/ji)na(jijh) ad(h) me(jhhg.) (,) au(hih~)rem(j.) tu(jjjvIHjgh)am,(ge..) (:) ac(e)cé(ef'ghiH'G)le(g.h!iw!jvIHij)ra(i.) *(,) ut(e) e(ef'g)rí(hiH'G)pi(hj)as(j) me.(jj//ghGF.) (,) (jh/i_[oh:h]g//hg/hffe.) (;) (ef'ghghF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #239)"
     },
@@ -3294,7 +3294,7 @@ window.PROPERS = {
       latin: "Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea : inclína aurem tuam, et exáudi verba mea : mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine.",
       translation: "Make my steps perfect in your paths, that my footsteps be not moved: incline your ear, and hear my words: show forth your wonderful mercies, you who save those who hope in you, O Lord.",
       mode: "Offertory · Ordinary Time · Mode IV",
-      reference: "Ps. 16:5, 6-7",
+      reference: "Ps. 17:5, 6-7",
       gabc: "(c4) PEr(c)fi(dfe)ce(f.) *() gres(ff//fff_d)sus(cd'f) me(f_e)os(egff) (,) in(dg~) sé(gv.f!h'j)mi(g_[oh:h]e)tis(gh) tu(fdgvFE)is,(e.) (;) ut(dg) non(gfg) mo(fe)ve(d!ff)án(fff)tur(d!ff) (,) ve(d)stí(fv.ffd)gi(f)a(fhG'Fghg) me(egff)a :(fe..) (:) in(f)clí(ixef/hig)na(ghffe) au(fffd~)rem(f) tu(gf)am,(f.) (;) et(fffd) ex(f)áu(gf~)di(fg) ver(g)ba(fgff) me(d!ffd)a :(d!ewf.) (:) mi(c)rí(cd/fef)fi(f)ca(f) mi(fgf)se(f)ri(ef)cór(gh)di(g)as(ef) tu(g.f!gwhgh)as,(hg..) (;) qui(f) sal(e.f!gwh)vos(ghF'E) fa(g)cis(fff_g) (,) spe(dc)rán(df~)tes(fffddc) in(df) te,(ef'g) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #265)"
     }
@@ -3305,7 +3305,7 @@ window.PROPERS = {
       latin: "Circuíbo, et immolábo in tabernáculo ejus hóstiam jubilatiónis : cantábo, et psalmum dicam Dómino.",
       translation: "I will go around and offer in his tabernacle a sacrifice of jubilation: I will sing and recite a psalm to the Lord.",
       mode: "Communion · Ordinary Time (Year A) · Mode VI",
-      reference: "Ps. 26:6",
+      reference: "Ps. 27:6",
       gabc: "(c2) CIr(f)cu(fc)í(exegf)bo,(f.) (,) * et(f) im(h)mo(f)lá(g)bo(f.) (,) in(fc~) ta(f)ber(gi~)ná(i)cu(iii)lo(g) e(gihiv_[oh:h]H~G~)jus(hg..) (;) hó(h!iwj'!kv)sti(j)am(j) ju(j)bi(jh)la(ij)ti(h)ó(f_[oh:h]g_[oh:h]f_[oh:h])nis :(f.) (:) can(df~)tá(fef)bo,(d.) (,) et(dc~) psal(fgf)mum(fe~) di(giihivHGh_g/hff)cam(f) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])no.(f.) (::)",
       source: "Graduale Romanum (GregoBase #1079)"
     }
@@ -3342,7 +3342,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Te decet hymnus, Deus, in Sion : et tibi reddétur votum in Jerúsalem.",
       translation: "Alleluia. ℣. A hymn befits you, O God, in Sion: and to you a vow shall be fulfilled in Jerusalem.",
       mode: "Alleluia · Ordinary Time · Mode VII",
-      reference: "Ps. 64:2",
+      reference: "Ps. 65:2",
       gabc: "(c2) AL(c)le(ce/g_[oh:h]f)lú(ef!gvFE'g){ia}.(g_[oh:h]f/g_[oh:h]e) *(,) ij.(g/iivG'Fgv.fffc..) (;) (dffe/fhGF'D//gf/gffc.) (,) (fffvD'Cd_eddc.) (::) ℣. Te(cg'!hv) de(gh)cet(g) hy(gh)mnus,(g.) (,) De(g!hw!ivHG)us,(ghf//gvFEfe..) (;) in(fg) Si(gffe//fg!iiivGFii/jiivHG')on :(g/hhg.) (:) et(g) ti(h/iji)bi(i_[oh:h]h) red(iiivHG)dé(g_[oh:h]f)tur(fgffe.) (;) vo(ef!gvFE/!fg!iiivGFii/jiivHG')tum(g/hhg.) *(;) in(g) Je(gd)rú(fe)sa(fg)lem.(ggd.) (,) (ghG'Fiii//ghG'//D) (,) (ghG'Fiii//ghg.) (,) (g//ijI'G//iivG'Fiig.) (,) (g!iifhvGF'fc.) (;) (dffe/fhGF'D//gf/gffc.) (,) (fffvD'C/!d_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #1052)"
     },
@@ -3351,7 +3351,7 @@ window.PROPERS = {
       latin: "Ad te, Dómine, levávi ánimam meam : Deus meus, in te confído, non erubéscam : neque irrídeant me inimíci mei : étenim univérsi qui te exspéctant, non confundéntur.",
       translation: "To you, O Lord, I have lifted up my soul: my God, in you I trust, let me not be put to shame: neither let my enemies laugh at me: for none who wait for you shall be confounded.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 24:1-3",
+      reference: "Ps. 25:1-3",
       gabc: "(f3) AD(c) te(ef//efefhhh_g) Dó(f)mi(fg!hvGF'g)ne(gf..) (;) * le(f_e/f!gwh)vá(h)vi(gf) á(hhhvF'Ef/hhh)ni(f)mam(fgef) me(f_[oh:h]g_[oh:h]f_[oh:h])am :(f.) (:) De(h)us(h) me(hihh)us,(g_[oh:h]f) (,) in(fe~) te(f) con(fe~)fí(fhG'E)do,(fe..) (;) non(hhi) e(h)ru(high)bé(h_[oh:h]i_[oh:h]h_[oh:h])scam :(h.) (:) ne(hh)que(h_g) ir(hhh)rí(f)de(e!gw!hvGF)ant(fgf) me(f.) (,) in(e)i(g)mí(i_[oh:h]h)ci(h) me(h_fgvFE'f)i :(fe..) (:) ét(fe)e(fgf)nim(fc) (,) u(efe)ni(f)vér(fih~)si(hi) qui(hg) te(f) ex(e)spé(efe)ctant,(c_[oh:h]bc.) (;) non(ef) con(ef)fun(f!gwh/ig/h_g)dén(fg!hvGF'g)tur.(gf..) (::)",
       source: "Graduale Romanum (GregoBase #962)"
     },
@@ -3360,7 +3360,7 @@ window.PROPERS = {
       latin: "Passer invénit sibi domum, et turtur nidum, ubi repónat pullos suos : altária tua, Dómine virtútum, Rex meus, et Deus meus : beáti qui hábitant in domo tua, in saéculum saéculi laudábunt te.",
       translation: "The sparrow has found herself a house, and the turtledove a nest, where she may lay her young: your altars, O Lord of hosts, my King and my God: blessed are they who dwell in your house, they shall praise you for ever and ever.",
       mode: "Communion · Ordinary Time · Mode I",
-      reference: "Ps. 83:4-5",
+      reference: "Ps. 84:4-5",
       gabc: "(c2) PAs(fi)ser(i) *() in(i)vé(i)nit(ig~) si(hj)bi(j) do(hi)mum,(hi) (,) et(gh~) tur(fg~)tur(gh~) ni(fg)dum,(g.) (;) u(g)bi(g) re(g)pó(iv.iii)nat(g_[oh:h]f) pul(f)los(exegf) su(f_[oh:h]g_[oh:h]d_[oh:h])os :(d.) (:) al(f)tá(gih)ri(h)a(h) tu(j)a(jh) Dó(jk)mi(j)ne(iih) vir(fi~)tú(iv.iii)tum,(hg..) (;) Rex(h_fh) me(ghF'D)us,(d.) (,) et(d!f'g) De(ghf)us(fef) me(deD'C)us :(c.) (:) be(fgd)á(f)ti(fg) qui(gd) há(fh)bi(gh)tant(fg/h_g) (,) in(ig~) do(ij)mo(kjk) tu(igjvIH)a,(h.) (;) in(f) saé(hih)cu(g)lum(ge~) saé(ghgh)cu(g)li(fge.) (,) lau(ef/gf/gh~)dá(d)bunt(d!ewf_d) te.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1090)"
     }
@@ -3371,7 +3371,7 @@ window.PROPERS = {
       latin: "Custódi me, Dómine, ut pupíllam óculi : sub umbra alárum tuárum prótege me. ℣. De vultu tuo judícium meum pródeat : óculi tui vídeant aequitátem.",
       translation: "Keep me, O Lord, as the apple of your eye: protect me under the shadow of your wings. ℣. Let my judgment come forth from your countenance: let your eyes behold what is right.",
       mode: "Gradual · Ordinary Time (Years A & C) · Mode I",
-      reference: "Ps. 16:8, 2",
+      reference: "Ps. 17:8, 2",
       gabc: "(c4) CU(d)stó(d)di(cd) me,(ff//egF'EfvEDe[ll:1]d..) (,) * Dó(dfe/f_g)mi(feede)ne,(dv.cd!ffd/ffvDCfgfff'1d) (,) (ffd'e//fgdevDCdc..) (;) ut(fg) pu(f)píl(f!hgh)lam(ixhihhg) ó(f)cu(fvED)li :(d.0/[-0.5]ef'!gvF'ED.fgf'gvF'ED.) (:) sub(dcf) um(hfh)bra(h/jjh/jggf.0) (,) a(f)lá(hfhGF//hf/ghjvv)rum(hj) tu(gf)á(fv.egffvED)rum(df..) (,) (cd'f/hfh/!ghf/!f'gf/gffe.) (;) pró(f_d/f!gwhgh)te(hgffd/f/[1]{/[-1]ix}f/hiGF'hvGF')ge(gffvD'Cffc) (,) (fgfg) me.(ixhg/hiGF'ghgh'//jvHG'hvF'D//fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) ℣. De(cd) vul(ixdh'!iv)tu(h) tu(h)o(hg/hhg/hh) (,) (gh!jjjh//jvvIH'jggf.0) (;) ju(dh)dí(h/jjh)ci(h/jjh)um(h.) me(hg/h/jjjg/ihhg)um(g) pród(i)e(jvIH)at :(h_[oh:h]i_[oh:h]h._[oh:h]) (:) ó(hj)cu(h_f)li(g) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'F//ghF'Dfv.e!gwhgh)i(ixhf/higff/ded.) (:) ví(dfED'fvED.//de!fg/hjIH'hgh.)(,)(ixfh!ivGF'E//f!gwh!ivHG)de(hg)ant(g.) *(;) ae(g)qui(gh)tá(ixjhiGF'h!jjvH'G)tem.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1088)"
     }
@@ -3382,7 +3382,7 @@ window.PROPERS = {
       latin: "Osténde nobis, Dómine, misericórdiam tuam : et salutáre tuum da nobis. ℣. Benedixísti, Dómine, terram tuam : avertísti captivitátem Jacob.",
       translation: "Show us, O Lord, your mercy: and grant us your salvation. ℣. You have blessed your land, O Lord: you have turned away the captivity of Jacob.",
       mode: "Gradual · Ordinary Time (Year B) · Mode II",
-      reference: "Ps. 84:8",
+      reference: "Ps. 85:8",
       gabc: "(c3) OS(d)tén(ef)de(fd) no(ef)bis,(f.) *(,) Dó(f_)mi(d)ne,(b//dde/dddb) (,) (dd/ec'dvBA'//db'/cbba.) (;) mi(ba)se(de)ri(d)cór(ef)di(f)am(e[ll:1]d~) tu(ef!hh/ig'hvFEhhe/gf)am :(f.) (:) et(f) sa(hh)lu(ivHF)tá(hg)re(i_[uh:l]j) tu(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)um(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) da(de'fhvGFgef) no(hf/h_i)bis.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Be(f)ne(h)di(hi)xí(i)sti,(ij) Dó(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)mi(ji)ne,(i.) (:) ter(i!jw!kvJI'jw!kvJI)ram(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am :(f.) (:) a(hh)ver(hi)tí(ivH'GE//fhGEfh..)(,)(gi!jvHF)sti(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) ca(d)pti(ef)vi(f)tá(f.0/[-0.5]hvGF'g)tem(ef) () * Ja(hf/h_i)cob.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1055)"
     }
@@ -3393,7 +3393,7 @@ window.PROPERS = {
       latin: "Custódi me, Dómine, ut pupíllam óculi : sub umbra alárum tuárum prótege me. ℣. De vultu tuo judícium meum pródeat : óculi tui vídeant aequitátem.",
       translation: "Keep me, O Lord, as the apple of your eye: protect me under the shadow of your wings. ℣. Let my judgment come forth from your countenance: let your eyes behold what is right.",
       mode: "Gradual · Ordinary Time (Years A & C) · Mode I",
-      reference: "Ps. 16:8, 2",
+      reference: "Ps. 17:8, 2",
       gabc: "(c4) CU(d)stó(d)di(cd) me,(ff//egF'EfvEDe[ll:1]d..) (,) * Dó(dfe/f_g)mi(feede)ne,(dv.cd!ffd/ffvDCfgfff'1d) (,) (ffd'e//fgdevDCdc..) (;) ut(fg) pu(f)píl(f!hgh)lam(ixhihhg) ó(f)cu(fvED)li :(d.0/[-0.5]ef'!gvF'ED.fgf'gvF'ED.) (:) sub(dcf) um(hfh)bra(h/jjh/jggf.0) (,) a(f)lá(hfhGF//hf/ghjvv)rum(hj) tu(gf)á(fv.egffvED)rum(df..) (,) (cd'f/hfh/!ghf/!f'gf/gffe.) (;) pró(f_d/f!gwhgh)te(hgffd/f/[1]{/[-1]ix}f/hiGF'hvGF')ge(gffvD'Cffc) (,) (fgfg) me.(ixhg/hiGF'ghgh'//jvHG'hvF'D//fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) ℣. De(cd) vul(ixdh'!iv)tu(h) tu(h)o(hg/hhg/hh) (,) (gh!jjjh//jvvIH'jggf.0) (;) ju(dh)dí(h/jjh)ci(h/jjh)um(h.) me(hg/h/jjjg/ihhg)um(g) pród(i)e(jvIH)at :(h_[oh:h]i_[oh:h]h._[oh:h]) (:) ó(hj)cu(h_f)li(g) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'F//ghF'Dfv.e!gwhgh)i(ixhf/higff/ded.) (:) ví(dfED'fvED.//de!fg/hjIH'hgh.)(,)(ixfh!ivGF'E//f!gwh!ivHG)de(hg)ant(g.) *(;) ae(g)qui(gh)tá(ixjhiGF'h!jjvH'G)tem.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1088)"
     }
@@ -3409,7 +3409,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Eripe me de inimícis meis, Deus meus : et ab insurgéntibus in me líbera me.",
       translation: "Alleluia. ℣. Deliver me from my enemies, O my God: and rescue me from those who rise up against me.",
       mode: "Alleluia · Ordinary Time · Mode II",
-      reference: "Ps. 58:2",
+      reference: "Ps. 59:2",
       gabc: "(f3) AL(ef~)le(f/hfghvGE./[-0.5]f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) *(;) ij.(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) ℣. E(ef)ri(f)pe(fg/h_f/g_[oh:h]e//fg!hvGF'ef~) me(f.) (,) de(fg) in(e)i(f)mí(f)cis(fi~) me(ivvHF'E)is,(f.) (;) De(i_[oh:h]h/i_[oh:h]hivHF'E)us(f.) me(h_g/h_ghvGF'E)us :(f'hvGF.) (:) et(f) ab(f) in(hg~)sur(hi~)gén(iv.hihf!gwhgh/!fgf/!fe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)ti(f_e)bus(e_[oh:h]c) in(ef~) me(f'hvGF.) (;) * lí(ef)be(f/hfghvGE./[-0.5]f'1//hf/gf)ra(ef~) me.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
       source: "Graduale Romanum (GregoBase #879)"
     },
@@ -3418,7 +3418,7 @@ window.PROPERS = {
       latin: "Justítiae Dómini rectae, laetificántes corda, et dulcióra super mel et favum : nam et servus tuus custódiet ea.",
       translation: "The justices of the Lord are right, rejoicing hearts, and sweeter than honey and the honeycomb: for your servant keeps them.",
       mode: "Offertory · Ordinary Time · Mode IV",
-      reference: "Ps. 18:9, 10, 11, 12",
+      reference: "Ps. 19:9, 10, 11, 12",
       gabc: "(c4) JU(d)stí(f)ti(fff)ae(f!gwhg/h_g) Dó(f)mi(fg!hvGF'g)ni(gf..) (,) * re(fff!gwhgh)ctae,(gf..) (;) lae(fff)ti(d!ew!fvEC)fi(d)cán(f)tes(fff) cor(f!gwhghv_G~F~)da,(gf..) (:) et(fd~) dul(fg)ci(fg'h)ó(hggf/ghGF'g)ra(gf..) (;) su(f)per(d) mel(df'!gv) et(g_[oh:h]f) fa(f.d!ewf/ge//fddcd)vum :(dc..) (:) nam(c!fff) et(fe~) ser(gh)vus(f_e) tu(fhg___)us(g.) (;) cu(f)stó(h_f/hgh)di(gf)et(fv.fffcfv) e(fv.fffhvGFgvFE)a.(e.) (::)",
       source: "Graduale Romanum (GregoBase #591)"
     }
@@ -3438,7 +3438,7 @@ window.PROPERS = {
       latin: "Acceptábis sacrifícium justítiae, oblatiónes et holocáusta, super altáre tuum, Dómine.",
       translation: "You will accept the sacrifice of justice, oblations and holocausts, upon your altar, O Lord.",
       mode: "Communion · Ordinary Time (Years A & B) · Mode IV",
-      reference: "Ps. 50:21",
+      reference: "Ps. 51:21",
       gabc: "(c4) AC(d)ce(dh)ptá(ixhv.fg'high)bis(eef.) *(,) sa(dg)cri(g)fí(ixhig/hi)ci(h)um(h) ju(ixhv.fghig/h_g)stí(e)ti(egff)ae,(eef.) (:) ob(fd)la(fe)ti(fg)ó(g)nes(d!ewf.) et(fd) ho(ef)lo(g)cáu(ixgh/ihhg~)sta,(hg..) (;) su(ge/ghGE'f)per(d!ewf) al(cd'f~)tá(fv.fffdg)re(g) tu(ghf)um,(d!ewf) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1221)"
     }
@@ -3449,7 +3449,7 @@ window.PROPERS = {
       latin: "Acceptábis sacrifícium justítiae, oblatiónes et holocáusta, super altáre tuum, Dómine.",
       translation: "You will accept the sacrifice of justice, oblations and holocausts, upon your altar, O Lord.",
       mode: "Communion · Ordinary Time (Years A & B) · Mode IV",
-      reference: "Ps. 50:21",
+      reference: "Ps. 51:21",
       gabc: "(c4) AC(d)ce(dh)ptá(ixhv.fg'high)bis(eef.) *(,) sa(dg)cri(g)fí(ixhig/hi)ci(h)um(h) ju(ixhv.fghig/h_g)stí(e)ti(egff)ae,(eef.) (:) ob(fd)la(fe)ti(fg)ó(g)nes(d!ewf.) et(fd) ho(ef)lo(g)cáu(ixgh/ihhg~)sta,(hg..) (;) su(ge/ghGE'f)per(d!ewf) al(cd'f~)tá(fv.fffdg)re(g) tu(ghf)um,(d!ewf) Dó(e)mi(egff)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #1221)"
     }
@@ -3460,7 +3460,7 @@ window.PROPERS = {
       latin: "Si ámbulem in médio umbrae mortis, non timébo mala : quóniam tu mecum es, Dómine. ℣. Virga tua, et báculus tuus, ipsa me consoláta sunt.",
       translation: "Though I should walk in the midst of the shadow of death, I will fear no evils: for you are with me, O Lord. ℣. Your rod and your staff, they have comforted me.",
       mode: "Gradual · Ordinary Time (Year C) · Mode I",
-      reference: "Ps. 22:4",
+      reference: "Ps. 23:4",
       gabc: "(c4) SI(d) ám(fg)bu(gvF'EfvED'e)lem(e[ll:1]d..) *(,) in(f) mé(ghgh)di(hjH'GF'gwhgh)o(hg..) (,) um(hv.fg'h)brae(g) mor(fv.dfe)tis,(d//ffd/fhhg.) (;) non(dh) ti(hg)mé(h'/jij)bo(hv.fh!jvH'GF'g) ma(fv.dfe)la :(d!ffd) (,) (fge'/fgd'/e[ll:1]ddc.) (:) quó(f)ni(d)am(e) tu(f) me(ghgh./gh/jj//jjj)cum(g) es,(hg/hfg) (,) Dó(d)mi(d)ne.(dc/d!ff/ghG'Efgff/ded.) (::) ℣. Vir(h_fhvhggef)ga(d.) tu(dc/d!ff/gh!jjg)(,)(ixhhghvGF./[-0.5]hiHG'hw!ivHGhi)a,(h.) (;) et(dh) bá(h/jjh)cu(h!jjh)lus(h_g) tu(hg/h!jjjgivHG'gf/gh/j.h!iwj_h)us,(h.) (:) i(h_f//hvhggef)psa(de) me(d_c/d!ewf!gv.fg!hvFEfg!hvhg.) *(,) con(g)so(gh)lá(ixjhiGF'h!jjvH'Gh')ta(d) sunt.(dc/d!ff/ghG'Efgff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #1121)"
     },
@@ -3485,7 +3485,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Exsultáte Deo adjutóri nostro, jubiláte Deo Jacob : súmite psalmum jucúndum cum cíthara.",
       translation: "Alleluia. ℣. Rejoice in God our helper, sing aloud to the God of Jacob: take up a pleasant psalm with the harp.",
       mode: "Alleluia · Ordinary Time · Mode VII",
-      reference: "Ps. 80:2-3",
+      reference: "Ps. 81:2-3",
       gabc: "(c2) AL(c)le(cfe)lú(fg~){ia}.(g.) (,) * ij.(ffg/e!g'h//fhg___!hwi_[oh:h]g.e.[ll:1]d!ewf/gffc) (,) (fffd/!/!fe/!gf/!fvD'C/!d_ed/!dc.) (::) ℣. Ex(cd)sul(c)tá(cfe)te(fg) De(ghF'Ef_g)o(g.) (;) ad(g)ju(g)tó(g)ri(i.g!hw!ivHG) no(ghF'Ef_g)stro,(ghfgvFEfe..) (:) ju(ef)bi(e)lá(e.f!gwh)te(hghvFDgv.) (,) De(gffvE'DC)o(ddc.) Ja(c.d!ewf'!gv)cob :(ghF'Efg..) (:) sú(c)mi(cfe)te(fg) psal(g!hwi/ji/!ig!hwi_[oh:h]hivH~G~)mum(h_g) (,) ju(g)cún(g)dum(i.g!hwi_[oh:h]hivHGhg..) *(;) cum(gd~) cí(dfe)tha(fg)ra.(g.) (,) (ffg/e!g'h//fhg___!hwi_[oh:h]g.e.[ll:1]d!ewf/gffc) (,) (fffd/!/!fe/!gf/!fvD'C/!d_ed/!dc.) (::)",
       source: "Graduale Romanum (GregoBase #580)"
     },
@@ -3494,7 +3494,7 @@ window.PROPERS = {
       latin: "Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me : Dómine, clamávi ad te, et sanásti me.",
       translation: "I will extol you, O Lord, for you have upheld me, and have not let my enemies rejoice over me: O Lord, I cried to you, and you healed me.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 29:2-3",
+      reference: "Ps. 30:2-3",
       gabc: "(c3) EX(c)al(e)tá(egf)bo(f) te(f.) *(,) Dó(f)mi(f!hhh)ne,(fefe..) (;) quó(hh)ni(fef)am(f/hhh//giH'GhvGFgf..) (,) sus(fhF'Ef')ce(d)pí(df!hvF'D)sti(d_[oh:h]e_[oh:h]d_[oh:h]) me,(d.) (:) nec(f/hhi) de(f!hhh)le(f!hhh)ctá(e/fgf)sti(fe/f!hhhvFE'ece.) (;) in(c)i(c)mí(ef)cos(fe~) me(f/hh/i_[oh:h]h)os(h.) (,) su(hi/jij)per(h_f/ih'/ihhe/f!gw!hvGFgv_[oh:h]F~E~) me :(fe..) (:) Dó(fh/ih)mi(ivHF)ne(fefvECe.) (,) cla(ec~)má(ef)vi(fe) ad(f/hh/i_[oh:h]h) te,(h.) (;) et(h) sa(f!gwhg)ná(hhhvF'Ef/hhhvF'E//fgf/gf/hhh)sti(f_[oh:h]g_[oh:h]f_[oh:h]) me.(f.) (::)",
       source: "Graduale Romanum (GregoBase #648)"
     }
@@ -3505,7 +3505,7 @@ window.PROPERS = {
       latin: "In Deo sperávit cor meum, et adjútus sum : et reflóruit caro mea : et ex voluntáte mea confitébor illi. ℣. Ad te, Dómine, clamávi : Deus meus, ne síleas, ne discédas a me.",
       translation: "In God has my heart hoped, and I have been helped: and my flesh has flourished again: and with my will I shall give praise to him. ℣. To you, O Lord, I have cried: my God, be not silent, depart not from me.",
       mode: "Gradual · Ordinary Time (Year A) · Mode V",
-      reference: "Ps. 27:7, 1",
+      reference: "Ps. 28:7, 1",
       gabc: "(c4) IN(d) De(ffg)o(f.) *(,) spe(f)rá(fg)vit(f) cor(ghgh) me(hvGF'fvED)um,(e[ll:1]d..) (;) et(fe) ad(fg~)jú(ggf)tus(g) sum :(fe/fg/hghvGFgf..) (;) et(fg) re(f)fló(gh)ru(gf)it(f.) (,) ca(f)ro(g) me(f)a :(fv.d!ff/ge'/fgd'/e[ll:1]ddc.) (:) et(h) ex(f) vo(g)lun(h)tá(hj/kjk)te(j) me(ixi_[oh:h]h)a(iii/ghg.___) (;) con(ixih~)fi(i)té(jv.ikJI'ivH'GF)bor(ggf.0) (,) il(gf/ggf/gff//gf~)li.(gv.fgff'f//f'hg/hggf.0) (z0::c3) ℣. Ad(d) te,(f) Dó(fh/ih/ijh)mi(h)ne,(h.) (,) cla(h)má(h)vi :(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___jvIH'jvIH'//hvGF.) (:) De(f!h'i)us(ih/jkihhf.) (`) me(hf/hhh)us,(h.f!gwh!iv.hi/jhh/iih.0) (:) ne(f) sí(h_f//g_0[uh:l]h_[uh:l]i!jwk)le(i_[oh:h]hivHFhhh)as :(h.) (;) ne(d) di(d)scé(dfE'D)das(ef) *() a(fhG'Fhhh) me.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #865)"
     },
@@ -3525,7 +3525,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Áperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with blessing.",
       mode: "Gradual · Ordinary Time (Year B) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     },
@@ -3563,7 +3563,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dómine Deus salútis meae, in die clamávi, et nocte coram te.",
       translation: "Alleluia. ℣. O Lord, the God of my salvation, I have cried in the day, and in the night before you.",
       mode: "Alleluia · Ordinary Time · Mode III",
-      reference: "Ps. 87:2",
+      reference: "Ps. 88:2",
       gabc: "(c4) AL(e)le(egfefE'Dee[ll:1]d)lú(g!hwi'!jv){ia}.(ih) *(,) ij.(jvIHjji//gh/ihhg) (;) (gh!jvvIGhh//gh/i_[oh:h]g) (,) (gh!jvvIGhhvGF//ghg/hgge.) (::) ℣. Dó(efE'D)mi(g)ne(hjj) De(j)us(ih/jkJH'Ghhg.) (,) sa(hih)lú(iji)tis(h_g/h!iwj) me(ikJ'I)ae,(i.) (:) in(g) di(g!jj)e(i_[oh:h]h) cla(i)má(g/hhf/gg//egee[ll:1]d/ef)vi,(e.) (;) et(e) no(egf)cte(ef'g) () * co(hiH'G)ram(g'hj) te.(ih) (,) (jvIHjji//gh/ihhg) (;) (gh!jvvIGhh//gh/i_[oh:h]g) (,) (gh!jvvIGhhvGF//ghg/hgge.) (::)",
       source: "Graduale Romanum (GregoBase #1082)"
     },
@@ -3583,7 +3583,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Áperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with blessing.",
       mode: "Gradual · Ordinary Time (Year A) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     },
@@ -3603,7 +3603,7 @@ window.PROPERS = {
       latin: "Benedícam Dóminum in omni témpore : semper laus ejus in ore meo. ℣. In Dómino laudábitur ánima mea : áudiant mansuéti, et laeténtur.",
       translation: "I will bless the Lord at all times: his praise shall ever be in my mouth. ℣. In the Lord shall my soul be praised: let the meek hear, and rejoice.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 33:2-3",
+      reference: "Ps. 34:2-3",
       gabc: "(c3) BE(ef)ne(e)dí(ef!hhhffe)cam(e_[uh:l]f) (,) * Dó(ef'h)mi(hhh)num(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) in(e) o(ehg~)mni(hi) tém(i)po(ihkvJIkvJI)re :(ig/hi!kvvI'H//i!jwk/lkk/iji.) (,) (hj/iji/jg/hih/ihhg.) (:) sem(gh'i)per(jki/jhhg) laus(gh!i!jwk) e(ih/ih/ijI'H)jus(hhh_e) (,) (fgf'j//iji'/jhh'ih/ihhg.) (;) in(hf) o(h!iwjij)re(jihhf/hh/jkIH'jvIH') me(ihhvF'Ehhe)(,)(hihi)o.(ji/jkIH'ijij'lvJI'jvH'F//hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::) ℣. In(e) Dó(ef'h)mi(hhh)no(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) lau(gh'i~)dá(i)bi(h)tur(h_g) á(h_g/hji)ni(ihhvGF)ma(g_[oh:h]f) (,) me(hf/hhvF'Ef!gwh_g)a :(hhhvGF'he//fvEDe[ll:1]d..) (:) áu(e)di(d.c!dwed/ef)ant(e.) man(d)su(f)é(h_0ivH'//Ef.)(,)(f!gwh'!ivH'//Ef./h_[oh:h]i_[oh:h]f.1_[oh:h])(,)(i/jg/hiH'GF.)(,)(i/jg/hiH'GF.hghFE.)(,)(ih/ijI'H)ti,(hhhvF'Effe/ff) (,) (ef!hhhf//hvvGF'he//fvEDe[ll:1]d..) (;) * et(ef) lae(hg)tén(hi)tur.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1182)"
     },
@@ -3623,7 +3623,7 @@ window.PROPERS = {
       latin: "Benedícam Dóminum in omni témpore : semper laus ejus in ore meo. ℣. In Dómino laudábitur ánima mea : áudiant mansuéti, et laeténtur.",
       translation: "I will bless the Lord at all times: his praise shall ever be in my mouth. ℣. In the Lord shall my soul be praised: let the meek hear, and rejoice.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 33:2-3",
+      reference: "Ps. 34:2-3",
       gabc: "(c3) BE(ef)ne(e)dí(ef!hhhffe)cam(e_[uh:l]f) (,) * Dó(ef'h)mi(hhh)num(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) in(e) o(ehg~)mni(hi) tém(i)po(ihkvJIkvJI)re :(ig/hi!kvvI'H//i!jwk/lkk/iji.) (,) (hj/iji/jg/hih/ihhg.) (:) sem(gh'i)per(jki/jhhg) laus(gh!i!jwk) e(ih/ih/ijI'H)jus(hhh_e) (,) (fgf'j//iji'/jhh'ih/ihhg.) (;) in(hf) o(h!iwjij)re(jihhf/hh/jkIH'jvIH') me(ihhvF'Ehhe)(,)(hihi)o.(ji/jkIH'ijij'lvJI'jvH'F//hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::) ℣. In(e) Dó(ef'h)mi(hhh)no(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) lau(gh'i~)dá(i)bi(h)tur(h_g) á(h_g/hji)ni(ihhvGF)ma(g_[oh:h]f) (,) me(hf/hhvF'Ef!gwh_g)a :(hhhvGF'he//fvEDe[ll:1]d..) (:) áu(e)di(d.c!dwed/ef)ant(e.) man(d)su(f)é(h_0ivH'//Ef.)(,)(f!gwh'!ivH'//Ef./h_[oh:h]i_[oh:h]f.1_[oh:h])(,)(i/jg/hiH'GF.)(,)(i/jg/hiH'GF.hghFE.)(,)(ih/ijI'H)ti,(hhhvF'Effe/ff) (,) (ef!hhhf//hvvGF'he//fvEDe[ll:1]d..) (;) * et(ef) lae(hg)tén(hi)tur.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1182)"
     },
@@ -3648,7 +3648,7 @@ window.PROPERS = {
       latin: "In te sperávi, Dómine : dixi : Tu es Deus meus, in mánibus tuis témpora mea.",
       translation: "In you have I hoped, O Lord: I said: You are my God, my times are in your hands.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 30:15-16",
+      reference: "Ps. 31:15-16",
       gabc: "(f3) IN(c) te(ef'g) spe(f)rá(h.f!gwh/i_[oh:h]h)vi,(hhhvGEf!gw!hvGF') (,) * Dó(f)mi(f!gwhgh)ne :(gf..) (:) di(fh)xi :(hhh/i_[uh:l]j) (,) Tu(hiH'F) es(f.) De(f!gw!hvGF)us(ef) me(f!gwh/ihhgh)us,(hg..) (:) in(hh) má(hi/jij)ni(h)bus(hhvGF) tu(hh/i_[oh:h]h)is(h.) (;) tém(h_f/hhvF'E//f!hhh)po(f_e)ra(egf) me(f_[oh:h]g_[oh:h]f_[oh:h])a.(f.) (::)",
       source: "Graduale Romanum (GregoBase #967)"
     }
@@ -3659,7 +3659,7 @@ window.PROPERS = {
       latin: "Osténde nobis, Dómine, misericórdiam tuam : et salutáre tuum da nobis. ℣. Benedixísti, Dómine, terram tuam : avertísti captivitátem Jacob.",
       translation: "Show us, O Lord, your mercy: and grant us your salvation. ℣. You have blessed your land, O Lord: you have turned away the captivity of Jacob.",
       mode: "Gradual · Ordinary Time (Year A) · Mode II",
-      reference: "Ps. 84:8",
+      reference: "Ps. 85:8",
       gabc: "(c3) OS(d)tén(ef)de(fd) no(ef)bis,(f.) *(,) Dó(f_)mi(d)ne,(b//dde/dddb) (,) (dd/ec'dvBA'//db'/cbba.) (;) mi(ba)se(de)ri(d)cór(ef)di(f)am(e[ll:1]d~) tu(ef!hh/ig'hvFEhhe/gf)am :(f.) (:) et(f) sa(hh)lu(ivHF)tá(hg)re(i_[uh:l]j) tu(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)um(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) da(de'fhvGFgef) no(hf/h_i)bis.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Be(f)ne(h)di(hi)xí(i)sti,(ij) Dó(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)mi(ji)ne,(i.) (:) ter(i!jw!kvJI'jw!kvJI)ram(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am :(f.) (:) a(hh)ver(hi)tí(ivH'GE//fhGEfh..)(,)(gi!jvHF)sti(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) ca(d)pti(ef)vi(f)tá(f.0/[-0.5]hvGF'g)tem(ef) () * Ja(hf/h_i)cob.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1055)"
     },
@@ -3668,7 +3668,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Dómine, refúgium factus es nobis a generatióne et progénie.",
       translation: "Alleluia. ℣. Lord, you have been our refuge from generation to generation.",
       mode: "Alleluia · Ordinary Time (Year A) · Mode VII",
-      reference: "Ps. 89:1",
+      reference: "Ps. 90:1",
       gabc: "(c3) AL(ef)le(e)lú(ehg/ij){ia}.(ijIG.) *(,) ij.(h!iwjij//hiH'Gh.) (;) (fh'!jv//hji/jhhvG'E//f!gwhg) (,) (ijh./ghF'Ef_gffe.) (::) ℣. Dó(e.f!gwhghvGF'fe//f!gwh_g/hihi)mi(ji)ne,(i.) (;) re(i)fú(ijh//ijIG.hiH'Gh_iH'F)gi(f!gw!hvG'FEfg)um(fe..) (;) fa(h!iwji)ctus(ihhg) es(fhGF'g) no(e/hhf/ijH'Gh.)(,)(f!gwh'!iv//gihhvGF)bis(f!gwh_fgvFEfe..) (:) a(eg/ih) ge(gh)ne(gf)ra(gh)ti(g)ó(iv//jkihjihhe.)(;)(gi//jkihjihhe.)(,)(fhg___/hif/!fe/f!gw!hvGF'g)ne(fe..) *(;) et(eg/iV!gh~) pro(h)gé(hgi)ni(ji)e.(ijIG.) (,) (h!iwjij//hiH'Gh.) (;) (fh'!jv//hji/jhhvG'E//f!gwhg) (,) (ijh./ghF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #820)"
     },
@@ -3688,7 +3688,7 @@ window.PROPERS = {
       latin: "Beáta gens, cujus est Dóminus Deus eórum : pópulus, quem elégit Dóminus in hereditátem sibi. ℣. Verbo Dómini caeli firmáti sunt : et spíritu oris ejus omnis virtus eórum.",
       translation: "Blessed is the nation whose God is the Lord: the people whom he has chosen for his inheritance. ℣. By the word of the Lord the heavens were established: and all their power by the spirit of his mouth.",
       mode: "Gradual · Ordinary Time (Year B) · Mode I",
-      reference: "Ps. 32:12, 6",
+      reference: "Ps. 33:12, 6",
       gabc: "(c4) BE(d)á(ff)ta(gffe//fhG'Fg_[oh:h]d) gens,(d.) *(;) cu(d)jus(d) est(ff) Dó(g_[oh:h]fh)mi(h)nus(h.) (,) De(hjhhg)us(g_[oh:h]f) e(fe)ó(ggfghvG__Fg_[oh:h]f)rum :(f.) (:) pó(hhghjjjvIH)pu(h_[oh:h]i_[oh:h]h_[oh:h])lus,(h.) (;) quem(f) e(ghg)lé(hvvG'FE'fwgfg)git(g_[oh:h]f_[oh:h]) (,) Dó(gffvED)mi(e[ll:1]d)nus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) in(f) he(d)re(e)di(f)tá(ghgh//ijii)tem(ih..) (,) si(h)bi.(ghGEf_g//fgFDf_h//ghGEf_g//fgFD.1) (::) ℣. Ver(dh)bo(h) Dó(hjhhghGF.)(,)(ixhiHG'hw!ivHGhi)mi(h)ni(iyhjH'Gh!jjh//jjjvIH'jggf.0) (;) cae(h_[hl:1]k_[hl:1]j_[hl:1]kvJH'i)li(h.) fir(hg~)má(h!iwj)ti(g) sunt :(fh/jh/ih..) (:) et(f) spí(ghghjhhggf!gwh_g)ri(h)tu(g.) (,) o(h_fh)ris(g_[oh:h]fg) e(fg)jus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) o(f_d/ff!gwhgh//jkjj'jvH'G/[-0.5]{ix}F0'gwh!iv_[oh:h]H~G~)mnis(h_g) vir(gh~)tus(g) *(,) e(gh)ó(ixjhiGF'h!jjvH'G)rum.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1044)"
     },
@@ -3724,7 +3724,7 @@ window.PROPERS = {
       latin: "Bonum est confídere in Dómino, quam confídere in hómine. ℣. Bonum est speráre in Dómino, quam speráre in princípibus.",
       translation: "It is good to trust in the Lord, rather than to trust in man. ℣. It is good to hope in the Lord, rather than to hope in princes.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 117:8-9",
+      reference: "Ps. 118:8-9",
       gabc: "(c4) BO(ff)num(fg) est(fef.) (,) * con(f)fí(ixg!hwi)de(gf)re(fgFD.1) (,) in(d) Dó(dgf/gh)mi(g)no,(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) quam(ixhih) con(hg~)fí(gj)de(jjh)re(ixhv.fhg___/hiH'GF'fhvGFgf..) (,) in(fg) hó(g)mi(gff)ne.(dec.) (,) (fhg___/jkijh.fhg/hggf.0) (z0::c3) ℣. Bo(d)num(f) est(gxfh/ih/i_[oh:h]h//ivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0ddd/f_h/ijh.1) (;) spe(hi)rá(h)re(hg) in(ij) Dó(i_[oh:h]h)mi(h)no,(hg/i_[oh:h]h//jvIH'Ghf..) (:) quam(hh) spe(h)rá(ih/ij_hih/ij_ij//hi/jij)re(jh/jkihh/fgf.) (;) * in(de'f) prin(f)cí(fhGF')pi(i)bus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff/dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #547)"
     },
@@ -3733,7 +3733,7 @@ window.PROPERS = {
       latin: "Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos : gustáte et vidéte, quóniam suávis est Dóminus.",
       translation: "The angel of the Lord shall encamp around those who fear him, and shall deliver them: taste and see that the Lord is sweet.",
       mode: "Offertory · Ordinary Time · Mode VIII",
-      reference: "Ps. 33:8-9",
+      reference: "Ps. 34:8-9",
       gabc: "(c4) IM(gh~)mít(hv.fhg)tet(g.) *(,) An(g!jj//jjj)ge(h)lus(ghg.) Dó(h!iwjjvIG)mi(h!iwjjvIG)ni(h!iwj/kjji.) (;) in(j) cir(hg~)cú(j'/ki'/jh')i(h)tu(f_[oh:h]g_[oh:h]f._[oh:h]) (,) ti(hg)mén(hg/jj//jjj)ti(hg)um(ixgv.fh!ivHG) e(ghg___)um,(g.) (:) et(g) e(gh/ji)rí(jjvIG)pi(h!iwji)et(j.) e(jjh/jkjkvJI)os :(j.) (:) gu(ji)stá(jv.jjj/kjk)te(h_g) (,) et(g) vi(hji)dé(jkj'/ki'jvH'GjjvIH'iwj)te,(g.) (;) quó(gh)ni(gf)am(g) su(h)á(h/jjj)vis(g) est(h_g/h!iwj/kjji.) (;) Dó(j'/kj'/ki'jvH'Fg.)(,)(fgh!jvvIH'iw!jvIH)mi(gh!ivHG'h)nus.(hg..) (::)",
       source: "Graduale Romanum (GregoBase #747)"
     }
@@ -3775,7 +3775,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Veníte, exsultémus Dómino : jubilémus Deo salutári nostro.",
       translation: "Alleluia. ℣. Come, let us rejoice in the Lord: let us sing joyfully to God our Savior.",
       mode: "Alleluia · Ordinary Time (Year C) · Mode VII",
-      reference: "Ps. 94:1",
+      reference: "Ps. 95:1",
       gabc: "(c2) AL(c)le(c)lú([oh:h{]f_eg){ia}.(ghGF'fd.) *(;) ij.(fgf___[oh}]ff'g//fff/ghffc.) (,) (fdf./efD'Cd_eddc.) (::) ℣. Ve(c)ní(cfe/gh)te,(g.) (;) ex(g)sul(gf~)té(g/iig)mus(ghfgvFEfe..) (,) Dó(f_[oh:h]g_[oh:h]e_[oh:h])mi(fgF'E)no :(f.g!hwihhg.) (:) ju(g)bi(g_[oh:h]e)lé(f!gwhgh)mus(g.) (,) De(g!iig//f_hGF'fhGF'fvE'DC)o(ddc.) (;) sa(cd)lu(c)tá(c.d!ewfef)ri(e.) (,) * no(f_[oh:h]g_[oh:h]f_[oh:h]fe/f!gwhgh)stro.(g/iig/he/f_g) (;) (d!ewf'!gv//iig/he/f_g) (,) (g/iii_[oh:h]g//jkI'GiivG'Fiig.) (,) (g/iifhvGF'fc.) (;) (dffe/fhGF'Dgf/gffc.) (,) (fffvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #1246)"
     },
@@ -3800,7 +3800,7 @@ window.PROPERS = {
       latin: "Bonum est confitéri Dómino, et psállere nómini tuo, Altíssime. ℣. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
       translation: "It is good to give praise to the Lord, and to sing to your name, O Most High. ℣. To proclaim your mercy in the morning, and your truth throughout the night.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 117:8-9",
+      reference: "Ps. 118:8-9",
       gabc: "(c4) BO(ff)num(fg) est(ff//d!ff/ge'/fgd'/e[ll:1]ddc.) (;) * con(f)fi(h)té(jh/jjj)ri(j_ik) Dó(k_[hl:1]j)mi(j_i)no :(jjh) (,) (jjh//jkjj/hih.) (:) et(hj) psál(h!j'k)le(jk)re(jj) (,) nó(hj/kjk)mi(j)ni(ij) tu(hg/h!jjkvJI)o,(j.) (;) Al(jj)tís(jkJ'Hjkjk)si(j_i)me.(jjjh/jjjh/jjh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) ℣. Ad(d_) an(f)nun(d)ti(f)án(h.0/ijh)dum(h.) (,) ma(h)ne(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___//jvIH'jvIH'//hvGF.) (:) mi(hh)se(h)ri(h)cór(ih/ij_hih/ij_ij//hi/jij)di(j)am(jh/jkihhf.) (,) tu(hf/hhh)am,(h.f!gwh!iv.hi/jhh/iih.0) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) *(:) per(hh) no(hiH'Fhihi)ctem.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #1338)"
     },
@@ -3809,7 +3809,7 @@ window.PROPERS = {
       latin: "Exspéctans exspectávi Dóminum, et respéxit me : et exaudívit deprecatiónem meam : et immísit in os meum cánticum novum, hymnum Deo nostro.",
       translation: "With expectation I have waited for the Lord, and he was attentive to me: and he heard my prayer: and he put a new song into my mouth, a hymn to our God.",
       mode: "Offertory · Ordinary Time · Mode V",
-      reference: "Ps. 39:2, 3, 4",
+      reference: "Ps. 40:2, 3, 4",
       gabc: "(c3) EX(f)spé(f!hhhi)ctans(hi) *(,) ex(h)spe(i)ctá(iki/j_k)vi(i) Dó(h)mi(hhh)num,(fh..) (;) et(e) re(f)spé(hv.hhh//h'ih)xit(hi!jv_I~H~) me :(ih..) (:) et(f) ex(f!h'i)au(iih~)dí(hiH'G)vit(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (,) de(f)pre(f)ca(f!hhf)ti(e)ó(fh/i_[oh:h]h)nem(hi~) me(ihhf//hih/i.f!gwh_f)am,(f.) (:) et(e) im(f)mí(hh)sit(ijhh/fgf.) (,) in(f) os(fhhg/hgg) me(eh/ghf/ggf)um(f.) (;) cán(hh)ti(f_e)cum(fef) no(hi)vum,(hg/hiih.0) (:) hy(h)mnum(hhhffe~) De(f_d/ef!ivH'GE)o(fef) no(f/hhvF'EDe_[uh:l]fE'D)stro.(d.) (::)",
       source: "Graduale Romanum (GregoBase #182)"
     },
@@ -3818,7 +3818,7 @@ window.PROPERS = {
       latin: "De fructu óperum tuórum, Dómine, satiábitur terra : ut edúcas panem de terra, et vinum laetíficet cor hóminis : ut exhílaret fáciem in óleo, et panis cor hóminis confírmet.",
       translation: "The earth shall be filled with the fruit of your works, O Lord: that you may bring bread out of the earth, and that wine may cheer the heart of man: that he may make the face cheerful with oil, and that bread may strengthen man's heart.",
       mode: "Communion · Ordinary Time · Mode VI",
-      reference: "Ps. 103:13, 14-15",
+      reference: "Ps. 104:13, 14-15",
       gabc: "(c4) DE(f) fru(gh)ctu(h) *() ó(h)pe(g)rum(g) tu(g)ó(h)rum,(gf~) Dó(g)mi(f)ne,(f_e) (,) sa(f)ti(ghg)á(h)bi(g)tur(fe~) ter(f!gwhgh)ra :(gf..) (:) ut(f) e(f)dú(gh)cas(f) pa(g)nem(f) de(e) ter(fg)ra,(f.) (;) et(f) vi(ixfg/ihi)num(h) lae(h)tí(jhhgh)fi(f)cet(fg'h) cor(fe) hó(d)mi(de!fvED'e)nis :(e[ll:1]d..) (:) ut(fg'h) ex(h)hí(ixjhi)la(ghGF'g)ret(gf..) (,) fá(fg)ci(f)em(f) in(fd) ó(ef)le(deDC'd)o,(dc..) (;) et(ec~) pa(de'f)nis(gfg) cor(fe) hó(f)mi(ixgi)nis(hiG'F) con(f)fír(ef~)met.(f.) (::)",
       source: "Graduale Romanum (GregoBase #1245)"
     }
@@ -3860,7 +3860,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Quóniam Deus magnus Dóminus, et Rex magnus super omnem terram.",
       translation: "Alleluia. ℣. For the Lord is a great God, and a great King above all the earth.",
       mode: "Alleluia · Ordinary Time (Year C) · Mode VII",
-      reference: "Ps. 94:3",
+      reference: "Ps. 95:3",
       gabc: "(c3) AL(e)le(e)lú(ef!hh//hh/i_[uh:l]j){ia}.(i.) *(,) ij.(hi/j_h//ji/jiih//ijhhvGEffe.) (;) (f/hh/iji___/!i/g_[uh:l]hffe.) (,) (fh/ijhhvG'FEffe.) (::) ℣. Quó(ef)ni(e)am(e) De(hh)us(hi'j) ma(i/kkkvI'HG./!hi!jvIH/!i_[oh:h]h/!j_i)gnus(i.) (;) Dó(i_[oh:h]e/fhhe//fhe___e[ll:1]d.0)(,)(f_h//gh!jvIH'hvGF)mi(h.f!gw!hvG'FE'f)nus,(fe..) (:) et(eh) Rex(hi'j) ma(iv.hi!jvHGivHG)(,)(ijIH'i)gnus(ijhivHGhg..) (;) su(h)per(g.h!iwj) o(jijvH'FivH'GE)(,)(f!hgh)mnem(hiH'Ghv.f!gwh/ihhvG'FEfe..) *(,) ter(gh'i~)ram.(iv.hi!kvJIkkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1352)"
     }
@@ -3875,7 +3875,7 @@ window.PROPERS = {
       latin: "Timébunt gentes nomen tuum, Dómine, et omnes reges terrae glóriam tuam. ℣. Quóniam aedificávit Dóminus Sion, et vidébitur in majestáte sua.",
       translation: "The nations shall fear your name, O Lord, and all the kings of the earth your glory. ℣. For the Lord has built up Sion, and he shall be seen in his majesty.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 101:16-17",
+      reference: "Ps. 102:16-17",
       gabc: "(c4) TI(d)mé(ff)bunt(gh~) gen(h_fgvFED.g_[oh:h]e/fg)tes(f.) (;) * no(hf/gh!jj/kjk)men(jij) tu(h_g/h/jjvH'GF)um,(h_g~) Dó(f)mi(fg!hvGF'g)ne,(gf..) (:) et(f) o(ghgh)mnes(jhhg) re(h!iwj)ges(j_i) (`) ter(jkJ'IH)rae(hjH'GhjjhjvvIH'jggf.0) (;) gló(fg'h!fg'h)ri(gf)am(fv.ef!gvgf.0) (,) tu(f!hhh//gh!jjjhjvvIH'jg./f.0h!iw!jvIH'GF'f//hvGFgf)am.(f.) (z0::c3) ℣. Quó(d)ni(d)am(d) ae(d)di(d)fi(fe)cá(eh)vit(h.) (,) Dó(h)mi(h)nus(ihh'hh_f//hhf/hhegxfgE0/[-0.5]{/[0.5]gy}D0.0/[-0.5]hhjvIH'//hvGF.) (;) Si(hi)on,(i_[oh:h]h/i/kkhi_[oh:h]h/kkkvIH'//hvGF.) (:) et(f) vi(hf)dé(h)bi(hfh)tur(hhhvF'Ef!hhhf/hhhvGF'hee[ll:1]d.0) (;) in(d) ma(d)je(d)stá(dfE'D)te(ef) *() su(fhG'Fhhh)a.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #1173)"
     },
@@ -3884,7 +3884,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Cantáte Dómino cánticum novum : quia mirabília fecit Dóminus.",
       translation: "Alleluia. ℣. Sing to the Lord a new song: for the Lord has done wondrous deeds.",
       mode: "Alleluia · Ordinary Time · Mode I",
-      reference: "Ps. 97:1",
+      reference: "Ps. 98:1",
       gabc: "(c4) AL(d)le(ff)lú(gv.f!hgh){ia}.(hjH'GF.) *(;) ij.(e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::) ℣. Can(cd)tá(ixdh//gihivGF//ggf/gg//fgh!jjg)(,)(ixhhghvGF.hiHG'hw!ivHGhi)te(h.) (,) Dó(h_g/jjvH'G//ixhihi)mi(g)no(g_[oh:h]f_[oh:h]) (;) cán(f_e/f!gwhgh)ti(hg/hf/ghg)cum(gd~) no(f_e/g_[oh:h]fgvFD'ewfd)vum :(d.) (:) qui(d/ffd/ffddef!gh)a(ghg.) (,) mi(f)ra(ghg)bí(h/jjhhgh.)(,)(ixfh!ivGF'fd/ffhvGF'fvED)li(e[ll:1]d)a(d.) (;) fe(ff)cit(fg) () * Dó(g_[oh:h]f)mi(f!gwhgh)nus.(hjH'GF.) (;) (e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1077)"
     },
@@ -3893,7 +3893,7 @@ window.PROPERS = {
       latin: "Dómine, in auxílium meum réspice : confundántur et revereántur, qui quaerunt ánimam meam, ut áuferant eam : Dómine, in auxílium meum réspice.",
       translation: "O Lord, look down to help me: let them be confounded and put to shame who seek my life to take it away: O Lord, look down to help me.",
       mode: "Offertory · Ordinary Time · Mode VI",
-      reference: "Ps. 39:14, 15",
+      reference: "Ps. 40:14, 15",
       gabc: "(c4) DO(f)mi(fff)ne,(c_[ll:1]d) *(,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_[oh:h]g_[oh:h]f_[oh:h])ce :(f.) (:) con(fgf)fun(g_[uh:l]h)dán(hg~)tur(ghGF.) (,) et(f) re(f)ve(f)re(d)án(d!ffdced)tur,(dc/ded.) (;) qui(c) quae(ffg)runt(f) á(g)ni(fg)mam(fe~) me(d!ew!fvED)am,(d.c!dw!evDCd.) (;) ut(c) áu(ffg~)fe(f)rant(fg/hghv_G~F~) e(f)am :(f/ghF'DffvD'Cffc.) (:) Dó(f)mi(fff)ne,(c_[ll:1]d) (,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_[oh:h]g_[oh:h]f_[oh:h])ce.(f.) (::)",
       source: "Graduale Romanum (GregoBase #993)"
     }
@@ -3915,7 +3915,7 @@ window.PROPERS = {
       latin: "Dómine, memorábor justítiae tuae sólius : Deus, docuísti me a juventúte mea : et usque in senéctam et sénium, Deus, ne derelínquas me.",
       translation: "O Lord, I will be mindful of your justice alone: O God, you have taught me from my youth: and unto old age and gray hairs, O God, forsake me not.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode VIII",
-      reference: "Ps. 70:16-17, 18",
+      reference: "Ps. 71:16-17, 18",
       gabc: "(c4) DO(fg'h)mi(g)ne,(g) (,) * me(g)mo(gf)rá(ggfg)bor(d.) (,) ju(d)stí(d/gfg)ti(ge/fd)ae(d) tu(gfg)ae(g.) (,) so(fghjij)lí(jh/ig)us :(g.) (:) De(j)us,(jjj) do(ji)cu(h)í(ij'k)sti(h) me(g.) (,) a(g) ju(g)ven(g)tú(gh/ji)te(ih/jkj) me(ixh_givHF)a,(f.) (:) et(g) us(g.h!iwjjk)que(j) in(h) se(g)né(f/gfg)ctam(d.) (,) et(f) sé(ef'g)ni(ge/fd)um,(d.) (;) De(gfg)us,(ghggf.0) (,) ne(f!h'j) de(f!h'j)re(jh/ig)lín(g)quas(g.f!gwh_g) me.(g.) (::)",
       source: "Graduale Romanum (GregoBase #1318)"
     }
@@ -3926,7 +3926,7 @@ window.PROPERS = {
       latin: "Dómine, memorábor justítiae tuae sólius : Deus, docuísti me a juventúte mea : et usque in senéctam et sénium, Deus, ne derelínquas me.",
       translation: "O Lord, I will be mindful of your justice alone: O God, you have taught me from my youth: and unto old age and gray hairs, O God, forsake me not.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode VIII",
-      reference: "Ps. 70:16-17, 18",
+      reference: "Ps. 71:16-17, 18",
       gabc: "(c4) DO(fg'h)mi(g)ne,(g) (,) * me(g)mo(gf)rá(ggfg)bor(d.) (,) ju(d)stí(d/gfg)ti(ge/fd)ae(d) tu(gfg)ae(g.) (,) so(fghjij)lí(jh/ig)us :(g.) (:) De(j)us,(jjj) do(ji)cu(h)í(ij'k)sti(h) me(g.) (,) a(g) ju(g)ven(g)tú(gh/ji)te(ih/jkj) me(ixh_givHF)a,(f.) (:) et(g) us(g.h!iwjjk)que(j) in(h) se(g)né(f/gfg)ctam(d.) (,) et(f) sé(ef'g)ni(ge/fd)um,(d.) (;) De(gfg)us,(ghggf.0) (,) ne(f!h'j) de(f!h'j)re(jh/ig)lín(g)quas(g.f!gwh_g) me.(g.) (::)",
       source: "Graduale Romanum (GregoBase #1318)"
     }
@@ -3941,7 +3941,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Exáudi oratiónem meam, Dómine, et deprecatiónem meam : áuribus pércipe lácrimas meas : quóniam ádvena ego sum apud te, et peregrínus.",
       translation: "Alleluia. ℣. Hear my prayer, O Lord, and my supplication: give ear to my tears: for I am a sojourner with you, and a pilgrim.",
       mode: "Alleluia · Ordinary Time · Mode VII",
-      reference: "Ps. 38:13",
+      reference: "Ps. 39:13",
       gabc: "(c2) AL(cg)le(gh)lú(fef){ia}.(g.) (,) * ij.(fg/ih/ijhhg//ivHGivHG//higgfhvGF'fc.) (,) (ege/feevD'Cef!gv'1//hvGE'fddc.) (::) ℣. Ex(cg'!hv)áu(fef)di(g.) (,) o(g)ra(gh)ti(g)ó(gh!i'j)nem(j_k) me(g)am,(giHG.) (,) Dó(f_[oh:h]g_[oh:h]e_[oh:h])mi(fgF'E)ne,(f!gwh/ihhg.) (;) et(g_[oh:h]e) de(fg)pre(g)ca(gh)ti(g_[oh:h]e)ó(f!gwhgh)nem(g.) (,) me(giig//f_hGF'fhGF'fvE'DC)am :(dc..) (:) áu(cd/fef)ri(f)bus(f) pér(f.e!fwgfg)ci(hg)pe(g) (,) lá(ge)cri(fg)mas(g) me(gh/i_[oh:h]g/hi'/jh'//jvI'HGhi)as :(hg..) (:) quó(gh)ni(fe)am(fg) ád(g/h'ih)ve(gf)na(f.) (,) e(f)go(fvEDef!hvGF'fvED) sum(ff) (,) a(f)pud(df) te,(e./fgf'/gd//evDCdc..) (;) * et(c) per(cg)e(gh)grí(fef)nus.(g.) (,) (fg/ih/ijhhg//ivHGivHG//higgfhvGF'fc.) (,) (ege/feevD'Cef!gv'1//hvGE'fddc.) (::)",
       source: "Graduale Romanum (GregoBase #329)"
     },
@@ -3959,7 +3959,7 @@ window.PROPERS = {
       latin: "Vovéte, et réddite Dómino Deo vestro, omnes qui in circúitu ejus affértis múnera : terríbili, et ei qui aufert spíritum príncipum : terríbili apud omnes reges terrae.",
       translation: "Make vows, and pay them to the Lord your God, all you who round about him bring gifts: to him who is terrible, and who takes away the spirit of princes: who is terrible to all the kings of the earth.",
       mode: "Communion · Ordinary Time · Mode II",
-      reference: "Ps. 75:12-13",
+      reference: "Ps. 76:12-13",
       gabc: "(f3) VO(ef'g)vé(f)te,(f.) *(,) et(ef'h~) réd(hhi)di(h)te(h.) (,) Dó(h)mi(hhh)no(f) De(h)o(f) ve(hih)stro,(hhh) (;) o(fgF~'E~)mnes(f_e) qui(e) in(e) cir(ehg~)cú(hi)i(i)tu(hi) e(i)jus(e.) (,) af(f)fér(hih)tis(gh) mú(f)ne(f_[oh:h]g_[oh:h]f_[oh:h])ra :(f.) (:) ter(h)rí(hj)bi(iji)li,(i.) (,) et(hg) e(h_[oh:h]i_[oh:h]f_[oh:h])i(f.) qui(hg) au(hi)fert(hvGF) (,) spí(h)ri(h)tum(g!i'j) prín(ji/jhi)ci(h.g!hwihi)pum :(ih..) (:) ter(h)rí(hgh)bi(f)li(e.) (,) a(fgef)pud(efE'C) o(ef)mnes(f_e) re(hh)ges(ig/h_g) ter(fg!hvGF'g)rae.(gf..) (::)",
       source: "Graduale Romanum (GregoBase #1134)"
     }
@@ -3970,7 +3970,7 @@ window.PROPERS = {
       latin: "Beáta gens, cujus est Dóminus Deus eórum : pópulus, quem elégit Dóminus in hereditátem sibi. ℣. Verbo Dómini caeli firmáti sunt : et spíritu oris ejus omnis virtus eórum.",
       translation: "Blessed is the nation whose God is the Lord: the people whom he has chosen for his inheritance. ℣. By the word of the Lord the heavens were established: and all their power by the spirit of his mouth.",
       mode: "Gradual · Ordinary Time (Years A & B) · Mode I",
-      reference: "Ps. 32:12, 6",
+      reference: "Ps. 33:12, 6",
       gabc: "(c4) BE(d)á(ff)ta(gffe//fhG'Fg_[oh:h]d) gens,(d.) *(;) cu(d)jus(d) est(ff) Dó(g_[oh:h]fh)mi(h)nus(h.) (,) De(hjhhg)us(g_[oh:h]f) e(fe)ó(ggfghvG__Fg_[oh:h]f)rum :(f.) (:) pó(hhghjjjvIH)pu(h_[oh:h]i_[oh:h]h_[oh:h])lus,(h.) (;) quem(f) e(ghg)lé(hvvG'FE'fwgfg)git(g_[oh:h]f_[oh:h]) (,) Dó(gffvED)mi(e[ll:1]d)nus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) in(f) he(d)re(e)di(f)tá(ghgh//ijii)tem(ih..) (,) si(h)bi.(ghGEf_g//fgFDf_h//ghGEf_g//fgFD.1) (::) ℣. Ver(dh)bo(h) Dó(hjhhghGF.)(,)(ixhiHG'hw!ivHGhi)mi(h)ni(iyhjH'Gh!jjh//jjjvIH'jggf.0) (;) cae(h_[hl:1]k_[hl:1]j_[hl:1]kvJH'i)li(h.) fir(hg~)má(h!iwj)ti(g) sunt :(fh/jh/ih..) (:) et(f) spí(ghghjhhggf!gwh_g)ri(h)tu(g.) (,) o(h_fh)ris(g_[oh:h]fg) e(fg)jus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) o(f_d/ff!gwhgh//jkjj'jvH'G/[-0.5]{ix}F0'gwh!iv_[oh:h]H~G~)mnis(h_g) vir(gh~)tus(g) *(,) e(gh)ó(ixjhiGF'h!jjvH'G)rum.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1044)"
     }
@@ -3981,7 +3981,7 @@ window.PROPERS = {
       latin: "Beáta gens, cujus est Dóminus Deus eórum : pópulus, quem elégit Dóminus in hereditátem sibi. ℣. Verbo Dómini caeli firmáti sunt : et spíritu oris ejus omnis virtus eórum.",
       translation: "Blessed is the nation whose God is the Lord: the people whom he has chosen for his inheritance. ℣. By the word of the Lord the heavens were established: and all their power by the spirit of his mouth.",
       mode: "Gradual · Ordinary Time (Years A & B) · Mode I",
-      reference: "Ps. 32:12, 6",
+      reference: "Ps. 33:12, 6",
       gabc: "(c4) BE(d)á(ff)ta(gffe//fhG'Fg_[oh:h]d) gens,(d.) *(;) cu(d)jus(d) est(ff) Dó(g_[oh:h]fh)mi(h)nus(h.) (,) De(hjhhg)us(g_[oh:h]f) e(fe)ó(ggfghvG__Fg_[oh:h]f)rum :(f.) (:) pó(hhghjjjvIH)pu(h_[oh:h]i_[oh:h]h_[oh:h])lus,(h.) (;) quem(f) e(ghg)lé(hvvG'FE'fwgfg)git(g_[oh:h]f_[oh:h]) (,) Dó(gffvED)mi(e[ll:1]d)nus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) in(f) he(d)re(e)di(f)tá(ghgh//ijii)tem(ih..) (,) si(h)bi.(ghGEf_g//fgFDf_h//ghGEf_g//fgFD.1) (::) ℣. Ver(dh)bo(h) Dó(hjhhghGF.)(,)(ixhiHG'hw!ivHGhi)mi(h)ni(iyhjH'Gh!jjh//jjjvIH'jggf.0) (;) cae(h_[hl:1]k_[hl:1]j_[hl:1]kvJH'i)li(h.) fir(hg~)má(h!iwj)ti(g) sunt :(fh/jh/ih..) (:) et(f) spí(ghghjhhggf!gwh_g)ri(h)tu(g.) (,) o(h_fh)ris(g_[oh:h]fg) e(fg)jus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) o(f_d/ff!gwhgh//jkjj'jvH'G/[-0.5]{ix}F0'gwh!iv_[oh:h]H~G~)mnis(h_g) vir(gh~)tus(g) *(,) e(gh)ó(ixjhiGF'h!jjvH'G)rum.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #1044)"
     }
@@ -3992,7 +3992,7 @@ window.PROPERS = {
       latin: "Dómine, refúgium factus es nobis, a generatióne et progénie. ℣. Priúsquam montes fíerent, aut formarétur terra et orbis : a saéculo, et in saéculum tu es Deus.",
       translation: "Lord, you have been our refuge, from generation to generation. ℣. Before the mountains were made, or the earth and the world was formed: from eternity and to eternity you are God.",
       mode: "Gradual · Ordinary Time (Year C) · Mode II",
-      reference: "Ps. 89:1-2",
+      reference: "Ps. 90:1-2",
       gabc: "(c3) DO(egf)mi(f)ne,(f.) *(,) re(f)fú(hfghvF'Egef)gi(gf)um(f.) (;) fa(hf/hi'j)ctus(hvGF) es(gxfegvFE.) (,) no(e[ll:1]d/fef)bis,(fd/ef!hvvF'Ef!gwh/ihh/fgf.) (:) a(hh) ge(h)ne(h)ra(h)ti(h)ó(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)ne(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'fhvGF'g) pro(ef)gé(hf)ni(hi)e.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Pri(f)ús(h)quam(ij~) mon(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)tes(ji..) (:) fí(i!jw!kvJI'jw!kvJI)e(i)rent,(i.) (,) aut(i) for(i)ma(i)ré(i)tur(ij~) ter(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)ra(f.) (`) et(hh) or(h)bis :(h.[ob:1;8mm]) (:) a(hi) saé(ivH'GE//fhGEfh..)(,)(gi!jvHF')cu(f)lo,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(d) in(d) saé(de'f)cu(f)lum(f.0/[-0.5]hvGF'g) (,) tu(e) es(f) () * De(hf/h_i)us.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1108)"
     }
@@ -4007,7 +4007,7 @@ window.PROPERS = {
       latin: "Laetátus sum in his quae dicta sunt mihi : in domum Dómini íbimus. ℣. Fiat pax in virtúte tua : et abundántia in túrribus tuis.",
       translation: "I rejoiced at the things that were said to me: we shall go into the house of the Lord. ℣. Let peace be in your strength: and abundance in your towers.",
       mode: "Gradual · Ordinary Time · Mode VII",
-      reference: "Ps. 121:1, 7",
+      reference: "Ps. 122:1, 7",
       gabc: "(c2) LAe(ff)tá(g)tus(fgF'Dgfg) sum(g./hiHG'gf/ghg.___) *(;) in(fg) his(gj) quae(j) di(jii)cta(g) sunt(gj~) mi(j_)hi :(g) (,) (ihij_i//hjii/ghg.) (:) in(gh) do(gh)mum(g_[oh:h]e) Dó(f)mi(dec)ni(c.) (,) í(eggf/g_[oh:h]e//fvED'ef'!gffd!ewf)bi(cdc___)mus.(c.) (::) ℣. Fi(gfg)at(gj~) pax(j_kJ'//G//ihij_i//hjii/ghg.) (;) in(f) vir(g)tú(g!ii//iikvJI'ig)te(gffd) tu(fdffd/ec)a :(c.) (:) et(g) a(c)bun(df~)dán(fv.d!gf'gjv.iiiih~)ti(ij)a(j_g//ihij_i//hjii/ghg.) (;) * in(cd) túr(fgf)ri(dgf/gh)bus(gh) tu(gf)is.(f.) (,) (hg/i_[oh:h]hgiHG'ge./fge'fvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #1011)"
     },
@@ -4016,7 +4016,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Timébunt gentes nomen tuum, Dómine : et omnes reges terrae glóriam tuam.",
       translation: "Alleluia. ℣. The nations shall fear your name, O Lord: and all the kings of the earth your glory.",
       mode: "Alleluia · Ordinary Time · Mode I",
-      reference: "Ps. 101:16",
+      reference: "Ps. 102:16",
       gabc: "(c4) AL(dfddc~)le(fgf)lú(ghggf~){ia}.(f.) *(;) ij.(ixfh!ivHGhjh'jvIG'gf.0) (;) (ixfh!ivHGhjh'jvIG'gf.0) (,) (ghGF'gd.0/e!fwgffvEC.) (,) (cd!ef/gffvED.) (::) ℣. Ti(dfddc)mé(fgf)bunt(ghg/hgg) gen(fg!hvGF'g)tes(fgf.) (;) no(fg!hvGF'gd.0/e!fwgf)men(fvEC.) tu(cd!ef/gffvED)um,(d.) (,) Dó(cb)mi(c.d!ewfd)ne :(d.) (:) et(d) o(df/dec)mnes(d.0f!gwhghvGF) re(g.h!iwjh.1)(,)(fgh!jjhh'hhvGF)ges(gh) ter(ghGF'g)rae(d/ffd/e[ll:1]ddc.) (;) gló(ccdde/!fg./!fh/!ghf.1)(,)(gf/!ghf/!fvECddv[ll:1]/CA)ri(cd)am(d.) *(,) tu(ff/dec./d!ffg//f!gh'GF)am.(f.) (;) (ixfh!ivHGhjh'jvIG'gf.0) (;) (ixfh!ivHGhjh'jvIG'gf.0) (,) (ghGF'gd.0/e!fwgffvEC.) (,) (cd!ef/gffvED.) (::)",
       source: "Graduale Romanum (GregoBase #1097)"
     }
@@ -4036,7 +4036,7 @@ window.PROPERS = {
       latin: "Tóllite hóstias, et introíte in átria ejus : adoráte Dóminum in aula sancta ejus.",
       translation: "Bring up sacrifices, and come into his courts: adore the Lord in his holy court.",
       mode: "Communion · Ordinary Time (Year A) · Mode IV",
-      reference: "Ps. 95:8-9",
+      reference: "Ps. 96:8-9",
       gabc: "(c3) TOl(i)li(h)te(g) hó(ijij)sti(hi)as,(i_[oh:h]g) *(,) et(h) in(g)tro(hi)í(i_[oh:h]g/hih)te(g.) (,) in(h) á(h_f//hgh)tri(gf)a(f) e(fhghvG~F~)jus :(gf..) (:) ad(hg)o(h)rá(i_[oh:h]h_[oh:h])te(h_f) Dó(f_e)mi(e_[oh:h][ll:1]d)num(d.) (,) in(f) au(fhgivH~G~)la(g) san(g)cta(gih) e(fiH~'G~)jus.(g.) (::)",
       source: "Graduale Romanum (GregoBase #404)"
     }
@@ -4091,7 +4091,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Confitémini Dómino, et invocáte nomen ejus : annuntiáte inter gentes ópera ejus.",
       translation: "Alleluia. ℣. Give praise to the Lord, and call upon his name: declare his deeds among the nations.",
       mode: "Alleluia · Ordinary Time · Mode II",
-      reference: "Ps. 104:1",
+      reference: "Ps. 105:1",
       gabc: "(c3) AL(ef)le(f)lú(hf/hh/ihhi){ia}.(ijhhe.) *(,) ij.(hhh'j!lvI'HGF'gwhf.1) (::) ℣. Con(f)fi(hh)té(i)mi(h)ni(hjihh/fgf.) (,) Dó(hf/hh/ihhi)mi(f)no,(efe.) (;) et(fd) in(e)vo(f)cá(fih'/ig'/hf)te(efe.) (,) no(f)men(fgef) e(f!gwhgh)jus :(gf..) (:) an(g)nun(e)ti(f)á(hjIH'h//fiH'GEf./hf/hf/he)te(e.) (,) in(e)ter(e) gen(egFE'f!hhhf//ijhh)tes(g_[oh:h]fgvFEfe..) *(;) ó(fd)pe(e)ra(f) e(hf/hh/ihhi)jus.(ijhhe.) (,) (hhh'j!lvI'HGF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1192)"
     },
@@ -4100,7 +4100,7 @@ window.PROPERS = {
       latin: "Si ambulávero in médio tribulatiónis, vivificábis me, Dómine : et super iram inimicórum meórum exténdes manum tuam, et salvum me fecit déxtera tua.",
       translation: "If I shall walk in the midst of tribulation, you will revive me, O Lord: and you will stretch forth your hand against the wrath of my enemies, and your right hand has saved me.",
       mode: "Offertory · Ordinary Time · Mode VIII",
-      reference: "Ps. 137:7",
+      reference: "Ps. 138:7",
       gabc: "(c4) SI(ghg) am(f)bu(g)lá(gj/hi//hjj'1j)ve(kjjvI'HG)ro(hhg.) *(;) in(g) mé(hg/h!jjk)di(hg)o(g.) (,) tri(g!hwi_[oh:h]h)bu(hg)la(gffvED')ti(g)ó(g!hwihi)nis,(hg..) (:) vi(ghg)vi(f)fi(g)cá(gj/hi//h!jj//jjjhhggf.0)(,)(h!iwjj)bis(kj~) me,(jv.ijh'ivH'G//jjjvIH'iw!jvIH) (,) Dó(hg)mi(g!hwihi)ne :(hg..) (:) et(g!h!gh~) su(f)per(g) i(gjji!jwkj)ram(j_k) (,) in(j)i(jkJ'H)mi(ji)có(jv.ijhi)rum(hhg.) (,) me(g)ó(ghGF'gffvEDgh)rum(g.) (;) ex(h)tén(gjI'Ghh//fh!jvGF'fd/ef!ghg)des(g.) (;) ma(ig/h!jj/klKJ'jvIG)num(jj) tu(h!iw!jvI'HG'h)am,(gh/ih..) (:) et(g) sal(hi~)vum(i) me(i) fe(ij!kvJHji)cit(i.) (;) déx(ij'k)te(j)ra(kjj'jj_h) tu(jj//jjj_h//jjh//jvIGh.)(,)(fh!jvIG___//ivHGhg)a.(g.) (::)",
       source: "Graduale Romanum (GregoBase #616)"
     },
@@ -4109,7 +4109,7 @@ window.PROPERS = {
       latin: "Tu mandásti mandáta tua custodíri nimis : útinam dirigántur viae meae, ad custodiéndas justificatiónes tuas.",
       translation: "You have commanded that your commandments be kept most diligently: O that my ways may be directed to keep your justifications.",
       mode: "Communion · Ordinary Time · Mode V",
-      reference: "Ps. 118:4-5",
+      reference: "Ps. 119:4-5",
       gabc: "(c3) TU(h) man(hf~)dá(hi)sti(h.) *(,) man(fe~)dá(gxfgf)ta(e) tu(f/hhh)a(h.) (,) cu(d)sto(ef)dí(gxfgF'E)ri(hh) ni(i_[oh:h]h)mis :(hiHF.1) (:) ú(gxfg)ti(f)nam(f) di(f)ri(gxgh)gán(h)tur(f) vi(ih)ae(gxgh) me(gxh)ae,(hihh/fgf.) (;) ad(d) cu(ef)sto(gxfgf')di(e)én(fgF~'E~)das(f_e) (,) ju(d)sti(gxfgf')fi(e)ca(fgf')ti(e)ó(fg!hvG'FE)nes(fe/f_e) tu(de!fvED'e)as.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #479)"
     }
@@ -4120,7 +4120,7 @@ window.PROPERS = {
       latin: "Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣. Elevátio mánuum meárum sacrifícium vespertínum.",
       translation: "Let my prayer be directed as incense in your sight, O Lord. ℣. The lifting up of my hands as an evening sacrifice.",
       mode: "Gradual · Ordinary Time (Year A) · Mode VII",
-      reference: "Ps. 140:2",
+      reference: "Ps. 141:2",
       gabc: "(c2) DI(c)ri(cg)gá(g)tur(g_[oh:h]e/fgddc.) (,) * o(c)rá(c!feg)ti(gh)o(hfg) me(gh!ivHG'h)a(gh/ih..) (;) sic(f)ut(g) in(hj~)cén(j)sum(j_g/hg..) (,) in(g) con(h)spé(hj)ctu(i) tu(hfg)o,(g_[oh:h]e//fgf'/gddc.) (;) Dó(ffd/fef)mi(e)ne.(ce!ghGF'fe//ced/e[ll:1]ddc.) (::) ℣. E(f)le(g)vá(g_[uh:l]j//ij/kii'iivGF'fd)(,)(ffd/ffg)ti(g)o(g_[oh:h]f//gih/ijhhg.) (;) má(gj)nu(j_0)um(k) me(g)á(igge//fhGF'fd!ew!fvE'DC'd)rum(dc..) (:) sa(c)cri(d)fí(fgf)ci(dgf/gh)um(g.) *(,) ves(c)per(ff)tí(fv.ef/gfg)num.(gge./giHG'ivHG'ge.) (,) (fge'fvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #44)"
     }
@@ -4131,7 +4131,7 @@ window.PROPERS = {
       latin: "Quis sicut Dóminus Deus noster, qui in altis hábitat : humília réspicit in caelo et in terra? ℣. Súscitans a terra ínopem, et de stércore érigens páuperem.",
       translation: "Who is like the Lord our God, who dwells on high: and looks down on the lowly things in heaven and on earth? ℣. Raising up the needy from the earth, and lifting the poor out of the dunghill.",
       mode: "Gradual · Ordinary Time (Year B) · Mode V",
-      reference: "Ps. 112:5-7",
+      reference: "Ps. 113:5-7",
       gabc: "(c4) QUis(d) sic(ff)ut(gh~) Dó(h_fgvFED.g_[oh:h]e/fg)mi(f)nus(f.) *(;) De(fg'h)us(hg/h_g) no(fg!hvGF'g)ster,(gf..) (;) qui(f) in(hj) al(j)tis(h) há(jk)bi(j.i!jwkjk)tat :(kj..) (:) hu(h)mí(h)li(ixgiH'Ghf)a(f.) ré(h_g)spi(h)cit(f.) (`) in(hj~) cae(j)lo(ij) (,) et(h) in(fg~) ter(f)ra?(gffgD0'/[-0.5]{ix}C0hv.giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3) ℣. Sús(h)ci(hi)tans(ihhf/hiHG.hiFD.1) (,) (f/hhi/hhf/hiHG.hiFD.1) (,) (gxfg//e!g'h/ghghvFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (;) a(hi/j.i!jwk) ter(ikH'Gh)ra(f.) ín(fh)o(hef)pem,(d.) (:) et(d) de(fe) stér(eh)co(h)re(h_[oh:h]i_[oh:h]h_2[oh:h]//i_[oh:h]hjvIH'Ghf..) (;) é(de'f)ri(f)gens(f) *() páu(fhGF')pe(i)rem.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhf.0/dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #472)"
     }
@@ -4142,7 +4142,7 @@ window.PROPERS = {
       latin: "Prope est Dóminus ómnibus invocántibus eum : ómnibus qui ínvocant eum in veritáte. ℣. Laudem Dómini loquétur os meum : et benedícat omnis caro nomen sanctum ejus.",
       translation: "The Lord is near to all who call upon him: to all who call upon him in truth. ℣. My mouth shall speak the praise of the Lord: and let all flesh bless his holy name.",
       mode: "Gradual · Ordinary Time (Year C) · Mode V",
-      reference: "Ps. 144:18, 21",
+      reference: "Ps. 145:18, 21",
       gabc: "(c4) PRo(f)pe(f) est(f) Dó(f_)mi(d)nus(d//ffg/fffd) (,) (ff/ge'fvDC'//fd'/e[ll:1]ddc.) (;) * ó(f)mni(gh)bus(h) in(h)vo(g)cán(fhg)ti(g)bus(g) (`) e(hg/h!jjjh)(,)(jjjvIH'jggfg)um :(gf..) (:) ó(hj)mni(gf)bus(f) qui(f) ín(f)vo(e)cant(dgf~) e(fge'/fddcd)um(dc..) (;) in(e_[oh:h]) ve(c)ri(d!ewf)tá(fgF//C'd!fff)te.(f.) (,) (ixhhg/hh//gh!ivGF/!hh//iyfh!jkijh.) (,) (fg/h!jj/klijh.ixgiHF.1) (z0::c3) ℣. Lau(hh)dem(h) Dó(h)mi(h)ni(ihh'hh_f) (,) (hhf/hhe//gxfgED./[-3]gy/[0.5]hhjvIH//hvGF.) (:) lo(f!h'i)qué(i)tur(ih/jkIH'hf.) (,) os(hf/hhh) me(h)um :(h.f!gwh!iv.hi/!jh/!h/iih.0) (:) et(d) be(d)ne(fe)dí(eh)cat(h.) (,) o(ihhg~)mnis(i'/jk) ca(i_[oh:h]h)ro(hg/i_[oh:h]h//jvIH'Ghf..) (;) no(f_e)men(gxegf'gvE'D) san(fe~)ctum(h.) *(,) e(hiH'F)jus.(f./de/f!hh/ijghf.0gxegFD.1) (::)",
       source: "Graduale Romanum (GregoBase #284)"
     }
@@ -4157,7 +4157,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Parátum cor meum, Deus, parátum cor meum : cantábo, et psallam tibi, glória mea.",
       translation: "Alleluia. ℣. My heart is ready, O God, my heart is ready: I will sing, and chant a psalm to you, my glory.",
       mode: "Alleluia · Ordinary Time · Mode III",
-      reference: "Ps. 107:2",
+      reference: "Ps. 108:2",
       gabc: "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) ij.(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) ℣. Pa(c.d!ewff)rá(f)tum(fg~) cor(g_[oh:h]f) me(ixf!gwh'!iv)um,(hg~) De(ghGF'g)us,(gf..) (;) pa(f.0h!iwjj)rá(j)tum(ixjjvIG') cor(g!jjj) me(ixj_h/iih)um :(h.) (:) can(fh)tá(h/jhhfg)bo,(gv.ff/ded.) (,) et(d) psal(ff)lam(ghGF'g) ti(ixg/hig)bi(g.) (;) gló(ixfh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghg)ri(f_efvED'e)a(e[ll:1]d..) *(;) me(ff/g_[oh:h]f/hgh)a.(hhf.) (,) (h_ghvFDgff'fvE'C//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #745)"
     },
@@ -4166,7 +4166,7 @@ window.PROPERS = {
       latin: "Super flúmina Babylónis, illic sédimus, et flévimus, dum recordarémur tui, Sion.",
       translation: "Upon the rivers of Babylon, there we sat and wept, while we remembered you, O Sion.",
       mode: "Offertory · Ordinary Time · Mode I",
-      reference: "Ps. 136:1",
+      reference: "Ps. 137:1",
       gabc: "(c4) SU(f)per(ixgh'i) flú(h)mi(hgh)na(hf/gh/jhjvGF'fd/fddc.) *(,) Ba(d)by(dc/d!ff/g.h!iw!jvIH//ghG'F)ló(fg!hvGF'g)nis,(gf..) (:) il(fh)lic(h_g) sé(h!iwj)di(hvGF)mus,(ixg!hwih.) (;) et(h_ghvGE) flé(f!gwhg)vi(gffvED)mus,(d!ffd/fge'/fgd'/e[ll:1]ddc.) (:) dum(f) re(d)cor(e)da(f)ré(ghgh)mur(jh/jjvH'G) tu(ixgf/hiG'F)i,(ff/ghF'E) (,) Si(f)on.(f_d//f!gwhgh'jvHG'hvF'Df.) (,) (e/gwhgh'jvHG'hvF'D//f_[oh:h]g_[oh:h]f_2[oh:h]//g_[oh:h]f/gff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #812)"
     },
@@ -4175,7 +4175,7 @@ window.PROPERS = {
       latin: "Meménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti : haec me consoláta est in humilitáte mea.",
       translation: "Remember your word to your servant, O Lord, in which you have given me hope: this has comforted me in my lowliness.",
       mode: "Communion · Ordinary Time · Mode IV",
-      reference: "Ps. 118:49-50",
+      reference: "Ps. 119:49-50",
       gabc: "(c4) ME(f)mén(gh)to(hg) *() ver(h)bi(hg) tu(h)i(hf) ser(g)vo(gd) tu(f)o,(f.) Dó(e)mi(egff)ne(eef.) (;) in(d) quo(fhg) mi(h)hi(g_[oh:h]f) spem(gh) de(g)dí(egff)sti :(fe..) (:) haec(g) me(gh!ivih) con(h)so(hg)lá(h)ta(gh_G'_FE'f) est(fe..) (;) in(efe') hu(d)mi(efe')li(d)tá(ef'g)te(f) me(egff)a.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #696)"
     }
@@ -4197,7 +4197,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Áperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with blessing.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     }
@@ -4208,7 +4208,7 @@ window.PROPERS = {
       latin: "Óculi ómnium in te sperant, Dómine : et tu das illis escam in témpore opportúno. ℣. Áperis tu manum tuam : et imples omne ánimal benedictióne.",
       translation: "The eyes of all hope in you, O Lord: and you give them food in due season. ℣. You open your hand: and fill every living creature with blessing.",
       mode: "Gradual · Ordinary Time (Years B & C) · Mode VII",
-      reference: "Ps. 144:15-16",
+      reference: "Ps. 145:15-16",
       gabc: "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) ℣. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) *(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
       source: "Graduale Romanum (GregoBase #1230)"
     }
@@ -4221,7 +4221,7 @@ window.PROPERS = {
       latin: "Dómine, refúgium factus es nobis, a generatióne et progénie. ℣. Priúsquam montes fíerent, aut formarétur terra et orbis : a saéculo, et in saéculum tu es Deus.",
       translation: "Lord, you have been our refuge, from generation to generation. ℣. Before the mountains were made, or the earth and the world was formed: from eternity and to eternity you are God.",
       mode: "Gradual · Ordinary Time · Mode II",
-      reference: "Ps. 89:1-2",
+      reference: "Ps. 90:1-2",
       gabc: "(c3) DO(egf)mi(f)ne,(f.) *(,) re(f)fú(hfghvF'Egef)gi(gf)um(f.) (;) fa(hf/hi'j)ctus(hvGF) es(gxfegvFE.) (,) no(e[ll:1]d/fef)bis,(fd/ef!hvvF'Ef!gwh/ihh/fgf.) (:) a(hh) ge(h)ne(h)ra(h)ti(h)ó(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)ne(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'fhvGF'g) pro(ef)gé(hf)ni(hi)e.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Pri(f)ús(h)quam(ij~) mon(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)tes(ji..) (:) fí(i!jw!kvJI'jw!kvJI)e(i)rent,(i.) (,) aut(i) for(i)ma(i)ré(i)tur(ij~) ter(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)ra(f.) (`) et(hh) or(h)bis :(h.[ob:1;8mm]) (:) a(hi) saé(ivH'GE//fhGEfh..)(,)(gi!jvHF')cu(f)lo,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(d) in(d) saé(de'f)cu(f)lum(f.0/[-0.5]hvGF'g) (,) tu(e) es(f) () * De(hf/h_i)us.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #1108)"
     },
@@ -4230,7 +4230,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. In éxitu Israel ex Aegýpto, domus Jacob de pópulo bárbaro.",
       translation: "Alleluia. ℣. When Israel went out of Egypt, the house of Jacob from a barbarous people.",
       mode: "Alleluia · Ordinary Time · Mode II",
-      reference: "Ps. 113:1",
+      reference: "Ps. 114:1",
       gabc: "(f3) AL(ef'g~)le(g./hig/hffe)lú(fg~){ia}.(g.) *(;) ij.(fiH'Fg./f!hh) (,) (f!gwh'!ivH'Fg./f!hh) (,) (g!hwi!jvIH'ivHF'gffe.) (;) (ef/hffe//gihh'hhvG'FE//g_[uh:l]hggf.0) (::) ℣. In(e!fwggf) éx(f!gwh)i(gf)tu(f.) Is(hjji)ra(gfhvF'Eg)el(g.) (;) ex(kxfji___!jw!kvJI'j) Ae(gfh)gý(ef'h)pto,(g//hiG'FhvGEf.) (:) do(fg!h'i)mus(i_[oh:h]g) Ja(hiG'Fhhg)cob(g.) (;) de(eg) pó(i_[oh:h]g/ijIG.e_[oh:h]g_[oh:h]f_[oh:h]ivGFhhg)pu(ef)lo(f.) *(,) bár(ef'g~)ba(g)ro.(gv.fiH'Fg./f!hh) (,) (f!gwh'!ivH'Fg./f!hh) (,) (g!hwi!jvIH'ivHF'gffe.) (;) (ef/hffe//gihh'hhvG'FE//g_[uh:l]hggf.0) (::)",
       source: "Graduale Romanum (GregoBase #1380)"
     },
@@ -4248,7 +4248,7 @@ window.PROPERS = {
       latin: "In salutári tuo ánima mea, et in verbum tuum sperávi : quando fácies de persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me, Dómine Deus meus.",
       translation: "My soul has longed for your salvation, and in your word have I hoped: when will you execute judgment on those who persecute me? The wicked have persecuted me: help me, O Lord my God.",
       mode: "Communion · Ordinary Time · Mode I",
-      reference: "Ps. 118:81, 84, 86",
+      reference: "Ps. 119:81, 84, 86",
       gabc: "(c4) IN(d) sa(df)lu(fe)tá(f)ri(g) tu(g)o(g.) *(,) á(e)ni(f)ma(ef) me(d_[oh:h]e_[oh:h]d_[oh:h])a,(d.) (;) et(c) in(d) ver(f)bum(fe~) tu(ghg)um(h) spe(ghg)rá(fg!hvGF'g)vi :(gf..) (:) quan(h)do(h) fá(h)ci(gh)es(h.) de(h) per(h)se(g)quén(h)ti(g)bus(fe) me(g_[uh:l]h) (,) ju(fe)dí(d)ci(d!ew!fvED'e)um?(e[ll:1]d..) (:) in(f)í(gh)qui(h) per(h)se(h)cú(hj)ti(h) sunt(gf~) me,(f.) (;) ád(h)ju(h)va(g) me,(g) Dó(h)mi(gf)ne(f_[oh:h]g_[oh:h]e_[oh:h]e[ll:1]d.0) (,) De(d!ewf!g'h)us(f_e) me(de!fvED'e)us.(e[ll:1]d..) (::)",
       source: "Graduale Romanum (GregoBase #1290)"
     }
@@ -4261,7 +4261,7 @@ window.PROPERS = {
       latin: "Si ámbulem in médio umbrae mortis, non timébo mala : quóniam tu mecum es, Dómine. ℣. Virga tua, et báculus tuus, ipsa me consoláta sunt.",
       translation: "Though I should walk in the midst of the shadow of death, I will fear no evils: for you are with me, O Lord. ℣. Your rod and your staff, they have comforted me.",
       mode: "Gradual · Ordinary Time · Mode I",
-      reference: "Ps. 22:4",
+      reference: "Ps. 23:4",
       gabc: "(c4) SI(d) ám(fg)bu(gvF'EfvED'e)lem(e[ll:1]d..) *(,) in(f) mé(ghgh)di(hjH'GF'gwhgh)o(hg..) (,) um(hv.fg'h)brae(g) mor(fv.dfe)tis,(d//ffd/fhhg.) (;) non(dh) ti(hg)mé(h'/jij)bo(hv.fh!jvH'GF'g) ma(fv.dfe)la :(d!ffd) (,) (fge'/fgd'/e[ll:1]ddc.) (:) quó(f)ni(d)am(e) tu(f) me(ghgh./gh/jj//jjj)cum(g) es,(hg/hfg) (,) Dó(d)mi(d)ne.(dc/d!ff/ghG'Efgff/ded.) (::) ℣. Vir(h_fhvhggef)ga(d.) tu(dc/d!ff/gh!jjg)(,)(ixhhghvGF./[-0.5]hiHG'hw!ivHGhi)a,(h.) (;) et(dh) bá(h/jjh)cu(h!jjh)lus(h_g) tu(hg/h!jjjgivHG'gf/gh/j.h!iwj_h)us,(h.) (:) i(h_f//hvhggef)psa(de) me(d_c/d!ewf!gv.fg!hvFEfg!hvhg.) *(,) con(g)so(gh)lá(ixjhiGF'h!jjvH'Gh')ta(d) sunt.(dc/d!ff/ghG'Efgff/ded.) (::)",
       source: "Graduale Romanum (GregoBase #1121)"
     },
@@ -4270,7 +4270,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Qui timent Dóminum, sperent in eo : adjútor et protéctor eórum est.",
       translation: "Alleluia. ℣. Let those who fear the Lord hope in him: he is their helper and protector.",
       mode: "Alleluia · Ordinary Time · Mode I",
-      reference: "Ps. 113:11",
+      reference: "Ps. 115:11",
       gabc: "(c4) AL(d)le(ff)lú(gv.f!hgh){ia}.(hjH'GF.) *(;) ij.(e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::) ℣. Qui(cd) ti(ixdh//gihivGF//ggf/gg//fgh!jjg)(,)(ixhhghvGF.hiHG'hw!ivHGhi)ment(h.) (,) Dó(h_g/jjvH'Gixhihi)mi(g)num,(ge~) (,) spe(f_e/f!gwhgh)rent(hg/hf/ghg) in(gd) e(f_e/g_[oh:h]fgvFD'ewfd)o :(d.) (:) ad(d)jú(d/ffd/ffddef!gh)tor(ghg.) (,) et(f) pro(ghg)té(h/jjhhgh.)(,)(ixfh!ivGF'fd/ffhvGF'fvED)ctor(e[ll:1]d..) (;) * e(d)ó(d/fff/g_[oh:h]f)rum(f!hgh) est.(hjH'GF.) (;) (e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::)",
       source: "Graduale Romanum (GregoBase #933)"
     },
@@ -4288,7 +4288,7 @@ window.PROPERS = {
       latin: "Aufer a me oppróbrium et contémptum, quia mandáta tua exquisívi, Dómine : nam et testimónia tua meditátio mea est.",
       translation: "Take away from me reproach and contempt, for I have sought your commandments, O Lord: for your testimonies are my meditation.",
       mode: "Communion · Ordinary Time · Mode II",
-      reference: "Ps. 118:22, 24",
+      reference: "Ps. 119:22, 24",
       gabc: "(f3) AU(hi)fer(ij) a(i) me(hi!jvji.) *(,) op(i)pró(j)bri(i)um(hg) et(hj) con(ih~)tém(i)ptum.(f.) (;) qui(f)a(fe) man(fhg)dá(h)ta(f) tu(hji)a(i.) (,) ex(gh)qui(gf)sí(gi)vi,(i) Dó(gh)mi(g)ne :(f.) (:) nam(ghg') et(f) te(ghg')sti(f)mó(g')ni(f)a(fe) tu(f)a(fc) (;) me(e)di(f)tá(fhG'F)ti(ef)o(f) me(fhG'F)a(g) est.(f.) (::)",
       source: "Graduale Romanum (GregoBase #828)"
     }
@@ -4301,7 +4301,7 @@ window.PROPERS = {
       latin: "Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuae. ℣. Ad te, Dómine, clamávi : Deus meus, ne síleas a me, et ero símilis descendéntibus in lacum.",
       translation: "Save your people, O Lord, and bless your inheritance. ℣. To you, O Lord, have I cried: my God, be not silent to me, lest I become like those who go down into the pit.",
       mode: "Gradual · Ordinary Time · Mode VII",
-      reference: "Ps. 27:9, 1",
+      reference: "Ps. 28:9, 1",
       gabc: "(c3) SAl(e_f_d_2//fhf___//hih)vum(hhhvF'ED'ewfef) fac(fe..) (;) * pó(e)pu(ehg)lum(h) tu(ihi)um,(i.) (,) Dó(ijij)mi(ih)ne :(hv.gh!ivih/ii) (,) (hi!kkkikvvJI'jh//ivHGhg..) (:) et(e'!hi/kjk) bé(i.h!iwj)ne(ihi)dic(ig'hvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (;) he(d')re(e)di(f)tá(hi!kvJI)ti(ig/hjIH'hefv.) (,) tu(hv.gih.1/f!hhvFDff//e!hhe'gvF'E)ae.(hf/hhf'ivH'GE) (,) (f!gwh_g/ihh'hhvF'Ef_gffe.) (::) ℣. Ad(eh) te(h.i!jwk) Dó(klK'I)mi(i_[oh:h]h)ne(hh) (,) cla(h)má(i_[oh:h]h/i!jw!kv_[hl:1]JI'H)vi :(hiH'GhvG'FEfe..) (:) De(f)us(h) me(h)us,(hhhf/hffd.) (,) ne(f) sí(hg/h_i)le(f)as(f!gw!hvG'FEfgf.) a(d) me,(d.0f!gwhhvG'FEfe..) (:) et(eh) e(h/i'j)ro(h_g) sí(hi)mi(i)lis(i_[hl:1]k_[hl:1]i_[hl:1]!jwkkvJIji..) (;) de(ikJI')scen(i)dén(ig/hi!kvvI'HijHFhv.hhhvF'ED.)(,)(f_d/ef!gwh'!iv)ti(h)bus(hhhvFDff//e!hhe'gvFE.) *(;) in(ef) la(e.f!gwh'!iv)cum.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
       source: "Graduale Romanum (GregoBase #296)"
     },
@@ -4310,7 +4310,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Lauda, ánima mea, Dóminum : laudábo Dóminum in vita mea : psallam Deo meo, quámdiu ero.",
       translation: "Alleluia. ℣. Praise the Lord, O my soul: I will praise the Lord in my life: I will sing to my God as long as I shall be.",
       mode: "Alleluia · Ordinary Time · Mode VIII",
-      reference: "Ps. 145:2",
+      reference: "Ps. 146:2",
       gabc: "(c3) Al(d!ef)le(f_e/f!gwhg)lú(fh/hh)ia.(hi/HF/fe.) (;) (gh//ef/ED.//f!gwh/hg////ehf/gf/fe.) (::) ℣. Lau(hv_//gih)da,(h) á(h)ni(h)ma(h) me(hg)a,(g) Dó(gh!ivivHF/hfg)mi(hg)num :(g.) (;) lau(gf~)dá(hji)bo(h) Dó(gh)mi(fe)num(e.) (,) in(eh~) vi(h/hg)ta(e.) me(gxfg/FD.//eg/FE/fe)a :(e.) (:) psal(e)lam(e) De(feh)o(h.) me(hfh'/GE//fh/FD//gxgvFE//f.//hhh/ij/HF.,gig___/ivHG'/he.//gxf_e/g_e//gvFE/fd)o,(d.) (;) quám(fd~)di(ef)u(f) e(hg/hfh)ro.(gh/FE.,df/hvFE//d.f!gwhg/hvGF/g.////egf/gvE'd/efe.,gxh/hvFE/fg/ED.//gyh/hvFE/fgf/fe.) (::)",
       source: "Graduale Romanum (GregoBase #3318)"
     },
@@ -4319,7 +4319,7 @@ window.PROPERS = {
       latin: "Meditábor in mandátis tuis, quae diléxi valde : et levábo manus meas ad mandáta tua, quae diléxi.",
       translation: "I will meditate on your commandments, which I have greatly loved: and I will lift up my hands to your commandments, which I have loved.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 118:47, 48",
+      reference: "Ps. 119:47, 48",
       gabc: "(c3) ME(c)di(ef)tá(f/hhe/gf)bor(f.) *(,) in(e) man(f)dá(hih)tis(hh/ih) tu(hh/ihhvGF)is,(gf..) (;) quae(hg) di(h)lé(hji)xi(hji) val(h_g_f~)de :(f.) (:) et(e) le(f)vá(hhi)bo(h.hhh) (,) ma(fhh'1hh)nus(ef) me(fh)as(hhh/ih/!ih//h'hhvF'Ef.) (,) ad(e) man(f)dá(hih)ta(high) tu(fgffe)a,(e.) (;) quae(hg) di(h)lé(hjIH'/!hf//ih/!ih//h'hhvFE'D)(,)(efE'Defef)xi.(f!gwhhvGF'gwhhvGF.) (::)",
       source: "Graduale Romanum (GregoBase #810)"
     },
@@ -4352,7 +4352,7 @@ window.PROPERS = {
       latin: "Dómine, vivífica me secúndum elóquium tuum : ut sciam testimónia tua.",
       translation: "O Lord, give me life according to your word: that I may know your testimonies.",
       mode: "Offertory · Ordinary Time · Mode III",
-      reference: "Ps. 118:107, 125",
+      reference: "Ps. 119:107, 125",
       gabc: "(c4) DO(j)mi(h)ne,(h!iwj/k_[hl:1]jj'jhhg//i_[hl:1]k_[hl:1]i._[hl:1]) (,) * vi(e_[oh:h]g_[oh:h]e_[oh:h])ví(gh)fi(g)ca(hjhhg/h!iwjij) me(ji..) (;) se(ikj)cún(jjj)dum(h_g) e(ghe)ló(g)qui(gihhg)um(g) tu(f)um :(fgff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) ut(g) sci(h_g/h!iwj_i)am(j.) (,) te(jj//jj)sti(g)mó(h_f)ni(g)a(g/jjh/ig/h_g) tu(egff)a.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #109)"
     },
@@ -4361,7 +4361,7 @@ window.PROPERS = {
       latin: "Laetábimur in salutári tuo : et in nómine Dómini Dei nostri magnificábimur.",
       translation: "We will rejoice in your salvation: and in the name of the Lord our God we will be magnified.",
       mode: "Communion · Ordinary Time · Mode II",
-      reference: "Ps. 19:6",
+      reference: "Ps. 20:6",
       gabc: "(f3) LAe(f)tá(fefvEDefef)bi(g)mur(f!gwh.) *(,) in(hf~) sa(hih)lu(iji)tá(jlKJ')ri(i) tu(hg/hihi)o :(f!gwh.) (;) et(f) in(h) nó(ij)mi(i)ne(i) Dó(j)mi(ih)ni(hihh/fgf.) (,) De(hhg)i(hi/jij) no(h)stri(hv.fgFE.) (,) ma(e)gni(hg)fi(hi)cá(iv.giHG'F//e_[uh:l]f)bi(e.[ll:1]d!ewfe/fg)mur.(f.) (::)",
       source: "Graduale Romanum (GregoBase #1296)"
     }
@@ -4373,7 +4373,7 @@ window.PROPERS = {
       latin: "Unam pétii a Dómino, hanc requíram : ut inhábitem in domo Dómini. ℣. Ut vídeam voluptátem Dómini, et prótegar a templo sancto ejus.",
       translation: "One thing I have asked of the Lord, this will I seek after: that I may dwell in the house of the Lord. ℣. That I may behold the delight of the Lord, and be protected by his holy temple.",
       mode: "Gradual · Ordinary Time (Years A & B) · Mode V",
-      reference: "Ps. 26:4",
+      reference: "Ps. 27:4",
       gabc: "(c4) U(ffg)nam(f) pé(ghgh)ti(g)i(fgFD.1) (,) * a(d) Dó(dgf/gh)mi(g)no,(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) hanc(hj~) re(j_h)quí(jhjjh)ram,(h.) (;) ut(h) in(hj)há(j)bi(ixij!kvJ'IHi)tem(ih..) (,) in(ixi) do(hhg)mo(gh) Dó(hg/hf/g_[oh:h]f)mi(ef)ni.(ixf./hiHF.) (,) (hg/hjhh/fgf.) (z0::c3) ℣. Ut(d) ví(d)de(f)am(gxfh/ih/i_[oh:h]h//ivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0d'dd!f_h/ijh.1) (;) vo(hi)lu(h)ptá(h)tem(hg/ij) Dó(i_[oh:h]h)mi(h)ni :(hg/i_[oh:h]h//jvIH'Ghf..) (:) et(hh) pró(ih/ij_hih/ij_ij//hi/jij)te(j)gar(jh/jkihh/fgf.) (;) a(d) tem(d)plo(d) san(dfE'D)cto(ef) *() e(fhG'Fhhh)jus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #229)"
     }
@@ -4385,7 +4385,7 @@ window.PROPERS = {
       latin: "Unam pétii a Dómino, hanc requíram : ut inhábitem in domo Dómini. ℣. Ut vídeam voluptátem Dómini, et prótegar a templo sancto ejus.",
       translation: "One thing I have asked of the Lord, this will I seek after: that I may dwell in the house of the Lord. ℣. That I may behold the delight of the Lord, and be protected by his holy temple.",
       mode: "Gradual · Ordinary Time (Years A & B) · Mode V",
-      reference: "Ps. 26:4",
+      reference: "Ps. 27:4",
       gabc: "(c4) U(ffg)nam(f) pé(ghgh)ti(g)i(fgFD.1) (,) * a(d) Dó(dgf/gh)mi(g)no,(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) hanc(hj~) re(j_h)quí(jhjjh)ram,(h.) (;) ut(h) in(hj)há(j)bi(ixij!kvJ'IHi)tem(ih..) (,) in(ixi) do(hhg)mo(gh) Dó(hg/hf/g_[oh:h]f)mi(ef)ni.(ixf./hiHF.) (,) (hg/hjhh/fgf.) (z0::c3) ℣. Ut(d) ví(d)de(f)am(gxfh/ih/i_[oh:h]h//ivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0d'dd!f_h/ijh.1) (;) vo(hi)lu(h)ptá(h)tem(hg/ij) Dó(i_[oh:h]h)mi(h)ni :(hg/i_[oh:h]h//jvIH'Ghf..) (:) et(hh) pró(ih/ij_hih/ij_ij//hi/jij)te(j)gar(jh/jkihh/fgf.) (;) a(d) tem(d)plo(d) san(dfE'D)cto(ef) *() e(fhG'Fhhh)jus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #229)"
     }
@@ -4397,7 +4397,7 @@ window.PROPERS = {
       latin: "Clamavérunt justi, et Dóminus exaudívit eos : et ex ómnibus tribulatiónibus eórum liberávit eos. ℣. Juxta est Dóminus his qui tribuláto sunt corde : et húmiles spíritu salvábit.",
       translation: "The just cried, and the Lord heard them: and delivered them out of all their troubles. ℣. The Lord is near to those who are of a contrite heart: and he will save the humble of spirit.",
       mode: "Gradual · Ordinary Time (Year C) · Mode VII",
-      reference: "Ps. 33:18-19",
+      reference: "Ps. 34:18-19",
       gabc: "(c3) CLa(e)ma(ded)vé(ef)runt(e.f!gw!hvGF'g) ju(ef/hfg)sti,(fe..) *(;) et(gh'i~) Dó(i)mi(hg/hiih/ij)nus(i.) (,) ex(i)au(ih~)dí(i/kki)vit(ij) e(i.h!iwj)os :(ji/ji/jh//ivHGhg..) (:) et(fhg) ex(hi) ó(ig/h_i)mni(ighvGF'gh)bus(g.) (,) tri(h)bu(h)la(g)ti(h)ó(i)ni(h)bus(i) e(h)ó(h)rum(hhhvF'E) (,) (ffe/ff//ef!hhhf//hvvGF'he//fvEDe[ll:1]d..) (;) li(e)be(f)rá(ggh)vit(fi!jv) e(hg)os.(g./e!hfh./ghF'Ef_gffe.) (::) ℣. Jux(e)ta(e) est(g') Dó(i/kkihjihhe.)(,)(gi/kkihjihhe.)(,)(fhg___/hhfhvF'De_[oh:h][ll:1]d)(,)(hhf/hhvF'De[ll:1]d..)(;)([oh:{]hhi/klj___//kvJIjvIHihi)mi(i)nus(i_k_i_!jwkkvJIji..) (;) his,(i) qui(i) tri(i)bu(h)lá([oll:0{0]kk/lkl[oll:}])to(lkkvJI) sunt(i_k_i_!jwkkvJIji..[oh:}]) (;) cor(i/jg/h_i//ji/jg/h_i)(,)(kkh/jijvHF'gwh!iv.giH'GE)(,)(f!hgh./fh//ghF'Dev.)(;)(i_[uh:l]jI'//Ef_e//f!gwh!iv.h!kki)(,)([oh:{]k_j/l_klvKI.[oh:}]//kjkvIH'iwj)de :(ijhivHGhg..) (:) et(g) hú(ijij)mi(jiigh)les(h_g) spí(g)ri(iggf/giG'Fg)tu(ef..) (;) * sal(ef'g~)vá(giHG'j)bit.(iig.) (,) (h_ghvFE.ghFE.gfiv.iiigg//egf/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #1009)"
     }
@@ -4412,7 +4412,7 @@ window.PROPERS = {
       latin: "Suscépimus, Deus, misericórdiam tuam in médio templi tui : secúndum nomen tuum, Deus, ita et laus tua in fines terrae. ℣. Sicut audívimus, ita et vídimus in civitáte Dei nostri, in monte sancto ejus.",
       translation: "We have received your mercy, O God, in the midst of your temple: according to your name, O God, so also is your praise unto the ends of the earth. ℣. As we have heard, so have we seen, in the city of our God, in his holy mountain.",
       mode: "Gradual · Ordinary Time · Mode V",
-      reference: "Ps. 47:10-11, 9",
+      reference: "Ps. 48:10-11, 9",
       gabc: "(c4) SUs(d)cé(ffg)pi(f)mus,(f.) *(,) De(ghg'/hg)us,(gv.fgFD.1) (,) mi(d)se(ffg)ri(f)cór(fg~)di(f)am(f) tu(fffvDC'dff/hghf)am(f.) (;) in(hj~) mé(j)di(kvJH)o(h) tem(f)pli(h) tu(gv.fhf/gh)i :(g.) (:) se(h)cún(hg~)dum(j) no(j)men(ij) tu(hhg)um,(h_g) De(fg!hvGF'g)us,(gf..) (;) i(ffg)ta(f) et(f) laus(ghg'hvG'F) tu(fv.ege/f_d)a(dc..) (;) in(fgf) fi(fg'h)nes(ixhjHG'hw!ivHG') ter(f)rae.(fffvDC.) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) ℣. Sic(d)ut(d) au(fe~)dí(eh)vi(h)mus,(h_[oh:h]i_[oh:h]h_2[oh:h]//i_[oh:h]hjvHF.1) (,) (h_g/ijh'___jvIH'jvIH'//hvGF.) (:) i(f!h'i)ta(ih/jkihhf.) (,) et(f) ví(hfh)di(hhh)mus(h.f!gwh!iv.hi/jhh/iih.0) (:) in(d) ci(d)vi(d)tá(d)te(d) De(d)i(d) no(de)stri,(d.) (,) in(d) mon(d)te(d) san(dfE'D)cto(ef) *() e(fhG'Fhhh)jus.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #50)"
     },
@@ -4421,7 +4421,7 @@ window.PROPERS = {
       latin: "Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus : et renovábitur, sicut áquilae, juvéntus tua.",
       translation: "Bless the Lord, O my soul, and forget not all his benefits: and your youth shall be renewed like the eagle's.",
       mode: "Offertory · Ordinary Time · Mode V",
-      reference: "Ps. 102:2, 5",
+      reference: "Ps. 103:2, 5",
       gabc: "(c3) BE(d)ne(f)dic(hh) *(,) á(hihi)ni(f)ma(fe) me(fh)a(hhi) Dó(ijI'H)mi(ih)no,(h_[oh:h]i_[oh:h]h._[oh:h]) (;) et(f) no(f!h'i)li(ih) ob(hihhg)li(fe)ví(f)sci(hh) (,) o(hf~)mnes(gxg_[oh:h]f) re(d)tri(ef)bu(fe)ti(gyf!gwh)ó(h_g)nes(hihhg) e(f!gwhgh)jus :(gf..) (:) et(g) re(e)no(f)vá(h)bi(hhh)tur,(h.) (,) sic(ivHF)ut(h.f!gwh_g) á(hf/hh//hhh)qui(fgFE'f)lae,(fe..) (;) ju(hh)vén(h_f/hhf/hhf./def!hh/ijH'FhvGEf.)(,)(f!hh//hhh.f!gwh)tus(hhh_f) tu(d_[oh:h]e_[oh:h]d_[oh:h])a.(d.) (::)",
       source: "Graduale Romanum (GregoBase #1359)"
     },
@@ -4430,7 +4430,7 @@ window.PROPERS = {
       latin: "Notas mihi fecísti vias vitae : adimplébis me laetítia cum vultu tuo, Dómine.",
       translation: "You have made known to me the ways of life: you will fill me with joy with your countenance, O Lord.",
       mode: "Communion · Ordinary Time · Mode VII",
-      reference: "Ps. 15:10",
+      reference: "Ps. 16:10",
       gabc: "(c3) NO(j)tas(iji) * mi(j)hi(i) fe(h)cí(iji)sti(g.) (,) vi(h)as(f_e/f!gwh_g) vi(igh)tae :(g.f!gwh_fgvFEfe..) (:) ad(e)im(fg~)plé(g)bis(ihh) me(gf/ghg.) (,) lae(ge)tí(gi)ti(ihhgh)a(hg..) (;) cum(gf~) vul(e!fw!gvFEfg)tu(f) tu(h)o,(hvvGF'gw!hvGF') Dó(e)mi(ef!gvFE'f)ne.(fe..) (::)",
       source: "Graduale Romanum (GregoBase #531)"
     }
@@ -4442,7 +4442,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Verbo Dómini caeli firmáti sunt, et Spíritu oris ejus omnis virtus eórum.",
       translation: "Alleluia. ℣. By the word of the Lord the heavens were established, and all their host by the spirit of his mouth.",
       mode: "Alleluia · Ordinary Time (Years A & B) · Mode VIII",
-      reference: "Ps. 32:6",
+      reference: "Ps. 33:6",
       gabc: "(c4) AL(gf~)le(defghg___)lú(fg~){ia}.(g.) *(;) (ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::) ℣. Ver(cd!e!fwg)bo(g.) Dó(fe)mi(fg)ni(g.) (,) cae(ghg___jvIHG'Efg)li(g.) fir(gvF~D~)má(evDC)ti(dc) sunt,(c.) (:) et(cd) Spí(ef/ghg___)ri(fg)tu(g.) (,) o(g)ris(g) e(ghgfgfdeddc~)jus(c.) (;) o(c)mnis(d) vir(e!fwg)tus(g.) *() e(hg)ó(fg)rum.(ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::)",
       source: "Graduale Romanum (GregoBase #635)"
     }
@@ -4454,7 +4454,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Verbo Dómini caeli firmáti sunt, et Spíritu oris ejus omnis virtus eórum.",
       translation: "Alleluia. ℣. By the word of the Lord the heavens were established, and all their host by the spirit of his mouth.",
       mode: "Alleluia · Ordinary Time (Years A & B) · Mode VIII",
-      reference: "Ps. 32:6",
+      reference: "Ps. 33:6",
       gabc: "(c4) AL(gf~)le(defghg___)lú(fg~){ia}.(g.) *(;) (ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::) ℣. Ver(cd!e!fwg)bo(g.) Dó(fe)mi(fg)ni(g.) (,) cae(ghg___jvIHG'Efg)li(g.) fir(gvF~D~)má(evDC)ti(dc) sunt,(c.) (:) et(cd) Spí(ef/ghg___)ri(fg)tu(g.) (,) o(g)ris(g) e(ghgfgfdeddc~)jus(c.) (;) o(c)mnis(d) vir(e!fwg)tus(g.) *() e(hg)ó(fg)rum.(ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::)",
       source: "Graduale Romanum (GregoBase #635)"
     }
@@ -4482,7 +4482,7 @@ window.PROPERS = {
       latin: "Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣. Elevátio mánuum meárum sacrifícium vespertínum.",
       translation: "Let my prayer be directed as incense in your sight, O Lord. ℣. The lifting up of my hands as an evening sacrifice.",
       mode: "Gradual · Ordinary Time · Mode VII",
-      reference: "Ps. 140:2",
+      reference: "Ps. 141:2",
       gabc: "(c2) DI(c)ri(cg)gá(g)tur(g_[oh:h]e/fgddc.) (,) * o(c)rá(c!feg)ti(gh)o(hfg) me(gh!ivHG'h)a(gh/ih..) (;) sic(f)ut(g) in(hj~)cén(j)sum(j_g/hg..) (,) in(g) con(h)spé(hj)ctu(i) tu(hfg)o,(g_[oh:h]e//fgf'/gddc.) (;) Dó(ffd/fef)mi(e)ne.(ce!ghGF'fe//ced/e[ll:1]ddc.) (::) ℣. E(f)le(g)vá(g_[uh:l]j//ij/kii'iivGF'fd)(,)(ffd/ffg)ti(g)o(g_[oh:h]f//gih/ijhhg.) (;) má(gj)nu(j_0)um(k) me(g)á(igge//fhGF'fd!ew!fvE'DC'd)rum(dc..) (:) sa(c)cri(d)fí(fgf)ci(dgf/gh)um(g.) *(,) ves(c)per(ff)tí(fv.ef/gfg)num.(gge./giHG'ivHG'ge.) (,) (fge'fvD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #44)"
     },
@@ -4491,7 +4491,7 @@ window.PROPERS = {
       latin: "Gressus meos dírige secúndum elóquium tuum : ut non dominétur mei omnis injustítia, Dómine.",
       translation: "Direct my steps according to your word: that no iniquity may have dominion over me, O Lord.",
       mode: "Offertory · Ordinary Time · Mode VIII",
-      reference: "Ps. 118:133",
+      reference: "Ps. 119:133",
       gabc: "(c4) GRes(f)sus(fg) me(g)os(g.) *(,) dí(ghg)ri(gef)ge(d!ff) Dó(ixfh!ivHG)mi(ghg___)ne(g.) (;) se(j)cún(jjjvHG'gf/gh!jjjgivHG'gf!gwh!iv_[oh:h]H~G~)dum(hg..) (,) e(f)ló(fg!hvhg)qui(g.h!iwji)um(ih~) tu(jkj)um :(hihhg.) (:) ut(fg'h~) non(g!jj//jjj) do(h)mi(hg)né(h)tur(ge/fg!hvhg.) (;) o(ge~)mnis(fgffgD'Cd.) in(c)ju(d)stí(dg)ti(gf)a,(g.jvvIH'iw!jvIH) (,) Dó(hg)mi(gh/jhi)ne.(hg..) (::)",
       source: "Graduale Romanum (GregoBase #1099)"
     }
@@ -4533,7 +4533,7 @@ window.PROPERS = {
       latin: "Dóminus regit me, et nihil mihi déerit : in loco páscuae ibi me collocávit : super aquam refectiónis educávit me.",
       translation: "The Lord rules me, and I shall want nothing: he has set me in a place of pasture: he has brought me up on the water of refreshment.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode II",
-      reference: "Ps. 22:1-2",
+      reference: "Ps. 23:1-2",
       gabc: "(f3) DO(h)mi(gh)nus(f!gw!hvGE.) ()* re(hiH'G)git(h!iwjij) me,(ji..) (;) et(i) ni(j)hil(i) mi(hg)hi(f) dé(hgh)e(fgFE'f)rit :(ef/gf..) (:) in(ef) lo(fhhi)co(h) pá(hg/h_i)scu(f!gw!hvG'FE'f)ae(fe..) (;) i(hg/h_i)bi(i) me(hvvGF) col(h.f!gwh)lo(h)cá(gh)vit :(h.) (:) su(hg)per(h) a(ij)quam(iji) re(h)fe(hg)cti(f)ó(f)nis(ef!gvgf.0) (;) e(hg)du(hi)cá(iv.giHG'F//e_[uh:l]f)vit(e.[ll:1]d!ewfe/fg) me.(f.) (::)",
       source: "Graduale Romanum (GregoBase #278)"
     }
@@ -4554,7 +4554,7 @@ window.PROPERS = {
       latin: "Dóminus regit me, et nihil mihi déerit : in loco páscuae ibi me collocávit : super aquam refectiónis educávit me.",
       translation: "The Lord rules me, and I shall want nothing: he has set me in a place of pasture: he has brought me up on the water of refreshment.",
       mode: "Communion · Ordinary Time (Years B & C) · Mode II",
-      reference: "Ps. 22:1-2",
+      reference: "Ps. 23:1-2",
       gabc: "(f3) DO(h)mi(gh)nus(f!gw!hvGE.) ()* re(hiH'G)git(h!iwjij) me,(ji..) (;) et(i) ni(j)hil(i) mi(hg)hi(f) dé(hgh)e(fgFE'f)rit :(ef/gf..) (:) in(ef) lo(fhhi)co(h) pá(hg/h_i)scu(f!gw!hvG'FE'f)ae(fe..) (;) i(hg/h_i)bi(i) me(hvvGF) col(h.f!gwh)lo(h)cá(gh)vit :(h.) (:) su(hg)per(h) a(ij)quam(iji) re(h)fe(hg)cti(f)ó(f)nis(ef!gvgf.0) (;) e(hg)du(hi)cá(iv.giHG'F//e_[uh:l]f)vit(e.[ll:1]d!ewfe/fg) me.(f.) (::)",
       source: "Graduale Romanum (GregoBase #278)"
     }
@@ -4569,7 +4569,7 @@ window.PROPERS = {
       latin: "Liberásti nos, Dómine, ex affligéntibus nos : et eos qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in saécula.",
       translation: "You have saved us, O Lord, from those who afflict us: and you have put to shame those who hate us. ℣. In God we will glory all the day long: and in your name we will give praise for ever.",
       mode: "Gradual · Ordinary Time · Mode VII",
-      reference: "Ps. 43:8-9",
+      reference: "Ps. 44:8-9",
       gabc: "(c2) LI(d)be(ff)rá(fg)sti(fg'h) nos,(fef.) *(,) Dó(ihig)mi(fg)ne,(g_[oh:h]d//gih/ijhhg.) (;) ex(g) af(gih)fli(ij)gén(j)ti(g)bus(jh/ihig) nos :(g_[oh:h]e//fgf/gddc.) (:) et(c) e(df)os(fdf) qui(d) nos(fe) o(fg)dé(ggfgd//ef/gfg)runt,(fe..) (;) con(gih)fu(jhhggefv.dfe)dí(cdc)sti.(c!e'g) (,) (ce'!gvgv'1FD//ced/e[ll:1]ddc.) (::) ℣. In(cg) De(gv.fg!hvFD'gvF'EC'd//ffdevDCdv[ll:1]/CBc.)(,)(ff//fffc/dfD'[ull:0]BdfD'Bc.)(,)(ffg/iiivGFE./[-0.5]ghGF'Ef_g)o(g.) (;) lau(hi'j~)dá(j)bi(i)mur(i_[oh:h]h) to(i_[oh:h]h/ikj)ta(jiig) (,) di(gig/iivG'Fg!hwi_[oh:h]h)e,(iiivHG'hfgvFEfe..) (:) et(c) nó(ff)mi(d)ni(c) tu(gfg)o(gge//fgf/gddc.) (;) con(c)fi(d)té(fgf)bi(dgf/gh)mur(g.) *(,) in(cd) saé(fgf)cu(dgf/gh)la.(g.) (;) (cg/i.g!hwi_[oh:h]g/!iigffd//ceDC.) (::)",
       source: "Graduale Romanum (GregoBase #395)"
     },
@@ -4578,7 +4578,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. De profúndis clamávi ad te, Dómine : Dómine, exáudi vocem meam.",
       translation: "Alleluia. ℣. Out of the depths I have cried to you, O Lord: Lord, hear my voice.",
       mode: "Alleluia · Ordinary Time · Mode VII",
-      reference: "Ps. 129:1-2",
+      reference: "Ps. 130:1-2",
       gabc: "(c2) AL(cd)le(c)lú(cfe/gh){ia}.(g.) *(;) ij.(fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::) ℣. De(cd) pro(c)fún(cfe/gh)dis(g.) (,) cla(g)má(g!hwi/jiivHG)vi(ghfgvFEfe..) (;) ad(dg) te,(ghGF'gffvED'ew!fvED'e) Dó(c)mi(cd'e)ne :(dc..) (:) Dó(cfe/gh)mi(g)ne(g.) (,) ex(gh!i'j)áu(j_k)di(g_[oh:h]i_[oh:h]g_[oh:h]!hwi_[oh:h]hivHGhg..) (;) * vo(dfe)cem(fg) me(g)am.(g.) (,) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::)",
       source: "Graduale Romanum (GregoBase #331)"
     },
@@ -4587,7 +4587,7 @@ window.PROPERS = {
       latin: "De profúndis clamávi ad te, Dómine : Dómine, exáudi oratiónem meam : de profúndis clamávi ad te, Dómine.",
       translation: "Out of the depths I have cried to you, O Lord: Lord, hear my prayer: out of the depths I have cried to you, O Lord.",
       mode: "Offertory · Ordinary Time · Mode II",
-      reference: "Ps. 129:1-2",
+      reference: "Ps. 130:1-2",
       gabc: "(f3) DE(c) pro(e)fún(f'/hf/hhh)dis(f_ef.) *(,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne :(f.) (:) Dó(hig'/hf)mi(ef)ne(ff) (,) ex(hji)áu(high)di(f.) (,) o(f)ra(fe)ti(gih)ó(hhhe/gf)nem(fg) me(f)am :(f//hhhe/g_[oh:h]f) (,) (f'/hg/hiG'F//g_[oh:h]fgvFEfvEC//e.f!gwh_f) (,) (h_f/hhhvFE'ec/eef.) (:) de(c) pro(e)fún(f'/hf/hhh)dis(f_ef.) (,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (::)",
       source: "Graduale Romanum (GregoBase #986)"
     }
@@ -4640,7 +4640,7 @@ window.PROPERS = {
       latin: "Dominábitur a mari usque ad mare, et a flúmine usque ad términos orbis terrárum. ℣. Et adorábunt eum omnes reges terrae : omnes gentes sérvient ei.",
       translation: "He shall have dominion from sea to sea, and from the river to the ends of the earth. ℣. And all the kings of the earth shall adore him: all nations shall serve him.",
       mode: "Gradual · Christ the King · Mode V",
-      reference: "Ps. 71:8; Ps. 78:11",
+      reference: "Ps. 72:8; Ps. 79:11",
       gabc: "(c3) DO(d)mi(d)ná(efefhig'hvFE'e)bi(de)tur(e.) *(;) a(d) ma(efe)ri(f) us(f!hhh/ijhhvF'Egihh)que(f) ad(f) ma(f_[oh:h]g_[oh:h]f_[oh:h])re,(f.) (:) et(ijIHih) a(fh) flú(h)mi(feh)ne(hig'/hf.) (;) us(fh)que(h) ad(g) tér(h)mi(f)nos(d.) (,) or(dfe___/hgh)bis(f) ter(e)rá(de)rum.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::) ℣. Et(d) ad(d)o(fe)rá(eh)bunt(h) e(hi)um(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (,) (fdfED//fd/ef/hh/ig/hf/hi/kkkh..) (;) o(f)mnes(hg) re(hih)ges(hf) ter(ffe)rae :(gxe_f_d_2//f_e/fgF'ED'dfvEDe[ll:1]d..) (:) o(fdfED)mnes(d.) Gen(fd/ef!hh/i!jwkI'H)tes(hiHF.1) (;) sér(gxgg//gg)vi(d)ent(efe/ffe.) * e(fhG'F//hhh)i.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #583)"
     },
@@ -4667,7 +4667,7 @@ window.PROPERS = {
       latin: "Sedébit Dóminus Rex in aetérnum : Dóminus benedícet pópulo suo in pace.",
       translation: "The Lord shall sit as King for ever: the Lord will bless his people with peace.",
       mode: "Communion · Christ the King · Mode VI",
-      reference: "Ps. 28:10, 11",
+      reference: "Ps. 29:10, 11",
       gabc: "(c4) SE(cd)dé(f)bit(dc) * Dó(fg)mi(h)nus(gf) Rex(fgf) in(f_e) ae(ixg_[oh:h]i_[oh:h]g_[oh:h]!hwi)tér(f_[oh:h]g_[oh:h]f_[oh:h])num :(f.) (;) Dó(fg)mi(f)nus(f) be(f)ne(f)dí(ixf!gwh'!iv)cet(h.) (,) pó(hj)pu(g)lo(fg) su(gf)o(fgff/ded.) (,) in(f_e/ggh) pa(f_[oh:h]g_[oh:h]f_[oh:h])ce.(f.) (::)",
       source: "Graduale Romanum (GregoBase #1229)"
     }
@@ -4687,7 +4687,7 @@ window.PROPERS = {
       latin: "Beátus vir, qui timet Dóminum : in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus : generátio rectórum benedicétur.",
       translation: "Blessed is the man that fears the Lord: he shall delight exceedingly in his commandments. ℣. His seed shall be mighty upon earth: the generation of the righteous shall be blessed.",
       mode: "Gradual · St. Matthew, Apostle and Evangelist · Mode V",
-      reference: "Ps. 111:1-2",
+      reference: "Ps. 112:1-2",
       gabc: "(c4) BE(d)á(ff/g_[oh:h]e/f_d//g_[oh:h]ef)tus(d/gef) vir,(f.) *(;) qui(jj) ti(j_[hl:1]k_[hl:1]j_[hl:1])met(j) Dó(ixj_hivHGivHG//f!gwhgh//gh)mi(fg)num :(fgff/ded.) (:) in(d) man(d)dá(fgfgh_g//jv.ikjjvIH)tis(hv.gj/kj) e(jjjijv_I~H~)jus(ih..) (;) cu(jjlK'J)pit(j_i/jjj_hj) ni(gh)mis.(e.f!gwhgh.//ghGF'f//f'hg/hggf.0) (z0::c3) ℣. Pot(d)ens(d) in(f) ter(h)ra(ihh'hh//f!hhhvF'ED//fvED//fvED) (,) (f!gwh/i_[oh:h]g/i_[oh:h]h//h'hhjIH'//hvGF.) (;) e(f!h'i)rit(ih/jkihhf.) se(hf/hhh)men(h) e(ihhfhv.)(,)(df/h_fhv.ihhfhv.ih/ihhghv_G~F~)jus :(gf..) (:) ge(f)ne(h)rá(h)ti(hfih)o(hhhvF'D) re(f)ctó(hv.fig'hvF'Ef.)(,)(egF'EfvED'e)rum(e[ll:1]d..) *(;) be(d)ne(ef)di(fhGF')cé(i)tur.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
       source: "Graduale Romanum (GregoBase #153)"
     },
@@ -4696,7 +4696,7 @@ window.PROPERS = {
       latin: "Posuísti, Dómine, in cápite ejus corónam de lápide pretióso : vitam pétiit a te, tribuísti ei, allelúia.",
       translation: "You have set, O Lord, on his head a crown of precious stones: he asked life of you, and you have given it him, alleluia.",
       mode: "Offertory · St. Matthew, Apostle and Evangelist · Mode VIII",
-      reference: "Ps. 20:4-5",
+      reference: "Ps. 21:4-5",
       gabc: "(c4) PO(f)su(g)í(g./hjHG'gf/ghg___)sti(g.) *(,) Dó(hg/h!jjkvJH)mi(gfh)ne(h.) (;) in(h) cá(jhhf/!ghGF'/!fde'1c)(,)(cd!ff/gh/jh)pi(g)te(f) e(fg~)jus(g.) (;) co(g.h!iwj)ró(jj/ij_g//h!jijkljj)nam(ki/jhhg.) (;) de(g) lá(g)pi(g)de(gggvED'eg'!hvGFg.) (,) pre(g)ti(hj)ó(ig/h!jj/klK'Ijkjjh/ig)so :(g.) (:) vi(g)tam(gh~) pé(hvGFgvFEf.0/!ghffdg)ti(fg)it(g.) (,) a(h) te,(gjI'Ghh//fh!jvGF'fd/ef!ghg.) (:) tri(g)bu(g)í(gjji/jh)sti(h) e(gh)i,(h.) (;) al(h!iwji~)le(jkJH'//gi.hjIH'//g!jj/h_[oh:h]i_[oh:h]g_[oh:h])lú(ghg___){ia}.(g.) (::)",
       source: "Graduale Romanum (GregoBase #487)"
     }
@@ -4715,7 +4715,7 @@ window.PROPERS = {
       latin: "Nimis honoráti sunt amíci tui, Deus : nimis confortátus est principátus eórum. ℣. Dinumerábo eos, et super arénam multiplicabúntur.",
       translation: "Your friends, O God, are made exceedingly honorable: their principality is exceedingly strengthened. ℣. I will number them, and they shall be multiplied above the sand.",
       mode: "Gradual · St. Thomas, Apostle · Mode II",
-      reference: "Ps. 138:17-18",
+      reference: "Ps. 139:17-18",
       gabc: "(c3) NI(egf)mis(f.) *(,) ho(f)no(f)rá(hfghvF'Egef)ti(g) sunt(f.) (;) a(f)mí(hf/hi'j)ci(h_f) tu(f_e)i,(gxegFE.) (,) De(e[ll:1]d/fef)us :(fd/ef!hvvF'E//f!gwh/ihh/fgf.0) (:) ni(hh)mis(h) con(h)for(h)tá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tus(f) est(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) prin(d)ci(ef)pá(f.0/[-0.5]hvGF'g)tus(e) e(f)ó(hf/h_i)rum.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) ℣. Di(f)nu(h)me(hi)rá(i)bo(ij) e(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)os :(ji..) (:) et(i) su(k.i!jw!kvJI')per(i) a(ij)ré(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)nam(f.) *(:) mul(d)ti(ef)pli(f.0/[-0.5]hvGF'g)ca(ef)bún(hf/h_i~)tur.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
       source: "Graduale Romanum (GregoBase #148); byte-for-byte the same Common-of-Apostles Gradual text as the 1962 Sancti/12-21.txt's own spelled-out Graduale."
     },
@@ -4724,7 +4724,7 @@ window.PROPERS = {
       latin: "Allelúia. ℣. Gaudéte, justi, in Dómino : rectos decet collaudátio.",
       translation: "Alleluia. ℣. Rejoice, you just, in the Lord: praise befits the upright.",
       mode: "Alleluia · St. Thomas, Apostle · Mode IV",
-      reference: "Ps. 32:1",
+      reference: "Ps. 33:1",
       gabc: "(c4) AL(d!ff)le(ef)lú(ghG'Fggh){ia}.(hjHG'gf.0) (;) * ij.(ghg'hvGF'fd./ghG'F//g_[oh:h]f/gffe.) (::) ℣. Gau(fffg~)dé(ixdg/hg/hi)te(h) ju(hhgh)sti(e.) (,) in(f!gwhg~) Dó(hhg)mi(hgh)no :(fgf'gvd_[oh:h]e_[oh:h]d._[oh:h]) (:) re(d!ffd/ffdd!ef!gh)ctos(ghg.) (,) de(h_f/gffv//ce'!gv//hgg'g//ggge//fefvED//fgfg)cet(fe..) (;) * col(e!fwg'!hv)lau(gh~)dá(hvGF)ti(ghg)o.(hjHG'gf.0) (;) (ghg'hvGF'fd./ghG'F//g_[oh:h]f/gffe.) (::)",
       source: "Graduale Romanum (GregoBase #216); the 1962 Sancti/12-21.txt's own Graduale block gives this text (Ps 32:1) as the Alleluia verse, distinct from Common-of-Apostles' own Alleluia (#130, same 'Nimis honorati' text as the Gradual)."
     },
@@ -4733,7 +4733,7 @@ window.PROPERS = {
       latin: "In omnem terram exívit sonus eórum : et in fines orbis terrae verba eórum.",
       translation: "Their sound has gone forth into all the earth: and their words unto the ends of the world.",
       mode: "Offertory · St. Thomas, Apostle · Mode II",
-      reference: "Ps. 18:5",
+      reference: "Ps. 19:5",
       gabc: "(c4) IN(e!g'h) o(hiH'G)mnem(g.ggg//hihi) ter(ghE'D)(,)(de/ghg___//hi/k_[hl:1]i/j_kh)ram(h.) *(;) ex(jj)í(j_i)vit(jjj_h) so(hjjh)nus(h.) e(gh)ó(hjj'1jjh//kjjh/ig)rum :(g.) (:) et(jj) in(j) fi(kjjh)nes(h) or(g!jjj)bis(j) ter(hig)rae(e!geg.) (;) ver(deg)ba(e/ghg___//ikj'kvJ'IH) e(h)ó(h)rum.(h!iwjjvIHiih.0) (::)",
       source: "Graduale Romanum (GregoBase #570); the 1962 Sancti/12-21.txt's Offertorium cross-references @Sancti/07-04oct (the Octave of Sts. Peter & Paul), whose own Offertorium is this proper text (Ps 18:5)."
     },

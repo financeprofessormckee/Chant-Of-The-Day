@@ -160,11 +160,11 @@
     "7-3":  { key: "thomas-apostle", title: "St. Thomas, Apostle", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Thomas_the_Apostle" },
     "9-21": { key: "matthew", title: "St. Matthew, Apostle and Evangelist", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Matthew_the_Apostle" },
     "9-29": { key: "archangels", title: "Sts. Michael, Gabriel and Raphael, Archangels", rank: "Feast", link: "https://en.wikipedia.org/wiki/Michaelmas" },
-    "10-18": { key: "common-apostles", title: "St. Luke, Evangelist", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Luke_the_Evangelist" },
+    "10-18": { key: "luke", commonKey: "common-apostles", title: "St. Luke, Evangelist", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Luke_the_Evangelist" },
     "10-28": { key: "common-apostles", title: "Sts. Simon and Jude, Apostles", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Jude_the_Apostle" },
     "11-1": { key: "all-saints", title: "All Saints", rank: "Solemnity", link: "https://en.wikipedia.org/wiki/All_Saints%27_Day" },
     "11-9": { key: "dedication-lateran", title: "The Dedication of the Lateran Basilica", rank: "Feast", link: "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran" },
-    "11-18": { key: "dedication-lateran", title: "The Dedication of the Basilicas of Sts. Peter and Paul, Apostles", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica" },
+    "11-18": { key: "dedication-peter-paul-basilicas", title: "The Dedication of the Basilicas of Sts. Peter and Paul, Apostles", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica" },
     "11-30": { key: "andrew", title: "St. Andrew, Apostle", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Andrew_the_Apostle" },
     "12-8": { key: "immaculate-conception", title: "The Immaculate Conception of the Blessed Virgin Mary", rank: "Solemnity", link: "https://en.wikipedia.org/wiki/Immaculate_Conception" },
     "12-26": { key: "stephen", title: "St. Stephen, the First Martyr", rank: "Feast", color: "red", link: "https://en.wikipedia.org/wiki/Saint_Stephen" },
@@ -191,7 +191,7 @@
     "1-21": { key: "common-virgin-martyr", title: "St. Agnes, Virgin and Martyr", rank: "Memorial", color: "red", link: "https://en.wikipedia.org/wiki/Agnes_of_Rome" },
     "1-22": { key: "common-several-martyrs", title: "Sts. Vincent and Anastasius, Martyrs", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Vincent_of_Saragossa" },
     "1-27": { key: "common-virgin", title: "St. Angela Merici, Virgin", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Angela_Merici" },
-    "1-28": { key: "common-confessor-doctor", title: "St. Thomas Aquinas, Priest and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Thomas_Aquinas" },
+    "1-28": { key: "thomas-aquinas", title: "St. Thomas Aquinas, Priest and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Thomas_Aquinas" },
     "1-29": { key: "common-confessor-doctor", title: "St. Francis de Sales, Bishop and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Francis_de_Sales" },
     "2-5":  { key: "common-virgin-martyr", title: "St. Agatha, Virgin and Martyr", rank: "Memorial", color: "red", link: "https://en.wikipedia.org/wiki/Agatha_of_Sicily" },
     "2-10": { key: "common-virgin", title: "St. Scholastica, Virgin", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Scholastica" },
@@ -216,7 +216,7 @@
     "8-11": { key: "common-virgin", title: "St. Clare, Virgin", rank: "Memorial", link: "https://en.wikipedia.org/wiki/Clare_of_Assisi" },
     "8-19": { key: "common-confessor", title: "St. John Eudes, Priest", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/John_Eudes" },
     "8-23": { key: "common-virgin", title: "St. Rose of Lima, Virgin", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Rose_of_Lima" },
-    "9-3":  { key: "common-confessor-doctor", title: "St. Gregory the Great, Pope and Doctor of the Church", rank: "Memorial", link: "https://en.wikipedia.org/wiki/Pope_Gregory_I" },
+    "9-3":  { key: "gregory-great", title: "St. Gregory the Great, Pope and Doctor of the Church", rank: "Memorial", link: "https://en.wikipedia.org/wiki/Pope_Gregory_I" },
     "9-13": { key: "common-confessor-doctor", title: "St. John Chrysostom, Bishop and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/John_Chrysostom" },
     "10-1": { key: "common-virgin", title: "St. Thérèse of the Child Jesus, Virgin and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_of_Lisieux" },
     "10-4": { key: "common-confessor", title: "St. Francis of Assisi", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Francis_of_Assisi" },
@@ -224,7 +224,7 @@
     "10-15": { key: "common-virgin", title: "St. Teresa of Jesus (Ávila), Virgin and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila" },
     "11-11": { key: "common-confessor-bishop", title: "St. Martin of Tours, Bishop", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Martin_of_Tours" },
     "11-16": { key: "common-virgin", title: "St. Gertrude, Virgin", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Gertrude_the_Great" },
-    "11-22": { key: "common-virgin-martyr", title: "St. Cecilia, Virgin and Martyr", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Cecilia_of_Rome" },
+    "11-22": { key: "cecilia", commonKey: "common-virgin-martyr", title: "St. Cecilia, Virgin and Martyr", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Cecilia_of_Rome" },
     "11-25": { key: "common-virgin-martyr", title: "St. Catherine of Alexandria, Virgin and Martyr", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Catherine_of_Alexandria" },
     "12-7": { key: "common-confessor-doctor", title: "St. Ambrose, Bishop and Doctor of the Church", rank: "Optional Memorial", link: "https://en.wikipedia.org/wiki/Ambrose" },
     "12-13": { key: "common-virgin", title: "St. Lucy, Virgin and Martyr", rank: "Memorial", color: "red", link: "https://en.wikipedia.org/wiki/Lucy_of_Syracuse" },
@@ -495,4 +495,9 @@
   window.RESOLVE_DAY = resolve;
   // Also exposed by name so app.js can swap between this and RESOLVE_DAY_1962.
   window.RESOLVE_DAY_MODERN = resolve;
+  // Lets video.js title a raw "ot-N" render key (no date behind it, e.g. an
+  // Ordinary Time Sunday overwritten this year by a higher-ranking feast)
+  // the same way a real date's Sunday would resolve, without duplicating
+  // ORDINAL here.
+  window.ordinalSundayTitle = function (n) { return ORDINAL[n] + " Sunday in Ordinary Time"; };
 })();
