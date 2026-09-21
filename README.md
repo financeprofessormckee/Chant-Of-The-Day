@@ -34,6 +34,8 @@ Currently solid:
   for the entire temporal cycle of both calendars
 - proper Masses for the major sanctoral feasts and Votive Masses, and an
   eleven-category Common of Saints for lesser saints
+- the Mass Ordinary (Kyriale), browsable by setting rather than by date
+- an "About this chant" note on every entry in the corpus
 - gabc rendering with Exsurge
 - synthesized chant playback (a small Web Audio voice) that highlights each
   syllable as it sounds
@@ -52,17 +54,18 @@ In progress:
   rank — and the proper chants available for that day, with a tab per proper
   (Introit, Gradual, Alleluia or Tract, Offertory, Communion).
 - The **Calendar** toggle switches between the modern and 1962 calendars; the
-  **Browse** toggle switches to the Common of Saints picker, or to Votive
+  **Browse** toggle switches to the Common of Saints picker, to Votive
   Masses (e.g. the Requiem, Mass for the Dead) — browsable on demand, not just
-  on the date it's assigned.
+  on the date it's assigned — or to the **Mass Ordinary**, the Kyriale settings
+  of the Kyrie, Gloria, Credo, Sanctus, Agnus Dei and dismissal.
 - **▶ Hear it** plays the chant in a synthesized voice, highlighting the
   notation as it sounds. Everything is generated locally in the browser — no
   internet connection or instrument download is needed.
 - **See another day** lets you pick any date; **Today** returns to the current
   day; **Next** and **Previous** move the day forward or backwards 1 day respectively.
 - You can also link directly to a specific day with: ?date=YYYY-MM-DD, a
-  Common of Saints category with ?common=KEY, or a votive Mass with
-  ?votive=KEY
+  Common of Saints category with ?common=KEY, a votive Mass with
+  ?votive=KEY, or a Mass Ordinary setting with ?ordinary=KEY
 
 ---
 
@@ -86,6 +89,20 @@ Paul, the Assumption, All Saints, the Immaculate Conception, a Requiem, and
 many more), and a fifteen-category **Common of Saints** (five with a distinct
 Eastertide Alleluia variant) used both by the lesser saints' days and as a
 browsable section of its own.
+
+Alongside the propers, the app carries the **Mass Ordinary** — the full numbered
+Kyriale, Masses I through XVIII, plus Credo I and Credo III, a Requiem Mass, and
+the Kyriale's own *Cantus ad libitum* appendix. The Ordinary is the one part of
+the repertoire with no day attached, since a schola chooses a setting for the
+occasion, so it is browsed by setting rather than resolved from a date and is
+shared by both calendars. Its English is this project's own rendering in the same
+Douay-Rheims register as the rest of the corpus; the copyrighted ICEL Mass
+translations are deliberately not reproduced.
+
+**Every chant in the corpus now carries an "About this chant" note** — 1,198 of
+them — written from its own text, its Scripture, and the formulary of the day it
+belongs to. Psalm citations are given in modern numbering and name the Vulgate
+number as well wherever the two traditions diverge.
 
 **Every day of both calendars renders a chant.** Good Friday and the Easter
 Vigil are the sole exception: they have no Introit in either Missal by design,
@@ -111,7 +128,7 @@ is no build step — everything runs in the browser.
 | --- | --- |
 | [`calendar.js`](calendar.js) | `window.RESOLVE_DAY(date)` — computes the liturgical day in pure JS for the modern General Roman Calendar. |
 | [`calendar-1962.js`](calendar-1962.js) | `window.RESOLVE_DAY(date)` — computes the liturgical day in pure JS for the 1962 missal. `app.js` swaps between the two resolvers. |
-| [`data/`](data/) | The authored propers (Introit, Gradual, Alleluia/Tract, Offertory, Communion) for both calendars, plus the Common of Saints and Votive Masses, keyed by the same feast keys `RESOLVE_DAY` emits. |
+| [`data/`](data/) | The authored propers (Introit, Gradual, Alleluia/Tract, Offertory, Communion) for both calendars, plus the Common of Saints and Votive Masses, keyed by the same feast keys `RESOLVE_DAY` emits. [`data/ordinary.js`](data/ordinary.js) holds the Mass Ordinary, browsed by setting rather than keyed to a day. |
 | [`chant-render.js`](chant-render.js) | Renders a chant entry's gabc to notation via Exsurge and wires up the per-proper tabs. |
 | [`playback.js`](playback.js) | Synthesized chant playback — a small Web Audio voice built from the same Exsurge score used for display, with note-by-note highlighting synced to the audio. |
 | [`app.js`](app.js) | Boot: resolve today → pick the chant (with ferial fallback) → render → wire playback and the Calendar/Browse toggles. |

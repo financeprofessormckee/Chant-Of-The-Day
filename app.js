@@ -55,6 +55,8 @@ const commonsPicker = document.getElementById("commons-picker");
 const commonsSelect = document.getElementById("commons-select");
 const votivePicker = document.getElementById("votive-picker");
 const votiveSelect = document.getElementById("votive-select");
+const ordinaryPicker = document.getElementById("ordinary-picker");
+const ordinarySelect = document.getElementById("ordinary-select");
 const printView = document.getElementById("print-view");
 const printSheet = document.getElementById("print-sheet");
 const printBtn = document.getElementById("print-btn");
@@ -85,7 +87,18 @@ let ORATIONS = {};
 // "sequence" (sung after the Alleluia, before the Gospel) is authored only on the
 // handful of feasts that have one and, like alleluia/tract, never falls back.
 const PART_ORDER = ["introit", "gradual", "alleluia", "tract", "sequence", "offertory", "communion"];
-function partLabel(part) { return part.charAt(0).toUpperCase() + part.slice(1); }
+
+// The Ordinary's parts (data/ordinary.js), in the order they are sung. A
+// disjoint set from PART_ORDER above — an Ordinary and a day's propers are
+// never shown side by side — so the two orders never have to reconcile.
+const ORDINARY_PART_ORDER = ["kyrie", "gloria", "credo", "sanctus", "agnus", "ite"];
+// Parts whose name isn't just the capitalized key. `ite` is the default name for
+// the dismissal slot; a setting that sings Benedicamus Domino there instead
+// overrides it per entry with `tabLabel` (see partsForOrdinaryKey).
+const PART_LABELS = { agnus: "Agnus Dei", ite: "Ite, missa est" };
+function partLabel(part) {
+  return PART_LABELS[part] || part.charAt(0).toUpperCase() + part.slice(1);
+}
 
 /* ---- Date helpers -------------------------------------------------------- */
 
@@ -276,6 +289,21 @@ function partsForCommonKey(key) {
   return out;
 }
 
+// The ordered parts of one Kyriale setting (data/ordinary.js). Like the Commons,
+// these are browsed by name rather than resolved by date, so there is no
+// fallback walk at all — a setting shows exactly the parts it authors (Mass XVII
+// and XVIII have no Gloria; only Mass XVII's dismissal is a Benedicamus Domino).
+function partsForOrdinaryKey(key) {
+  const mass = (window.ORDINARY && window.ORDINARY[key]) || null;
+  const out = [];
+  if (!mass) return out;
+  ORDINARY_PART_ORDER.forEach(function (part) {
+    const entry = mass[part];
+    if (entry) out.push({ part: part, label: entry.tabLabel || partLabel(part), entry: entry, from: null });
+  });
+  return out;
+}
+
 // Resolve the day's Collect/Secret/Postcommunion set (1962 only). Unlike
 // pickPart, this is a single bundle per Mass — no per-part variation, no
 // 3-year lectionary cycle, no Paschal-Alleluia-style variant — so one
@@ -372,12 +400,18 @@ function modeCharacterFor(modeString) {
 
 function renderAboutChant(entry) {
   const character = entry ? modeCharacterFor(entry.mode) : null;
-  if (!character) {
+  const blurb = entry && entry.blurb && entry.blurb.text;
+  // Every proper carries a mode, so the character line alone used to decide
+  // whether this panel appears. The Kyriale doesn't: GregoBase records no mode
+  // for Sanctus and Agnus XVIII, and a blurb on those would otherwise be
+  // invisible. Either half is now enough to open the panel.
+  if (!character && !blurb) {
     aboutChantSection.hidden = true;
     return;
   }
   aboutChantSection.hidden = false;
-  aboutChantMode.textContent = character;
+  aboutChantMode.hidden = !character;
+  aboutChantMode.textContent = character || "";
   if (entry.blurb && entry.blurb.text) {
     aboutChantBlurb.hidden = false;
     aboutChantBlurb.textContent = entry.blurb.text;
@@ -724,9 +758,10 @@ function selectVersion(v, silent) {
   const url = new URL(location.href);
   if (v === "modern") url.searchParams.delete("cal"); else url.searchParams.set("cal", v);
   history.replaceState(null, "", url);
-  // Commons mode never reaches here (its calendarVersion toggle is hidden and
-  // so unclickable), but Votive mode keeps the toggle live, so a version
-  // switch there must re-render the votive Mass, not the date-driven day.
+  // Commons and Mass Ordinary mode never reach here (their calendarVersion
+  // toggle is hidden and so unclickable), but Votive mode keeps the toggle
+  // live, so a version switch there must re-render the votive Mass, not the
+  // date-driven day.
   if (!silent) {
     if (currentMode === "votive") showVotive(votiveSelect.value);
     else show(dateInput.value || currentIso());
@@ -873,16 +908,15 @@ window.addEventListener("afterprint", () => {
 
 /* ---- Common of Saints (browse by category, not by date) ------------------ */
 
-// window.COMMON_CATEGORIES (data/common-introits.js) is an ordered list of
-// { key, label, group }; group becomes an <optgroup>, in the order categories
-// first appear (each cluster is authored together, so insertion order is
-// display order).
-function populateCommonsSelect() {
-  const categories = window.COMMON_CATEGORIES || [];
-  commonsSelect.innerHTML = "";
+// Fills a <select> from an ordered { key, label, group } list, one <optgroup>
+// per group in the order the groups first appear (each cluster is authored
+// together, so insertion order is display order). Shared by the Commons picker
+// and the Mass Ordinary picker, whose lists have the same shape.
+function populateGroupedSelect(selectEl, items) {
+  selectEl.innerHTML = "";
   const groups = [];
   const byGroup = {};
-  categories.forEach((c) => {
+  items.forEach((c) => {
     if (!byGroup[c.group]) { byGroup[c.group] = []; groups.push(c.group); }
     byGroup[c.group].push(c);
   });
@@ -895,8 +929,14 @@ function populateCommonsSelect() {
       opt.textContent = c.label;
       og.appendChild(opt);
     });
-    commonsSelect.appendChild(og);
+    selectEl.appendChild(og);
   });
+}
+
+// window.COMMON_CATEGORIES (data/common-introits.js) is that ordered list for
+// the Commons.
+function populateCommonsSelect() {
+  populateGroupedSelect(commonsSelect, window.COMMON_CATEGORIES || []);
 }
 
 function isCommonKey(key) {
@@ -916,12 +956,6 @@ function showCommon(key) {
   renderProperTabs(parts, "introit");
 }
 
-function syncCommonUrl(key) {
-  const url = new URL(location.href);
-  url.searchParams.set("common", key);
-  url.searchParams.delete("date");
-  history.replaceState(null, "", url);
-}
 
 /* ---- Votive Masses (browse by Mass, not by date) --------------------------
  * Unlike the Common of Saints (COMMON_INTROITS/COMMON_PROPERS: one shared
@@ -965,15 +999,66 @@ function showVotive(key) {
   renderProperTabs(parts, "introit");
 }
 
-function syncVotiveUrl(key) {
+
+/* ---- Mass Ordinary (browse by Kyriale setting) ----------------------------
+ * The Ordinary is the one part of the repertoire with no day at all: a schola
+ * picks Mass VIII for a feast or Mass XVIII for a feria, so this browses by
+ * setting the way Commons mode browses by category. Its chants live in their
+ * own table (window.ORDINARY, data/ordinary.js), which — like the Commons and
+ * unlike the votive Masses — is shared by both calendars and so is never
+ * swapped by selectVersion; the Modern/1962 toggle is hidden here for that
+ * reason. Adding the rest of the Kyriale is authoring-only: extend
+ * sources/gregobase/build-ordinary.py's WANT table and re-run it.
+ */
+function populateOrdinarySelect() {
+  populateGroupedSelect(ordinarySelect, window.ORDINARY_MASSES || []);
+}
+
+function isOrdinaryKey(key) {
+  return (window.ORDINARY_MASSES || []).some((m) => m.key === key);
+}
+
+function showOrdinary(key) {
+  const parts = partsForOrdinaryKey(key);
+  if (!parts.length) return;
+  resetPlayback();
+  currentParts = parts;
+  const opt = ordinarySelect.options[ordinarySelect.selectedIndex];
+  printContext = { title: opt ? opt.textContent : "Mass Ordinary", subtitle: "Mass Ordinary" };
+  massOptions.hidden = true;
+  // Not a day's Mass, so no oration set applies (as in Commons mode).
+  orationsSection.hidden = true;
+  // Opens on the first part the setting authors — the Kyrie for a Mass, the
+  // Credo for a standalone Credo — rather than on a fixed part name.
+  renderProperTabs(parts, parts[0].part);
+}
+
+/* ---- The browse modes, as one table --------------------------------------
+ * Everything that isn't the date-driven calendar picks its content from a named
+ * list: a Common, a votive Mass, a Kyriale setting. They differ only in which
+ * picker, URL param and show/validate functions they use, so the mode plumbing
+ * below (selectMode, the picker listeners, the share link and the boot
+ * deep-link) reads them off this table instead of repeating a branch per mode.
+ * A fourth browse mode should need nothing but a row here plus its own show*.
+ */
+const BROWSE_MODES = {
+  commons: { param: "common", picker: commonsPicker, select: commonsSelect, show: showCommon, isKey: isCommonKey },
+  votive: { param: "votive", picker: votivePicker, select: votiveSelect, show: showVotive, isKey: isVotiveKey },
+  ordinary: { param: "ordinary", picker: ordinaryPicker, select: ordinarySelect, show: showOrdinary, isKey: isOrdinaryKey },
+};
+const BROWSE_PARAMS = Object.keys(BROWSE_MODES).map((m) => BROWSE_MODES[m].param);
+
+// Points the address bar at one browse mode's key, clearing every other mode's
+// param (and "date") so a stale one can't survive a mode switch.
+function syncBrowseUrl(mode, key) {
   const url = new URL(location.href);
-  url.searchParams.set("votive", key);
   url.searchParams.delete("date");
-  url.searchParams.delete("common");
+  BROWSE_PARAMS.forEach((p) => url.searchParams.delete(p));
+  url.searchParams.set(BROWSE_MODES[mode].param, key);
   history.replaceState(null, "", url);
 }
 
-// Switches between the date-driven calendar view and the Commons picker.
+// Switches between the date-driven calendar view and the browse-mode pickers.
 // `silent` skips the render (the boot call renders separately once it knows
 // whether to open on a date or a deep-linked Common).
 let currentMode = "calendar";
@@ -986,7 +1071,7 @@ let printScope = "chant";
 let contentMode = "calendar";
 
 function selectMode(m, silent) {
-  const mode = m === "commons" ? "commons" : (m === "votive" ? "votive" : (m === "print" ? "print" : "calendar"));
+  const mode = (BROWSE_MODES[m] || m === "print") ? m : "calendar";
   const prevMode = currentMode;
   currentMode = mode;
   if (mode !== "print") contentMode = mode;
@@ -1006,30 +1091,29 @@ function selectMode(m, silent) {
 
   document.body.classList.remove("print-mode");
   printView.hidden = true;
-  dayCard.hidden = mode === "commons" || mode === "votive";
-  jumpSection.hidden = mode === "commons" || mode === "votive";
-  // Commons is calendar-version-agnostic (one shared table), so its toggle is
-  // hidden there — but a votive Mass like the Requiem is authored per calendar
-  // (it even has its own 1962 orations), so the toggle stays live for votive.
-  if (calendarVersion) calendarVersion.hidden = mode === "commons";
-  commonsPicker.hidden = mode !== "commons";
-  votivePicker.hidden = mode !== "votive";
+  const browse = BROWSE_MODES[mode] || null;
+  dayCard.hidden = !!browse;
+  jumpSection.hidden = !!browse;
+  // Commons and the Mass Ordinary are calendar-version-agnostic (one shared
+  // table each), so the toggle is hidden there — but a votive Mass like the
+  // Requiem is authored per calendar (it even has its own 1962 orations), so
+  // the toggle stays live for votive.
+  if (calendarVersion) calendarVersion.hidden = mode === "commons" || mode === "ordinary";
+  Object.keys(BROWSE_MODES).forEach((m) => { BROWSE_MODES[m].picker.hidden = m !== mode; });
   // "date" is deliberately left alone when landing on calendar mode — it's an
   // entry-point-only param (see currentIso()'s comment), still unread at this
   // point during boot, so deleting it here would blank out a ?date= deep link
   // before show(currentIso()) ever gets to read it.
   const url = new URL(location.href);
-  if (mode === "commons") { url.searchParams.delete("date"); url.searchParams.delete("votive"); }
-  else if (mode === "votive") { url.searchParams.delete("date"); url.searchParams.delete("common"); }
-  else { url.searchParams.delete("common"); url.searchParams.delete("votive"); }
+  if (browse) url.searchParams.delete("date");
+  BROWSE_PARAMS.forEach((p) => { if (!browse || p !== browse.param) url.searchParams.delete(p); });
   history.replaceState(null, "", url);
   if (silent) return;
   // Leaving Print returns to the already-loaded content — don't re-render (which
   // would reset the selected part / Mass option). Only a genuine content-mode
   // switch re-renders.
   if (prevMode === "print") return;
-  if (mode === "commons") { showCommon(commonsSelect.value); syncCommonUrl(commonsSelect.value); }
-  else if (mode === "votive") { showVotive(votiveSelect.value); syncVotiveUrl(votiveSelect.value); }
+  if (browse) { browse.show(browse.select.value); syncBrowseUrl(mode, browse.select.value); }
   else show(dateInput.value || currentIso());
 }
 
@@ -1083,13 +1167,12 @@ if (modeToggle) {
     if (btn) selectMode(btn.dataset.mode);
   });
 }
-commonsSelect.addEventListener("change", () => {
-  showCommon(commonsSelect.value);
-  syncCommonUrl(commonsSelect.value);
-});
-votiveSelect.addEventListener("change", () => {
-  showVotive(votiveSelect.value);
-  syncVotiveUrl(votiveSelect.value);
+Object.keys(BROWSE_MODES).forEach((m) => {
+  const browse = BROWSE_MODES[m];
+  browse.select.addEventListener("change", () => {
+    browse.show(browse.select.value);
+    syncBrowseUrl(m, browse.select.value);
+  });
 });
 
 // Print scope toggle + the print button (prints exactly the previewed sheet).
@@ -1112,13 +1195,9 @@ printBtn.addEventListener("click", () => window.print());
 function buildShareUrl() {
   const url = new URL(location.href);
   url.search = "";
-  if (currentMode === "commons") {
-    url.searchParams.set("common", commonsSelect.value);
-  } else if (currentMode === "votive") {
-    url.searchParams.set("votive", votiveSelect.value);
-  } else {
-    url.searchParams.set("date", dateInput.value || currentIso());
-  }
+  const browse = BROWSE_MODES[currentMode];
+  if (browse) url.searchParams.set(browse.param, browse.select.value);
+  else url.searchParams.set("date", dateInput.value || currentIso());
   if (currentVersion !== "modern") url.searchParams.set("cal", currentVersion);
   return url.toString();
 }
@@ -1145,16 +1224,20 @@ applyVerseToggle(readVerseToggle());
 selectVersion(readVersion(), true);
 populateCommonsSelect();
 populateVotiveSelect();
-const initialCommon = new URLSearchParams(location.search).get("common");
-const initialVotive = new URLSearchParams(location.search).get("votive");
-if (initialCommon && isCommonKey(initialCommon)) {
-  commonsSelect.value = initialCommon;
-  selectMode("commons", true);
-  showCommon(initialCommon);
-} else if (initialVotive && isVotiveKey(initialVotive)) {
-  votiveSelect.value = initialVotive;
-  selectMode("votive", true);
-  showVotive(initialVotive);
+populateOrdinarySelect();
+// A ?common= / ?votive= / ?ordinary= deep link boots straight into that browse
+// mode; anything else (including ?date=) opens the calendar.
+const initialParams = new URLSearchParams(location.search);
+const initialBrowse = Object.keys(BROWSE_MODES).find((m) => {
+  const key = initialParams.get(BROWSE_MODES[m].param);
+  return key && BROWSE_MODES[m].isKey(key);
+});
+if (initialBrowse) {
+  const browse = BROWSE_MODES[initialBrowse];
+  const key = initialParams.get(browse.param);
+  browse.select.value = key;
+  selectMode(initialBrowse, true);
+  browse.show(key);
 } else {
   selectMode("calendar", true);
   show(currentIso());

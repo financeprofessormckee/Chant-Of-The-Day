@@ -22,6 +22,7 @@
         <button type="button" data-mode="calendar" class="active">Today</button>
         <button type="button" data-mode="commons">Common of Saints</button>
         <button type="button" data-mode="votive">Votive Masses</button>
+        <button type="button" data-mode="ordinary">Mass Ordinary</button>
         <button type="button" data-mode="print">Print</button>
       </div>
     </header>
@@ -44,6 +45,12 @@
       <span class="season-pill">Votive Masses</span>
       <label class="commons-label" for="votive-select">Choose a Mass:</label>
       <select id="votive-select" class="commons-select"></select>
+    </section>
+
+    <section class="day-card commons-picker" id="ordinary-picker" aria-label="Browse the Mass Ordinary" hidden>
+      <span class="season-pill">Mass Ordinary</span>
+      <label class="commons-label" for="ordinary-select">Choose a setting:</label>
+      <select id="ordinary-select" class="commons-select"></select>
     </section>
 
     <section class="score-card">
@@ -163,6 +170,7 @@
   <script src="data/orations-1962.js"></script>
   <script src="data/common-introits.js"></script>
   <script src="data/common-propers.js"></script>
+  <script src="data/ordinary.js"></script>
   <script src="playback.js"></script>
   <script src="app.js"></script>
 </body>
