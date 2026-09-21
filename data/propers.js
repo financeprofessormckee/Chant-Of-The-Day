@@ -98,7 +98,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #681)",
       blurb: {
         text: "The Stabat Mater keeps its gaze on the Mother beside her crucified Son. Later verses ask that Christ's wounds be remembered, that a singer stand by the cross, and that the Passion be shared.",
-        source: "Chant of the Day, propers.js:sorrows (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -111,7 +111,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #787)",
       blurb: {
         text: "Recordare Virgo Mater asks the Virgin Mother to stand before God and speak good things for the faithful. On the feast of the Seven Sorrows, the prayer asks her to turn God's indignation away from those who sing it.",
-        source: "Chant of the Day, propers-1962.js:sorrows (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -124,7 +124,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1180)",
       blurb: {
         text: "Felices sensus calls Mary's senses blessed because beneath the cross they receive a martyr's palm without bodily death. The Communion presents that suffering as a witness at the cross.",
-        source: "Chant of the Day, propers.js:sorrows (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -187,7 +187,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #803)",
       blurb: {
         text: "Luke 2:26 gives this Communion its focus: the Spirit's promise to Simeon before he sees Christ. At the Presentation, the verse stands just before Simeon takes the Child in his arms and blesses God.",
-        source: "Luke 2:26 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:candlemas (entry metadata); Divinum Officium, Sancti-02-02 (Missale Romanum formulary)",
+        source: "Luke 2:26 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-02-02 (Missale Romanum formulary)",
       },
     },
   },
@@ -215,7 +215,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #481)",
       blurb: {
         text: "Felix es sacra Virgo praises Mary as worthy of every praise because Christ, the sun of justice, arose from her. This Alleluia is sung for the Visitation of the Blessed Virgin Mary.",
-        source: "Chant of the Day, propers.js:visitation (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -228,7 +228,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #567)",
       blurb: {
         text: "At the Visitation's offertory, Beata es Virgo Maria blesses Mary as the one who bore the Creator and gave birth to the one who made her. The antiphon holds together maternity and enduring virginity in a compact praise for Mary.",
-        source: "Chant of the Day, propers.js:visitation (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -269,7 +269,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #420)",
       blurb: {
         text: "Mary's Nativity receives an Alleluia that names her glorious solemnity and traces her descent through Abraham, Judah, and David. The verse celebrates her birth by placing it within a remembered ancestral line.",
-        source: "Chant of the Day, propers.js:nativity-mary (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -282,7 +282,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #567)",
       blurb: {
         text: "For the Nativity of Mary, the offertory calls her blessed because she bore the Creator of all. Its praise turns on the wonder that the child she brings forth is also the one who made her.",
-        source: "Chant of the Day, propers.js:nativity-mary (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -323,7 +323,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1103)",
       blurb: {
         text: "Saint Michael's Alleluia asks for defense in battle before the dreadful judgment. On the feast of Michael, Gabriel, and Raphael, the chant makes that plea a prayer for God's protection.",
-        source: "Chant of the Day, propers.js:archangels (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -377,7 +377,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #984)",
       blurb: {
         text: "St. Andrew's Alleluia speaks in one short sentence: the Lord loved Andrew with a sweet fragrance. The brief acclamation gives the apostle's feast a language of divine delight rather than biography.",
-        source: "Chant of the Day, propers.js:andrew (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -444,7 +444,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #462)",
       blurb: {
         text: "Elegerunt Apostoli Stephanum holds two moments together in a single flowing sentence: Stephen's election as deacon and his dying prayer under the stones. The text moves from the community's act of choosing him straight to his last words, so that his ministry and his martyrdom arrive together at the moment of the offering of gifts.",
-        source: "Chant of the Day, propers.js:stephen (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -590,7 +590,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #965)",
       blurb: {
         text: "Benedictus es Domine qui intueris abyssos begins with God looking upon the depths and seated above the Cherubim. Its verse widens the praise from the depths to heaven's firmament.",
-        source: "Dan. 3:55-56 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:trinity (entry metadata)",
+        source: "Dan. 3:55-56 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -616,7 +616,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1303)",
       blurb: {
         text: "Tobit 12:6 calls the faithful to bless God before all who live. Benedictus sit Deus Pater receives that blessing as praise of the Father, Son, and Holy Spirit for mercy.",
-        source: "Tob. 12:6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:trinity (entry metadata)",
+        source: "Tob. 12:6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -629,7 +629,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #391)",
       blurb: {
         text: "Benedicimus Deum caeli carries Tobit 12:6 from blessing God before all the living to giving glory for mercy. The Trinity Communion makes public praise a response to the mercy already received.",
-        source: "Tob. 12:6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:trinity (entry metadata)",
+        source: "Tob. 12:6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -644,7 +644,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1230)",
       blurb: {
         text: "Oculi omnium looks to the Lord, whose open hand fills every living thing. On Corpus Christi, the Gradual receives this Psalm of trust as a prayer before the feast.",
-        source: "Ps. 145:15-16 (Vulgate numbering Ps. 144:15-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:cibavit (entry metadata)",
+        source: "Ps. 145:15-16 (Vulgate numbering Ps. 144:15-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -657,7 +657,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #774)",
       blurb: {
         text: "John 6 moves from the declaration of true food and drink to the promise of abiding in verses 56 and 57. The Corpus Christi Alleluia holds those two verses together as it leads toward Communion.",
-        source: "John 6:56-57 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:cibavit (entry metadata)",
+        source: "John 6:56-57 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     sequence: {
@@ -695,7 +695,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #308)",
       blurb: {
         text: "Thomas Aquinas composed Lauda Sion as the sequence for Pope Urban IV's new universal Corpus Christi solemnity. Its extended meditation on the living bread, consecration, and the figures of Isaac, the Paschal lamb, and manna makes it a doctrinal praise-poem rather than a brief Alleluia verse.",
-        source: "Chant of the Day, propers.js:cibavit (entry metadata); Urban Hannon, \"Lauda Sion as Doxological Compendium of St. Thomas's Eucharistic Theology,\" New Blackfriars 105, no. 2 (2024), 105–115",
+        source: "Chant of the Day (this project's own chant entry); Urban Hannon, \"Lauda Sion as Doxological Compendium of St. Thomas's Eucharistic Theology,\" New Blackfriars 105, no. 2 (2024), 105–115",
       },
     },
     offertory: {
@@ -803,7 +803,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1075)",
       blurb: {
         text: "Haec dies begins with Psalm 118 verse 24 and then returns to verse 1, reversing the psalm's order. Easter's Gradual moves from the day's rejoicing back to the mercy that makes praise possible.",
-        source: "Ps. 118:24, 1 (Vulgate numbering Ps. 117:24, 1) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:resurrexi (entry metadata)",
+        source: "Ps. 118:24, 1 (Vulgate numbering Ps. 117:24, 1) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -816,7 +816,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #761). In Eastertide a second Paschal Alleluia follows; only the first is shown.",
       blurb: {
         text: "Pascha nostrum names Christ as the Church's Passover sacrifice. In the Easter Alleluia, the proclamation calls the Church to leave old leaven behind and keep the feast in joy.",
-        source: "1 Cor. 5:7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:resurrexi (entry metadata)",
+        source: "1 Cor. 5:7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     sequence: {
@@ -837,7 +837,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1086)",
       blurb: {
         text: "The Easter sequence gives its central answer to Mary. Mary's response names the tomb, angels, shroud, and risen Christ before the chant ends by asking the victorious King for mercy.",
-        source: "Chant of the Day, propers.js:resurrexi (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -863,7 +863,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #952)",
       blurb: {
         text: "Pascha nostrum immolatus est joins verse 7 of 1 Corinthians 5 to the following verse, carrying Christ's sacrifice into the command to keep the feast. The Easter Communion thus moves from proclamation to sincerity and truth.",
-        source: "1 Cor. 5:7-8 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:resurrexi (entry metadata); Divinum Officium, Pasc0-0 (Missale Romanum formulary)",
+        source: "1 Cor. 5:7-8 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Pasc0-0 (Missale Romanum formulary)",
       },
     },
   },
@@ -904,7 +904,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #121)",
       blurb: {
         text: "Surrexit Dominus takes up the Easter witness that the risen Lord appeared to Simon, echoing Luke's account of the disciples' return to Jerusalem. In the Communion for the 3rd Sunday of Easter, that brief announcement lets Peter's encounter stand as a word of glad recognition.",
-        source: "Cf. Luke 24:34 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:easter-3 (entry metadata)",
+        source: "Cf. Luke 24:34 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -990,7 +990,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #159). In Eastertide a second Paschal Alleluia follows; only the first is shown.",
       blurb: {
         text: "Psalm 118:16 repeats the Lord's right hand three times, but Dextera Dei fecit virtutem stops after its second phrase. The Alleluia for the fifth Sunday of Easter keeps strength and exaltation together in a brief acclamation.",
-        source: "Ps. 118:16 (Vulgate numbering Ps. 117:16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:easter-5 (entry metadata)",
+        source: "Ps. 118:16 (Vulgate numbering Ps. 117:16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -1061,7 +1061,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #633). In Eastertide a second Paschal Alleluia follows; only the first is shown.",
       blurb: {
         text: "Surrexit Christus et illuxit is the first Alleluia for the sixth Sunday of Easter, proclaiming Christ risen and shining upon those redeemed by his blood. The verse brings his rising and the gift of redemption together before the Gospel is heard.",
-        source: "Chant of the Day, propers.js:easter-6 (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -1087,7 +1087,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #981)",
       blurb: {
         text: "Non vos relinquam orphanos places Christ's promise to come again beside the heart's promised rejoicing. The communion for the sixth Sunday of Easter holds absence and return within one short Alleluia.",
-        source: "Chant of the Day, propers.js:easter-6 (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1199,7 +1199,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1091)",
       blurb: {
         text: "Pater cum essem cum eis joins three nonconsecutive verses from John 17: Christ's keeping of those given to him, his return to the Father, and his prayer that they be kept from evil. It is sung after the Ascension.",
-        source: "John 17:12-13, 15 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:easter-7 (entry metadata)",
+        source: "John 17:12-13, 15 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1238,7 +1238,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #68)",
       blurb: {
         text: "Veni Sancte Spiritus unfolds as a long sequence of invocations and petitions, moving from light and consolation through cleansing and guidance to the sevenfold gift. Pentecost's sequence ends by asking for virtue, salvation, and lasting joy.",
-        source: "Chant of the Day, propers.js:spiritus-domini (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -1279,7 +1279,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #99). In Eastertide a second Paschal Alleluia follows; only the first is shown.",
       blurb: {
         text: "Emitte Spiritum tuum draws its single verse from Psalm 104, a hymn to God's providential care of all creation. The verses just before it in that psalm describe creatures failing and crumbling to dust when God withdraws his breath; verse 30 then turns to the same Spirit's renewing power. Sung at the Pentecost Vigil, the verse carries that contrast with it: the Spirit who restores creation is the same Spirit about to be poured out on the Church.",
-        source: "Ps. 104:30 (Vulgate numbering Ps. 103:30) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dum-sanctificatus (entry metadata)",
+        source: "Ps. 104:30 (Vulgate numbering Ps. 103:30) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -1305,7 +1305,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #255)",
       blurb: {
         text: "Ultimo festivitatis die hears Christ promise living water to the thirsty and identifies that water with the Spirit believers will receive. At Pentecost's Vigil Mass, the Communion holds thirst, faith, and the Spirit's coming within the last day of the feast.",
-        source: "John 7:37-39 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dum-sanctificatus (entry metadata)",
+        source: "John 7:37-39 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1345,7 +1345,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #425)",
       blurb: {
         text: "Domine non secundum begins with Psalm 103's refusal to repay sins according to their measure. Its later verses ask for mercy, help, deliverance, and forgiveness, making Ash Wednesday's Tract a sustained plea before God.",
-        source: "Ps. 103:10 (Vulgate numbering Ps. 102:10) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:misereris (entry metadata); Divinum Officium, Quadp3-3 (Missale Romanum formulary)",
+        source: "Ps. 103:10 (Vulgate numbering Ps. 102:10) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Quadp3-3 (Missale Romanum formulary)",
       },
     },
     offertory: {
@@ -1412,7 +1412,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #810)",
       blurb: {
         text: "Meditabor in mandatis tuis joins meditation on God's commandments to lifted hands and love. The Psalm's neighboring verses speak of seeking those commandments and finding comfort in God's word, so the 2nd Sunday of Lent Offertory makes obedience a prayer of affection and hope.",
-        source: "Ps. 119:47, 48 (Vulgate numbering Ps. 118:47, 48) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-2 (entry metadata)",
+        source: "Ps. 119:47, 48 (Vulgate numbering Ps. 118:47, 48) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -1425,7 +1425,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #885)",
       blurb: {
         text: "Visionem quam vidistis preserves Christ's command that the disciples keep the vision silent until the Son of Man rises. The communion for the second Sunday of Lent holds revelation and silence together within the promise of resurrection.",
-        source: "Matt. 17:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-2 (entry metadata)",
+        source: "Matt. 17:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1453,7 +1453,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1329)",
       blurb: {
         text: "Ad te levavi oculos meos turns the eyes of servants and handmaid toward the Lord until he shows mercy. Psalm 123 calls this prayer one of affliction with confidence in God, and the 3rd Sunday of Lent Tract lets that patient dependence unfold in several verses.",
-        source: "Ps. 123:1-3 (Vulgate numbering Ps. 122:1-3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-3 (entry metadata)",
+        source: "Ps. 123:1-3 (Vulgate numbering Ps. 122:1-3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -1479,7 +1479,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #894)",
       blurb: {
         text: "John 4:14 gives Qui biberit aquam its movement from the water Christ gives to a spring within the believer. The communion for the third Sunday of Lent ends not with thirst, but with life that rises toward eternity.",
-        source: "John 4:14 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-3 (entry metadata)",
+        source: "John 4:14 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1533,7 +1533,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #989)",
       blurb: {
         text: "Lutum fecit ex sputo joins the Lord's act in John 9:6 to the healed man's later account in verse 11. Its short sequence of going, washing, seeing, and believing gives the Laetare Communion the shape of a witness's answer.",
-        source: "John 9:6, 11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:laetare (entry metadata)",
+        source: "John 9:6, 11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1574,7 +1574,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #318)",
       blurb: {
         text: "Confitebor tibi Domine moves from praising God with the whole heart to asking for life and fidelity to his word. Psalm 86 places that praise beside God's sweetness, mercy, and hearing of those who call, so the 5th Sunday of Lent Offertory becomes a prayer of trust in God's mercy.",
-        source: "Ps. 86:12, 5 (Vulgate numbering Ps. 85:12, 5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-5 (entry metadata)",
+        source: "Ps. 86:12, 5 (Vulgate numbering Ps. 85:12, 5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -1602,7 +1602,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #873)",
       blurb: {
         text: "Christus factus est recalls Christ's obedience even to death on the cross, followed by God's exaltation of him. On Palm Sunday, the Gradual places the coming Passion within that steadfast guidance.",
-        source: "Phil. 2:8-9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:palm (entry metadata)",
+        source: "Phil. 2:8-9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     tract: {
@@ -1641,7 +1641,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #650)",
       blurb: {
         text: "Matthew 26:42 gives this Communion the second prayer before Christ's arrest. On Palm Sunday, the chant holds acceptance of the cup within the Father's will.",
-        source: "Matt. 26:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:palm (entry metadata)",
+        source: "Matt. 26:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1656,7 +1656,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1230)",
       blurb: {
         text: "Oculi omnium places every living creature's hope in the Lord's open hand, which gives food in due season. On Holy Thursday, the Gradual lets dependence on God's provision become a prayer before the feast.",
-        source: "Ps. 145:15-16 (Vulgate numbering Ps. 144:15-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:nos-autem (entry metadata)",
+        source: "Ps. 145:15-16 (Vulgate numbering Ps. 144:15-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     tract: {
@@ -1669,7 +1669,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #644)",
       blurb: {
         text: "Ab ortu solis joins a vision of a pure offering among all nations to an invitation to eat bread and drink wine. Sung on Holy Thursday, the Tract gathers universal praise, sacrifice, and a summons to the feast around the Lord's table.",
-        source: "Mal. 1:11; Prov. 9:5 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:nos-autem (entry metadata)",
+        source: "Mal. 1:11; Prov. 9:5 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -1798,7 +1798,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1010)",
       blurb: {
         text: "Nemo te condemnavit brings together the two questions and answers of John 8:10-11 before Christ's command to sin no more. The Passion Sunday Communion holds mercy and a changed life within the same brief exchange.",
-        source: "John 8:10-11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-5-c (entry metadata)",
+        source: "John 8:10-11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -1877,7 +1877,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1268)",
       blurb: {
         text: "Ex Sion species hears God coming openly from Sion and calls the saints to gather before him. Psalm 50 frames that gathering as a covenant set before sacrifices, while the 2nd Sunday of Advent Gradual awaits the Lord's coming with the Advent prayer for prepared hearts.",
-        source: "Ps. 50:2-3, 5 (Vulgate numbering Ps. 49:2-3, 5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:populus-sion (entry metadata); Divinum Officium, Adv2-0 (Missale Romanum formulary)",
+        source: "Ps. 50:2-3, 5 (Vulgate numbering Ps. 49:2-3, 5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Adv2-0 (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -1998,7 +1998,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #224)",
       blurb: {
         text: "Veni Domine et noli tardare asks the Lord to come without delay and to forgive the sins of his people. At the Rorate Mass, the short verse becomes a direct cry for the Lord's coming.",
-        source: "Chant of the Day, propers.js:rorate (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -2039,7 +2039,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #202)",
       blurb: {
         text: "Hodie scietis announces that the Lord will come and save his people, with his glory revealed in the morning. The Christmas Vigil Gradual turns that promise into watchful hope at the threshold of the feast.",
-        source: "Ex. 16:6, 7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:christmas-vigil (entry metadata)",
+        source: "Ex. 16:6, 7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -2052,7 +2052,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #167)",
       blurb: {
         text: "\"Crastina,\" tomorrow, gives this Alleluia verse its particular weight when sung at the Vigil Mass. The Vigil is celebrated on the eve of the Nativity, so the proclamation that tomorrow the iniquity of the earth will be abolished and the Saviour will reign is not a figure of speech but a liturgical statement. The day the verse points toward is Christmas Day, now hours away.",
-        source: "Chant of the Day, propers.js:christmas-vigil (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -2065,7 +2065,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #171)",
       blurb: {
         text: "Psalm 24 repeats its command to the gates in verses 7 and 9, framing the question of the King of glory. The Christmas Vigil Offertory uses the first of those refrains as Christ's coming draws near.",
-        source: "Ps. 24:7 (Vulgate numbering Ps. 23:7) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:christmas-vigil (entry metadata)",
+        source: "Ps. 24:7 (Vulgate numbering Ps. 23:7) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -2186,7 +2186,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1125)",
       blurb: {
         text: "Exsulta filia Sion takes the opening call of Zacharias 9:9 but stops before the prophecy's description of the King riding on an ass. At Christmas Dawn, the Communion keeps its attention on the holy King who comes.",
-        source: "Zach. 9:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lux-fulgebit (entry metadata); Divinum Officium, Sancti-12-25m2 (Missale Romanum formulary)",
+        source: "Zach. 9:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-12-25m2 (Missale Romanum formulary)",
       },
     },
   },
@@ -2214,7 +2214,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #863)",
       blurb: {
         text: "Multifarie olim Deus contrasts God's former speech through the prophets with his final speech through his Son. The passage goes on to name the Son heir of all things and the one through whom God made the world, which the Alleluia sings on the feast of Mary, the Mother of God.",
-        source: "Heb. 1:1-2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:mary-mother-of-god (entry metadata)",
+        source: "Heb. 1:1-2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -2348,7 +2348,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #998)",
       blurb: {
         text: "Psalm 8 begins by calling the Lord's name admirable in all the earth. The Communion for the second Sunday after Christmas keeps that brief praise of the Lord's majesty.",
-        source: "Ps. 8:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dum-medium-silentium (entry metadata); Divinum Officium, Nat2-0 (Missale Romanum formulary)",
+        source: "Ps. 8:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Nat2-0 (Missale Romanum formulary)",
       },
     },
   },
@@ -2363,7 +2363,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #205)",
       blurb: {
         text: "Omnes de Saba venient sees the nations arriving with gold and incense while proclaiming the Lord's praise. At Epiphany, the Gradual makes the prophet's procession a prayer of worship before Christ.",
-        source: "Is. 60:6, 1 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:ecce-advenit (entry metadata)",
+        source: "Is. 60:6, 1 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -2402,7 +2402,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #918)",
       blurb: {
         text: "Vidimus stellam takes the Magi's first words from Matthew 2 and leaves Herod's troubled reply outside the chant. At Epiphany, their star and gifts become an act of adoration before the Lord.",
-        source: "Matt. 2:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:ecce-advenit (entry metadata)",
+        source: "Matt. 2:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -2456,7 +2456,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1293)",
       blurb: {
         text: "Galatians says that those baptized in Christ have put on Christ. The Communion for the Baptism of the Lord takes that confession of baptism and gives it its alleluia.",
-        source: "Gal. 3:27 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:baptism-lord (entry metadata)",
+        source: "Gal. 3:27 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -2588,7 +2588,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #424)",
       blurb: {
         text: "Fuit homo missus a Deo identifies John as one sent from God to bear witness to the light. At the Vigil of his Nativity, the Gradual holds that witness together with the call to prepare a people for the Lord.",
-        source: "John 1:6-7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers-1962.js:john-baptist-vigil (entry metadata); Divinum Officium, Sancti-06-23 (Missale Romanum formulary)",
+        source: "John 1:6-7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-06-23 (Missale Romanum formulary)",
       },
     },
     offertory: {
@@ -2791,7 +2791,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #10479)",
       blurb: {
         text: "The Transfiguration Alleluia names Christ as the brightness of eternal light, the unspotted mirror, and the image of God's goodness. Its brief verse gives the feast a concentrated praise of the Son.",
-        source: "Chant of the Day, propers.js:transfiguration (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -2817,7 +2817,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #885)",
       blurb: {
         text: "Visionem quam vidistis tells the disciples to speak of the vision only after the Son of man has risen. At the Transfiguration, the Communion holds radiant revelation together with the silence of the Passion still to come.",
-        source: "Matt. 17:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:transfiguration (entry metadata)",
+        source: "Matt. 17:9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -2845,7 +2845,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1122)",
       blurb: {
         text: "In the 1961 Graduale Romanum, Levita Laurentius is the Alleluia for St. Lawrence. The verse calls the deacon's work good and tells of blind eyes receiving light through the sign of the cross.",
-        source: "Chant of the Day, propers.js:lawrence (entry metadata); GregoBase, \"Levita Laurentius\" (#1122)",
+        source: "Chant of the Day (this project's own chant entry); GregoBase, \"Levita Laurentius\" (#1122)",
       },
     },
     offertory: {
@@ -2899,7 +2899,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #106)",
       blurb: {
         text: "Saints Fabian and Sebastian's Alleluia calls the Lord's saints to bless him and speak of the glory of his kingdom. Ecclesiasticus likewise calls the faithful to praise with canticles and bless the Lord in his works.",
-        source: "Ecclus. 39:19 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:fabian-sebastian (entry metadata)",
+        source: "Ecclus. 39:19 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -2953,7 +2953,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #280)",
       blurb: {
         text: "Felix namque es addresses Mary directly, ascribing her blessedness to the fact that Christ arose from her. It is sung as the offertory at the Vigil of the Assumption of the Blessed Virgin Mary, within a Mass whose Gospel reading presents the very scene the praise looks back to: the shepherds arriving at Bethlehem and finding Mary, Joseph, and the infant lying in the manger, as Luke 2:15-20 recounts.",
-        source: "Divinum Officium, Commune/C10b (Missale Romanum formulary); Chant of the Day, propers.js:assumption-vigil (entry metadata)",
+        source: "Divinum Officium, Commune/C10b (Missale Romanum formulary); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -2994,7 +2994,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #960)",
       blurb: {
         text: "At the Assumption, the Alleluia announces Mary's taking up into heaven and hears the angelic host rejoice. The feast's proclamation is therefore answered by a heavenly chorus.",
-        source: "Chant of the Day, propers.js:assumption (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -3007,7 +3007,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #3317)",
       blurb: {
         text: "The Assumption offertory announces Mary's entry into heaven and describes angels rejoicing as they praise and bless the Lord. The chant turns the celebration outward from Mary toward the praise of God.",
-        source: "Chant of the Day, propers.js:assumption (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -3048,7 +3048,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #960)",
       blurb: {
         text: "The second Assumption option retains the Alleluia that says Mary has been taken into heaven. Its response is not explanation but joy: the angelic host rejoices at her arrival.",
-        source: "Chant of the Day, propers.js:assumption-opt2 (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -3061,7 +3061,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #3317)",
       blurb: {
         text: "For the second Assumption offertory, Mary is taken into heaven and the angels are glad. The angels respond with praise and blessing for the Lord, carrying the feast into worship.",
-        source: "Chant of the Day, propers.js:assumption-opt2 (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -3074,7 +3074,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #3316)",
       blurb: {
         text: "Luke 10:42 gives the Assumption's second Communion its image of Mary choosing the best part. The Gospel's quiet sentence becomes a meditation on attention to Christ that cannot be taken away.",
-        source: "Luke 10:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:assumption-opt2 (entry metadata)",
+        source: "Luke 10:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -3089,7 +3089,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #873)",
       blurb: {
         text: "Christus factus est holds Philippians 2:8 and 9 together: obedience reaches the death of the cross, then God exalts Christ and gives him the name above every name. The Holy Cross Gradual keeps descent and exaltation inseparable.",
-        source: "Phil. 2:8-9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:triumph-cross (entry metadata); Divinum Officium, Quad6-4m2 (Missale Romanum formulary)",
+        source: "Phil. 2:8-9 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Quad6-4m2 (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -3102,7 +3102,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #859)",
       blurb: {
         text: "Dulce lignum calls the wood, nails, and burden of the cross sweet, for it bore the King and Lord of heaven. The Alleluia belongs to the feast of the Exaltation of the Holy Cross.",
-        source: "Chant of the Day, propers.js:triumph-cross (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -3115,7 +3115,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #195)",
       blurb: {
         text: "The Exaltation formulary tells how Christ's lifting up will draw all things to him. Protege Domine turns the cross into a direct petition, asking protection from enemies and an acceptable offering of service and sacrifice.",
-        source: "Chant of the Day, propers.js:triumph-cross (entry metadata); Divinum Officium, Sancti-09-14 (Missale Romanum formulary)",
+        source: "Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-09-14 (Missale Romanum formulary)",
       },
     },
     communion: {
@@ -3128,7 +3128,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #346)",
       blurb: {
         text: "The Gospel of the day, from John 12, has Jesus tell the crowd that if he is lifted up from the earth, he will draw all things to himself. Per signum Crucis arrives at the close of that same Mass as a direct petition, addressing God and asking deliverance from enemies through the very sign of that lifting up. The prayer does not explain or reflect on the cross. It simply invokes it.",
-        source: "Divinum Officium, Sancti-09-14 (Missale Romanum formulary); Chant of the Day, propers-1962.js:triumph-cross (entry metadata)",
+        source: "Divinum Officium, Sancti-09-14 (Missale Romanum formulary); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -3244,7 +3244,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1198)",
       blurb: {
         text: "The Dies irae imagines the day when the Judge comes, the dead rise, and the hidden book is opened. Its prayer moves from fear and contrition to a plea for pardon, ending with the request that the dead be given rest.",
-        source: "Chant of the Day, propers.js:requiem (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -3285,7 +3285,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #651)",
       blurb: {
         text: "Locus iste calls the consecrated place God's work and a priceless mystery, while the Dedication formulary looks toward the new Jerusalem in which God dwells with his people. Its Gospel turns to a house where salvation comes, echoing the Gradual's concern with a holy place.",
-        source: "Chant of the Day, propers.js:dedication-lateran (entry metadata); Divinum Officium, Commune/C8 (Missale Romanum formulary)",
+        source: "Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C8 (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -3324,7 +3324,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #43)",
       blurb: {
         text: "Domus mea hears Christ call the temple a house of prayer, then invites everyone who asks, seeks, and knocks. At the dedication of the Lateran Basilica, the Communion gives that welcome a home in the Church's prayer.",
-        source: "Matt. 21:13 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dedication-lateran (entry metadata)",
+        source: "Matt. 21:13 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -3339,7 +3339,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #713)",
       blurb: {
         text: "Benedicta es tu begins with Judith 13:23, a blessing first spoken to Judith after Israel's deliverance. On the Immaculate Conception, its verse continues the praise by naming Mary the glory, joy, and honor of her people.",
-        source: "Judith 13:23 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:immaculate-conception (entry metadata); Divinum Officium, Sancti-12-08 (Missale Romanum formulary)",
+        source: "Judith 13:23 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-12-08 (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -3378,7 +3378,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1004)",
       blurb: {
         text: "Psalm 87:3 calls Sion the city of God, where glorious things are said. The Immaculate Conception Communion joins that praise to Mary's words in Luke 1:49, where she says that the Mighty One has done great things for her.",
-        source: "Ps. 87:3; Luke 1:49 (Vulgate numbering Ps. 86:3; Luke 1:49) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:immaculate-conception (entry metadata); Divinum Officium, Sancti-12-08 (Missale Romanum formulary)",
+        source: "Ps. 87:3; Luke 1:49 (Vulgate numbering Ps. 86:3; Luke 1:49) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-12-08 (Missale Romanum formulary)",
       },
     },
   },
@@ -4159,7 +4159,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1163)",
       blurb: {
         text: "Verse 3 comes before verse 2, reversing the order in which Psalm 98 gives these lines. The Christmas Day Gradual therefore moves from the whole earth's vision of salvation back to the Lord's revelation before the nations.",
-        source: "Ps. 98:3, 2 (Vulgate numbering Ps. 97:3, 2) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:puer-natus (entry metadata)",
+        source: "Ps. 98:3, 2 (Vulgate numbering Ps. 97:3, 2) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     alleluia: {
@@ -4198,7 +4198,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1139)",
       blurb: {
         text: "Psalm 98 remembers God's mercy and truth toward Israel before declaring that all the ends of the earth have seen God's salvation. The Nativity of the Lord Communion lets that declaration speak at the Mass of the Day.",
-        source: "Ps. 98:3 (Vulgate numbering Ps. 97:3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:puer-natus (entry metadata); Divinum Officium, Sancti-01-01 (Missale Romanum formulary)",
+        source: "Ps. 98:3 (Vulgate numbering Ps. 97:3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Sancti-01-01 (Missale Romanum formulary)",
       },
     }
   },
@@ -4228,7 +4228,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #889)",
       blurb: {
         text: "Qui habitat passes from Psalm 91 verse 7 directly to verse 11, leaving verses 8 through 10 unsung. The long tract for the first Sunday of Lent then continues through angels, trial, rescue, and the promise of salvation.",
-        source: "Ps. 91:1-7, 11-16 (Vulgate numbering Ps. 90:1-7, 11-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-1 (entry metadata)",
+        source: "Ps. 91:1-7, 11-16 (Vulgate numbering Ps. 90:1-7, 11-16) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -4241,7 +4241,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #294)",
       blurb: {
         text: "In the offertory for the first Sunday of Lent, Scapulis suis names the Lord directly before returning to Psalm 91's wings and shield. The explicit name turns the same sheltering words into an offering of trust.",
-        source: "Ps. 91:4-5 (Vulgate numbering Ps. 90:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-1 (entry metadata)",
+        source: "Ps. 91:4-5 (Vulgate numbering Ps. 90:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -4254,7 +4254,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1100)",
       blurb: {
         text: "Scapulis suis takes Psalm 91's sheltering images from verses 4 and 5: wings, trust, and truth as a shield. The communion for the first Sunday of Lent gathers those images into a brief prayer of protection.",
-        source: "Ps. 91:4-5 (Vulgate numbering Ps. 90:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:lent-1 (entry metadata)",
+        source: "Ps. 91:4-5 (Vulgate numbering Ps. 90:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     }
   },
@@ -4271,7 +4271,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #1042). On Low Sunday a second Alleluia, “Post dies octo,” follows.",
       blurb: {
         text: "In die resurrectionis meae is the first Alleluia named in the local Low Sunday record. Its verse takes Matthew's promise that the risen Lord will go before the disciples into Galilee.",
-        source: "Cf. Matt. 28:7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:easter-2 (entry metadata)",
+        source: "Cf. Matt. 28:7 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -4284,7 +4284,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #789)",
       blurb: {
         text: "Matthew 28:2, 5-6 gives the Offertory the angel's descent, his answer to the women, and the announcement that Christ has risen. The invitation to see the place where he lay turns the message toward the empty tomb.",
-        source: "Matt. 28:2, 5-6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:easter-2 (entry metadata); Divinum Officium, Pasc1-0 (Missale Romanum formulary)",
+        source: "Matt. 28:2, 5-6 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Pasc1-0 (Missale Romanum formulary)",
       },
     },
     communion: {
@@ -5186,7 +5186,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #43)",
       blurb: {
         text: "Domus mea names Christ's house as a house of prayer and extends its invitation to all who ask, seek, and knock. The Communion lets the promise of receiving, finding, and an opened door follow the call to prayer.",
-        source: "Matt. 21:13 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dedication-lateran (entry metadata)",
+        source: "Matt. 21:13 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     }
   },
@@ -5977,7 +5977,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #998)",
       blurb: {
         text: "Psalm 8 opens by acclaiming the Lord's name as admirable in all the earth, before extending that praise to God's majesty above the heavens. The Communion keeps the psalm's brief, world-spanning opening acclamation.",
-        source: "Ps. 8:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:dum-medium-silentium (entry metadata); Divinum Officium, Nat2-0 (Missale Romanum formulary)",
+        source: "Ps. 8:2 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Nat2-0 (Missale Romanum formulary)",
       },
     }
   },
@@ -6473,7 +6473,7 @@ window.PROPERS = {
       source: "Graduale Romanum (GregoBase #487)",
       blurb: {
         text: "Psalm 21 gives the king blessings, a crown of precious stones, and length of days. For St. Matthew's Offertory, the verses become a prayer of praise for the apostle, whose feast keeps the royal image before God.",
-        source: "Ps. 21:4-5 (Vulgate numbering Ps. 20:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers.js:matthew (entry metadata)",
+        source: "Ps. 21:4-5 (Vulgate numbering Ps. 20:4-5) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     }
   },

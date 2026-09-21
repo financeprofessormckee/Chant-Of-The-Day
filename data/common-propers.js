@@ -59,7 +59,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #1028)",
       blurb: {
         text: "Matthew 19:28 answers Peter's question about those who have left everything to follow Christ. The Communion takes Christ's promise of twelve seats and judgment of the twelve tribes for the Common of Apostles.",
-        source: "Matt. 19:28 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-apostles (entry metadata)",
+        source: "Matt. 19:28 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
   },
@@ -87,7 +87,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #274)",
       blurb: {
         text: "Gloriosus Deus alludes to the canticle of Moses in Exodus 15, where verse 11 asks who is like God, magnificent in holiness, working wonders. The Alleluia verse turns that rhetorical question into a direct declaration, and where the canticle speaks of God being magnificent in holiness, \"in sanctitate,\" the verse shifts the phrase to \"in sanctis ejus,\" in his saints. That single change draws an ancient victory song into a proclamation of God's glory made visible in his saints.",
-        source: "Ex. 15:11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, propers-1962.js:fabian-sebastian (entry metadata)",
+        source: "Ex. 15:11 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -141,7 +141,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #413)",
       blurb: {
         text: "Ecclesiasticus 45:14 describes a crown of gold engraved with the sign of holiness and the glory of honor. The Common of a Bishop Confessor gives that image its Alleluia.",
-        source: "Ecclus. 45:14 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor-bishop (entry metadata)",
+        source: "Ecclus. 45:14 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -182,7 +182,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #34)",
       blurb: {
         text: "Psalm 92 places the flourishing palm and cedar in the house of the Lord. Its verse then calls for God's mercy to be shown in the morning and God's truth through the night, giving the Doctor's Gradual a continuing proclamation.",
-        source: "Ps. 92:13-14, 3 (Vulgate numbering Ps. 91:13-14, 3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor-doctor (entry metadata); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
+        source: "Ps. 92:13-14, 3 (Vulgate numbering Ps. 91:13-14, 3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -195,7 +195,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #946)",
       blurb: {
         text: "Psalm 92 compares the just person to a flourishing palm and a cedar growing in Lebanon. The Common of a Doctor Alleluia gives those two living images to the Church's teacher.",
-        source: "Ps. 92:13 (Vulgate numbering Ps. 91:13) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor-doctor (entry metadata)",
+        source: "Ps. 92:13 (Vulgate numbering Ps. 91:13) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -221,7 +221,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #1008)",
       blurb: {
         text: "Fidelis servus calls the faithful servant wise and appointed over the household to give wheat in due season. In the Common of a Doctor Communion, this image joins Christ's blessing on the servant found doing so when the master returns.",
-        source: "Luke 12:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor-doctor (entry metadata); Divinum Officium, Commune/C4 (Missale Romanum formulary)",
+        source: "Luke 12:42 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C4 (Missale Romanum formulary)",
       },
     },
   },
@@ -262,7 +262,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #722)",
       blurb: {
         text: "Psalm 21 joins the heart's desire granted by God to a crown of precious stones. The Common of a Virgin Offertory gives the verse a feminine voice, praising the one whose desire and crown are offered to the Lord.",
-        source: "Ps. 21:3-4 (Vulgate numbering Ps. 20:3-4) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-virgin (entry metadata)",
+        source: "Ps. 21:3-4 (Vulgate numbering Ps. 20:3-4) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     communion: {
@@ -290,7 +290,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #34)",
       blurb: {
         text: "The Common of a Confessor begins Psalm 92 with the just person flourishing like a palm and growing like a cedar in the Lord's house. Its verse names God's mercy in the morning and God's truth through the night.",
-        source: "Ps. 92:13-14, 3 (Vulgate numbering Ps. 91:13-14, 3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor (entry metadata); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
+        source: "Ps. 92:13-14, 3 (Vulgate numbering Ps. 91:13-14, 3) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -303,7 +303,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #724)",
       blurb: {
         text: "Beatus vir qui suffert proclaims the blessedness of one who endures trial and receives the crown of life. In the Common of a Confessor Alleluia, the verse holds testing within the promise God makes to those who love him.",
-        source: "James 1:12 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor (entry metadata)",
+        source: "James 1:12 (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -344,7 +344,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #511)",
       blurb: {
         text: "Psalm 37 gives the just person a mouth that meditates wisdom and a tongue that speaks judgment. The Common of a Confessor Gradual adds that God's law is in the heart, so the singer's steps are not overthrown.",
-        source: "Ps. 37:30-31 (Vulgate numbering Ps. 36:30-31) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-confessor-2 (entry metadata); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
+        source: "Ps. 37:30-31 (Vulgate numbering Ps. 36:30-31) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C4a (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -668,7 +668,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #764)",
       blurb: {
         text: "Psalm 37 holds together the just person's fall and the Lord's supporting hand. Verse 26 then names mercy, lending, and a blessed seed, giving this Gradual for a martyr its biblical portrait of steadfastness.",
-        source: "Ps. 37:24, 26 (Vulgate numbering Ps. 36:24, 26) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-martyr-3 (entry metadata); Divinum Officium, Commune/C2a (Missale Romanum formulary)",
+        source: "Ps. 37:24, 26 (Vulgate numbering Ps. 36:24, 26) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C2a (Missale Romanum formulary)",
       },
     },
     alleluia: {
@@ -735,7 +735,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #1118)",
       blurb: {
         text: "Hic est sacerdos acclaims the bishop-martyr as the priest whom the Lord has crowned. In the Common, this compact Alleluia supplies its brief praise before the Gospel.",
-        source: "Chant of the Day, propers-1962.js:josaphat (entry metadata)",
+        source: "Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -748,7 +748,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #779)",
       blurb: {
         text: "Psalm 89 calls David God's servant and names the holy oil of his anointing. The Common of a Martyr Bishop Offertory continues with God's helping hand and strengthening arm, placing the Psalm's promise beside the bishop's witness.",
-        source: "Ps. 89:21-22 (Vulgate numbering Ps. 88:21-22) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-martyr-bishop (entry metadata); Divinum Officium, Commune/C2b (Missale Romanum formulary)",
+        source: "Ps. 89:21-22 (Vulgate numbering Ps. 88:21-22) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry); Divinum Officium, Commune/C2b (Missale Romanum formulary)",
       },
     },
     communion: {
@@ -860,7 +860,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #156)",
       blurb: {
         text: "Psalm 89:6, the single verse quoted here, sits between lines about God's covenant with David and a verse describing God as glorified in the assembly of the saints. The chant lifts verse 6 alone and sets it as the Alleluia verse for any martyr's feast in Paschal Time. One small textual detail: the Clementine Vulgate reads \"etenim veritatem tuam,\" where \"etenim\" means \"and indeed,\" while the chant text has the simpler \"et veritatem tuam.\"",
-        source: "Ps. 89:6 (Vulgate numbering Ps. 88:6) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-martyr-paschal (entry metadata)",
+        source: "Ps. 89:6 (Vulgate numbering Ps. 88:6) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {
@@ -901,7 +901,7 @@ window.COMMON_PROPERS = {
       source: "Graduale Romanum (GregoBase #156)",
       blurb: {
         text: "Confitebuntur caeli draws a single verse from Psalm 89, set at a hinge between two movements in the psalm. The verses just before it speak of God's oath to establish David's seed and throne forever; the verses just after ask who in the clouds can be compared to the Lord, and call God great and terrible above all them that are about him. The chosen verse turns from that covenant faithfulness toward the assembly of saints who declare his wonders, and that turning gives it a natural fitness as the alleluia verse for a martyr's feast.",
-        source: "Ps. 89:6 (Vulgate numbering Ps. 88:6) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day, common-propers.js:common-martyr-2-paschal (entry metadata)",
+        source: "Ps. 89:6 (Vulgate numbering Ps. 88:6) (Douay-Rheims; Latin from the Clementine Vulgate); Chant of the Day (this project's own chant entry)",
       },
     },
     offertory: {

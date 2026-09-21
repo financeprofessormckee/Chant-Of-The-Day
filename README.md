@@ -192,9 +192,10 @@ Missal (ICEL) or the Gregorian Missal (Solesmes), whose translations are
 copyrighted. A verification pass against the public-domain Douay-Rheims text is
 planned.
 
-See [SOURCES.md](SOURCES.md) for full provenance detail — the GregoBase dump
-schema, the Solesmes-vs-Vaticana fallback policy, the `source` field
-convention, the provenance CSVs, and vendored-library licenses.
+See the [Sources & provenance page](https://financeprofessormckee.github.io/Chant-Of-The-Day/sources.html)
+for the full detail — where the notation comes from, how each chant is matched
+to its day, how the translations were made and checked, what the "About this
+chant" notes are built from, and the licensing position.
 
 ---
 
