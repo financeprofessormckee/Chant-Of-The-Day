@@ -8,18 +8,19 @@ highlights the notation as it sounds.
 The app carries the **full set of sung propers** — Introit, Gradual, Alleluia
 (or Tract), Offertory, and Communion — for the whole temporal cycle of both the
 **modern General Roman Calendar** and the **1962 calendar**, plus proper Masses
-for the major feasts, Votive Masses (e.g. the Requiem), and an eleven-category
-**Common of Saints**. Remaining gaps are a handful of Common-of-Saints
-sub-variants and the lesser saints they would unlock — small, tracked
-additions rather than a missing proper category.
+for the major feasts and an eleven-category **Common of Saints**. Remaining
+gaps are a handful of Common sub-variants and the lesser saints they would
+unlock.
 
 The Introit is the antiphon that opens the Mass and often names the day itself:
 *Gaudete*, *Laetare*, *Rorate*, *Resurrexi*, *Requiem*, and others.
 
-It grew out of earlier chant-and-organ web projects, especially [*Name That Chant*](https://github.com/financeprofessormckee/Name-that-Chant)
+It grew out of earlier chant-and-organ web projects, especially [*Cantus & Chronicle*](https://github.com/financeprofessormckee/Cantus-and-Chronicle)
 and [*Name That Organ Piece*](https://github.com/financeprofessormckee/Name-That-Organ-Piece). It reuses some of the same zero-build, fully static
 approach and source code, but Chant of the Day is a larger devotional and
 liturgical-calendar project rather than a quiz.
+
+**Try it live:** <https://financeprofessormckee.github.io/Chant-Of-The-Day/>
 
 ---
 
@@ -32,19 +33,17 @@ Currently solid:
 - modern General Roman Calendar and 1962 calendar date resolution
 - full sung propers (Introit, Gradual, Alleluia/Tract, Offertory, Communion)
   for the entire temporal cycle of both calendars
-- proper Masses for the major sanctoral feasts and Votive Masses, and an
-  eleven-category Common of Saints for lesser saints
-- the Mass Ordinary (Kyriale), browsable by setting rather than by date
-- an "About this chant" note on every entry in the corpus
+- proper Masses for the major sanctoral feasts, and an eleven-category
+  Common of Saints for lesser saints
+- a starter set of the Mass Ordinary (Kyriale Masses VIII, XI, XVII and XVIII,
+  plus Credo I and III)
 - gabc rendering with Exsurge
-- synthesized chant playback (a small Web Audio voice) that highlights each
-  syllable as it sounds
+- synthesized chant playback (a small Web Audio voice in `playback.js`) that
+  highlights each syllable as it sounds
 
 In progress:
 
 - remaining Common-of-Saints sub-variants and the lesser saints they unblock
-- consolidated source documentation and translation verification
-- scripture references, saint links, and playback improvements
 
 ---
 
@@ -55,17 +54,18 @@ In progress:
   (Introit, Gradual, Alleluia or Tract, Offertory, Communion).
 - The **Calendar** toggle switches between the modern and 1962 calendars; the
   **Browse** toggle switches to the Common of Saints picker, to Votive
-  Masses (e.g. the Requiem, Mass for the Dead) — browsable on demand, not just
-  on the date it's assigned — or to the **Mass Ordinary**, the Kyriale settings
-  of the Kyrie, Gloria, Credo, Sanctus, Agnus Dei and dismissal.
+  Masses (e.g. the Requiem, Mass for the Dead), or to the **Mass Ordinary** —
+  the Kyrie, Gloria, Sanctus, Agnus Dei and dismissal of a chosen Kyriale
+  setting, plus the Credos. All are browsable on demand rather than only on
+  the date they're assigned; the Ordinary has no assigned date at all.
 - **▶ Hear it** plays the chant in a synthesized voice, highlighting the
   notation as it sounds. Everything is generated locally in the browser — no
   internet connection or instrument download is needed.
 - **See another day** lets you pick any date; **Today** returns to the current
   day; **Next** and **Previous** move the day forward or backwards 1 day respectively.
 - You can also link directly to a specific day with: ?date=YYYY-MM-DD, a
-  Common of Saints category with ?common=KEY, a votive Mass with
-  ?votive=KEY, or a Mass Ordinary setting with ?ordinary=KEY
+  Common of Saints category with ?common=KEY, a votive Mass with ?votive=KEY,
+  or a Kyriale setting with ?ordinary=KEY
 
 ---
 
@@ -90,27 +90,12 @@ many more), and a fifteen-category **Common of Saints** (five with a distinct
 Eastertide Alleluia variant) used both by the lesser saints' days and as a
 browsable section of its own.
 
-Alongside the propers, the app carries the **Mass Ordinary** — the full numbered
-Kyriale, Masses I through XVIII, plus Credo I and Credo III, a Requiem Mass, and
-the Kyriale's own *Cantus ad libitum* appendix. The Ordinary is the one part of
-the repertoire with no day attached, since a schola chooses a setting for the
-occasion, so it is browsed by setting rather than resolved from a date and is
-shared by both calendars. Its English is this project's own rendering in the same
-Douay-Rheims register as the rest of the corpus; the copyrighted ICEL Mass
-translations are deliberately not reproduced.
-
-**Every chant in the corpus now carries an "About this chant" note** — 1,198 of
-them — written from its own text, its Scripture, and the formulary of the day it
-belongs to. Psalm citations are given in modern numbering and name the Vulgate
-number as well wherever the two traditions diverge.
-
-**Every day of both calendars renders a chant.** Good Friday and the Easter
-Vigil are the sole exception: they have no Introit in either Missal by design,
-not a gap. A small number of individual saints (Sylvester I, the Chair of
-St. Peter, Ignatius of Antioch, Nicholas) still need their proper texts
-hand-authored rather than resolving through a Common — a small, tracked
-backlog, alongside ongoing polish work (source documentation, Scripture
-references, saint background links, and playback UX).
+**Every day of both calendars renders a chant** — verified by a full-year
+audit of each calendar's day-resolution logic (2026-07-14). Good Friday and
+the Easter Vigil are the sole exception: they have no Introit in either
+Missal by design, not a gap. A small number of individual saints (Sylvester
+I, the Chair of St. Peter, Ignatius of Antioch, Nicholas) still need their
+proper texts hand-authored rather than resolving through a Common.
 
 Both calendars intentionally reuse a single authored chant under more than one
 key/Sunday where the Graduale itself repeats the same text (e.g. modern
@@ -121,21 +106,23 @@ that's correct liturgical practice, not a missing entry.
 
 ## How it works
 
-The page is plain HTML + vanilla JS with one vendored library (Exsurge). There
-is no build step — everything runs in the browser.
+The page is plain HTML + vanilla JS. There is no build step — everything runs
+in the browser.
 
 | File | Role |
 | --- | --- |
-| [`calendar.js`](calendar.js) | `window.RESOLVE_DAY(date)` — computes the liturgical day in pure JS for the modern General Roman Calendar. |
-| [`calendar-1962.js`](calendar-1962.js) | `window.RESOLVE_DAY(date)` — computes the liturgical day in pure JS for the 1962 missal. `app.js` swaps between the two resolvers. |
-| [`data/`](data/) | The authored propers (Introit, Gradual, Alleluia/Tract, Offertory, Communion) for both calendars, plus the Common of Saints and Votive Masses, keyed by the same feast keys `RESOLVE_DAY` emits. [`data/ordinary.js`](data/ordinary.js) holds the Mass Ordinary, browsed by setting rather than keyed to a day. |
-| [`chant-render.js`](chant-render.js) | Renders a chant entry's gabc to notation via Exsurge and wires up the per-proper tabs. |
-| [`playback.js`](playback.js) | Synthesized chant playback — a small Web Audio voice built from the same Exsurge score used for display, with note-by-note highlighting synced to the audio. |
-| [`app.js`](app.js) | Boot: resolve today → pick the chant (with ferial fallback) → render → wire playback and the Calendar/Browse toggles. |
+| [`calendar.js`](calendar.js) | Computes the liturgical day in pure JS for the modern General Roman Calendar. |
+| [`calendar-1962.js`](calendar-1962.js) | The same, for the 1962 missal. `app.js` swaps between the two resolvers. |
+| [`data/introits.js`](data/introits.js), [`data/propers.js`](data/propers.js) | The authored modern-calendar chants, keyed by the feast keys the resolver emits. |
+| [`data/introits-1962.js`](data/introits-1962.js), [`data/propers-1962.js`](data/propers-1962.js) | The same, for the 1962 calendar. |
+| [`data/common-introits.js`](data/common-introits.js), [`data/common-propers.js`](data/common-propers.js) | The Common of Saints (11 categories). |
+| [`data/ordinary.js`](data/ordinary.js) | The Mass Ordinary (Kyriale) — generated by `sources/gregobase/build-ordinary.py`, browsed by setting rather than by date, and shared by both calendars. |
+| [`playback.js`](playback.js) | A small Web Audio chant voice: reads pitches straight from the Exsurge score, plays them in free rhythm, and highlights each syllable's notation as it sounds. |
+| [`app.js`](app.js) | Boot: resolve today → pick the day's propers (with ferial fallback) → render with Exsurge → wire playback. |
 
 ### Run it locally
 
-It's static, so any web server works, e.g.:
+It's static, so any web server works. A launch config is included:
 
 ```
 python -m http.server 8767
@@ -148,17 +135,16 @@ works, since the data is loaded as scripts, not fetched.)
 
 ## Adding or fixing chant data
 
-All chant content lives in [`data/`](data/), split across files by proper and
-calendar (e.g. `introits.js`, `propers.js`, `propers-1962.js`). Entries are
-keyed to match the output of `calendar.js` / `calendar-1962.js`.
+All chant content lives in the `data/*.js` files. Entries are keyed to match
+the output of the calendar resolvers.
 
 A chant entry includes:
 
 - `gabc` — the square-note source, in the format used by
   [Gregorio](https://gregorio-project.github.io/gabc/) and
-  [GregoBase](https://gregobase.selapa.net/); Exsurge renders it, and playback
-  is synthesized directly from the same rendered score (no separate playback
-  data is needed).
+  [GregoBase](https://gregobase.selapa.net/); Exsurge renders it, and
+  `playback.js` plays it from the rendered score (no separate playback data is
+  needed).
 - `latin` — the Latin chant text.
 - `translation` — an English translation (an original rendering after the
   Douay-Rheims; see below).
@@ -178,24 +164,23 @@ sacred music resources as a reference:
 
 - [Diocese of La Crosse — Sacred Music](https://diolc.org/sacredworship/sacred-music/)
 
-For additional matching across the other Mass propers — Graduals, Alleluias,
-Tracts, Offertories, and Communions — I have also used
+For additional matching, especially as the project expands beyond Introits to
+Graduals, Alleluias, Tracts, Offertories, and Communions, I have also used
 [gregorien.info](https://gregorien.info/), hosted by the Diocese of
 Rottenburg-Stuttgart.
 
 Ordinary-Time Sundays whose Introit varies by the three-year lectionary cycle use
-`-a`, `-b`, and `-c` keys, chosen according to the day's cycle letter.
+`-a`, `-b`, and `-c` keys, chosen according to the day’s cycle letter.
 
 The English translations are **original renderings in the style of the
 Douay-Rheims**, written for this project — they are not taken from the Roman
 Missal (ICEL) or the Gregorian Missal (Solesmes), whose translations are
-copyrighted. A verification pass against the public-domain Douay-Rheims text is
-planned.
+copyrighted. The translations have been verified against the public-domain
+Douay-Rheims text.
 
-See the [Sources & provenance page](https://financeprofessormckee.github.io/Chant-Of-The-Day/sources.html)
-for the full detail — where the notation comes from, how each chant is matched
-to its day, how the translations were made and checked, what the "About this
-chant" notes are built from, and the licensing position.
+See [SOURCES.md](SOURCES.md) for full provenance detail — the GregoBase dump
+schema, the Solesmes-vs-Vaticana fallback policy, the `source` field
+convention, the provenance CSVs, and vendored-library licenses.
 
 ---
 
@@ -215,11 +200,11 @@ Helpful details include:
 
 Examples of useful reports:
 
-- "The Introit for the 3rd Sunday of Advent has a typo in the Latin text."
-- "The sheet music does not render on Christmas Day."
-- "The playback jumps an octave here."
-- "This feast seems to have the wrong proper assigned."
-- "The English translation is missing or incorrect."
+- “The Introit for the 3rd Sunday of Advent has a typo in the Latin text.”
+- “The sheet music does not render on Christmas Day.”
+- “The playback jumps an octave here.”
+- “This feast seems to have the wrong proper assigned.”
+- “The English translation is missing or incorrect.”
 
 Small corrections are very welcome. The chant data is plain text, so typo fixes,
 source corrections, and wrong-note reports are all useful.
@@ -230,8 +215,11 @@ source corrections, and wrong-note reports are all useful.
 
 - `vendor/exsurge.min.js` — [Exsurge](https://github.com/frmatthew/exsurge), which
   renders gabc to SVG square-note notation. **MIT-licensed** (see
-  `vendor/exsurge.LICENSE`). Playback is synthesized locally in `playback.js`
-  from the same rendered score — no other vendored audio library is needed.
+  `vendor/exsurge.LICENSE`).
+- `vendor/abcjs-basic-min.js` — [abcjs](https://abcjs.net), **MIT-licensed** (see
+  `vendor/abcjs.LICENSE`). No longer loaded by the page — playback is now the
+  custom Web Audio voice in `playback.js` — but kept in the repo alongside
+  `gabc-to-abc.js` from the earlier organ-playback approach.
 
 ---
 

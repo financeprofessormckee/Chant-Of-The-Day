@@ -216,6 +216,114 @@
       .replace(/([A-M]'?)~/g, "$1");
   }
 
+  // The synchronous part of Exsurge's ChantScore.performLayout.
+  function layoutPreamble(ctxt, score) {
+    score.startingClef.performLayout(ctxt);
+    if (score.dropCap) score.dropCap.recalculateMetrics(ctxt);
+    if (score.annotation) score.annotation.recalculateMetrics(ctxt);
+  }
+
+  // Drop-in for score.performLayout (+ its compileElement loop) that can fail.
+  // Exsurge lays notations out in setTimeout chunks, so a crash there is uncaught
+  // and its callback never fires -- a permanently blank score with nothing to
+  // catch. Same preamble, same ~50 ms chunking, but errors reach onFail.
+  function layoutScore(ctxt, score, onDone, onFail) {
+    try {
+      layoutPreamble(ctxt, score);
+    } catch (err) {
+      onFail(err);
+      return;
+    }
+    var notations = score.notations;
+    var i = 0;
+    (function step() {
+      try {
+        if (i === 0) notations.forEach(function (n) { n.hasLyric(); });
+        var deadline = Date.now() + 50;
+        while (i < notations.length && Date.now() < deadline) {
+          notations[i++].performLayout(ctxt);
+        }
+      } catch (err) {
+        onFail(err);
+        return;
+      }
+      if (i < notations.length) {
+        setTimeout(step, 0);
+      } else {
+        score.compiled = true;
+        onDone();
+      }
+    })();
+  }
+
+  // Exsurge's neume recognizer dies on some long compound neumes -- "fgwhgh",
+  // "dewfef", "fg'hfg'h", "ihhfg" -- with "Cannot read properties of null (reading
+  // 'setStaffPosition')": it groups the notes into a shape it assigns no glyph.
+  // The trigger is the pitch contour, not any one modifier, so no sanitize regex
+  // catches the class. Repair (only after a render has failed, so healthy chants
+  // pay nothing): test each (…) group on its own, and split any that crash at a
+  // note boundary with "!" (a space-less neume break), preferring one split. Every
+  // pitch and modifier is kept and the note count is unchanged, so playback timing
+  // and highlight indices are untouched; only that neume's ligature shape changes.
+  // Seven Cantus & Chronicle chants hit this, e.g. GregoBase 8297 "Laudate Dominum".
+  function groupLaysOut(clef, grp) {
+    try {
+      var ctxt = new window.exsurge.ChantContext();
+      var score = window.exsurge.Gabc.loadChantScore(ctxt, "(" + clef + ") a(" + grp + ")", true);
+      layoutPreamble(ctxt, score);
+      score.notations.forEach(function (n) { n.hasLyric(); n.performLayout(ctxt); });
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  // Offsets of each pitch letter in a group, skipping [..] hints ("[ull:0]").
+  function noteStarts(grp) {
+    var starts = [], depth = 0;
+    for (var i = 0; i < grp.length; i++) {
+      var ch = grp[i];
+      if (ch === "[") depth++;
+      else if (ch === "]") depth--;
+      else if (!depth && /[a-mA-M]/.test(ch)) starts.push(i);
+    }
+    return starts;
+  }
+
+  function splitGroup(clef, grp, depth) {
+    if (groupLaysOut(clef, grp)) return grp;
+    if (depth > 6) return null;
+    var cuts = noteStarts(grp).slice(1).filter(function (p) { return "/!".indexOf(grp[p - 1]) === -1; });
+    for (var k = 0; k < cuts.length; k++) {   // one split, if any suffices
+      var a = grp.slice(0, cuts[k]), b = grp.slice(cuts[k]);
+      if (groupLaysOut(clef, a) && groupLaysOut(clef, b)) return a + "!" + b;
+    }
+    for (var j = 0; j < cuts.length; j++) {   // else recurse
+      var left = splitGroup(clef, grp.slice(0, cuts[j]), depth + 1);
+      if (left === null) continue;
+      var right = splitGroup(clef, grp.slice(cuts[j]), depth + 1);
+      if (right !== null) return left + "!" + right;
+    }
+    return null;
+  }
+
+  function splitCrashingNeumes(gabc) {
+    var clef = "c4";
+    var realLog = console.log;
+    console.log = function () {};   // Exsurge chatters "no glyphCode assigned!"
+    try {
+      return gabc.replace(/\(([^)]*)\)/g, function (whole, grp) {
+        var c = grp.match(/(?:^|[^a-z])([cf]b?[1-4])(?![0-9])/);
+        if (c) { clef = c[1]; return whole; }
+        if (!/[a-mA-M]/.test(grp) || groupLaysOut(clef, grp)) return whole;
+        var fixed = splitGroup(clef, grp, 0);
+        return fixed === null ? whole : "(" + fixed + ")";
+      });
+    } finally {
+      console.log = realLog;
+    }
+  }
+
   // Renders the gabc into targetEl. Exsurge's layout is async (it fires callbacks),
   // so the finished score + svg are handed back through onReady(score, svg) once
   // the SVG is in the DOM — playback.js drives audio and the follow-along highlight
@@ -223,10 +331,39 @@
   // renders into #score, its print preview renders each proper into its own
   // container, and video.js renders into its own score-track element — all three
   // share this one layout path.
-  function renderChantInto(targetEl, gabc, onReady) {
+  //
+  // If the chant can't be rendered (even after splitCrashingNeumes), targetEl
+  // shows a message and onFail(err) is called if given, else onReady(null, null).
+  // A render superseded by a newer one into the same element is dropped silently.
+  function renderChantInto(targetEl, gabc, onReady, onFail) {
+    var token = (targetEl._chantRenderToken || 0) + 1;
+    targetEl._chantRenderToken = token;
+    var current = function () { return targetEl._chantRenderToken === token; };
+    var fail = function (err) {
+      if (!current()) return;
+      console.error("Exsurge render failed:", err);
+      targetEl.textContent = "Couldn't render this chant's notation.";
+      if (onFail) onFail(err);
+      else if (onReady) onReady(null, null);
+    };
+    var sanitized;
+    try {
+      sanitized = sanitizeGabc(gabc);
+    } catch (err) {
+      fail(err);
+      return;
+    }
+    attemptRender(targetEl, sanitized, onReady, current, function (err) {
+      if (!current()) return;
+      var repaired = splitCrashingNeumes(sanitized);
+      if (repaired === sanitized) { fail(err); return; }
+      attemptRender(targetEl, repaired, onReady, current, fail);
+    });
+  }
+
+  function attemptRender(targetEl, gabc, onReady, current, onError) {
     targetEl.innerHTML = "";
     try {
-      gabc = sanitizeGabc(gabc);
       const ctxt = new window.exsurge.ChantContext();
       // Accidental scoping (see the createNotations wrapper above): the flags are
       // derived from the SANITIZED gabc, since that's the string Exsurge parses.
@@ -244,47 +381,53 @@
       }
       const containerPx = targetEl.clientWidth || 660;
       const layoutWidth = Math.max(MIN_LAYOUT_WIDTH, containerPx / CHANT_SCALE);
-      score.performLayout(ctxt, function () {
-        // performLayout has now set every notation's bounds; fix the NaN ones
+      layoutScore(ctxt, score, function () {
+        if (!current()) return;
+        // Layout has now set every notation's bounds; fix the NaN ones
         // before layoutChantLines derives line heights and the lyric baseline.
-        repairNotationBounds(score);
-        score.layoutChantLines(ctxt, layoutWidth, function () {
+        let svg;
+        try {
+          repairNotationBounds(score);
+          score.layoutChantLines(ctxt, layoutWidth, function () {});
           targetEl.innerHTML = score.createDrawable(ctxt);
-          const svg = targetEl.querySelector("svg");
-          if (svg) {
-            // Exsurge emits width/height but no viewBox. Derive a viewBox from the
-            // content that actually rendered (getBBox also captures the drop-cap,
-            // which spills left of x=0) so the score scales uniformly.
-            const PAD = 4;
-            const bb = svg.getBBox();
-            if (!bb.width || !bb.height) {
-              // getBBox() measures nothing inside a display:none subtree, and
-              // writing the degenerate viewBox that falls out of it ("-4 -4 8
-              // 8") silently scales a few units of the score across the whole
-              // container -- which reads as a blank/garbled score rather than
-              // as an error. Leave Exsurge's own width/height alone and say so.
-              console.warn("ChantRender: score measured 0x0 (is the container display:none?); " +
-                "skipping the viewBox rewrite");
-              if (onReady) onReady(score, svg);
-              return;
-            }
-            const vbW = bb.width + PAD * 2;
-            const vbH = bb.height + PAD * 2;
-            svg.setAttribute("viewBox", (bb.x - PAD) + " " + (bb.y - PAD) + " " + vbW + " " + vbH);
-            svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
-            svg.removeAttribute("height");
-            // Render at CHANT_SCALE px per unit; CSS max-width:100% reins it in on
-            // screens narrower than that, and height:auto keeps the ratio.
-            svg.setAttribute("width", Math.round(vbW * CHANT_SCALE));
-          }
-          if (onReady) onReady(score, svg);
-        });
-      });
+          svg = targetEl.querySelector("svg");
+          if (svg) fitViewBox(svg);
+        } catch (err) {
+          onError(err);
+          return;
+        }
+        // Outside the try: an exception in the caller's onReady isn't a render failure.
+        if (onReady) onReady(score, svg);
+      }, onError);
     } catch (err) {
-      console.error("Exsurge render failed:", err);
-      targetEl.textContent = "Couldn't render this chant's notation.";
-      if (onReady) onReady(null, null);
+      onError(err);
     }
+  }
+
+  function fitViewBox(svg) {
+    // Exsurge emits width/height but no viewBox. Derive a viewBox from the
+    // content that actually rendered (getBBox also captures the drop-cap,
+    // which spills left of x=0) so the score scales uniformly.
+    const PAD = 4;
+    const bb = svg.getBBox();
+    if (!bb.width || !bb.height) {
+      // getBBox() measures nothing inside a display:none subtree, and
+      // writing the degenerate viewBox that falls out of it ("-4 -4 8
+      // 8") silently scales a few units of the score across the whole
+      // container -- which reads as a blank/garbled score rather than
+      // as an error. Leave Exsurge's own width/height alone and say so.
+      console.warn("ChantRender: score measured 0x0 (is the container display:none?); " +
+        "skipping the viewBox rewrite");
+      return;
+    }
+    const vbW = bb.width + PAD * 2;
+    const vbH = bb.height + PAD * 2;
+    svg.setAttribute("viewBox", (bb.x - PAD) + " " + (bb.y - PAD) + " " + vbW + " " + vbH);
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    svg.removeAttribute("height");
+    // Render at CHANT_SCALE px per unit; CSS max-width:100% reins it in on
+    // screens narrower than that, and height:auto keeps the ratio.
+    svg.setAttribute("width", Math.round(vbW * CHANT_SCALE));
   }
 
   window.ChantRender = {
