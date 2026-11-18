@@ -17,6 +17,8 @@ const seasonPill = document.getElementById("season-pill");
 const dayDate = document.getElementById("day-date");
 const dayTitle = document.getElementById("day-title");
 const dayLink = document.getElementById("day-link");
+const daySermons = document.getElementById("day-sermons");
+const daySermonsList = document.getElementById("day-sermons-list");
 const fallbackNote = document.getElementById("fallback-note");
 const latinEl = document.getElementById("introit-latin");
 const translationEl = document.getElementById("introit-translation");
@@ -356,6 +358,64 @@ function renderDayCard(day) {
   } else {
     dayLink.hidden = true;
   }
+  renderDaySermons(day);
+}
+
+/* ---- Sermons for this day (1962 calendar) ---------------------------------
+ * Sermones per annum is published beside this site. Its index is matched through
+ * its own calendar code (vendor/calendar-core.js), not day.dayKey: the two calendars
+ * can place a transferred or displaced feast on different dates. Any failure leaves
+ * the block hidden, because the link is an extra and the chant page stands alone.
+ */
+const SERMON_INDEX_URL = new URL("../Liturgical-Sermons/calendar-index.json", document.baseURI).href;
+const sermonYears = new Map();
+let sermonIndexPromise = null;
+let sermonRenderId = 0;
+
+function loadSermonIndex() {
+  if (!sermonIndexPromise) {
+    sermonIndexPromise = fetch(SERMON_INDEX_URL)
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data) => (data && data.schema_version === 1 ? data : null))
+      .catch(() => null);
+  }
+  return sermonIndexPromise;
+}
+
+function sermonLinksForDate(data, date) {
+  const calendar = window.LibraryCalendar;
+  const resolve = window.RESOLVE_DAY_1962;
+  const year = Number(date.slice(0, 4));
+  if (!sermonYears.has(year)) sermonYears.set(year, calendar.buildYear(resolve, data, year));
+  return calendar.dayInfo(resolve, data, sermonYears.get(year), date).exact.map((sermon) => {
+    const href = new URL(sermon.url, SERMON_INDEX_URL);
+    if (href.protocol !== "https:" && href.protocol !== "http:") throw new Error("Unsafe sermon URL");
+    const link = document.createElement("a");
+    link.href = href.href;
+    link.textContent = sermon.title + " · " + sermon.author;
+    const item = document.createElement("li");
+    item.appendChild(link);
+    return item;
+  });
+}
+
+function renderDaySermons(day) {
+  // Every render clears the block first, so a slow reply can never fill a later day.
+  const renderId = ++sermonRenderId;
+  daySermons.hidden = true;
+  daySermonsList.replaceChildren();
+  if (currentVersion !== "1962") return;
+  loadSermonIndex().then((data) => {
+    if (!data || renderId !== sermonRenderId) return;
+    let items;
+    try {
+      items = sermonLinksForDate(data, day.date);
+    } catch (_) {
+      return;
+    }
+    daySermonsList.replaceChildren(...items);
+    daySermons.hidden = items.length === 0;
+  });
 }
 
 function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }

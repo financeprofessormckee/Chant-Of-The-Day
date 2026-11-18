@@ -3976,6 +3976,21 @@ window.PROPERS_1962 = {
       },
     },
   },
+  "joseph-paschal": {
+    alleluia: {
+      title: "Amavit eum Dominus",
+      latin: "Allelúia. ℣. Amávit eum Dóminus, et ornávit eum : stolam glóriae índuit eum.",
+      translation: "Alleluia. ℣. The Lord loved him and adorned him: he clothed him with a robe of glory.",
+      mode: "Alleluia · Saint Joseph, Spouse of the Blessed Virgin Mary (Paschaltide) · Mode IV",
+      reference: "Ecclus. 45:9",
+      gabc: "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) ij.(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) ℣. A(c)má(dfd/ef)vit(f.) e(ffe)um(e[ll:1]d~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
+      source: "Graduale Romanum (GregoBase #14, Solesmes) — Sancti/03-19.txt's own [GradualeP], sung in place of the Gradual when the feast is transferred into Paschaltide; its second verse (Osee 14:6, \"Justus germinabit\") is not authored, matching this project's house style of authoring only a Paschal chant's first verse.",
+      blurb: {
+        text: "Amavit eum Dominus draws on Ecclesiasticus 45:9, a verse dense with priestly detail: a glorious girdle, a robe, and a crown, all describing Aaron robed for temple service. The chant lifts only the single phrase about the robe of glory, letting that one image stand alone. The surrounding verses go further, listing breeches, an ephod, and gold bells that rang out as Aaron walked through the temple.",
+        source: "Ecclus. 45:9 (Douay-Rheims; Latin from the Clementine Vulgate)",
+      },
+    },
+  },
   "annunciation": {
     gradual: {
       title: "Diffusa est gratia",
@@ -4027,6 +4042,21 @@ window.PROPERS_1962 = {
       blurb: {
         text: "Ecce Virgo concipiet draws its text from Isaiah 7:14, beginning mid-verse. The full verse opens with a signal that what follows is a sign given to the house of David, but the chant drops that opening clause and begins with the sign itself: Ecce, Virgo concipiet. By the time this Communion is sung, the congregation has already heard the complete passage, Isaiah 7:10-15, in the Epistle, including the prophet's address to Achaz and the house of David, and then the Annunciation in the Gospel of Luke 1:26-38, in which the angel tells Mary she will conceive and bear a son.",
         source: "Is. 7:14 (Douay-Rheims; Latin from the Clementine Vulgate); Divinum Officium, Commune/C10a (Missale Romanum formulary)",
+      },
+    },
+  },
+  "annunciation-paschal": {
+    alleluia: {
+      title: "Ave Maria",
+      latin: "Allelúia. ℣. Ave María, grátia plena : Dóminus tecum : benedícta tu in muliéribus.",
+      translation: "Alleluia. ℣. Hail Mary, full of grace: the Lord is with you: blessed are you among women.",
+      mode: "Alleluia · The Annunciation of the Lord (Paschaltide) · Mode II",
+      reference: "Luke 1:28",
+      gabc: "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) *(;) ij.(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) ℣. A(ef)ve(fg/h_f/g_[oh:h]e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) Dó(i_[oh:h]h)mi(i_[oh:h]hivHF'E)nus(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_[oh:h]c) tu(efhvGF.) (;) * in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
+      source: "Graduale Romanum (GregoBase #1209, Solesmes) — Sancti/03-25.txt's own [GradualeP], sung in place of the Gradual when the feast is transferred into Paschaltide; its second verse (Num. 17:8, \"Virga Jesse floruit\") is not authored, matching this project's house style of authoring only a Paschal chant's first verse.",
+      blurb: {
+        text: "Gabriel's greeting to Mary, drawn from Luke 1:28, forms the whole of this Alleluia verse. The chant stops exactly there. The verses that follow in Luke show Mary troubled by the salutation and Gabriel reassuring her, \"Fear not, Mary, for thou hast found grace with God,\" but the Alleluia holds only the greeting itself, suspending the moment of address before any reply.",
+        source: "Luke 1:28 (Douay-Rheims; Latin from the Clementine Vulgate)",
       },
     },
   },

@@ -32,6 +32,10 @@
       <p class="day-date" id="day-date"></p>
       <h2 class="day-title" id="day-title"></h2>
       <a class="day-link" id="day-link" href="#" target="_blank" rel="noopener" hidden>About this feast &#8599;</a>
+      <div class="day-sermons" id="day-sermons" hidden>
+        <p class="day-sermons-label" id="day-sermons-label">Sermons for this day</p>
+        <ul class="day-sermons-list" id="day-sermons-list" aria-labelledby="day-sermons-label"></ul>
+      </div>
       <p class="fallback-note" id="fallback-note" hidden></p>
     </section>
 
@@ -172,6 +176,7 @@
   <script src="data/common-propers.js"></script>
   <script src="data/ordinary.js"></script>
   <script src="playback.js"></script>
+  <script src="vendor/calendar-core.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
